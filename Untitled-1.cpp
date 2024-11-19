@@ -4,16 +4,16 @@
 using namespace std;
 
 int main () {
-    string greeting = "\nWelcome to The Geographical Information System of the Philippines!";
-    string choose; 
+    string greeting = "\nWELCOME TO THE GEOGRAPHICAL INFORMATION OF THE PHILIPPINES!";
+    char choose;
     char decision1, decision2;
 
     do {
         cout << greeting << endl;
-        cout << "Would you like to find out about a Region, a Province, or a City? ";
-        getline (cin, choose);
+        cout << "WOULD YOU LIKE TO FIND OUT ABOUT THE DIFFERENT REGIONS? (Y/N): ";
+        cin >> choose;
 
-        if (choose == "Region" || choose == "region"){
+        if (choose == 'Y' || choose == 'y'){
         char info;
         int region;
         bool validation = false;
@@ -39,6 +39,13 @@ int main () {
         cout << "17. BARMM - Bangsamoro Autonomous Region in Muslim" << endl;
         cout << "Select a number corresponding to a region to view more details about it: ";
         cin >> region;
+
+        while (!(cin >> region)){
+        cin.clear ();
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+        cout << "Invalid input. Please enter a number between 1-17: ";
+        }
         
             do{
             switch(region){//REGION
@@ -8405,12 +8412,34 @@ int main () {
                     cin >> cmb;
 
                         if (cmb == 'C' || cmb == 'c'){
+                        char citybarangays;
                         cout << "Here are all the cities in Davao de Oro: " << endl;
                         cout << "1. Nabunturan\n";
                         cout << "2. Davao City\n";
+
+                        cout << "Would you like to find out more about the cities and the barangays within them? (Y/N): ";
+                        cin >> citybarangays;
+
+                        if (citybarangays == 'Y' || citybarangays == 'y'){
+                        int barangays;
+
+                        cout << "Enter a number corresponding to a city to get information about it and its barangays; ";
+                        cin >> barangays;
+
+                        switch (barangays){
+                        case 1:{
+                        cout << "You have chosen the city of \n";
+                        cout << "Information about city\n";
+                        cout << "Here are all the barangays in : \n";
+                        cout << "1. ";
+                        break;
+                        }
+                        }
+                        }
                         }
 
                         else if (cmb == 'M' || cmb == 'm'){
+                        char munibarangays;
                         cout << "Here are all the municipalities in Davao de Oro: " << endl;
                         cout << "1. Compostela\n";
                         cout << "2. Laak\n";
@@ -8422,6 +8451,88 @@ int main () {
                         cout << "8. Montevista\n";
                         cout << "9. New Bataan\n";
                         cout << "10. Pantukan\n";
+
+                        cout << "Would you like to find out more about the municipalities and the barangays within them? (Y/N): ";
+                        cin >> munibarangays;
+                                                    
+                        if (munibarangays == 'Y' || munibarangays == 'y'){
+                        int barangays;
+                                                        
+                        cout << "Enter a number corresponding to a municipality to get information about it and its barangays: ";
+                        cin >> barangays;
+                                                        
+                        switch (barangays){
+                        case 1:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 2:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 3:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 4:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 5:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 6:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 7:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 8:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 9:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+                                                
+                        case 10:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+                        }
+                        }
                         }
 
                     }
@@ -8433,11 +8544,25 @@ int main () {
                     cin >> cmb;
 
                         if (cmb == 'C' || cmb == 'c'){
+                        char citybarangays;
                         cout << "Here are all the cities in Davao del Norte: " << endl;
-                        cout << "1. Tagum\n";
+                        cout << "Tagum\n";
+
+                        cout << "Would you like to find out more about Tagum and the barangays within it? (Y/N): ";
+                        cin >> citybarangays;
+
+                        if (citybarangays == 'Y' || citybarangays == 'y'){
+
+                        cout << "The city of blah blah \n";
+                        cout << "Information about city\n";
+                        cout << "Here are all the barangays in :\n";
+
+                        }
+
                         }
 
                         else if (cmb == 'M' || cmb == 'm'){
+                        char munibarangays;
                         cout << "Here are all the municipalities in Davao del Norte: " << endl;
                         cout << "1. Asuncion\n";
                         cout << "2. Braulio E. Dujali\n";
@@ -8449,6 +8574,88 @@ int main () {
                         cout << "8. San Isidro\n";
                         cout << "9. Santo Tomas\n";
                         cout << "10. Talaingod\n";
+
+                        cout << "Would you like to find out more about the municipalities and the barangays within them? (Y/N): ";
+                        cin >> munibarangays;
+                                                    
+                        if (munibarangays == 'Y' || munibarangays == 'y'){
+                        int barangays;
+                                                        
+                        cout << "Enter a number corresponding to a municipality to get information about it and its barangays: ";
+                        cin >> barangays;
+                                                        
+                        switch (barangays){
+                        case 1:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 2:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 3:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 4:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 5:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 6:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 7:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 8:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 9:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+                                                
+                        case 10:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+                        }
+                        }
                         }
 
                     }
@@ -8459,11 +8666,23 @@ int main () {
                     cin >> cmb;
 
                         if (cmb == 'C' || cmb == 'c'){
+                        char citybarangays;
                         cout << "Here are all the cities in Davao del Sur: " << endl;
-                        cout << "1. Digos\n";
+                        cout << "The only city in Davao del Sur is Digos.\n";
+                        cout << "Would you like to find out more about Digos and the barangays within it? (Y/N): ";
+                        cin >> citybarangays;
+
+                        if (citybarangays == 'Y' || citybarangays == 'y'){
+
+                        cout << "The city of blah blah \n";
+                        cout << "Information about city\n";
+                        cout << "Here are all the barangays in :\n";
+
+                        }
                         }
 
                         else if (cmb == 'M' || cmb == 'm'){
+                        char munibarangays;
                         cout << "Here are all the municipalities in Davao del Sur: " << endl;
                         cout << "1. Bansalan\n";
                         cout << "2. Hagonoy\n";
@@ -8474,43 +8693,178 @@ int main () {
                         cout << "7. Padada\n";
                         cout << "8. Santa Cruz\n";
                         cout << "9. Sulop\n";
-                     
+
+                        cout << "Would you like to find out more about the municipalities and the barangays within them? (Y/N): ";
+                        cin >> munibarangays;
+                                                    
+                        if (munibarangays == 'Y' || munibarangays == 'y'){
+                        int barangays;
+                                                        
+                        cout << "Enter a number corresponding to a municipality to get information about it and its barangays: ";
+                        cin >> barangays;
+                                                        
+                        switch (barangays){
+                        case 1:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 2:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 3:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 4:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 5:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 6:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 7:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 8:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 9:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        default:{
+                        break;
+                        }              
+                        }
+                        }
                         }
                     }
 
                     else if (davaoreg == 4){
                     cout << "You have chosen Davao Occidental. " << endl;
-                    cout << "Would you like to find out about the cities or municipalities? Choose from C or M or N to find out about other regions: ";
+
+                    cout << "PROVINCE has no cities, would you like to find out about the municipalities? (Y/N): ";
                     cin >> cmb;
 
-                        if (cmb == 'C' || cmb == 'c'){
-                        cout << "Here are all the cities in Davao Occidental: " << endl;
-                        cout << "1. Malita\n";
-                        }
-
-                        else if (cmb == 'M' || cmb == 'm'){
+                        if (cmb == 'M' || cmb == 'm'){
+                        char munibarangays;
                         cout << "Here are all the municipalities in Davao Occidental: " << endl;
                         cout << "1. Don Marcelino\n";
                         cout << "2. Jose Abad Santos\n";
-                        cout << "3. Santa Maria\n";
-                        cout << "4. Sarangani\n";
-                      
+                        cout << "3. Malita - Capital of Davao Occidental\n";
+                        cout << "4. Santa Maria\n";
+                        cout << "5. Sarangani\n";
+
+                        cout << "Would you like to find out more about the municipalities and the barangays within them? (Y/N): ";
+                        cin >> munibarangays;
+                                                    
+                        if (munibarangays == 'Y' || munibarangays == 'y'){
+                        int barangays;
+                                                        
+                        cout << "Enter a number corresponding to a municipality to get information about it and its barangays: ";
+                        cin >> barangays;
+                                                        
+                        switch (barangays){
+                        case 1:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 2:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 3:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 4:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 5:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+                        }
+                        }
                         }
 
                     }
 
                     else if (davaoreg == 5){
-                    cout << "You have chosen Davao Oriental. " << endl;
+                    cout << "You have chosen Davao Oriental." << endl;
 
                     cout << "Would you like to find out about the cities or municipalities? Choose from C or M or N to find out about other regions: ";
                     cin >> cmb;
 
                         if (cmb == 'C' || cmb == 'c'){
+                        char citybarangays;
                         cout << "Here are all the cities in Davao Oriental: " << endl;
-                        cout << "1. Mati\n";
+                        cout << "Mati is the only city in Davao Oriental.\n";
+
+                        cout << "Would you like to find out more about CITY and the barangays within it? (Y/N): ";
+                        cin >> citybarangays;
+
+                        if (citybarangays == 'Y' || citybarangays == 'y'){
+
+                        cout << "The city of blah blah \n";
+                        cout << "Information about Mati\n";
+                        cout << "Here are all the barangays in :\n";
+
+                        }
                         }
 
                         else if (cmb == 'M' || cmb == 'm'){
+                        char munibarangays;
                         cout << "Here are all the municipalities in Davao Oriental: " << endl;
                         cout << "1. Baganga\n";
                         cout << "2. Banaybanay\n";
@@ -8522,7 +8876,88 @@ int main () {
                         cout << "8. Manay\n";
                         cout << "9. San Isidro\n";
                         cout << "10. Tarragona\n";
-                        
+
+                        cout << "Would you like to find out more about the municipalities and the barangays within them? (Y/N): ";
+                        cin >> munibarangays;
+                                                    
+                        if (munibarangays == 'Y' || munibarangays == 'y'){
+                        int barangays;
+                                                        
+                        cout << "Enter a number corresponding to a municipality to get information about it and its barangays: ";
+                        cin >> barangays;
+                                                        
+                        switch (barangays){
+                        case 1:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 2:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 3:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 4:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 5:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 6:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 7:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 8:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 9:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+                                                
+                        case 10:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+                        }
+                        }
                         }
                     }
                 }
@@ -8560,13 +8995,55 @@ int main () {
                     cin >> cmb;
 
                         if (cmb == 'C' || cmb == 'c'){
+                        char citybarangays;
                         cout << "Here are all the cities in Cotabato: " << endl;
                         cout << "1. Kidapawan\n";
                         cout << "2. Cotabato City\n";
                         cout << "3. General Santos\n";
+
+                        cout << "Would you like to find out more about the cities and the barangays within them? (Y/N): ";
+                        cin >> citybarangays;
+
+                        if (citybarangays == 'Y' || citybarangays == 'y'){
+                        int barangays;
+
+                        cout << "Enter a number corresponding to a city to get information about it and its barangays; ";
+                        cin >> barangays;
+
+                        switch (barangays){
+                        case 1:{
+                        cout << "You have chosen the city of \n";
+                        cout << "Information about city\n";
+                        cout << "Here are all the barangays in : \n";
+                        cout << "1. ";
+                        break;
+                        }
+
+                        case 2:{
+                        cout << "You have chosen the city of \n";
+                        cout << "Information about city\n";
+                        cout << "Here are all the barangays in : \n";
+                        cout << "1. ";
+                        break;
+                        }
+
+                        case 3:{
+                        cout << "You have chosen the city of \n";
+                        cout << "Information about city\n";
+                        cout << "Here are all the barangays in : \n";
+                        cout << "1. ";
+                        break;
+                        }
+
+                        default:{
+                        break;
+                        }
+                        }
+                        }
                         }
 
                         else if (cmb == 'M' || cmb == 'm'){
+                        char munibarangays;
                         cout << "Here are all the municipalities in Cotabato: " << endl;
                         cout << "1. Alamada\n";
                         cout << "2. Aleosan\n";
@@ -8585,7 +9062,141 @@ int main () {
                         cout << "15. Pikit\n";
                         cout << "16. President Roxas\n";
                         cout << "17. Tulunan\n";
-                     
+
+                        cout << "Would you like to find out more about the municipalities and the barangays within them? (Y/N): ";
+                        cin >> munibarangays;
+                                                    
+                        if (munibarangays == 'Y' || munibarangays == 'y'){
+                        int barangays;
+                                                        
+                        cout << "Enter a number corresponding to a municipality to get information about it and its barangays: ";
+                        cin >> barangays;
+                                                        
+                        switch (barangays){
+                        case 1:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 2:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 3:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 4:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 5:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 6:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 7:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 8:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 9:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+                                                
+                        case 10:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 11:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 12:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 13:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 14:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 15:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 16:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 17:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+                        
+                        default:{
+                        break;
+                        }
+                        }
+                        }
                         }
 
                     }
@@ -8593,23 +9204,78 @@ int main () {
                     else if (soccsk == 2){
                     cout << "You have chosen Sarangani." << endl;
 
-                    cout << "Would you like to find out about the cities or municipalities? Choose from C or M or N to find out about other regions: ";
+                    cout << "PROVINCE has no cities, would you like to find out about the municipalities? (Y/N): ";
                     cin >> cmb;
 
-                        if (cmb == 'C' || cmb == 'c'){
-                        cout << "Here are all the cities in Sarangani: " << endl;
-                        cout << "1. Alabel\n";
-                        }
-
-                        else if (cmb == 'M' || cmb == 'm'){
+                        if (cmb == 'M' || cmb == 'm'){
+                        char munibarangays;
                         cout << "Here are all the municipalities in Sarangani: " << endl;
+                        cout << "1. Alabel\n";
                         cout << "1. Glan\n";
                         cout << "2. Kiamba\n";
                         cout << "3. Maasim\n";
                         cout << "4. Maitum\n";
                         cout << "5. Malapatan\n";
                         cout << "6. Malungon\n";
-                     
+
+                        cout << "Would you like to find out more about the municipalities and the barangays within them? (Y/N): ";
+                        cin >> munibarangays;
+                                                    
+                        if (munibarangays == 'Y' || munibarangays == 'y'){
+                        int barangays;
+                                                        
+                        cout << "Enter a number corresponding to a municipality to get information about it and its barangays: ";
+                        cin >> barangays;
+                                                        
+                        switch (barangays){
+                        case 1:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 2:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 3:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 4:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 5:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 6:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+                        
+                        default:{
+                        break;
+                        }
+
+                        }
+                        }
                         }
 
                     }
@@ -8621,11 +9287,24 @@ int main () {
                     cin >> cmb;
 
                         if (cmb == 'C' || cmb == 'c'){
+                        char citybarangays;
                         cout << "Here are all the cities in South Cotabato: " << endl;
-                        cout << "1. Koronadal\n";
+                        cout << "The only city in South Cotabato is Koronadal\n";
+
+                        cout << "Would you like to find out more about Koronadal and the barangays within it? (Y/N): ";
+                        cin >> citybarangays;
+
+                        if (citybarangays == 'Y' || citybarangays == 'y'){
+
+                        cout << "The city of blah blah \n";
+                        cout << "Information about city\n";
+                        cout << "Here are all the barangays in :\n";
+
+                        }
                         }
 
                         else if (cmb == 'M' || cmb == 'm'){
+                        char munibarangays;
                         cout << "Here are all the municipalities in South Cotabato: " << endl;
                         cout << "1. Banga\n";
                         cout << "2. Lake Sebu\n";
@@ -8637,7 +9316,88 @@ int main () {
                         cout << "8. Tantangan\n";
                         cout << "9. T'Boli\n";
                         cout << "10. Tupi\n";
-                       
+
+                        cout << "Would you like to find out more about the municipalities and the barangays within them? (Y/N): ";
+                        cin >> munibarangays;
+                                                    
+                        if (munibarangays == 'Y' || munibarangays == 'y'){
+                        int barangays;
+                                                        
+                        cout << "Enter a number corresponding to a municipality to get information about it and its barangays: ";
+                        cin >> barangays;
+                                                        
+                        switch (barangays){
+                        case 1:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 2:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 3:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 4:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 5:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 6:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 7:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 8:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 9:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+                                                
+                        case 10:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+                        }
+                        }
                         }
 
                     }
@@ -8645,35 +9405,130 @@ int main () {
                     else if (soccsk == 4){
                     cout << "You have chosen Sultan Kudarat." << endl;
 
-                    cout << "Would you like to find out about the cities or municipalities? Choose from C or M or N to find out about other regions: ";
+                    cout << "Sultan Kudarat has no cities, would you like to find out about the municipalities? (Y/N): ";
                     cin >> cmb;
 
-                        if (cmb == 'C' || cmb == 'c'){
-                        cout << "Here are all the cities in Sultan Kudarat: " << endl;
-                        cout << "1. Isulan\n";
-                        }
-
-                        else if (cmb == 'M' || cmb == 'm'){
+                        if (cmb == 'M' || cmb == 'm'){
+                        char munibarangays;
                         cout << "Here are all the municipalities in Sultan Kudarat: " << endl;
                         cout << "1. Bagumbayan\n";
                         cout << "2. Columbio\n";
                         cout << "3. Esperanza\n";
-                        cout << "4. Kalamansig\n";
-                        cout << "5. Lambayong\n";
-                        cout << "6. Lebak\n";
-                        cout << "7. Lutayan\n";
-                        cout << "8. Palimbang\n";
-                        cout << "9. President Quirino\n";
-                        cout << "10. Senator Ninoy Aquino\n";
-                        cout << "11. Tacurong\n";
-                     
+                        cout << "5. Isulan - Capital of Sultan Kudarat";
+                        cout << "5. Kalamansig\n";
+                        cout << "6. Lambayong\n";
+                        cout << "7. Lebak\n";
+                        cout << "8. Lutayan\n";
+                        cout << "9. Palimbang\n";
+                        cout << "10. President Quirino\n";
+                        cout << "11. Senator Ninoy Aquino\n";
+                        cout << "12. Tacurong\n";
+
+                        cout << "Would you like to find out more about the municipalities and the barangays within them? (Y/N): ";
+                        cin >> munibarangays;
+                                                    
+                        if (munibarangays == 'Y' || munibarangays == 'y'){
+                        int barangays;
+                                                        
+                        cout << "Enter a number corresponding to a municipality to get information about it and its barangays: ";
+                        cin >> barangays;
+                                                        
+                        switch (barangays){
+                        case 1:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 2:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 3:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 4:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 5:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 6:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 7:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 8:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 9:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+                                                
+                        case 10:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 11:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 12:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+                        
+                        default:{
+                        break;
+                        }
+                        }
+                        }
                         }
 
                     }
 
                 }
             
-
             break; 
             }
            
@@ -8827,14 +9682,11 @@ int main () {
                     if (car == 1){
                     cout << "You have chosen Abra" << endl;
 
-                    cout << "Would you like to find out about the cities or municipalities? Choose from C or M or N to find out about other regions: ";
+                    cout << "Abra has no cities, would you like to find out about the municipalities? (Y/N): ";
                     cin >> cmb;
 
-                        if (cmb == 'C' || cmb == 'c'){
-                        cout << "Here are all the cities in Abra: " << endl;
-                        }
-
-                        else if (cmb == 'M' || cmb == 'm'){
+                        if (cmb == 'M' || cmb == 'm'){
+                        char munibarangays;
                         cout << "Here are all the municipalities in Abra: " << endl;
                         cout << "1. Bangued - Capital of Abra\n";
                         cout << "2. Boliney\n";
@@ -8863,6 +9715,211 @@ int main () {
                         cout << "25. Tineg\n";
                         cout << "26. Tubo\n";
                         cout << "27. Villaciviosa\n";
+
+                        cout << "Would you like to find out more about the municipalities and the barangays within them? (Y/N): ";
+                        cin >> munibarangays;
+                                                    
+                        if (munibarangays == 'Y' || munibarangays == 'y'){
+                        int barangays;
+                                                        
+                        cout << "Enter a number corresponding to a municipality to get information about it and its barangays: ";
+                        cin >> barangays;
+                                                        
+                        switch (barangays){
+                        case 1:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 2:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 3:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 4:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 5:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 6:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 7:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 8:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 9:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+                                                
+                        case 10:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 11:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 12:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 13:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 14:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 15:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 16:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 17:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 18:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 19:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 20:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 21:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+                        
+                        case 22:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 23:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 24:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 25:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 26:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        case 27:{
+                        cout << "You have chosen the municipality of \n";
+                        cout << "Total population in municipality \n";
+                        cout << "Here are all the barangays in \n";
+                        break;
+                        }
+
+                        default:{
+                        break;
+                        }
+                        }
+                        }
                         }
 
                     }
@@ -8873,11 +9930,7 @@ int main () {
                     cout << "Would you like to find out about the cities or municipalities? Choose from C or M or N to find out about other regions: ";
                     cin >> cmb;
 
-                        if (cmb == 'C' || cmb == 'c'){
-                        cout << "Here are all the cities in Apayao: " << endl;
-                        }
-
-                        else if (cmb == 'M' || cmb == 'm'){
+                        if (cmb == 'M' || cmb == 'm'){
                         cout << "Here are all the municipalities in Apayao: " << endl;
                         cout << "1. Calanasan\n";
                         cout << "2. Conner\n";
