@@ -90,7 +90,7 @@ int main () {
                             cout << "1. Laoag - Capital City in Ilocos Norte" << endl;
                             cout << "2. Batac - Component City" << endl;
 
-                            cout << "Would you like to find out more about the city and the barangays within it? (Y/N): ";
+                            cout << "Would you like to find out more about the cities and the barangays within it? (Y/N): ";
                             cin >> citybarangays;
                             
                                 if (citybarangays == 'Y' || citybarangays == 'y'){
@@ -800,7 +800,7 @@ int main () {
                             if (cmb == 'C' || cmb == 'c') {
                             char citybarangays;
                             cout << "Here are all the Cities in La Union: " << endl;
-                            cout << "San Fernando - Capital City and the Regional Center";
+                            cout << "San Fernando - Capital City and the Regional Center of Ilocos";
 
                             cout << "Would you like to find out more about San Fernando and the barangays within it? (Y/N): ";
                             cin >> citybarangays;
@@ -811,6 +811,65 @@ int main () {
                             cout << "The City of San Fernando's ZIP code is 2500.\n";
                             cout << "According to the 2020 census, its population is 125,640.\n";
                             cout << "Here are all the barangays in San Fernando: " << endl;
+                            cout << "1. Abut\n";
+                            cout << "2. Apaleng\n";
+                            cout << "3. Bacsil\n";
+                            cout << "4. Bangbangolan\n";
+                            cout << "5. Bangcusay\n";
+                            cout << "6. Barangay I\n";
+                            cout << "7. Barangay II\n";
+                            cout << "8. Barangay III\n";
+                            cout << "9. Barangay IV\n";
+                            cout << "10. Baraoas\n";
+                            cout << "11. Bato\n";
+                            cout << "12. Biday\n";
+                            cout << "13. Birunget\n";
+                            cout << "14. Bungro\n";
+                            cout << "15. Cabaroan\n";
+                            cout << "16. Cabarsican\n";
+                            cout << "17. Cadaclan\n";
+                            cout << "18. Calabugao\n";
+                            cout << "19. Camansi\n";
+                            cout << "20. Canaoay\n";
+                            cout << "21. Carlatan\n";
+                            cout << "22. Catbangen\n";
+                            cout << "23. Dallangayan Este\n";
+                            cout << "24. Dallangayan Oeste\n";
+                            cout << "25. Dalumpinas Este\n";
+                            cout << "26. Dalumpinas Oeste\n";
+                            cout << "27. Ilocanos Norte\n";
+                            cout << "28. Ilocanos Sur\n";
+                            cout << "29. Langcuas\n";
+                            cout << "30. Lingsat\n";
+                            cout << "31. Madayegdeg\n";
+                            cout << "32. Mameltac\n";
+                            cout << "33. Masicong\n";
+                            cout << "34. Nagyubuyuban\n";
+                            cout << "35. Namtutan\n";
+                            cout << "36. Narra Este\n";
+                            cout << "37. Narra Oeste\n";
+                            cout << "38. Pacpaco\n";
+                            cout << "39. Pagdalagan\n";
+                            cout << "40. Pagdaraoan\n";
+                            cout << "41. Pagudpud\n";
+                            cout << "42. Pao Norte\n";
+                            cout << "43. Pao Sur\n";
+                            cout << "44. Parian\n";
+                            cout << "45. Pias\n";
+                            cout << "46. Poro\n";
+                            cout << "47. Puspus\n";
+                            cout << "48. Sacyud\n";
+                            cout << "49. Sagayad\n";
+                            cout << "50. San Agustin\n";
+                            cout << "51. San Francisco\n";
+                            cout << "52. San Vicente\n";
+                            cout << "53. Santiago Norte\n";
+                            cout << "54. Santiago Sur\n";
+                            cout << "55. Saoay\n";
+                            cout << "56. Sevilla\n";
+                            cout << "57. Siboan-Otong\n";
+                            cout << "58. Tanqui\n";
+                            cout << "59. Tanquigan\n";
                             }
                             }
 
@@ -836,29 +895,34 @@ int main () {
                             cout << "17. Santol\n";
                             cout << "18. Sudipen\n";
                             cout << "19. Tubao\n";
+
                             cout << "Would you like to find out more about the municipalities? (Y/N): ";
                             cin >> municipal;
 
                             if (municipal == 'Y' || municipal == 'y'){
                             int barangays;
 
-                            cout << "Enter a number corresponding to a municipality to get information about it and its barangays: ";
+                            cout << "Enter a number corresponding to a municipality to get information about it: ";
                             cin >> barangays;
 
                             switch (barangays){
                             case 1:{
+                            cout << "You have chosen the municipality of Agoo.\n";
                             break;
                             }
 
                             case 2:{
+                            cout << "You have chosen the municipality of Aringay.\n";
                             break;
                             }
 
                             case 3:{
+                            cout << "You have chosen the municipality of Bacnotan.\n";
                             break;
                             }
                             
                             case 4:{
+                            cout << "You have chosen the municipality of Agoo.\n";
                             break;
                             }
 
@@ -2316,111 +2380,97 @@ int main () {
 	                    }
 
                         case 19:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of Quezon.\n";
+	                    
 	                    break;
 	                    }
 
                         case 20:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of Quirino.\n";
+	                    
 	                    break;
 	                    }
 
                         case 21:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of Ramon.\n";
+	                    
 	                    break;
 	                    }
 
                         case 22:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of Reina Mercedes.\n";
+	                    
 	                    break;
 	                    }
 
                         case 23:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of Roxas.\n";
+	                    
 	                    break;
 	                    }
 
                         case 24:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of San Agustin.\n";
+	                    
 	                    break;
 	                    }
 
                         case 25:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of San Guillermo.\n";
+	                    
 	                    break;
 	                    }
 
                         case 26:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of San Isidro.\n";
+	                    
 	                    break;
 	                    }
 
                         case 27:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of San Manuel.\n";
+	                    
 	                    break;
 	                    }
 
                         case 28:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of San Mariano.\n";
+	                    
 	                    break;
 	                    }
 
                         case 29:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of San Matero.\n";
+	                    
 	                    break;
 	                    }
 
                         case 30:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of San Pablo.\n";
+	                    
 	                    break;
 	                    }
 
                         case 31:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of Santa Maria.\n";
+	                    
 	                    break;
 	                    }
 
                         case 32:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of Santo Tomas.\n";
+	                    
 	                    break;
 	                    }
 
                         case 33:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of Tumauini.\n";
+	                    
 	                    break;
 	                    }
 
                         default:{
+                        cout << "There are only 33 municipalities in Isabela.";
                         break;
                         }
 	                    }
@@ -2442,7 +2492,7 @@ int main () {
                         cout << "3. Aritao\n";
                         cout << "4. Bagabag\n";
                         cout << "5. Bambang\n";
-                        cout << "6. Bayombong - Capital\n";
+                        cout << "6. Bayombong - Capital of Nueva Viscaya\n";
                         cout << "7. Diadi\n";
                         cout << "8. Dupax Del Norte\n";
                         cout << "9. Dupax Del Sur\n";
@@ -2458,112 +2508,97 @@ int main () {
 	                    if (municipal == 'Y' || municipal == 'y'){
 	                    int barangays;
                                 
-                        cout << "Enter a number corresponding to a municipality to get information about it and its barangays: ";
+                        cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
                                  
                         switch (barangays){
 	                    case 1:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of Alfonso Castañeda.\n";
+	                    
 	                    break;
 	                    }
 
                         case 2:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of Ambaguio.\n";
+	                    
 	                    break;
 	                    }
                         
                         case 3:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of Aritao.\n";
+	                    
 	                    break;
 	                    }
 
                         case 4:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of Bagabag.\n";
+	                    
 	                    break;
 	                    }
 
                         case 5:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of Bambang.\n";
+	                    
 	                    break;
 	                    }
 
                         case 6:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of Bayombong.\n";
+	                    
 	                    break;
 	                    }
 
                         case 7:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of Diadi.\n";
+	                    
 	                    break;
 	                    }
 
                         case 8:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of Dupax Del Norte.\n";
+	                    
 	                    break;
 	                    }
 
                         case 9:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of Dupax Del Sur.\n";
+	                    
 	                    break;
 	                    }
 
                         case 10:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of Kasibu.\n";
+	                    
 	                    break;
 	                    }
 
                         case 11:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of Kayapa.\n";
+	                    
 	                    break;
 	                    }
 
                         case 12:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of Quezon.\n";
+	                    
 	                    break;
 	                    }
 
                         case 13:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of Santa Fe.\n";
+	                    
 	                    break;
 	                    }
 
                         case 14:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of Solano.\n";
+	                    
 	                    break;
 	                    }
 
                         case 15:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of Villaverde.\n";
+	                    
 	                    break;
 	                    }
 
@@ -2596,53 +2631,48 @@ int main () {
 	                    if (municipal == 'Y' || municipal == 'y'){
 	                    int barangays;
                                 
-                        cout << "Enter a number corresponding to a municipality to get information about it and its barangays: ";
+                        cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
                                  
                         switch (barangays){
 	                    case 1:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of Aglipay.\n";
+	                    
 	                    break;
 	                    }
 
                         case 2:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of Cabarroguis.\n";
+	                    
 	                    break;
 	                    }
 
                         case 3:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of Diffun.\n";
+	                    
 	                    break;
 	                    }
 
                         case 4:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of Maddela.\n";
+	                    
 	                    break;
 	                    }
 
                         case 5:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of Nagtipunan.\n";
+	                    
 	                    break;
 	                    }
 
                         case 6:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of Sagudav.\n";
+	                    
 	                    break;
 	                    }
 
                         default:{
+                        cout << "There are only 6 municipalities in Quezon.\n";
                         break;
                         }
 	                    }
@@ -2685,7 +2715,7 @@ int main () {
                        if (cmb == 'M' || cmb == 'm'){
                         char municipal;
                         cout << "Here are all the municipalities in Aurora: " << endl;
-                        cout << "1. Baler - Capital\n";
+                        cout << "1. Baler - Capital of Aurora\n";
                         cout << "2. Casiguran\n";
                         cout << "3. Dilasag\n";
                         cout << "4. Dinalungan\n";
@@ -2700,67 +2730,60 @@ int main () {
 	                    if (municipal == 'Y' || municipal == 'y'){
 	                    int barangays;
                                 
-                        cout << "Enter a number corresponding to a municipality to get information about it and its barangays: ";
+                        cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
                                  
                         switch (barangays){
 	                    case 1:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of Aurora.\n";
+	                    
 	                    break;
 	                    }
 
                         case 2:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of Casiguran.\n";
+	                    
 	                    break;
 	                    }
 
                         case 3:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of Dilasag.\n";
+	                    
 	                    break;
 	                    }
 
                         case 4:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of Dinalungan.\n";
+	                    
 	                    break;
 	                    }
 
                         case 5:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of Dingalan.\n";
+	                    
 	                    break;
 	                    }
 
                         case 6:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of Dipaculao.\n";
+	                    
 	                    break;
 	                    }
 
                         case 7:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of Maria Aurora.\n";
+	                    
 	                    break;
 	                    }
 
                         case 8:{
-	                    cout << "You have chosen the municipality of \n";
-	                    cout << "Total population in municipality \n";
-	                    cout << "Here are all the barangays in \n";
+	                    cout << "You have chosen the municipality of San Luis.\n";
+	                    
 	                    break;
 	                    }
 
                         default:{
+                        cout << "There are only 8 municipalities in Aurora.\n";
                         break;
                         }
 	                    }
@@ -2779,10 +2802,10 @@ int main () {
                         cout << "Here are all the cities in Bataan: " << endl;
                         cout << "Balanga - Capital of Bataan\n";
 
-                        cout << "Would you like to find out more about CITY and the barangays within it? (Y/N): ";
+                        cout << "Would you like to find out more about Bataan and the barangays within it? (Y/N): ";
                         cin >> citybarangays;
 
-                        if (citybarangays == 'Y'){
+                        if (citybarangays == 'Y' || citybarangays == 'y'){
 
                         cout << "The city of blah blah \n";
                         cout << "Information about city\n";
@@ -3146,8 +3169,9 @@ int main () {
                         if (cmb == 'C' || cmb == 'c'){
                         char citybarangays;
                         cout << "Here are all the cities in Nueva Ecija: " << endl;
-                        cout << "1. Cabanatuan\n";
-                        cout << "Would you like to find out more about CITY and the barangays within it? (Y/N): ";
+                        cout << "Cabanatuan is the only city in Nueva Ecija.\n";
+
+                        cout << "Would you like to find out more about Nueva Ecija and the barangays within it? (Y/N): ";
                         cin >> citybarangays;
 
                         if (citybarangays == 'Y'){
@@ -3441,7 +3465,7 @@ int main () {
                         cout << "Here are all the cities in Pampanga: " << endl;
                         cout << "Angeles - Highly Urbanized City and is thus considered independent.\n";
 
-                        cout << "Would you like to find out more about CITY and the barangays within it? (Y/N): ";
+                        cout << "Would you like to find out more about Angeles and the barangays within it? (Y/N): ";
                         cin >> citybarangays;
 
                         if (citybarangays == 'Y'){
@@ -3654,7 +3678,7 @@ int main () {
                         cout << "Here are all the cities in Tarlac: " << endl;
                         cout << "Tarlac City - Capital\n";
 
-                        cout << "Would you like to find out more about CITY and the barangays within it? (Y/N): ";
+                        cout << "Would you like to find out more about Tarlac City and the barangays within it? (Y/N): ";
                         cin >> citybarangays;
 
                         if (citybarangays == 'Y'){
@@ -3843,7 +3867,7 @@ int main () {
                         cout << "Here are all the cities in Zambales: " << endl;
                         cout << "Olongapo - Highly Urbanized City and is thus considered independent.\n";
 
-                        cout << "Would you like to find out more about CITY and the barangays within it? (Y/N): ";
+                        cout << "Would you like to find out more about Olongapo and the barangays within it? (Y/N): ";
                         cin >> citybarangays;
 
                         if (citybarangays == 'Y'){
@@ -5241,7 +5265,7 @@ int main () {
                         cout << "Here are all the cities in Rizal: " << endl;
                         cout << "Antipolo - Capital of Rizal\n";
 
-                        cout << "Would you like to find out more about CITY and the barangays within it? (Y/N): ";
+                        cout << "Would you like to find out more about Antipolo and the barangays within it? (Y/N): ";
                         cin >> citybarangays;
 
                         if (citybarangays == 'Y'){
@@ -5607,6 +5631,7 @@ int main () {
                         char citybarangays;
                         cout << "Here are all the cities in Oriental Mindoro:" << endl;
                         cout << "Calapan - Capital of Oriental Mindoro and Regional Center of MIMAROPA\n";
+
                         cout << "Would you like to find out more about Calapan and the barangays within it? (Y/N): ";
                         cin >> citybarangays;
 
@@ -6957,7 +6982,7 @@ int main () {
                         cout << "Here are all the cities in Masbate\n";
                         cout << "Masbate City - Capital of Masbate.\n"; 
 
-                        cout << "Would you like to find out more about CITY and the barangays within it? (Y/N): ";
+                        cout << "Would you like to find out more about Masbate City and the barangays within it? (Y/N): ";
                         cin >> citybarangays;
 
                         if (citybarangays == 'Y' || citybarangays == 'y'){
@@ -7163,7 +7188,7 @@ int main () {
                         cout << "Here are all the cities in Sorsogon: " << endl;
                         cout << "Sorsogon City - Capital of Sorsogon\n";
 
-                        cout << "Would you like to find out more about CITY and the barangays within it? (Y/N): ";
+                        cout << "Would you like to find out more about Sorsogon City and the barangays within it? (Y/N): ";
                         cin >> citybarangays;
 
                         if (citybarangays == 'Y' || citybarangays == 'y'){
@@ -7507,7 +7532,7 @@ int main () {
                         cout << "Here are all the cities in Antique: " << endl;
                         cout << "Bacolod - Highly Urbanized City\n";
 
-                        cout << "Would you like to find out more about CITY and the barangays within it? (Y/N): ";
+                        cout << "Would you like to find out more about Bacolod and the barangays within it? (Y/N): ";
                         cin >> citybarangays;
 
                         if (citybarangays == 'Y' || citybarangays == 'y'){
@@ -7695,9 +7720,9 @@ int main () {
                         if (cmb == 'C' || cmb == 'c'){
                         char citybarangays;
                         cout << "Here are all the cities in Capiz: " << endl;
-                        cout << "Roxas City - Capital of Capiz\n";
+                        cout << "Roxas - Capital of Capiz\n";
 
-                        cout << "Would you like to find out more about CITY and the barangays within it? (Y/N): ";
+                        cout << "Would you like to find out more about Roxas and the barangays within it? (Y/N): ";
                         cin >> citybarangays;
 
                         if (citybarangays == 'Y' || citybarangays == 'y'){
@@ -8676,7 +8701,7 @@ int main () {
                         cout << "Here are all the cities in Bohol: " << endl;
                         cout << "Tagbilaran - Capital of Bohol\n";
 
-                        cout << "Would you like to find out more about CITY and the barangays within it? (Y/N): ";
+                        cout << "Would you like to find out more about Tagbilaran and the barangays within it? (Y/N): ";
                         cin >> citybarangays;
 
                         if (citybarangays == 'Y' || citybarangays == 'y'){
@@ -10498,7 +10523,7 @@ int main () {
                         if (cmb == 'C' || cmb == 'c'){
                         char citybarangays;
                         cout << "Here are all the cities in Davao del Norte: " << endl;
-                        cout << "Tagum\n";
+                        cout << "Tagum - Capital of Davao del Norte\n";
 
                         cout << "Would you like to find out more about Tagum and the barangays within it? (Y/N): ";
                         cin >> citybarangays;
@@ -10621,6 +10646,7 @@ int main () {
                         char citybarangays;
                         cout << "Here are all the cities in Davao del Sur: " << endl;
                         cout << "The only city in Davao del Sur is Digos.\n";
+
                         cout << "Would you like to find out more about Digos and the barangays within it? (Y/N): ";
                         cin >> citybarangays;
 
@@ -10803,7 +10829,7 @@ int main () {
                         cout << "Here are all the cities in Davao Oriental: " << endl;
                         cout << "Mati is the only city in Davao Oriental.\n";
 
-                        cout << "Would you like to find out more about CITY and the barangays within it? (Y/N): ";
+                        cout << "Would you like to find out more about Mati and the barangays within it? (Y/N): ";
                         cin >> citybarangays;
 
                         if (citybarangays == 'Y' || citybarangays == 'y'){
@@ -11632,9 +11658,10 @@ int main () {
                         cout << "Mayor: Dale Gonzalo Rigor Malapitan \n";
                         cout << "Caloocan, city on Dagatdagatan Lagoon (Manila Bay), central Luzon, Philippines, adjacentto northern Manila. Founded in 1762, it became a municipality in 1815. Caloocan suffered much damage during World War II. Now part of Greater Manila, it is a growing center of industrialization as well as a resident suburb. Processed foods, textiles, and engineering prodcuts are its main industreis.\n";
                         cout << "Here are all the barangays in Caloocan : \n";
-                        cout << "1. Barangay 1 \n";
-                        cout << "2. Barangay 10 \n";
-                        cout << "3. Barangay 100 \n";
+
+                        cout << "1. Barangay 1\n";
+                        cout << "2. Barangay 10\n";
+                        cout << "3. Barangay 100\n";
                         cout << "4. Barangay 101\n";
                         cout << "5. Barangay 102\n";
                         cout << "6. Barangay 103\n";
@@ -11644,18 +11671,182 @@ int main () {
                         cout << "10. Barangay 107\n";
                         cout << "11. Barangay 108\n";
                         cout << "12. Barangay 109\n";
-                        cout << "13.\n";
-                        cout << "14.\n";
-                        cout << "15.\n";
-                        cout << "16.\n";
-                        cout << "17.\n";
-                        cout << "18.\n";
-                        cout << "19.\n";
-                        cout << "20.\n";
-                        cout << "21.\n";
-                        cout << "22.\n";
-                        cout << "\n";
-                        
+                        cout << "13. Barangay 110\n";
+                        cout << "14. Barangay 111\n";
+                        cout << "15. Barangay 112\n";
+                        cout << "16. Barangay 113\n";
+                        cout << "17. Barangay 114\n";
+                        cout << "18. Barangay 115\n";
+                        cout << "19. Barangay 116\n";
+                        cout << "20. Barangay 117\n";
+                        cout << "21. Barangay 118\n";
+                        cout << "22. Barangay 119\n";
+                        cout << "23. Barangay 12\n";
+                        cout << "24. Barangay 120\n";
+                        cout << "25. Barangay 121\n";
+                        cout << "26. Barangay 122\n";
+                        cout << "27. Barangay 123\n";
+                        cout << "28. Barangay 124\n";
+                        cout << "29. Barangay 125\n";
+                        cout << "30. Barangay 126\n";
+                        cout << "31. Barangay 127\n";
+                        cout << "32. Barangay 128\n";
+                        cout << "33. Barangay 129\n";
+                        cout << "34. Barangay 13\n";
+                        cout << "35. Barangay 130\n";
+                        cout << "36. Barangay 131\n";
+                        cout << "37. Barangay 132\n";
+                        cout << "38. Barangay 133\n";
+                        cout << "39. Barangay 134\n";
+                        cout << "40. Barangay 135\n";
+                        cout << "41. Barangay 136\n";
+                        cout << "41. Barangay 137\n";
+                        cout << "42. Barangay 138\n";
+                        cout << "43. Barangay 139\n";
+                        cout << "44. Barangay 14\n";
+                        cout << "45. Barangay 140\n";
+                        cout << "46. Barangay 141\n";
+                        cout << "47. Barangay 142\n";
+                        cout << "48. Barangay 143\n";
+                        cout << "49. Barangay 144\n";
+                        cout << "50. Barangay 145\n";
+                        cout << "51. Barangay 146\n";
+                        cout << "52. Barangay 147\n";
+                        cout << "53. Barangay 148\n";
+                        cout << "54. Barangay 149\n";
+                        cout << "55. Barangay 15\n";
+                        cout << "56. Barangay 150\n";
+                        cout << "57. Barangay 151\n";
+                        cout << "58. Barangay 152\n";
+                        cout << "59. Barangay 153\n";
+                        cout << "60. Barangay 154\n";
+                        cout << "61. Barangay 155\n";
+                        cout << "62. Barangay 156\n";
+                        cout << "63. Barangay 157\n";
+                        cout << "64. Barangay 158\n";
+                        cout << "65. Barangay 159\n";
+                        cout << "66. Barangay 16\n";
+                        cout << "67. Barangay 161\n";
+                        cout << "68. Barangay 162\n";
+                        cout << "69. Barangay 163\n";
+                        cout << "70. Barangay 164\n";
+                        cout << "71. Barangay 165\n";
+                        cout << "72. Barangay 166\n";
+                        cout << "73. Barangay 167\n";
+                        cout << "74. Barangay 168\n";
+                        cout << "75. Barangay 169\n";
+                        cout << "76. Barangay 17\n";
+                        cout << "77. Barangay 170\n";
+                        cout << "78. Barangay 171\n";
+                        cout << "79. Barangay 172\n";
+                        cout << "80. Barangay 173\n";
+                        cout << "81. Barangay 174\n";
+                        cout << "82. Barangay 175\n";
+                        cout << "83. Barangay 176\n";
+                        cout << "84. Barangay 177\n";
+                        cout << "85. Barangay 178\n";
+                        cout << "86. Barangay 179\n";
+                        cout << "87. Barangay 18\n";
+                        cout << "88. Barangay 180\n";
+                        cout << "89. Barangay 181\n";
+                        cout << "90. Barangay 182\n";
+                        cout << "91. Barangay 183\n";
+                        cout << "92. Barangay 184\n";
+                        cout << "93. Barangay 185\n";
+                        cout << "94. Barangay 186\n";
+                        cout << "95. Barangay 187\n";
+                        cout << "96. Barangay 188\n";
+                        cout << "97. Barangay 19\n";
+                        cout << "98. Barangay 2\n";
+                        cout << "99. Barangay 20\n";
+                        cout << "100. Barangay 21\n";
+                        cout << "101. Barangay 22\n";
+                        cout << "102. Barangay 23\n";
+                        cout << "103. Barangay 24\n";
+                        cout << "104. Barangay 25\n";
+                        cout << "105. Barangay 26\n";
+                        cout << "106. Barangay 27\n";
+                        cout << "107. Barangay 28\n";
+                        cout << "108. Barangay 29\n";
+                        cout << "109. Barangay 3\n";
+                        cout << "110. Barangay 30\n";
+                        cout << "111. Barangay 31\n";
+                        cout << "112. Barangay 32\n";
+                        cout << "113. Barangay 33\n";
+                        cout << "114. Barangay 34\n";
+                        cout << "115. Barangay 35\n";
+                        cout << "116. Barangay 36\n";
+                        cout << "117. Barangay 37\n";
+                        cout << "118. Barangay 38\n";
+                        cout << "119. Barangay 39\n";
+                        cout << "120. Barangay 4\n";
+                        cout << "121. Barangay 40\n";
+                        cout << "122. Barangay 41\n";
+                        cout << "123. Barangay 42\n";
+                        cout << "124. Barangay 43\n";
+                        cout << "125. Barangay 44\n";
+                        cout << "126. Barangay 45\n";
+                        cout << "127. Barangay 46\n";
+                        cout << "128. Barangay 47\n";
+                        cout << "129. Barangay 48\n";
+                        cout << "130. Barangay 49\n";
+                        cout << "131. Barangay 5\n";
+                        cout << "132. Barangay 50\n";
+                        cout << "133. Barangay 51\n";
+                        cout << "134. Barangay 52\n";
+                        cout << "135. Barangay 53\n";
+                        cout << "136. Barangay 54\n";
+                        cout << "137. Barangay 55\n";
+                        cout << "138. Barangay 56\n";
+                        cout << "139. Barangay 57\n";
+                        cout << "140. Barangay 58\n";
+                        cout << "141. Barangay 59\n";
+                        cout << "142. Barangay 6\n";
+                        cout << "143. Barangay 60\n";
+                        cout << "144. Barangay 61\n";
+                        cout << "145. Barangay 62\n";
+                        cout << "146. Barangay 63\n";
+                        cout << "147. Barangay 64\n";
+                        cout << "148. Barangay 65\n";
+                        cout << "149. Barangay 66\n";
+                        cout << "150. Barangay 67\n"; 
+                        cout << "151. Barangay 68\n";
+                        cout << "152. Barangay 69\n";
+                        cout << "153. Barangay 7\n";
+                        cout << "154. Barangay 70\n";
+                        cout << "155. Barangay 71\n";
+                        cout << "156. Barangay 72\n";
+                        cout << "157. Barangay 73\n";
+                        cout << "158. Barangay 74\n";
+                        cout << "159. Barangay 75\n";
+                        cout << "160. Barangay 76\n";
+                        cout << "161. Barangay 77\n";
+                        cout << "162. Barangay 78\n";
+                        cout << "163. Barangay 79\n";
+                        cout << "164. Barangay 8\n";
+                        cout << "165. Barangay 80\n";
+                        cout << "166. Barangay 81\n";
+                        cout << "167. Barangay 82\n";
+                        cout << "168. Barangay 83\n";
+                        cout << "169. Barangay 84\n";
+                        cout << "170. Barangay 85\n";
+                        cout << "171. Barangay 86\n";
+                        cout << "172. Barangay 87\n";
+                        cout << "173. Barangay 88\n";
+                        cout << "174. Barangay 89\n";
+                        cout << "175. Barangay 9\n";
+                        cout << "176. Barangay 90\n";
+                        cout << "177. Barangay 91\n";
+                        cout << "178. Barangay 92\n";
+                        cout << "179. Barangay 93\n";
+                        cout << "180. Barangay 94\n";
+                        cout << "181. Barangay 95\n";
+                        cout << "182. Barangay 96\n";
+                        cout << "183. Barangay 97\n";
+                        cout << "184. Barangay 98\n";
+                        cout << "185. Barangay 99\n";
+                        cout << "186. Barangay 11\n";
+          
                         break;
                         }
 
@@ -12170,7 +12361,7 @@ int main () {
                         cout << "Here are all the cities in Benguet: " << endl;
                         cout << "Baguio - Highly Urbanized City and the Capital of Benguet and the Regional Center of CAR\n";
 
-                        cout << "Would you like to find out more about CITY and the barangays within it? (Y/N): ";
+                        cout << "Would you like to find out more about Baguio and the barangays within it? (Y/N): ";
                         cin >> citybarangays;
 
                         if (citybarangays == 'Y' || citybarangays == 'y'){
@@ -12429,7 +12620,7 @@ int main () {
                         cout << "Here are all the cities in Kalinga: " << endl;
                         cout << "Tabuk - Capital of Kalinga\n";
 
-                        cout << "Would you like to find out more about CITY and the barangays within it? (Y/N): ";
+                        cout << "Would you like to find out more about Tabuk and the barangays within it? (Y/N): ";
                         cin >> citybarangays;
 
                         if (citybarangays == 'Y' || citybarangays == 'y'){
