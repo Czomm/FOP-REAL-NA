@@ -68,6 +68,23 @@ int main () {
     string MasbateProvMuni[] = {"Aroroy", "Baleno", "Balud", "Batuan", "Cataingan", "Cawayan", "Claveria", "Dimasalang", "Esperanza", "Mandaon", "Milagros", "Mobo", "Monreal", "Palanas", "Pio V. Corpuz", "Placer", "San Fernando", "San Jacinto", "San Pascual", "Uson"};
     string SorsogonCityBrgys[] = {"Abuyog", "Almendras-Cogon", "Balete", "Balogo (Sorsogon East District)", "Balogo (Bacon District)", "Barayong", "Basud", "Bato", "Bibincahan", "Bitan-o/Dalipay", "Bogña", "Bon-ot", "Bucalbucalan", "Buenavista", "Buenavista (Bacon District)", "Buhatan", "Bulabog", "Burabod", "Cabarbuhan", "Cabid-an", "Cambulaga", "Capuy", "Caricaran", "Del Rosario", "Gatbo", "Gimaloto", "Guinlajon", "Jamislagan", "Macabog", "Maricrum", "Marinas", "Osiao", "Pamurayan", "Pangpang", "Panlayaan", "Peñafrancia", "Piot", "Poblacion", "Polvorista", "Rawis", "Rizal", "Salog", "Salvacion", "Salvacion (Bacon District)", "Sampaloc", "San Isidro", "San Isidro (Bacon District)", "San Juan (Roro)", "San Juan (Bacon District)", "San Pascual", "San Ramon", "San Roque", "San Vicente", "Santa Cruz", "Santa Lucia", "Santo Domingo", "Santo Niño", "Sawanga", "Sirangan", "Sugod", "Sulucan", "Talisay", "Ticol", "Tugos"};
     string BacolodBrgys[] = {"Alangilan", "Alijis", "Banago", "Barangay 1", "Barangay 10", "Barangay 11", "Barangay 12", "Barangay 13", "Barangay 14", "Barangay 15", "Barangay 16", "Barangay 17", "Barangay 18", "Barangay 19", "Barangay 2", "Barangay 20", "Barangay 21", "Barangay 22", "Barangay 23", "Barangay 24", "Barangay 25", "Barangay 26", "Barangay 27", "Barangay 28", "Barangay 29", "Barangay 3", "Barangay 30", "Barangay 31", "Barangay 32", "Barangay 33", "Barangay 34", "Barangay 35", "Barangay 36", "Barangay 37", "Barangay 38", "Barangay 39", "Barangay 4", "Barangay 40", "Barangay 41", "Barangay 5", "Barangay 6", "Barangay 7", "Barangay 8", "Barangay 9", "Bata", "Cabug", "Estefania", "Felisa", "Granada", "Handumanan", "Mandalagan", "Mansilingan", "Montevista", "Pahanocoy", "Punta Taytay", "Singcang-Airport", "Sum-ag", "Taculing", "Tangub", "Villamonte", "Vista Alegre"};
+    string RoxasCityBrgys[] = {"Adlawan", "Bago", "Balijuagan", "Banica", "Barra", "Bato", "Baybay", "Bolo", "Cabugao", "Cagay", "Cogon", "Culajao", "Culasi", "Dayao", "Dinginan", "Dumolog", "Gabu-an", "Inzo Arnaldo Village", "Jumaguicjic", "Lanot", "Lawa-an", "Libas", "Liong", "Loctugan", "Lonoy", "Milibili", "Mongpong", "Olotayan", "Poblacion I", "Poblacion II", "Poblacion III", "Poblacion IV", "Poblacion IX", "Poblacion V", "Poblacion VI", "Poblacion VII", "Poblacion VIII", "Poblacion X", "Poblacion XI", "Punta Cogon", "Punta Tabuc", "San Jose", "Sibaguan", "Talon", "Tanque", "Tanza", "Tiza"};
+    string IloiloCityBrgys[] = {"Abeto Mirasol Taft South", "Aguinaldo", "Airport", "Alalasan Lapuz", "Arguelles", "Arsenal Aduana", "Bakhaw", "Balabago", "Balantang", "Baldoza", "Bantud", "Banuyao", "Baybay Tanza", "Benedicto", "Bito-on", "Bolilao", "Bonifacio", "Bonifacio Tanza", "Buhang", "Buhang Taft North", "Buntatala", "Burgos-Mabini-Plaza", "Caingin", "Calahunan", "Calaparan", "Calubihan", "Calumpang", "Camalig", "Cochero", "Compania", "Concepcion-Montes", "Cuartero", "Cubay", "Danao", "Delgado-Jalandoni-Bagumbayan", "Democracia", "Desamparados", "Divinagracia", "Don Esteban-Lapuz", "Dulonan", "Dungon", "Dungon A", "Dungon B", "East Baluarte", "East Timawa", "Edganzon", "El 98 Castilla", "Fajardo", "Flores", "General Hughes-Montes", "Gloria", "Gustilo", "Guzman-Jesena", "Habog-habog Salvacion", "Hibao-an Norte", "Hibao-an Sur", "Hinactacan", "Hipodromo", "Inday", "Infante", "Ingore", "Jalandoni Estate-Lapuz", "Jalandoni-Wilson", "Javellana", "Jereos", "Kahirupan", "Kasingkasing", "Katilingban", "Kauswagan", "Laguda", "Lanit", "Lapuz Norte", "Lapuz Sur", "Legaspi dela Rama", "Liberation", "Libertad, Santa Isabel", "Libertad-Lapuz", "Loboc-Lapuz", "Lopez Jaena", "Lopez Jaena Norte", "Lopez Jaena Sur", "Luna (Jaro)", "Luna (La Paz)", "M. V. Hechanova", "Mabolo-Delgado", "Macarthur", "Magdalo", "Magsaysay", "Magsaysay Village", "Malipayon-Delgado", "Mansaya-Lapuz", "Marcelo H. del Pilar", "Maria Clara", "Maria Cristina", "Mohon", "Molo Boulevard", "Monica Blumentritt", "Montinola", "Muelle Loney-Montes", "Nabitasan", "Navais", "Nonoy", "North Avanceña", "North Baluarte", "North Fundidor", "North San Jose", "Obrero-Lapuz", "Oñate de Leon", "Ortiz", "Osmeña", "Our Lady of Fatima", "Our Lady of Lourdes", "Pale Benedicto Rizal", "PHHC Block 17", "PHHC Block 22 NHA", "Poblacion Molo", "President Roxas", "Progreso-Lapuz", "Punong-Lapuz", "Quezon", "Quintin Salas", "Railway", "Rima-Rizal", "Rizal", "Rizal Estanzuela", "Rizal Ibarra", "Rizal Palapala I", "Rizal Palapala II", "Roxas Village", "Sambag", "Sampaguita", "San Agustin", "San Antonio", "San Felix", "San Isidro (Jaro)", "San Isidro (La Paz)", "San Jose (Jaro)", "San Jose (Arevalo)", "San Jose (City Proper)", "San Juan", "San Nicolas", "San Pedro (Molo)", "San Pedro (Jaro)", "San Rafael", "San Roque", "San Vicente", "Santa Cruz", "Santa Filomena", "Santa Rosa", "Santo Domingo", "Santo Niño Norte", "Santo Niño Sur", "Santo Rosario-Duran", "Seminario", "Simon Ledesma", "Sinikway", "So-oc", "South Baluarte", "South Fundidor", "South San Jose", "Taal", "Tabuc Suba (Jaro)", "Tabuc Suba (La Paz)", "Tabucan", "Tacas", "Tagbac", "Tanza-Esperanza", "Tap-oc", "Taytay Zone II", "Ticud", "Timawa Tanza I", "Timawa Tanza II", "Ungka", "Veterans Village", "Villa Anita", "West Habog-habog", "West Timawa", "Yulo Drive", "Yulo-Arroyo", "Zamora-Melliza"};
+    string PassiBrgys[] = {"Agdahon", "Agdayao", "Aglalana", "Agtabo", "Agtambo", "Alimono", "Arac", "Ayuyan", "Bacuranan", "Bagacay", "Batu", "Bayan", "Bitaogan", "Buenavista", "Buyo", "Cabunga", "Cadilang", "Cairohan", "Dalicanan", "Gegachac", "Gemat-y", "Gemumua-agahon", "Gines Viejo", "Imbang Grande", "Jaguimitan", "Libo-o", "Maasin", "Magdungao", "Malag-it Grande", "Malag-it Pequeño", "Mambiranan Grande", "Mambiranan Pequeño", "Man-it", "Mantulang", "Mulapula", "Nueva Union", "Pagaypay", "Pangi", "Poblacion Ilawod", "Poblacion Ilaya", "Punong", "Quinagaringan Grande", "Quinagaringan Pequeño", "Sablogon", "Salngan", "Santo Tomas", "Sarapan", "Tagubong", "Talongonan", "Tubod", "Tuburan"};
+    string IloiloProvMuni[] = {"Ajuy", "Alimodian", "Anilao", "Badiangan", "Balasan", "Banate", "Barotac Nuevo", "Barotac Viejo", "Batad", "Bingawan", "Cabatuan", "Calinog", "Carles", "Concepcion", "Dingle", "Dueñas", "Dumangas", "Estancia", "Guimbal", "Igbaras", "Janiuay", "Lambunao", "Leganes", "Lemery", "Leon", "Maasin", "Miagao", "Mina", "New Lucena", "Oton", "Pavia", "Pototan", "San Dionisio", "San Enrique", "San Joaquin", "San Miguel", "San Rafael", "Santa Barbara", "Sara", "Tigbauan", "Tubungan", "Zarraga"};
+    string BagoBrgys[] = {"Abuanan", "Alianza", "Atipuluan", "Bacong-Montilla", "Bagroy", "Balingasag", "Binubuhan", "Busay", "Calumangan", "Caridad", "Dulao", "Ilijan", "Jorge L. Araneta", "Lag-asan", "Ma-ao Barrio", "Mailum", "Malingin", "Napoles", "Pacol", "Poblacion", "Sagasa", "Sampinit", "Tabunan", "Taloc"};
+    string CadizBrgys[] = {"Andres Bonifacio", "Banquerohan", "Barangay 1 Poblacion", "Barangay 2 Poblacion", "Barangay 3 Poblacion", "Barangay 4 Poblacion", "Barangay 5 Poblacion", "Barangay 6 Poblacion", "Burgos", "Cabahug", "Cadiz Viejo", "Caduha-an", "Celestino Villacin", "Daga", "Jerusalem", "Luna", "Mabini", "Magsaysay", "Sicaba", "Tiglawigan", "Tinampa-an", "V. F. Gustilo"};
+    string EscalanteBrgys[] = {"Alimango", "Balintawak", "Binaguiohan", "Buenavista", "Cervantes", "Dian-ay", "Hacienda Fe", "Japitan", "Jonobjonob", "Langub", "Libertad", "Mabini", "Magsaysay", "Malasibog", "Old Poblacion", "Paitan", "Pinapugasan", "Rizal", "Tamlang", "Udtongan", "Washington"};
+    string HimamaylanBrgys[] = {"Aguisan", "Barangay I", "Barangay II", "Barangay III", "Barangay IV", "Buenavista", "Cabadiangan", "Cabanbanan", "Carabalan", "Caradio-an", "Libacao", "Mahalang", "Mambagaton", "Nabali-an", "San Antonio", "Sara-et", "Su-ay", "Talaban", "To-oy"};
+    string KabankalanBrgys[] = {"Bantayan", "Barangay 1", "Barangay 2", "Barangay 3", "Barangay 4", "Barangay 5", "Barangay 6", "Barangay 7", "Barangay 8", "Barangay 9", "Binicuil", "Camansi", "Camingawan", "Camugao", "Carol-an", "Daan Banua", "Hilamonan", "Inapoy", "Linao", "Locotan", "Magballo", "Oringao", "Orong", "Pinaguinpinan", "Salong", "Tabugon", "Tagoc", "Tagukon", "Talubangi", "Tampalon", "Tan-awan", "Tapi"};
+    string LaCarlotaBrgys[] = {"Ara-al", "Ayungon", "Balabag", "Barangay I", "Barangay II", "Barangay III", "Batuan", "Cubay", "Haguimit", "La Granja", "Nagasi", "Roberto S. Benedicto", "San Miguel", "Yubo"};
+    string SagayBrgys[] = {"Andres Bonifacio", "Bato", "Baviera", "Bulanon", "Campo Himoga-an", "Campo Santiago", "Colonia Divina", "Fabrica", "General Luna", "Himoga-an Baybay", "Lopez Jaena", "Makiling", "Malubon", "Molocaboc", "Old Sagay", "Paraiso", "Plaridel", "Poblacion I", "Poblacion II", "Puey", "Rafaela Barrera", "Rizal", "Taba-ao", "Tadlong", "Vito"};
+    string SanCarlosNegrosBrgys[] = {"Bagonbon", "Barangay I", "Barangay II", "Barangay III", "Barangay IV", "Barangay V", "Barangay VI", "Buluangan", "Codcod", "Ermita", "Guadalupe", "Nataban", "Palampas", "Prosperidad", "Punao", "Quezon", "Rizal", "San Juan"};
+    string SilayBrgys[] = {"Bagtic", "Balaring", "Barangay I", "Barangay II", "Barangay III", "Barangay IV", "Barangay V", "Barangay VI Poblacion", "Eustaquio Lopez", "Guimbala-on", "Guinhalaran", "Kapitan Ramon", "Lantad", "Mambulac", "Patag", "Rizal"};
+    string SipalayBrgys[] = {"Barangay 1", "Barangay 2", "Barangay 3", "Barangay 4", "Barangay 5", "Cabadiangan", "Camindangan", "Canturay", "Cartagena", "Cayhagan", "Gil Montilla", "Mambaroto", "Manlucahoc", "Maricalum", "Nabulao", "Nauhang", "San Jose"};
+    string TalisayBrgys[] = {"Bubog", "Cabatangan", "Concepcion", "Dos Hermanas", "Efigenio Lizares", "Katilingban", "Matab-ang", "San Fernando", "Zone 1", "Zone 10", "Zone 11", "Zone 12", "Zone 12-A", "Zone 14", "Zone 14-A", "Zone 14-B", "Zone 15", "Zone 16", "Zone 2", "Zone 3", "Zone 4", "Zone 4-A", "Zone 5", "Zone 6", "Zone 7", "Zone 8", "Zone 9"};
+    string VictoriasBrgys[] = {"Barangay I", "Barangay II", "Barangay III", "Barangay IV", "Barangay IX", "Barangay V", "Barangay VI", "Barangay VI-A", "Barangay VII", "Barangay VIII", "Barangay X", "Barangay XI", "Barangay XII", "Barangay XIII", "Barangay XIV", "Barangay XIX", "Barangay XIX-A", "Barangay XV", "Barangay XV-A", "Barangay XVI", "Barangay XVI-A", "Barangay XVII", "Barangay XVIII", "Barangay XVIII-A", "Barangay XX", "Barangay XXI"};
+    string BoholMuni[] = {"Alburquerque", "Alicia", "Anda", "Antequera", "Baclayon", "Balilihan", "Batuan", "Bien Unido", "Bilar", "Buenavista", "Calape", "Candijay", "Carmen", "Catigbian", "Clarin", "Corella", "Cortes", "Dagohoy", "Danao", "Dauis", "Dimiao", "Duero", "Garcia Hernandez", "Getafe", "Guindulman", "Inabanga", "Jagna", "Lila", "Loay", "Loboc", "Loon", "Mabini", "Maribojoc", "Panglao", "Pilar", "President Carlos P. Garcia", "Sagbayan", "San Isidro", "San Miguel", "Sevilla", "Sierra Bullones", "Sikatuna", "Talibon", "Trinidad", "Tubigon", "Ubay", "Valencia"};
 
     string greeting = "\nWELCOME TO THE GEOGRAPHICAL INFORMATION OF THE PHILIPPINES!";
     char choose;
@@ -7005,10 +7022,15 @@ int main () {
                         cin >> citybarangays;
 
                         if (citybarangays == 'Y' || citybarangays == 'y'){
-
-                        cout << "The city of blah blah \n";
-                        cout << "Information about city\n";
-                        cout << "Here are all the barangays in :\n";
+                        int barangayCount = sizeof(RoxasCityBrgys)/sizeof(RoxasCityBrgys[0]);
+                        cout << "Mayor: Ronnie T. Dadivas\n";
+                        cout << "The City of Roxas is a 3rd class component city and the capital of the Capiz Province. Due to the abundancy of seafood, it is known as the Seafood Capital of the Philippines. \n";
+                        cout << "The City of Roxas' ZIP code is 5800.\n";
+                        cout << "According to the 2020 census, its population is 179,292.\n";
+                        cout << "Here are all the barangays in Roxas:\n";
+                        for (int i = 0; i < barangayCount; ++i) {
+                            cout << i + 1 << ". " << RoxasCityBrgys[i] << "\n";
+                        }
                         }
 
                         }
@@ -7044,118 +7066,119 @@ int main () {
                                                         
                         switch (barangays){
                         case 1:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Cuartero.\n";
                         
                         
                         break;
                         }
 
                         case 2:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Dao.\n";
                         
                         
                         break;
                         }
 
                         case 3:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Dumalag.\n";
                         
                         
                         break;
                         }
 
                         case 4:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Dumarao.\n";
                         
                         
                         break;
                         }
 
                         case 5:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Ivisan.\n";
                         
                         
                         break;
                         }
 
                         case 6:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Jamindan.\n";
                         
                         
                         break;
                         }
 
                         case 7:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Maayon.\n";
                         
                         
                         break;
                         }
 
                         case 8:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Mambusao.\n";
                         
                         
                         break;
                         }
 
                         case 9:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Panay.\n";
                         
                         
                         break;
                         }
                                                 
                         case 10:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Panitan.\n";
                         
                         
                         break;
                         }
 
                         case 11:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Pilar.\n";
                         
                         
                         break;
                         }
 
                         case 12:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Pontevedra.\n";
                         
                         
                         break;
                         }
 
                         case 13:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of President Roxas.\n";
                         
                         
                         break;
                         }
 
                         case 14:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Sapian.\n";
                         
                         
                         break;
                         }
 
                         case 15:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Sigma.\n";
                         
                         
                         break;
                         }
 
                         case 16:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Tapaz.\n";
                         
                         
                         break;
                         }
                         
                         default:{
+                        cout << "There are only 16 municipalities in Capiz.\n";
                         break;
                         }
                         }
@@ -7189,41 +7212,42 @@ int main () {
                                                         
                         switch (barangays){
                         case 1:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Buenavista.\n";
                         
                         
                         break;
                         }
 
                         case 2:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Jordan.\n";
                         
                         
                         break;
                         }
 
                         case 3:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Nueva Valencia.\n";
                         
                         
                         break;
                         }
 
                         case 4:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of San Lorenzo.\n";
                         
                         
                         break;
                         }
 
                         case 5:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Sibunag.\n";
                         
                         
                         break;
                         }
 
                         default:{
+                        cout << "There are only 5 municipalities in Guimaras.\n";
                         break;
                         }
                         }
@@ -7241,7 +7265,7 @@ int main () {
                         char citybarangays;
                         cout << "Here are all the cities in Iloilo: " << endl;
                         cout << "1. Passi\n";
-                        cout << "2. Iloilo City - Highly Urbanized City\n";
+                        cout << "2. Iloilo City - Highly Urbanized City and the Capital of Iloilo and the Regional Center of Western Visayas.\n";
 
                         cout << "Would you like to find out more about the cities and the barangays within them? (Y/N): ";
                         cin >> citybarangays;
@@ -7254,18 +7278,30 @@ int main () {
 
                         switch (barangays){
                         case 1:{
-                        cout << "You have chosen the city of \n";
-                        cout << "Information about city\n";
-                        cout << "Here are all the barangays in : \n";
-                        cout << "1. ";
+                        int barangayCount = sizeof(PassiBrgys)/sizeof(PassiBrgys[0]);
+                        cout << "You have chosen the city of Passi\n";
+                        cout << "Mayor: Stephen A. Palmares\n";
+                        cout << "The City of Passi is a 4th class component city and is known as the Sweet City in the Heart of Panay due to its large pineapple plantations and fruit production. \n";
+                        cout << "The City of Passi's ZIP code is 5037.\n";
+                        cout << "According to the 2020 census, its total population is 88,873.\n";
+                        cout << "Here are all the barangays in Passi: \n";
+                        for (int i = 0; i < barangayCount; ++i) {
+                            cout << i + 1 << ". " << PassiBrgys[i] << "\n";
+                        }
                         break;
                         }
 
                         case 2:{
-                        cout << "You have chosen the city of \n";
-                        cout << "Information about city\n";
-                        cout << "Here are all the barangays in : \n";
-                        cout << "1. "; 
+                        int barangayCount = sizeof(IloiloCityBrgys)/sizeof(IloiloCityBrgys[0]);
+                        cout << "You have chosen the city of Iloilo\n";
+                        cout << "Mayor: Jerry Treñas\n";
+                        cout << "The City of Iloilo is a 1st class highly urbanized city and the capital of Iloilo. It is also the regional center of Western Visayas. It is well known for well-preserved historic sites and old churches like the Jaro Cathedral, Camiña Balay nga Bato, and the Dinagyang Festival. Iloilo is also considered as the Philippine's City of love.\n";
+                        cout << "The City of Iloilo's ZIP code is 5000.\n";
+                        cout << "According to the 2020 census, its total population is 457,626.\n";
+                        cout << "Here are all the barangays in Iloilo: \n";
+                        for (int i = 0; i < barangayCount; ++i) {
+                            cout << i + 1 << ". " << IloiloCityBrgys[i] << "\n";
+                        }
                         break;
                         }
 
@@ -7277,51 +7313,13 @@ int main () {
                         }
 
                         else if (cmb == 'M' || cmb == 'm'){
+                        int muniCount = sizeof(IloiloProvMuni)/sizeof(IloiloProvMuni[0]);
                         char municipal;
                         cout << "Here are all the municipalities in Iloilo: " << endl;
-                        cout << "1. Ajuy\n";
-                        cout << "2. Alimodian\n";
-                        cout << "3. Anilao\n";
-                        cout << "4. Badiangan\n";
-                        cout << "5. Balasan\n";
-                        cout << "6. Banate\n";
-                        cout << "7. Barotac Nuevo\n";
-                        cout << "8. Barotac Viejo\n";
-                        cout << "9. Batad\n";
-                        cout << "10. Bingawan\n";
-                        cout << "11. Cabatuan\n";
-                        cout << "12. Calinog\n";
-                        cout << "13. Carles\n";
-                        cout << "14. Concepcion\n";
-                        cout << "15. Dingle\n";
-                        cout << "16. Dueñas\n";
-                        cout << "17. Dumangas\n";
-                        cout << "18. Estancia\n";
-                        cout << "19. Guimbal\n";
-                        cout << "20. Igbaras\n";
-                        cout << "21. Janiuay\n";
-                        cout << "22. Lambunao\n";
-                        cout << "23. Leganes\n";
-                        cout << "24. Lemery\n";
-                        cout << "25. Leon\n";
-                        cout << "26. Maasin\n";
-                        cout << "27. Miagao\n";
-                        cout << "28. Mina\n";
-                        cout << "29. New Lucena\n";
-                        cout << "30. Oton\n";
-                        cout << "31. Pavia\n";
-                        cout << "32. Pototan\n";
-                        cout << "33. San Dionisio\n";
-                        cout << "34. San Enrique\n";
-                        cout << "35. San Joaquin\n";
-                        cout << "36. San Miguel\n";
-                        cout << "37. San Rafael\n";
-                        cout << "38. Santa Barbara\n";
-                        cout << "39. Sara\n";
-                        cout << "40. Tigbauan\n";
-                        cout << "41. Tubungan\n";
-                        cout << "42. Zarraga\n";
-
+                        for (int i = 0; i < muniCount; ++i) {
+                            cout << i + 1 << ". " << IloiloProvMuni[i] << "\n";
+                        }
+                        
                         cout << "Would you like to find out more about the municipalities? (Y/N): ";
                         cin >> municipal;
                                                     
@@ -7333,300 +7331,301 @@ int main () {
                                                         
                         switch (barangays){
                         case 1:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Ajuy.\n";
                         
                         
                         break;
                         }
 
                         case 2:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Alimodian.\n";
                         
                         
                         break;
                         }
 
                         case 3:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Anilao.\n";
                         
                         
                         break;
                         }
 
                         case 4:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Badiangan.\n";
                         
                         
                         break;
                         }
 
                         case 5:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Balasan.\n";
                         
                         
                         break;
                         }
 
                         case 6:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Banate.\n";
                         
                         
                         break;
                         }
 
                         case 7:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Barotac Nuevo.\n";
                         
                         
                         break;
                         }
 
                         case 8:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Barotac Viejo.\n";
                         
                         
                         break;
                         }
 
                         case 9:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Batad.\n";
                         
                         
                         break;
                         }
                                                 
                         case 10:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Bingawan.\n";
                         
                         
                         break;
                         }
 
                         case 11:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Cabatuan.\n";
                         
                         
                         break;
                         }
 
                         case 12:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Calinog.\n";
                         
                         
                         break;
                         }
 
                         case 13:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Carles.\n";
                         
                         
                         break;
                         }
 
                         case 14:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Concepcion.\n";
                         
                         
                         break;
                         }
 
                         case 15:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Dingle.\n";
                         
                         
                         break;
                         }
 
                         case 16:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Dueñas.\n";
                         
                         
                         break;
                         }
 
                         case 17:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Dumangas.\n";
                         
                         
                         break;
                         }
 
                         case 18:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Estancia.\n";
                         
                         
                         break;
                         }
 
                         case 19:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Guimbal.\n";
                         
                         
                         break;
                         }
 
                         case 20:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Igbaras.\n";
                         
                         
                         break;
                         }
 
                         case 21:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Janiuay.\n";
                         
                         
                         break;
                         }
 
                         case 22:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Lambunao.\n";
                         
                         
                         break;
                         }
 
                         case 23:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Leganes.\n";
                         
                         
                         break;
                         }
 
                         case 24:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Lemery.\n";
                         
                         
                         break;
                         }
 
                         case 25:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Leon.\n";
                         
                         
                         break;
                         }
 
                         case 26:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Maasin.\n";
                         
                         
                         break;
                         }
 
                         case 27:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Miagao.\n";
                         
                         
                         break;
                         }
 
                         case 28:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Mina.\n";
                         
                         
                         break;
                         }
 
                         case 29:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of New Lucena.\n";
                         
                         
                         break;
                         }
 
                         case 30:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Oton.\n";
                         
                         
                         break;
                         }
 
                         case 31:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Pavia.\n";
                         
                         
                         break;
                         }
 
                         case 32:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Pototan.\n";
                         
                         
                         break;
                         }
 
                         case 33:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of San Dionisio.\n";
                         
                         
                         break;
                         }
 
                         case 34:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of San Enrique.\n";
                         
                         
                         break;
                         }
 
                         case 35:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of San Joaquin.\n";
                         
                         
                         break;
                         }
 
                         case 36:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of San Miguel.\n";
                         
                         
                         break;
                         }
 
                         case 37:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of San Rafael.\n";
                         
                         
                         break;
                         }
 
                         case 38:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Santa Barbara.\n";
                         
                         
                         break;
                         }
 
                         case 39:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Sara.\n";
                         
                         
                         break;
                         }
 
                         case 40:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Tigbauan.\n";
                         
                         
                         break;
                         }
 
                         case 41:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Tubungan.\n";
                         
                         
                         break;
                         }
 
                         case 42:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Zarraga.\n";
                         
                         
                         break;
                         }
 
                         default:{
+                        cout << "There are only 42 municipalities in Iloilo.\n";
                         break;
                         }
                         }
@@ -7667,98 +7666,170 @@ int main () {
 
                         switch (barangays){
                         case 1:{
-                        cout << "You have chosen the city of \n";
+                        int barangayCount = sizeof(BagoBrgys)/sizeof(BagoBrgys[0]);
+                        cout << "You have chosen the city of Bago.\n";
                         cout << "Information about city\n";
-                        cout << "Here are all the barangays in : \n";
-                        cout << "1. ";
+                        cout << "The City of Bago is a 2nd class component city. It is known as the Home of Historical and Natural Treasures, owing to its contribution in the colorful history of Negros Occidental. With its abundance in flora and fauna, it provides a beautiful scenery.\n";
+                        cout << "The City of Bago's ZIP code is 6101.\n";
+                        cout << "According to the 2020 census, its total population is 191,210.\n";
+                        cout << "Here are all the barangays in Bago: \n";
+                        for (int i = 0; i < barangayCount; ++i) {
+                            cout << i + 1 << ". " << BagoBrgys[i] << "\n";
+                        }
                         break;
                         }
 
                         case 2:{
-                        cout << "You have chosen the city of \n";
-                        cout << "Information about city\n";
-                        cout << "Here are all the barangays in : \n";
-                        cout << "1. ";
+                        int barangayCount = sizeof(CadizBrgys)/sizeof(CadizBrgys[0]);
+                        cout << "You have chosen the city of Cadiz.\n";
+                        cout << "Mayor: Salvador G. Escalante Jr.\n";
+                        cout << "The City of Cadiz is a 2nd class component city. Cadiz is rich in natural resources and considered as one of the few fishing centers of Negros Occidental. It is envisioned to be the seafood center of Negros.\n";
+                        cout << "The City of Cadiz' ZIP code is 6121.\n";
+                        cout << "According to the 2020 census, its total population is 158,544.\n";
+                        cout << "Here are all the barangays in Cadiz: \n";
+                        for (int i = 0; i < barangayCount; ++i) {
+                            cout << i + 1 << ". " << CadizBrgys[i] << "\n";
+                        }
                         break;
                         }
 
                         case 3:{
-                        cout << "You have chosen the city of \n";
-                        cout << "Information about city\n";
-                        cout << "Here are all the barangays in : \n";
-                        cout << "1. ";
+                        int barangayCount = sizeof(EscalanteBrgys)/sizeof(EscalanteBrgys[0]);
+                        cout << "You have chosen the city of Escalante.\n";
+                        cout << "Mayor: Melecio J. Yap Jr.\n";
+                        cout << "The City of Escalante is a 4th class component city. Escalante is known for its coastal environment, local delicary like the Panyam, and very cheerful individuals.\n";
+                        cout << "The City of Escalante's ZIP code is 6124.\n";
+                        cout << "According to the 2020 census, its total population is 96,159.\n";
+                        cout << "Here are all the barangays in Escalante: \n";
+                        for (int i = 0; i < barangayCount; ++i) {
+                            cout << i + 1 << ". " << EscalanteBrgys[i] << "\n";
+                        }
                         break;
                         }
 
                         case 4:{
-                        cout << "You have chosen the city of \n";
-                        cout << "Information about city\n";
-                        cout << "Here are all the barangays in : \n";
-                        cout << "1. ";
+                        int barangayCount = sizeof(HimamaylanBrgys)/sizeof(HimamaylanBrgys[0]);
+                        cout << "You have chosen the city of Himamaylan.\n";
+                        cout << "Mayor: Rogelio Raymund I. Tongson\n";
+                        cout << "The City of Himamaylan is a 3rd class component city. It served as a garrison for Spanish forces back in 1795. It also houses many natural attractions including waterfalls, caves, and springs.\n";
+                        cout << "The City of Himamaylan's ZIP code is 6108.\n";
+                        cout << "According to the 2020 census, its total population is 116,240.\n";
+                        cout << "Here are all the barangays in Himamaylan: \n";
+                        for (int i = 0; i < barangayCount; ++i) {
+                            cout << i + 1 << ". " << HimamaylanBrgys[i] << "\n";
+                        }
                         break;
                         }
 
                         case 5:{
-                        cout << "You have chosen the city of \n";
-                        cout << "Information about city\n";
-                        cout << "Here are all the barangays in : \n";
-                        cout << "1. ";
+                        int barangayCount = sizeof(KabankalanBrgys)/sizeof(KabankalanBrgys[0]);
+                        cout << "You have chosen the city of Kabankalan.\n";
+                        cout << "Mayor: Benjie M. Miranda\n";
+                        cout << "The City of Kabankalan is a 1st class component city. It is the largest city in the Negros Occidental Province. It is one of the most competitive, most bankable, cleanest, and most livable city in the island of Negros. Kabankalan is where you would also find the Central Philippines State University.\n";
+                        cout << "The City of Kabankalan's ZIP code is 6111\n";
+                        cout << "According to the 2020 census, its total population is 200,198. However, according to the 2024 census, its total is now 323,108.\n";
+                        cout << "Here are all the barangays in Kabankalan: \n";
+                        for (int i = 0; i < barangayCount; ++i) {
+                            cout << i + 1 << ". " << KabankalanBrgys[i] << "\n";
+                        }
                         break;
                         }
 
                         case 6:{
-                        cout << "You have chosen the city of \n";
-                        cout << "Information about city\n";
-                        cout << "Here are all the barangays in : \n";
-                        cout << "1. ";
+                        int barangayCount = sizeof(LaCarlotaBrgys)/sizeof(LaCarlotaBrgys[0]);
+                        cout << "You have chosen the city of La Carlota.\n";
+                        cout << "Mayor: Rex R. Jalandoon\n";
+                        cout << "The City of La Carlota is a 4th class component city. It is known as The Drum Beating of Beauty and Dance because of its vibrant festivals. La Carlota is also one of the major sugar-producing cities in the Philippines.\n";
+                        cout << "The City of La Carlota's ZIP code is 6130.\n";
+                        cout << "According to the 2020 census, its total population is 66,664.\n";
+                        cout << "Here are all the barangays in La Carlota: \n";
+                        for (int i = 0; i < barangayCount; ++i) {
+                            cout << i + 1 << ". " << LaCarlotaBrgys[i] << "\n";
+                        }
                         break;
                         }
 
                         case 7:{
-                        cout << "You have chosen the city of \n";
-                        cout << "Information about city\n";
-                        cout << "Here are all the barangays in : \n";
-                        cout << "1. ";
+                        int barangayCount = sizeof(SagayBrgys)/sizeof(SagayBrgys[0]);
+                        cout << "You have chosen the city of Sagay.\n";
+                        cout << "Mayor: Narciso L. Javelola Jr.\n";
+                        cout << "The City of Sagay is a 2nd class component city. It is famous for its lucrative fishing industry and their marine ecosystem. The City Garden and the Living Tree Museum is also situated in Sagay.\n";
+                        cout << "The City of Sagay's ZIP code is 6122, 6123(Paraiso/Fabrica)\n";
+                        cout << "According to the 2020 census, its total population is 148,894.\n";
+                        cout << "Here are all the barangays in Sagay: \n";
+                        for (int i = 0; i < barangayCount; ++i) {
+                            cout << i + 1 << ". " << SagayBrgys[i] << "\n";
+                        }
                         break;
                         }
 
                         case 8:{
-                        cout << "You have chosen the city of \n";
-                        cout << "Information about city\n";
-                        cout << "Here are all the barangays in : \n";
-                        cout << "1. ";
+                        int barangayCount = sizeof(SanCarlosNegrosBrgys)/sizeof(SanCarlosNegrosBrgys[0]);
+                        cout << "You have chosen the city of San Carlos.\n";
+                        cout << "Mayor: Renato Y. Gustilo\n";
+                        cout << "The City of San Carlos is a 2nd class component city. Known for its large amount of sugarcane production. \n";
+                        cout << "The City of San Carlos' ZIP code is 6127.\n";
+                        cout << "According to the 2020 census, its total population is 132,650.\n";
+                        cout << "Here are all the barangays in San Carlos: \n";
+                        for (int i = 0; i < barangayCount; ++i) {
+                            cout << i + 1 << ". " << SanCarlosNegrosBrgys[i] << "\n";
+                        }
                         break;
                         }
 
                         case 9:{
-                        cout << "You have chosen the city of \n";
-                        cout << "Information about city\n";
-                        cout << "Here are all the barangays in : \n";
-                        cout << "1. ";
+                        int barangayCount = sizeof(SilayBrgys)/sizeof(SilayBrgys[0]);
+                        cout << "You have chosen the city of Silay.\n";
+                        cout << "Mayor: Joedith C. Gallego\n";
+                        cout << "The City of Silay is a 3rd class component city. It is known as the Paris of Negros and the Cultrual and Intellectual Hub of Negros because the residents love for knowledge and works of art.\n";
+                        cout << "The City of Silay's ZIP code is 6116, 6117\n";
+                        cout << "According to the 2020 census, its total population is 130,478.\n";
+                        cout << "Here are all the barangays in Silay: \n";
+                        for (int i = 0; i < barangayCount; ++i) {
+                            cout << i + 1 << ". " << SilayBrgys[i] << "\n";
+                        }
                         break;
                         }
 
                         case 10:{
-                        cout << "You have chosen the city of \n";
-                        cout << "Information about city\n";
-                        cout << "Here are all the barangays in : \n";
-                        cout << "1. ";
+                        int barangayCount = sizeof(SipalayBrgys)/sizeof(SipalayBrgys[0]);
+                        cout << "You have chosen the city of Sipalay.\n";
+                        cout << "Mayor: Maria Gina M. Lizares\n";
+                        cout << "The City of Sipalay is a 4th class component city. It is the top tourist destination in Negros Occidental. It is famous for its natural , untouched, beautiful, and pristine beaches. It is dubbed as the uncommercialized New Boracay of Negros.\n";
+                        cout << "The City of Sipalay's ZIP code is 6113.\n";
+                        cout << "According to the 2020 census, its total population is 72,448.\n";
+                        cout << "Here are all the barangays in Sipalay: \n";
+                        for (int i = 0; i < barangayCount; ++i) {
+                            cout << i + 1 << ". " << SipalayBrgys[i] << "\n";
+                        }
                         break;
                         }
 
                         case 11:{
-                        cout << "You have chosen the city of \n";
-                        cout << "Information about city\n";
-                        cout << "Here are all the barangays in : \n";
-                        cout << "1. ";
+                        int barangayCount = sizeof(TalisayBrgys)/sizeof(TalisayBrgys[0]);
+                        cout << "You have chosen the city of Talisay.\n";
+                        cout << "Mayor: Nilo Jesus Antonio E. Lizares III\n";
+                        cout << "The City of Talisay is a 4th class component city. Talisay is known as a monocrop farm for sugarcane. Haciendas were created for large hectares of sugarcanes.\n";
+                        cout << "The City of Talisay's ZIP code is 6115.\n";
+                        cout << "According to the 2020 census, its total population is 108,909.\n";
+                        cout << "Here are all the barangays in Talisay: \n";
+                        for (int i = 0; i < barangayCount; ++i) {
+                            cout << i + 1 << ". " << TalisayBrgys[i] << "\n";
+                        }
                         break;
                         }
 
                         case 12:{
-                        cout << "You have chosen the city of \n";
-                        cout << "Information about city\n";
-                        cout << "Here are all the barangays in : \n";
-                        cout << "1. ";
+                        int barangayCount = sizeof(VictoriasBrgys)/sizeof(VictoriasBrgys[0]);
+                        cout << "You have chosen the city of Victorias\n";
+                        cout << "Mayor: Javier Miguel L. Benitez\n";
+                        cout << "The City of Victorias is a 4th class component city. It is home to the largest sugarmill and refinery in South East Asia. It is also the center of Agri-Eco Tourism in Northern Negros.\n";
+                        cout << "The City of Victorias' ZIP code is 6119.\n";
+                        cout << "According to the 2020 census, its total population is 90,101.\n";
+                        cout << "Here are all the barangays in Victorias: \n";
+                        for (int i = 0; i < barangayCount; ++i) {
+                            cout << i + 1 << ". " << VictoriasBrgys[i] << "\n";
+                        }
                         break;
                         }
 
@@ -7803,139 +7874,140 @@ int main () {
                                                         
                         switch (barangays){
                         case 1:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Binalbagan.\n";
                         
                         
                         break;
                         }
 
                         case 2:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Calatrava.\n";
                         
                         
                         break;
                         }
 
                         case 3:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Candoni.\n";
                         
                         
                         break;
                         }
 
                         case 4:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Cauayan.\n";
                         
                         
                         break;
                         }
 
                         case 5:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Enrique B. Magalona.\n";
                         
                         
                         break;
                         }
 
                         case 6:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Hinigaran.\n";
                         
                         
                         break;
                         }
 
                         case 7:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Hinoba-an.\n";
                         
                         
                         break;
                         }
 
                         case 8:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Ilog.\n";
                         
                         
                         break;
                         }
 
                         case 9:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Isabela.\n";
                         
                         
                         break;
                         }
                                                 
                         case 10:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of La Castellana.\n";
                         
                         
                         break;
                         }
 
                         case 11:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Manapla.\n";
                         
                         
                         break;
                         }
 
                         case 12:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Moises Padilla.\n";
                         
                         
                         break;
                         }
 
                         case 13:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Murcia.\n";
                         
                         
                         break;
                         }
 
                         case 14:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Pontevedra.\n";
                         
                         
                         break;
                         }
 
                         case 15:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Pulupandan.\n";
                         
                         
                         break;
                         }
 
                         case 16:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Salvador Benedicto.\n";
                         
                         
                         break;
                         }
 
                         case 17:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of San Enrique.\n";
                         
                         
                         break;
                         }
 
                         case 18:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Toboso.\n";
                         
                         
                         break;
                         }
 
                         case 19:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Valladolid.\n";
                         
                         
                         break;
                         }
 
                         default:{
+                        cout << "There are only 19 municipalities in Negros Occidental.\n";
                         break;
                         }
                         }
@@ -7993,55 +8065,12 @@ int main () {
                         }
 
                         else if (cmb == 'M' || cmb == 'm'){
+                        int muniCount = sizeof(BoholMuni)/sizeof(BoholMuni[0]);
                         char municipal;
                         cout << "Here are all the municipalities in Bohol: " << endl;
-                        cout << "1. Alburquerque\n";
-                        cout << "2. Alicia\n";
-                        cout << "3. Anda\n";
-                        cout << "4. Antequera\n";
-                        cout << "5. Baclayon\n";
-                        cout << "6. Balilihan\n";
-                        cout << "7. Batuan\n";
-                        cout << "8. Bien Unido\n";
-                        cout << "9. Bilar\n";
-                        cout << "10. Buenavista\n";
-                        cout << "11. Calape\n";
-                        cout << "12. Candijay\n";
-                        cout << "13. Carmen\n";
-                        cout << "14. Catigbian\n";
-                        cout << "15. Clarin\n";
-                        cout << "16. Corella\n";
-                        cout << "17. Cortes\n";
-                        cout << "18. Dagohoy\n";
-                        cout << "19. Danao\n";
-                        cout << "20. Dauis\n";
-                        cout << "21. Dimiao\n";
-                        cout << "22. Duero\n";
-                        cout << "23. Garcia Hernandez\n";
-                        cout << "24. Getafe\n";
-                        cout << "25. Guindulman\n";
-                        cout << "26. Inabanga\n";
-                        cout << "27. Jagna\n";
-                        cout << "28. Lila\n";
-                        cout << "29. Loay\n";
-                        cout << "30. Loboc\n";
-                        cout << "31. Loon\n";
-                        cout << "32. Mabini\n";
-                        cout << "33. Maribojoc\n";
-                        cout << "34. Panglao\n";
-                        cout << "35. Pilar\n";
-                        cout << "36. President Carlos P. Garcia\n";
-                        cout << "37. Sagbayan\n";
-                        cout << "38. San Isidro\n";
-                        cout << "39. San Miguel\n";
-                        cout << "40. Sevilla\n";
-                        cout << "41. Sierra Bullones\n";
-                        cout << "42. Sikatuna\n";
-                        cout << "43. Talibon\n";
-                        cout << "44. Trinidad\n";
-                        cout << "45. Tubigon\n";
-                        cout << "46. Ubay\n";
-                        cout << "47. Valencia\n";
+                        for (int i = 0; i < muniCount; ++i) {
+                            cout << i + 1 << ". " << BoholMuni[i] << "\n";
+                        }
 
                         cout << "Would you like to find out more about the municipalities? (Y/N): ";
                         cin >> municipal;
@@ -8054,335 +8083,242 @@ int main () {
                                                         
                         switch (barangays){
                         case 1:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
+                        cout << "You have chosen the municipality of Alburquerque\n";
                         break;
                         }
 
                         case 2:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Alicia\n";
+                            break;
                         }
 
                         case 3:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Anda\n";
+                            break;
                         }
 
                         case 4:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Antequera\n";
+                            break;
                         }
 
                         case 5:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Baclayon\n";
+                            break;
                         }
 
                         case 6:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Balilihan\n";
+                            break;
                         }
 
                         case 7:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Batuan\n";
+                            break;
                         }
 
                         case 8:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Bien Unido\n";
+                            break;
                         }
 
                         case 9:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Bilar\n";
+                            break;
                         }
-                                                
+
                         case 10:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Buenavista\n";
+                            break;
                         }
 
                         case 11:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Calape\n";
+                            break;
                         }
 
                         case 12:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Candijay\n";
+                            break;
                         }
 
                         case 13:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Carmen\n";
+                            break;
                         }
 
                         case 14:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Catigbian\n";
+                            break;
                         }
 
                         case 15:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Clarin\n";
+                            break;
                         }
 
                         case 16:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Corella\n";
+                            break;
                         }
 
                         case 17:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Cortes\n";
+                            break;
                         }
 
                         case 18:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Dagohoy\n";
+                            break;
                         }
 
                         case 19:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Danao\n";
+                            break;
                         }
 
                         case 20:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Dauis\n";
+                            break;
                         }
 
                         case 21:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Dimiao\n";
+                            break;
                         }
 
                         case 22:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Duero\n";
+                            break;
                         }
 
                         case 23:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Garcia Hernandez\n";
+                            break;
                         }
 
                         case 24:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Getafe\n";
+                            break;
                         }
 
                         case 25:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Guindulman\n";
+                            break;
                         }
 
                         case 26:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Inabanga\n";
+                            break;
                         }
 
                         case 27:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Jagna\n";
+                            break;
                         }
 
                         case 28:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Lila\n";
+                            break;
                         }
 
                         case 29:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Loay\n";
+                            break;
                         }
 
                         case 30:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Loboc\n";
+                            break;
                         }
 
                         case 31:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Loon\n";
+                            break;
                         }
 
                         case 32:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Mabini\n";
+                            break;
                         }
 
                         case 33:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Maribojoc\n";
+                            break;
                         }
 
                         case 34:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Panglao\n";
+                            break;
                         }
 
                         case 35:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Pilar\n";
+                            break;
                         }
 
                         case 36:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of President Carlos P. Garcia\n";
+                            break;
                         }
 
                         case 37:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Sagbayan\n";
+                            break;
                         }
 
                         case 38:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of San Isidro\n";
+                            break;
                         }
 
                         case 39:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of San Miguel\n";
+                            break;
                         }
 
                         case 40:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Sevilla\n";
+                            break;
                         }
 
                         case 41:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Sierra Bullones\n";
+                            break;
                         }
 
                         case 42:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Sikatuna\n";
+                            break;
                         }
 
                         case 43:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Talibon\n";
+                            break;
                         }
 
                         case 44:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Trinidad\n";
+                            break;
                         }
 
                         case 45:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Tubigon\n";
+                            break;
                         }
 
                         case 46:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Ubay\n";
+                            break;
                         }
 
                         case 47:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                            cout << "You have chosen the municipality of Valencia\n";
+                            break;
                         }
 
                         default:{
+                            cout << "There are only 47 municipalities in Valencia.\n";
                         break;
                         }
                         }
