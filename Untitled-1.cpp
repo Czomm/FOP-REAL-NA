@@ -4,7 +4,7 @@
 using namespace std;
 
 int main () {
-    string caloocanBarangays[] = {"Barangay 1", "Barangay 10", "Barangay 100", "Barangay 101", "Barangay 102","Barangay 103", "Barangay 104", "Barangay 105", "Barangay 106", "Barangay 107","Barangay 108", "Barangay 109", "Barangay 110", "Barangay 111", "Barangay 112","Barangay 113", "Barangay 114", "Barangay 115", "Barangay 116", "Barangay 117","Barangay 118", "Barangay 119", "Barangay 12", "Barangay 120", "Barangay 121","Barangay 122", "Barangay 123", "Barangay 124", "Barangay 125", "Barangay 126","Barangay 127", "Barangay 128", "Barangay 129", "Barangay 13", "Barangay 130","Barangay 131", "Barangay 132", "Barangay 133", "Barangay 134", "Barangay 135","Barangay 136", "Barangay 137", "Barangay 138", "Barangay 139", "Barangay 14","Barangay 140", "Barangay 141", "Barangay 142", "Barangay 143", "Barangay 144","Barangay 145", "Barangay 146", "Barangay 147", "Barangay 148", "Barangay 149","Barangay 15", "Barangay 150", "Barangay 151", "Barangay 152", "Barangay 153","Barangay 154", "Barangay 155", "Barangay 156", "Barangay 157", "Barangay 158","Barangay 159", "Barangay 16", "Barangay 161", "Barangay 162", "Barangay 163","Barangay 164", "Barangay 165", "Barangay 166", "Barangay 167", "Barangay 168","Barangay 169", "Barangay 17", "Barangay 170", "Barangay 171", "Barangay 172","Barangay 173", "Barangay 174", "Barangay 175", "Barangay 176", "Barangay 177","Barangay 178", "Barangay 179", "Barangay 18", "Barangay 180", "Barangay 181","Barangay 182", "Barangay 183", "Barangay 184", "Barangay 185", "Barangay 186","Barangay 187", "Barangay 188", "Barangay 19", "Barangay 2", "Barangay 20","Barangay 21", "Barangay 22", "Barangay 23", "Barangay 24", "Barangay 25","Barangay 26", "Barangay 27", "Barangay 28", "Barangay 29", "Barangay 3","Barangay 30", "Barangay 31", "Barangay 32", "Barangay 33", "Barangay 34","Barangay 35", "Barangay 36", "Barangay 37", "Barangay 38", "Barangay 39","Barangay 4", "Barangay 40", "Barangay 41", "Barangay 42", "Barangay 43","Barangay 44", "Barangay 45", "Barangay 46", "Barangay 47", "Barangay 48","Barangay 49", "Barangay 5", "Barangay 50", "Barangay 51", "Barangay 52","Barangay 53", "Barangay 54", "Barangay 55", "Barangay 56", "Barangay 57","Barangay 58", "Barangay 59", "Barangay 6", "Barangay 60", "Barangay 61","Barangay 62", "Barangay 63", "Barangay 64", "Barangay 65", "Barangay 66","Barangay 67", "Barangay 68", "Barangay 69", "Barangay 7", "Barangay 70","Barangay 71", "Barangay 72", "Barangay 73", "Barangay 74", "Barangay 75","Barangay 76", "Barangay 77", "Barangay 78", "Barangay 79", "Barangay 8","Barangay 80", "Barangay 81", "Barangay 82", "Barangay 83", "Barangay 84","Barangay 85", "Barangay 86", "Barangay 87", "Barangay 88", "Barangay 89","Barangay 9", "Barangay 90", "Barangay 91", "Barangay 92", "Barangay 93","Barangay 94", "Barangay 95", "Barangay 96", "Barangay 97", "Barangay 98","Barangay 99","Barangay 11"};
+    string CaloocanBrgys[] = {"Barangay 1", "Barangay 10", "Barangay 100", "Barangay 101", "Barangay 102","Barangay 103", "Barangay 104", "Barangay 105", "Barangay 106", "Barangay 107","Barangay 108", "Barangay 109", "Barangay 110", "Barangay 111", "Barangay 112","Barangay 113", "Barangay 114", "Barangay 115", "Barangay 116", "Barangay 117","Barangay 118", "Barangay 119", "Barangay 12", "Barangay 120", "Barangay 121","Barangay 122", "Barangay 123", "Barangay 124", "Barangay 125", "Barangay 126","Barangay 127", "Barangay 128", "Barangay 129", "Barangay 13", "Barangay 130","Barangay 131", "Barangay 132", "Barangay 133", "Barangay 134", "Barangay 135","Barangay 136", "Barangay 137", "Barangay 138", "Barangay 139", "Barangay 14","Barangay 140", "Barangay 141", "Barangay 142", "Barangay 143", "Barangay 144","Barangay 145", "Barangay 146", "Barangay 147", "Barangay 148", "Barangay 149","Barangay 15", "Barangay 150", "Barangay 151", "Barangay 152", "Barangay 153","Barangay 154", "Barangay 155", "Barangay 156", "Barangay 157", "Barangay 158","Barangay 159", "Barangay 16", "Barangay 161", "Barangay 162", "Barangay 163","Barangay 164", "Barangay 165", "Barangay 166", "Barangay 167", "Barangay 168","Barangay 169", "Barangay 17", "Barangay 170", "Barangay 171", "Barangay 172","Barangay 173", "Barangay 174", "Barangay 175", "Barangay 176", "Barangay 177","Barangay 178", "Barangay 179", "Barangay 18", "Barangay 180", "Barangay 181","Barangay 182", "Barangay 183", "Barangay 184", "Barangay 185", "Barangay 186","Barangay 187", "Barangay 188", "Barangay 19", "Barangay 2", "Barangay 20","Barangay 21", "Barangay 22", "Barangay 23", "Barangay 24", "Barangay 25","Barangay 26", "Barangay 27", "Barangay 28", "Barangay 29", "Barangay 3","Barangay 30", "Barangay 31", "Barangay 32", "Barangay 33", "Barangay 34","Barangay 35", "Barangay 36", "Barangay 37", "Barangay 38", "Barangay 39","Barangay 4", "Barangay 40", "Barangay 41", "Barangay 42", "Barangay 43","Barangay 44", "Barangay 45", "Barangay 46", "Barangay 47", "Barangay 48","Barangay 49", "Barangay 5", "Barangay 50", "Barangay 51", "Barangay 52","Barangay 53", "Barangay 54", "Barangay 55", "Barangay 56", "Barangay 57","Barangay 58", "Barangay 59", "Barangay 6", "Barangay 60", "Barangay 61","Barangay 62", "Barangay 63", "Barangay 64", "Barangay 65", "Barangay 66","Barangay 67", "Barangay 68", "Barangay 69", "Barangay 7", "Barangay 70","Barangay 71", "Barangay 72", "Barangay 73", "Barangay 74", "Barangay 75","Barangay 76", "Barangay 77", "Barangay 78", "Barangay 79", "Barangay 8","Barangay 80", "Barangay 81", "Barangay 82", "Barangay 83", "Barangay 84","Barangay 85", "Barangay 86", "Barangay 87", "Barangay 88", "Barangay 89","Barangay 9", "Barangay 90", "Barangay 91", "Barangay 92", "Barangay 93","Barangay 94", "Barangay 95", "Barangay 96", "Barangay 97", "Barangay 98","Barangay 99","Barangay 11"};
     string LaoagBrgys[] = { "Barangay No. 1, San Lorenzo","Barangay No. 10, San Jose","Barangay No. 11, Santa Balbina","Barangay No. 12, San Isidro","Barangay No. 13, Nuestra Señora de Visitacion","Barangay No. 14, Santo Tomas","Barangay No. 15, San Guillermo","Barangay No. 16, San Jacinto","Barangay No. 17, San Francisco","Barangay No. 18, San Quirino","Barangay No. 19, Santa Marcela","Barangay No. 2, Santa Joaquina","Barangay No. 20, San Miguel","Barangay No. 21, San Pedro","Barangay No. 22, San Andres","Barangay No. 23, San Matias","Barangay No. 24, Nuestra Señora de Consolacion","Barangay No. 25, Santa Cayetana","Barangay No. 26, San Marcelino","Barangay No. 27, Nuestra Señora de Soledad","Barangay No. 28, San Bernardo","Barangay No. 29, Santo Tomas","Barangay No. 3, Nuestra Señora del Rosario","Barangay No. 30-A, Suyo","Barangay No. 30-B, Santa Maria","Barangay No. 31, Talingaan","Barangay No. 32-A, La Paz East","Barangay No. 32-B, La Paz West","Barangay No. 32-C La Paz East","Barangay No. 33-A, La Paz Proper","Barangay No. 33-B, La Paz Proper","Barangay No. 34-A, Gabu Norte West","Barangay No. 34-B, Gabu Norte East","Barangay No. 35, Gabu Sur","Barangay No. 36, Araniw","Barangay No. 37, Calayab","Barangay No. 38-A, Mangato East","Barangay No. 38-B, Mangato West","Barangay No. 39, Santa Rosa","Barangay No. 4, San Guillermo","Barangay No. 40, Balatong","Barangay No. 41, Balacad","Barangay No. 42, Apaya","Barangay No. 43, Cavit","Barangay No. 44, Zamboanga","Barangay No. 45, Tangid","Barangay No. 46, Nalbo","Barangay No. 47, Bengcag","Barangay No. 48-A, Cabungaan North","Barangay No. 48-B, Cabungaan South","Barangay No. 49-A, Darayday","Barangay No. 49-B, Raraburan","Barangay No. 5, San Pedro","Barangay No. 50, Buttong","Barangay No. 51-A, Nangalisan East","Barangay No. 51-B, Nangalisan West","Barangay No. 52-A, San Mateo","Barangay No. 52-B, Lataag","Barangay No. 53, Rioeng","Barangay No. 54-A, Lagui-Sail","Barangay No. 54-B, Camangaan","Barangay No. 55-A, Barit-Pandan","Barangay No. 55-B, Salet-Bulangon","Barangay No. 55-C, Vira","Barangay No. 56-A, Bacsil North","Barangay No. 56-B, Bacsil South","Barangay No. 57, Pila","Barangay No. 58, Casili","Barangay No. 59-A, Dibua South","Barangay No. 59-B, Dibua North","Barangay No. 6, San Agustin","Barangay No. 60-A, Caaoacan","Barangay No. 60-B, Madiladig","Barangay No. 61, Cataban","Barangay No. 62-A, Navotas North","Barangay No. 62-B, Navotas South","Barangay No. 7-A, Nuestra Señora de Natividad","Barangay No. 7-B, Nuestra Señora de Natividad", "Barangay No. 8, San Vicente", "Barangay No. 9, Santa Angela"};
     string BatacBrgys[] = {"Ablan Poblacion","Acosta Poblacion","Aglipay","Baay","Baligat","Baoa East","Baoa West","Barani","Ben-agan","Bil-loca","Biningan","Bungon","Callaguip","Camandingan","Camguidan","Cangrunaan","Capacuan","Caunayan","Colo","Dariwdiw","Lacub","Mabaleng","Magnuang","Maipalig","Nagbacalan","Naguirangan","Palongpong","Palpalicong","Parangopong","Payao","Pimentel","Quiling Norte","Quiling Sur","Quiom","Rayuray","Ricarte Poblacion","San Julian","San Mateo","San Pedro","Suabit","Sumader","Tabug","Valdez Poblacion"};
     string IlocosNorMuni[]{"Adams","Bacarra","Badoc","Bangui","Banna","Burgos","Carasi","Currimao","Dingras","Dumalneg","Marcos","Nueva Era","Pagudpud","Paoay","Pasuquin","Piddig","Pinili","San Nicolas","Sarrat","Solsona","Vintar"};
@@ -67,6 +67,7 @@ int main () {
     string MasbateCityBrgys[] = {"Anas", "Asid", "B. Titong", "Bagumbayan", "Bantigue", "Bapor", "Batuhan", "Bayombon", "Biyong", "Bolo", "Cagay", "Cawayan Exterior", "Cawayan Interior", "Centro", "Espinosa", "F. Magallanes", "Ibingay", "Igang", "Kalipay", "Kinamaligan", "Malinta", "Mapiña", "Mayngaran", "Nursery", "Pating", "Pawa", "Sinalongan", "Tugbo", "Ubongan Dacu", "Usab"};
     string MasbateProvMuni[] = {"Aroroy", "Baleno", "Balud", "Batuan", "Cataingan", "Cawayan", "Claveria", "Dimasalang", "Esperanza", "Mandaon", "Milagros", "Mobo", "Monreal", "Palanas", "Pio V. Corpuz", "Placer", "San Fernando", "San Jacinto", "San Pascual", "Uson"};
     string SorsogonCityBrgys[] = {"Abuyog", "Almendras-Cogon", "Balete", "Balogo (Sorsogon East District)", "Balogo (Bacon District)", "Barayong", "Basud", "Bato", "Bibincahan", "Bitan-o/Dalipay", "Bogña", "Bon-ot", "Bucalbucalan", "Buenavista", "Buenavista (Bacon District)", "Buhatan", "Bulabog", "Burabod", "Cabarbuhan", "Cabid-an", "Cambulaga", "Capuy", "Caricaran", "Del Rosario", "Gatbo", "Gimaloto", "Guinlajon", "Jamislagan", "Macabog", "Maricrum", "Marinas", "Osiao", "Pamurayan", "Pangpang", "Panlayaan", "Peñafrancia", "Piot", "Poblacion", "Polvorista", "Rawis", "Rizal", "Salog", "Salvacion", "Salvacion (Bacon District)", "Sampaloc", "San Isidro", "San Isidro (Bacon District)", "San Juan (Roro)", "San Juan (Bacon District)", "San Pascual", "San Ramon", "San Roque", "San Vicente", "Santa Cruz", "Santa Lucia", "Santo Domingo", "Santo Niño", "Sawanga", "Sirangan", "Sugod", "Sulucan", "Talisay", "Ticol", "Tugos"};
+    string BacolodBrgys[] = {"Alangilan", "Alijis", "Banago", "Barangay 1", "Barangay 10", "Barangay 11", "Barangay 12", "Barangay 13", "Barangay 14", "Barangay 15", "Barangay 16", "Barangay 17", "Barangay 18", "Barangay 19", "Barangay 2", "Barangay 20", "Barangay 21", "Barangay 22", "Barangay 23", "Barangay 24", "Barangay 25", "Barangay 26", "Barangay 27", "Barangay 28", "Barangay 29", "Barangay 3", "Barangay 30", "Barangay 31", "Barangay 32", "Barangay 33", "Barangay 34", "Barangay 35", "Barangay 36", "Barangay 37", "Barangay 38", "Barangay 39", "Barangay 4", "Barangay 40", "Barangay 41", "Barangay 5", "Barangay 6", "Barangay 7", "Barangay 8", "Barangay 9", "Bata", "Cabug", "Estefania", "Felisa", "Granada", "Handumanan", "Mandalagan", "Mansilingan", "Montevista", "Pahanocoy", "Punta Taytay", "Singcang-Airport", "Sum-ag", "Taculing", "Tangub", "Villamonte", "Vista Alegre"};
 
     string greeting = "\nWELCOME TO THE GEOGRAPHICAL INFORMATION OF THE PHILIPPINES!";
     char choose;
@@ -5511,7 +5512,7 @@ int main () {
                         int barangayCount = sizeof(LigaoBrgys)/sizeof(LigaoBrgys[0]);
                         cout << "You have chosen the city of Ligao.\n";
                         cout << "Mayor: Fernando Vallejo Gonzalez\n";
-                        cout << "The City of Ligao is a 4th class component city and its economy mainly comes from their agriculture sector. According to the Government of Ligao, the place was famous for its beautiful maidens, prompting eligible young men near and far to come courting. One such group of men crossed paths with Spaniards soldiers who asked what the place was called. The young men thought the foreigners were asking what they are about and answered “Manliligaw”.\n";
+                        cout << "The City of Ligao is a 4th class component city and its economy mainly comes from their agriculture sector. According to the Government of Ligao, the place was famous for its beautiful maidens, prompting eligible young men near and far to come courting. One such group of men crossed paths with Spaniards soldiers who asked what the place was called. The young men thought the foreigners were asking what they are about and answered 'Manliligaw'.\n";
                         cout << "The City of Ligao's ZIP code is 4504.\n";
                         cout << "According to the 2020 census, its total population is 118,096.\n";
                         cout << "Here are all the barangays in Ligao:\n";
@@ -6810,11 +6811,15 @@ int main () {
                         cin >> citybarangays;
 
                         if (citybarangays == 'Y' || citybarangays == 'y'){
-
-                        cout << "The city of blah blah \n";
-                        cout << "Information about city\n";
+                        int barangayCount = sizeof(BacolodBrgys)/sizeof(BacolodBrgys[0]);
+                        cout << "Mayor: Alfredo B. Benitez\n";
+                        cout << "The City of Bacolod is a 1st class highly urbanized city situated in the Antique province. It is known as the City of Smiles because of the Maskara Festival. Other title of it is the Land of Sweet People because of their inasal chicken and sweet dessert treats.\n";
+                        cout << "The City of Bacolod's ZIP code is 6100.\n";
+                        cout << "According to the 2020 census, its total population is 600,683.\n";
                         cout << "Here are all the barangays in :\n";
-
+                        for (int i = 0; i < barangayCount; ++i) {
+                            cout << i + 1 << ". " << BacolodBrgys[i] << "\n";
+                        }
                         }
                         }
 
@@ -6851,132 +6856,132 @@ int main () {
                                                         
                         switch (barangays){
                         case 1:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Anini-y.\n";
                         
                         
                         break;
                         }
 
                         case 2:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Barbaza.\n";
                         
                         
                         break;
                         }
 
                         case 3:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Belison.\n";
                         
                         
                         break;
                         }
 
                         case 4:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Bugasong.\n";
                         
                         
                         break;
                         }
 
                         case 5:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Caluya.\n";
                         
                         
                         break;
                         }
 
                         case 6:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Culasi.\n";
                         
                         
                         break;
                         }
 
                         case 7:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Hamtic.\n";
                         
                         
                         break;
                         }
 
                         case 8:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Laua-an.\n";
                         
                         
                         break;
                         }
 
                         case 9:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Libertad.\n";
                         
                         
                         break;
                         }
                                                 
                         case 10:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Pandan.\n";
                         
                         
                         break;
                         }
 
                         case 11:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        cout << "You have chosen the municipality of Patnongon.\n";
+
+
                         }
 
                         case 12:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of San Jose de Buenavista.\n";
                         
                         
                         break;
                         }
 
                         case 13:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of San Remigio.\n";
                         
                         
                         break;
                         }
 
                         case 14:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Sebaste.\n";
                         
                         
                         break;
                         }
 
                         case 15:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Sibalom.\n";
                         
                         
                         break;
                         }
 
                         case 16:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Tibiao.\n";
                         
                         
                         break;
                         }
 
                         case 17:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Tobias Fornier.\n";
                         
                         
                         break;
                         }
 
                         case 18:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Valderrama.\n";
                         
                         
                         break;
                         }
 
                         default:{
+                        cout << "There are only 18 municipalities in Antique.\n";
                         break;
                         }
                         }
@@ -11066,10 +11071,11 @@ int main () {
             }
          
             case 15: {
+            char prov;
             char cmb;
             cout << "NCR - NATIONAL CAPITAL REGION";
-            cout << "PLACE INFORMATION HERE" << endl;
-
+            cout << "The National Capital Region (NCR), also known as Metropolitan Manila, is the capital region of the Philippines. It is located in the southwestern portion of Luzon, directly below Central Luzon." << endl;
+            
             cout << "Would you like to find out about the cities or municipalities? Choose from C or M or N to find out about other regions: ";
             cin >> cmb;
 
@@ -11104,130 +11110,177 @@ int main () {
 
                         switch (barangays){
                         case 1:{
+                        int barangayCount = sizeof(CaloocanBrgys)/sizeof(CaloocanBrgys[0]);
                         cout << "You have chosen the city of Caloocan \n";
                         cout << "Mayor: Dale Gonzalo Rigor Malapitan \n";
                         cout << "Caloocan, city on Dagatdagatan Lagoon (Manila Bay), central Luzon, Philippines, adjacentto northern Manila. Founded in 1762, it became a municipality in 1815. Caloocan suffered much damage during World War II. Now part of Greater Manila, it is a growing center of industrialization as well as a resident suburb. Processed foods, textiles, and engineering prodcuts are its main industreis.\n";
+                        cout << "The city of Caloocan's zip code is 1123 \n";
+                        cout << "According to 2020 census, its total population is 606,293 \n";
                         cout << "Here are all the barangays in Caloocan : \n";
-
-                        
+                        for (int i = 0; i < barangayCount; ++i) {
+                            cout << i + 1 << ". " << CaloocanBrgys[i] << "\n";
+                        }
                         break;
                         }
 
                         case 2:{
-                        cout << "You have chosen the city of \n";
-                        cout << "Information about city\n";
+                        cout << "You have chosen the city of Las Pinas \n";
+                        cout << "Mayor: Imelda T. Aguilar \n";
+                        cout << "Known nationwide for its bamboo organ, salt beds, jeepney factory, and the Las Pinas-Paranaque Wetlands, the city is distinguished as one of the Metro Manila's fastest-growing communities. Although it became a city only in 1997, Las Pinas was one of the first settlements at the outskirts of Manila. \n";
+                        cout << "The city of Las Pinas zip code is 1700 \n";
+                        cout << "According to 2020 census, its total population is 606,293 \n";
                         cout << "Here are all the barangays in : \n";
                         cout << "1. ";
                         break;
                         }
 
                         case 3:{
-                        cout << "You have chosen the city of \n";
-                        cout << "Information about city\n";
+                        cout << "You have chosen the city of Makati \n";
+                        cout << "Mayor: Abigial Binay \n";
+                        cout << ": Makati, city, south-central Luzon, Philippines. A southern residential, financial, and industrial suburb of Manila, it has a large, modern manufacturing complex along its segment of the regional belt highway, where a number of national and foreign firms are located. Makati lies in the heart of the Metro Manila. The city is known for its upscale shopping malls with high fashion brands, restaurants and hotels, and is home to many affluent Filipinos. Makati is also a financial, commercial and economic center. \n";
+                        cout << "The city of Makati's zip code is 1017 \n";
+                        cout << "According to 2020 census, its total population is 629,616 \n";
                         cout << "Here are all the barangays in : \n";
                         cout << "1. ";
                         break;
                         }
 
                         case 4:{
-                        cout << "You have chosen the city of \n";
-                        cout << "Information about city\n";
+                        cout << "You have chosen the city of Malabon \n";
+                        cout << "Mayor: Jeannie Sandoval \n";
+                        cout << "Malabon City is a 1st-class highly-urbanized city in the Philippines. It is part of the National Capital Region. Is known for its wide variety of seafoods and the well-known noodle, the pancit malabon.\n";
+                        cout << "The city of Malabon's zip code is 1409 \n";
+                        cout << "According to 2020 census, its total population is 380,522 \n";
                         cout << "Here are all the barangays in : \n";
                         cout << "1. ";
                         break;
                         }
 
                         case 5:{
-                        cout << "You have chosen the city of \n";
-                        cout << "Information about city\n";
+                        cout << "You have chosen the city of Mandaluyong \n";
+                        cout << "Mayor: Benjamin Santos Abalos Jr. \n";
+                        cout << "It became a city in 1994 and in the early 2000s, Mandaluyong was proclaimed the 'Millenium City' by the city's leaders, noting its thriving local economy. Mandaluyong is also popularly known as 'New Tiger' of Metro Manila. Nowadays, Mandaluyong serves as an example of urban growth and cultural vibrancy.\n";
+                        cout << "The city of Mandaluyong's zip code is 1550 \n";
+                        cout << "According to 2020 census, its total population is 425,758 \n";
                         cout << "Here are all the barangays in : \n";
                         cout << "1. ";
                         break;
                         }
 
                         case 6:{
-                        cout << "You have chosen the city of \n";
-                        cout << "Information about city\n";
+                        cout << "You have chosen the city of Manila \n";
+                        cout << "Mayor: Honey Lacuna \n";
+                        cout << "Manila serves as the center of culture, economy, education, and government in the Philippines. It is the most populous region of the country and one of the most densely populated in the world. It is also the main gateway for international travelers going to the Philippines by flight. Is best known for its remnants of Spanish colonial history, a showcase of Filipino art and culture, as well as a variety of classic yet delicious Filipino food. \n";
+                        cout << "The city of Manila's zip code is 1000 \n";
+                        cout << "According to 2020 census, its total population is 1,846,513 \n";
                         cout << "Here are all the barangays in : \n";
                         cout << "1. ";
                         break;
                         }
 
                         case 7:{
-                        cout << "You have chosen the city of \n";
-                        cout << "Information about city\n";
+                        cout << "You have chosen the city of Marikina \n";
+                        cout << "Mayor: Marcelino Teodoro \n";
+                        cout << "The City of Marikina is considered one of the wealthiest local government units in the Philippines. Marikina is known as the Shoe Capital of the Philippines owing to its famous shoe industry. It is the biggest manufacturer of shoes in the Philippines, producing almost 70 percent of shoes made in the country.\n";
+                        cout << "The city of Marikina's zip code is 1800 \n";
+                        cout << "According to 2020 census, its total population is 456,059\n";
                         cout << "Here are all the barangays in : \n";
                         cout << "1. ";
                         break;
                         }
 
                         case 8:{
-                        cout << "You have chosen the city of \n";
-                        cout << "Information about city\n";
+                        cout << "You have chosen the city of Muntinlupa \n";
+                        cout << "Mayor: Rozzano Rufino B. Diazon \n";
+                        cout << "Muntinlupa is a landlocked highly urbanized city in the National Capital Region. Muntinlupa, among other things, is known for the New Bilibid Prison (NBP). The rich history and cultural heritage of the NBP make the local history of the city more interesting and insightful. \n";
+                        cout << "The city of Muntinlupa's zip code is 1770 \n";
+                        cout << "According to 2020 census, its total population is 543,445\n";
                         cout << "Here are all the barangays in : \n";
                         cout << "1. ";
                         break;
                         }
 
                         case 9:{
-                        cout << "You have chosen the city of \n";
-                        cout << "Information about city\n";
+                        cout << "You have chosen the city of Navotas \n";
+                        cout << "Mayor: John Reynald Marcelo \n";
+                        cout << "Navotas is geographically located on the extreme northwestern shore of Metro Manila and is politically subdivided into two districts. It is known as the Commercial Fishing Hub of the Philippines, for the city has the third largest fish port in Asia and the largest in Southeast Asia. \n";
+                        cout << "The city of Navotas zip code is 1485 \n";
+                        cout << "According to 2020 census, its total population is 247,543 \n";
                         cout << "Here are all the barangays in : \n";
                         cout << "1. ";
                         break;
                         }
 
                         case 10:{
-                        cout << "You have chosen the city of \n";
-                        cout << "Information about city\n";
+                        cout << "You have chosen the city of Paranaque\n";
+                        cout << "Mayor: Eric Olvarez \n";
+                        cout << "Paranaque in 1975 becoming a part of the National Capital region, Parañaque is now classified as a first class highly urbanized city in Metro Manila. Parañaque has long been noted for intricate hand embroidery, which has continued as a household industry.\n";
+                        cout << "The city of Paranaque's zip code is 1710 \n";
+                        cout << "According to 2020 census, its total population is 689,992 \n";
                         cout << "Here are all the barangays in : \n";
                         cout << "1. ";
                         break;
                         }
 
                         case 11:{
-                        cout << "You have chosen the city of \n";
-                        cout << "Information about city\n";
+                        cout << "You have chosen the city of Pasay \n";
+                        cout << "Mayor: Emi Rubiano \n";
+                        cout << "Pasay, city, central Luzon, Philippines, situated on the eastern shore of Manila Bay. A major residential suburb of Manila (immediately north), it is well known for the nightclubs that line the waterfront along Roxas (formerly Dewey) Boulevard. Pasay is densely populated and highly commercialized.\n";
+                        cout << "The city of Pasay's zip code is 1300 \n";
+                        cout << "According to 2020 census, its total population is 440,656 \n";
                         cout << "Here are all the barangays in : \n";
                         cout << "1. ";
                         break;
                         }
 
                         case 12:{
-                        cout << "You have chosen the city of \n";
-                        cout << "Information about city\n";
+                        cout << "You have chosen the city of Pasig \n";
+                        cout << "Mayor: Vico Sotto \n";
+                        cout << "Pasig city is approximately 12 kilometers east of Manila, on the southern tip of Pasig River. It is bordered by Quezon City and Marikina City on the North. Known as 'green city' for its environment-friendly initiatives led by its local government.\n";
+                        cout << "The city of Pasig's zip code is 1600 \n";
+                        cout << "According to 2020 census, its total population is 803,159 \n";
                         cout << "Here are all the barangays in : \n";
                         cout << "1. ";
                         break;
                         }
 
                         case 13:{
-                        cout << "You have chosen the city of \n";
-                        cout << "Information about city\n";
-                        cout << "Here are all the barangays in : \n";
-                        cout << "1. ";
+                        cout << "You have chosen the city of Quezon \n";
+                        cout << "Mayor: Joy Belmonte-Alimurung \n";
+                        cout << "Quezon city is the most populated and wealthiest city of the Philippines. It was also the country's capital between 1948 and 1976. The city is part of Metropolitan Manila. It is an important governmental, economic and educational center and has one of the most consistent sustainability track records in the Philippines. Quezon City is known for its culture, entertainment industry and media, and is aptly called the City of Stars.\n";
+                        cout << "The city of Quezon's zip code is 1015 \n";
+                        cout << "According to 2020 census, its total population is 2,960,992 \n";
                         break;
                         }
 
                         case 14:{
-                        cout << "You have chosen the city of \n";
-                        cout << "Information about city\n";
+                        cout << "You have chosen the city of San Juan \n";
+                        cout << "Mayor: Francis Zamora \n";
+                        cout << "San Juan is the least-extensive city in the Philippines with a total area of just 595 hectares (2.30 sq mi). San Juan is bounded by Quezon City on the north and east, Mandaluyong on the south, and the City of Manila in the west. The city is known historically for the site of the first battle of the Katipunan, the organization which led the 1896 Philippine Revolution against the Spanish Empire. Notable landmarks today such as Pinaglabanan Shrine and heritage homes are located in the city. \n";
+                        cout << "The city of San Juan's zip code is 1500 \n";
+                        cout << "According to 2020 census, its total population is 126,347 \n";
                         cout << "Here are all the barangays in : \n";
                         cout << "1. ";
                         break;
                         }
 
                         case 15:{
-                        cout << "You have chosen the city of \n";
-                        cout << "Information about city\n";
+                        cout << "You have chosen the city of Taguig \n";
+                        cout << "Mayor: Lani Cayetano \n";
+                        cout << "Taguig is an important center for the country's international diplomacy, hosting several embassies. The city also home to the headquarters of several major multinational corporations. Taguig contains the Bonifacio Global City (popularly known simply as BGC), Metro Manila's second most important business district and a major tourism, shopping, dining and entertainment destination. \n";
+                        cout << "The city of Taguig's zip code is 1208 \n";
+                        cout << "According to 2020 census, its total population is 886,722 \n";
                         cout << "Here are all the barangays in : \n";
                         cout << "1. ";
                         break;
                         }
 
                         case 16:{
-                        cout << "You have chosen the city of \n";
-                        cout << "Information about city\n";
+                        cout << "You have chosen the city of Valenzuela \n";
+                        cout << "Mayor: Wes Gatchalian \n";
+                        cout << "Valenzuela city is a highly urbanized, first-class city based on income classification and number of population. The City of Valenzuela is known as the 'Northern Gateway to Metro Manila' due to two major highways traversing it to the MacArthur Highway and the North Luzon Expressway.\n";
+                        cout << "The city of Valenzuala's zip code is 1440 \n";
+                        cout << "According to 2020 census, its total population is 714,978 \n";
                         cout << "Here are all the barangays in : \n";
                         cout << "1. ";
                         break;
@@ -11250,8 +11303,10 @@ int main () {
 
                         if (municipal == 'Y' || municipal == 'y'){
 
-                        cout << "The city of blah blah \n";
-                        cout << "Information about municipality\n";
+                        cout << "The municipality of Pateros \n";
+                        cout << "Mayor: Miguel F. Ponce III \n";
+                        cout << "Pateros, officially the Municipality of Pateros, is the lone municipality of Metro Manila. This municipality is famous for its duck-raising industry and especially for producing balut, a Filipino delicacy, which is a boiled, fertilized duck egg. Pateros is also known for the production of red salty eggs and inutak, a local rice cake. \n";
+                        break;
                 
 
                         }
