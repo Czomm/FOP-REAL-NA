@@ -120,6 +120,14 @@ int main () {
     string ZamboangaCityBrgys[] = {"Arena Blanco", "Ayala", "Baliwasan", "Baluno", "Barangay Zone I", "Barangay Zone II", "Barangay Zone III", "Barangay Zone IV", "Boalan", "Bolong", "Buenavista", "Bunguiao", "Busay", "Cabaluay", "Cabatangan", "Cacao", "Calabasa", "Calarian", "Camino Nuevo", "Campo Islam", "Canelar", "Capisan", "Cawit", "Culianan", "Curuan", "Dita", "Divisoria", "Dulian (Upper Bunguiao)", "Dulian (Upper Pasonanca)", "Guisao", "Guiwan", "Kasanyangan", "La Paz", "Labuan", "Lamisahan", "Landang Gua", "Landang Laum", "Lanzones", "Lapakan", "Latuan", "Licomo", "Limaong", "Limpapa", "Lubigan", "Lumayang", "Lumbangan", "Lunzuran", "Maasin", "Malagutay", "Mampang", "Manalipa", "Mangusu", "Manicahan", "Mariki", "Mercedes", "Muti", "Pamucutan", "Pangapuyan", "Panubigan", "Pasilmanta", "Pasobolong", "Pasonanca", "Patalon", "Putik", "Quiniput", "Recodo", "Rio Hondo", "Salaan", "San Jose Cawa-cawa", "San Jose Gusu", "San Roque", "Sangali", "Santa Barbara", "Santa Catalina", "Santa Maria", "Santo Niño", "Sibulao", "Sinubung", "Sinunoc", "Tagasilay", "Taguiti", "Talabaan", "Talisayan", "Talon-talon", "Taluksangay", "Tetuan", "Tictapul", "Tigbalabag", "Tigtabon", "Tolosa", "Tugbungan", "Tulungatung", "Tumaga", "Tumalutab", "Tumitus", "Victoria", "Vitali", "Zambowood"};
     string ZamboangaNorteMuni[] = {"Baliguian", "Godod", "Gutalac", "Jose Dalman", "Kalawit", "Katipunan", "La Libertad", "Labason", "Leon B. Postigo", "Liloy", "Manukan", "Mutia", "Piñan", "Polanco", "President Manuel A. Roxas", "Rizal", "Salug", "Sergio Osmeña SR.", "Siayan", "Sibuco", "Sibutad", "Sindangan", "Siocon", "Sirawai", "Tampilisan"};
     string ZamboangaSurMuni[] = {"Aurora", "Bayog", "Dimataling", "Dinas", "Dumalinao", "Dumingag", "Guipos", "Josefina", "Kumalarang", "Labangan", "Lakewood", "Lapuyan", "Mahayag", "Margosatubig", "Midsalip", "Molave", "Pitogo", "Ramon Magsaysay", "San Miguel", "San Pablo", "Sominot", "Tabina", "Tambulig", "Tigbao", "Tukuran", "Vincenzo A. Sagun"};
+    string PanaboBrgys[] = {"A. O. Floirendo", "Buenavista", "Cacao", "Cagangohan", "Consolacion", "Dapco", "Datu Abdul Dadia", "Gredu", "J. P. Laurel", "Kasilak", "Katipunan", "Katualan", "Kauswagan", "Kiotoy", "Little Panay", "Lower Panaga", "Mabunao", "Maduao", "Malativas", "Manay", "Nanyo", "New Malaga", "New Malitbog", "New Pandan", "New Visayas", "Quezon", "Salvacion", "San Francisco", "San Nicolas", "San Pedro", "San Roque", "San Vicente", "Santa Cruz", "Santo Niño", "Sindaton", "Southern Davao", "Tagpore", "Tibungol", "Upper Licanan", "Waterfall"};
+    string SamalBrgys[] = {"Adecor", "Anonang", "Aumbay", "Aundanao", "Balet", "Bandera", "Caliclic", "Camudmud", "Catagman", "Cawag", "Cogon", "Cogon (Talicod)", "Dadatan", "Del Monte", "Guilon", "Kanaan", "Kinawitnon", "Libertad", "Libuak", "Licup", "Limao", "Linosutan", "Mambago-A", "Mambago-B", "Miranda", "Moncado", "Pangubatan", "Peñaplata", "Poblacion", "San Agustin", "San Antonio", "San Isidro (Babak)", "San Isidro (Kaputian)", "San Jose", "San Miguel", "San Remigio", "Santa Cruz", "Santo Niño", "Sion", "Tagbaobo", "Tagbay", "Tagbitan-ag", "Tagdaliao", "Tagpopongan", "Tambo", "Toril"};
+    string TagumBrgys[] = {"Apokon", "Bincungan", "Busaon", "Canocotan", "Cuambogan", "La Filipina", "Liboganon", "Madaum", "Magdum", "Magugpo East", "Magugpo North", "Magugpo Poblacion", "Magugpo South", "Magugpo West", "Mankilam", "New Balamban", "Nueva Fuerza", "Pagsabangan", "Pandapan", "San Agustin", "San Isidro", "San Miguel", "Visayan Village"};
+    string SurigaoNorteMuni[] = {"Alegria", "Bacuag", "Burgos", "Claver", "Dapa", "Del Carmen", "General Luna", "Gigaquit", "Mainit", "Malimono", "Pilar", "Placer", "San Benito", "San Francisco", "San Isidro", "Santa Monica", "Sison", "Socorro", "Tagana-an", "Tubod", "Barobo"};
+    string SurigaoSurMuni[] = {"Barobo", "Bayabas", "Cagwait", "Cantilan", "Carmen", "Carrascal", "Cortes", "Hinatuan", "Lanuza", "Lianga", "Lingig", "Madrid", "Marihatag", "San Agustin", "San Miguel", "Tagbina", "Tago"};
+    string LanaoSurMuni[] = {"Amai Manabilang", "Bacolod-Kalawi", "Balabagan", "Balindong", "Bayang", "Binidayan", "Buadiposo-Buntong", "Bubong", "Butig", "Calanogas", "Ditsaan-Ramain", "Ganassi", "Kapai", "Kapatagan", "Lumba-Bayabao", "Lumbaca-Unayan", "Lumbatan", "Lumbayanague", "Madalum", "Madamba", "Maguing", "Malabang", "Marantao", "Marogong", "Masiu", "Mulondo", "Pagayawan", "Piagapo", "Picong", "Poona Bayabao", "Pualas", "Saguiaran", "Sultan Dumalondong", "Tagoloan II", "Tamparan", "Taraka", "Tubaran", "Tugaya", "Wao"};
+    string MaguindanaoMuni[] = {"Ampatuan", "Barira", "Buldon", "Buluan", "Datu Abdullah Sangki", "Datu Anggal Midtimbang", "Datu Blah T. Sinsuat", "Datu Hoffer Ampatuan", "Datu Montawal", "Datu Odin Sinsuat", "Datu Paglas", "Datu Piang", "Datu Salibo", "Datu Saudi-Ampatuan", "Datu Unsay", "General Salipada K. Pendatun", "Guindulungan", "Kabuntalan", "Mamasapano", "Mangudadatu", "Matanog", "Northern Kabuntalan", "Pagalungan", "Paglat", "Pandag", "Parang", "Rajah Buayan", "Shariff Aguak - Capital of Maguindanao", "Shariff Saydona Mustapaha", "South Upi", "Sultan Kudarat", "Sultan Mastura", "Sultan sa Barongis", "Sultan Sumagka", "Talayan", "Upi"};
+    string SuluMuni[] = {"Banguingui", "Hadji Panglima Tahil", "Indanan", "Jolo - Capital of Sulu", "Kalingalan Caluang", "Lugus", "Luuk", "Maimbung", "Old Panamao", "Omar", "Pandami", "Panglima Estino", "Pangutaran", "Parang", "Pata", "Patikul", "Siasi", "Talipao", "Tapul"};
 
     string greeting = "\nWELCOME TO THE GEOGRAPHICAL INFORMATION OF THE PHILIPPINES!";
     char choose;
@@ -166,7 +174,7 @@ int main () {
         } else if (region >= 1 && region <= 17) {
         validation = true;
         } else {
-        cout << "CORRESPONDING NUMBER NOT DETECTED. PLEASE ENTER A NUMBER BETWEEN 1-17.\n";
+        cout << "CORRESPONDING NUMBER NOT FOUND. PLEASE ENTER A NUMBER BETWEEN 1-17.\n";
         }
         
             do{
@@ -398,6 +406,7 @@ int main () {
                             }
 
                             default:{
+                            cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                             break;
                             }
 
@@ -460,7 +469,7 @@ int main () {
                         }
 
                         default: {
-                        cout << "There are only 2 cities in Ilocos Sur. Invalid Input. " << endl;
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n" << endl;
                         }
                         }
 
@@ -672,6 +681,7 @@ int main () {
                         }
 
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
 	                    }
@@ -837,7 +847,7 @@ int main () {
                             }
 
                             default:{
-                            cout << "Corresponding number not detected.\n";
+                            cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                             }
 
                             }
@@ -927,7 +937,7 @@ int main () {
                             }
 
                             default:{
-                            cout << "There are only 4 cities. Invalid input.\n";
+                            cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         
                             }
                             }
@@ -1217,7 +1227,7 @@ int main () {
                             }
                             
                             default:{
-                            cout << "There are only 44 municipalities in Pangasinan.\n";
+                            cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                             }
 	                            }
 
@@ -1311,7 +1321,7 @@ int main () {
                             }
 
                             default:{
-                                cout << "Corresponding number not detected."
+                                cout << "CORRESPONDING NUMBER NOT FOUND.";
                             break;
                             }
 
@@ -1535,7 +1545,7 @@ int main () {
                             }
 
                             default:{
-                            cout << "There are only 28 municipalities in Cagayan.";
+                            cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                             }
 	                        }
 	                        }
@@ -1611,7 +1621,7 @@ int main () {
                         }
 
                         default:{
-                        
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -1835,7 +1845,7 @@ int main () {
 	                    }
 
                         default:{
-                        cout << "There are only 33 municipalities in Isabela.";
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
 	                    }
@@ -1968,6 +1978,7 @@ int main () {
 	                    }
 
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
 	                    }
@@ -2037,7 +2048,7 @@ int main () {
 	                    }
 
                         default:{
-                        cout << "There are only 6 municipalities in Quezon.\n";
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
 	                    }
@@ -2148,7 +2159,7 @@ int main () {
 	                    }
 
                         default:{
-                        cout << "There are only 8 municipalities in Aurora.\n";
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
 	                    }
@@ -2277,6 +2288,7 @@ int main () {
 	                    }
 
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
 	                    }
@@ -2350,6 +2362,7 @@ int main () {
                         }
 
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -2538,6 +2551,7 @@ int main () {
                         }
 
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -2551,7 +2565,7 @@ int main () {
                     cout << "Would you like to find out about the cities, municipalities, or the barangays? Choose from C or M or N to find out about other regions: ";
                     cin >> cmb;
 
-                        if (cmb == 'C' || cmb == 'c'){
+                        if (cmb == 'C' || cmb == 'c'){//incomplete
                         char citybarangays;
                         cout << "Here are all the cities in Nueva Ecija: " << endl;
                         cout << "1. Cabanatuan\n";
@@ -2584,6 +2598,7 @@ int main () {
                             break;
                             }
                             default:{
+                            cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                             break;
                             }
                             }
@@ -2611,139 +2626,140 @@ int main () {
                         case 1: {
                         cout << "You have chosen the municipality of Aliaga\n";
                         break;
-                    }
+                        }
 
-                    case 2: {
-                        cout << "You have chosen the municipality of Bongabon\n";
-                        break;
-                    }
+                        case 2: {
+                            cout << "You have chosen the municipality of Bongabon\n";
+                            break;
+                        }
 
-                    case 3: {
-                        cout << "You have chosen the municipality of Cabiao\n";
-                        break;
-                    }
+                        case 3: {
+                            cout << "You have chosen the municipality of Cabiao\n";
+                            break;
+                        }
 
-                    case 4: {
-                        cout << "You have chosen the municipality of Carranglan\n";
-                        break;
-                    }
+                        case 4: {
+                            cout << "You have chosen the municipality of Carranglan\n";
+                            break;
+                        }
 
-                    case 5: {
-                        cout << "You have chosen the municipality of Cuyapo\n";
-                        break;
-                    }
+                        case 5: {
+                            cout << "You have chosen the municipality of Cuyapo\n";
+                            break;
+                        }
 
-                    case 6: {
-                        cout << "You have chosen the municipality of Gabaldon\n";
-                        break;
-                    }
+                        case 6: {
+                            cout << "You have chosen the municipality of Gabaldon\n";
+                            break;
+                        }
 
-                    case 7: {
-                        cout << "You have chosen the municipality of General Mamerto Natividad\n";
-                        break;
-                    }
+                        case 7: {
+                            cout << "You have chosen the municipality of General Mamerto Natividad\n";
+                            break;
+                        }
 
-                    case 8: {
-                        cout << "You have chosen the municipality of General Tinio\n";
-                        break;
-                    }
+                        case 8: {
+                            cout << "You have chosen the municipality of General Tinio\n";
+                            break;
+                        }
 
-                    case 9: {
-                        cout << "You have chosen the municipality of Guimba\n";
-                        break;
-                    }
+                        case 9: {
+                            cout << "You have chosen the municipality of Guimba\n";
+                            break;
+                        }
 
-                    case 10: {
-                        cout << "You have chosen the municipality of Jaen\n";
-                        break;
-                    }
+                        case 10: {
+                            cout << "You have chosen the municipality of Jaen\n";
+                            break;
+                        }
 
-                    case 11: {
-                        cout << "You have chosen the municipality of Laur\n";
-                        break;
-                    }
+                        case 11: {
+                            cout << "You have chosen the municipality of Laur\n";
+                            break;
+                        }
 
-                    case 12: {
-                        cout << "You have chosen the municipality of Licab\n";
-                        break;
-                    }
+                        case 12: {
+                            cout << "You have chosen the municipality of Licab\n";
+                            break;
+                        }
 
-                    case 13: {
-                        cout << "You have chosen the municipality of Llanera\n";
-                        break;
-                    }
+                        case 13: {
+                            cout << "You have chosen the municipality of Llanera\n";
+                            break;
+                        }
 
-                    case 14: {
-                        cout << "You have chosen the municipality of Lupao\n";
-                        break;
-                    }
+                        case 14: {
+                            cout << "You have chosen the municipality of Lupao\n";
+                            break;
+                        }
 
-                    case 15: {
-                        cout << "You have chosen the municipality of Nampicuan\n";
-                        break;
-                    }
+                        case 15: {
+                            cout << "You have chosen the municipality of Nampicuan\n";
+                            break;
+                        }
 
-                    case 16: {
-                        cout << "You have chosen the municipality of Pantabangan\n";
-                        break;
-                    }
+                        case 16: {
+                            cout << "You have chosen the municipality of Pantabangan\n";
+                            break;
+                        }
 
-                    case 17: {
-                        cout << "You have chosen the municipality of Peñaranda\n";
-                        break;
-                    }
+                        case 17: {
+                            cout << "You have chosen the municipality of Peñaranda\n";
+                            break;
+                        }
 
-                    case 18: {
-                        cout << "You have chosen the municipality of Quezon\n";
-                        break;
-                    }
+                        case 18: {
+                            cout << "You have chosen the municipality of Quezon\n";
+                            break;
+                        }
 
-                    case 19: {
-                        cout << "You have chosen the municipality of Rizal\n";
-                        break;
-                    }
+                        case 19: {
+                            cout << "You have chosen the municipality of Rizal\n";
+                            break;
+                        }
 
-                    case 20: {
-                        cout << "You have chosen the municipality of San Antonio\n";
-                        break;
-                    }
+                        case 20: {
+                            cout << "You have chosen the municipality of San Antonio\n";
+                            break;
+                        }
 
-                    case 21: {
-                        cout << "You have chosen the municipality of San Isidro\n";
-                        break;
-                    }
+                        case 21: {
+                            cout << "You have chosen the municipality of San Isidro\n";
+                            break;
+                        }
 
-                    case 22: {
-                        cout << "You have chosen the municipality of San Leonardo\n";
-                        break;
-                    }
+                        case 22: {
+                            cout << "You have chosen the municipality of San Leonardo\n";
+                            break;
+                        }
 
-                    case 23: {
-                        cout << "You have chosen the municipality of Santa Rosa\n";
-                        break;
-                    }
+                        case 23: {
+                            cout << "You have chosen the municipality of Santa Rosa\n";
+                            break;
+                        }
 
-                    case 24: {
-                        cout << "You have chosen the municipality of Santo Domingo\n";
-                        break;
-                    }
+                        case 24: {
+                            cout << "You have chosen the municipality of Santo Domingo\n";
+                            break;
+                        }
 
-                    case 25: {
-                        cout << "You have chosen the municipality of Talavera\n";
-                        break;
-                    }
+                        case 25: {
+                            cout << "You have chosen the municipality of Talavera\n";
+                            break;
+                        }
 
-                    case 26: {
-                        cout << "You have chosen the municipality of Talugtug\n";
-                        break;
-                    }
+                        case 26: {
+                            cout << "You have chosen the municipality of Talugtug\n";
+                            break;
+                        }
 
-                    case 27: {
-                        cout << "You have chosen the municipality of Zaragoza\n";
-                        break;
-                    }
+                        case 27: {
+                            cout << "You have chosen the municipality of Zaragoza\n";
+                            break;
+                        }
 
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
 
@@ -2802,6 +2818,7 @@ int main () {
                         break;
                         }
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -2984,7 +3001,7 @@ int main () {
                         }
 
                         default:{
-                        cout << "There are only 20 municipalities in Pampanga.\n";
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -3171,7 +3188,7 @@ int main () {
                         }
 
                         default:{
-                        cout << "There are only 17 municipalities in Tarlac.\n";
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -3325,7 +3342,7 @@ int main () {
                         }
                         
                         default:{
-                        cout << "There are only 13 municipalities in Zambales.\n";
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -3438,6 +3455,7 @@ int main () {
                         }
 
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -3674,7 +3692,7 @@ int main () {
                         }
 
                         default:{
-                        cout << "There are only 30 municipalities in Batangas.\n";
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -3809,6 +3827,7 @@ int main () {
                         }
 
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -3958,6 +3977,7 @@ int main () {
                         }
 
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -4076,6 +4096,7 @@ int main () {
                         }
 
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -4269,6 +4290,7 @@ int main () {
                         }
 
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
 
@@ -4328,6 +4350,7 @@ int main () {
                         }
 
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -4612,6 +4635,7 @@ int main () {
                         }
 
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -4766,6 +4790,7 @@ int main () {
                         }
 
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -4868,6 +4893,7 @@ int main () {
                         }
 
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -4984,6 +5010,7 @@ int main () {
                         }
 
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -5141,6 +5168,7 @@ int main () {
                         }
 
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -5354,6 +5382,7 @@ int main () {
                         }
 
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -5507,6 +5536,7 @@ int main () {
                         }
 
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -5607,6 +5637,7 @@ int main () {
                         break;
                         }
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -5749,6 +5780,7 @@ int main () {
                         }
 
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -5874,6 +5906,7 @@ int main () {
                         }
 
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -5933,6 +5966,7 @@ int main () {
                         }
 
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -6202,6 +6236,7 @@ int main () {
                         }
 
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -6318,6 +6353,7 @@ int main () {
                         }
 
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
 
@@ -6513,6 +6549,7 @@ int main () {
                         }
 
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -6676,6 +6713,7 @@ int main () {
                         }
 
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -6860,6 +6898,7 @@ int main () {
                         }
 
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -7053,7 +7092,7 @@ int main () {
                         }
 
                         default:{
-                        cout << "There are only 18 municipalities in Antique.\n";
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -7233,7 +7272,7 @@ int main () {
                         }
                         
                         default:{
-                        cout << "There are only 16 municipalities in Capiz.\n";
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -7302,7 +7341,7 @@ int main () {
                         }
 
                         default:{
-                        cout << "There are only 5 municipalities in Guimaras.\n";
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -7361,6 +7400,7 @@ int main () {
                         }
 
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -7680,7 +7720,7 @@ int main () {
                         }
 
                         default:{
-                        cout << "There are only 42 municipalities in Iloilo.\n";
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -7889,6 +7929,7 @@ int main () {
                         }
 
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -8062,7 +8103,7 @@ int main () {
                         }
 
                         default:{
-                        cout << "There are only 19 municipalities in Negros Occidental.\n";
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -8377,7 +8418,7 @@ int main () {
                         }
 
                         default:{
-                            cout << "There are only 47 municipalities in Bohol.\n";
+                            cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -8397,7 +8438,7 @@ int main () {
                         cout << "Here are all the cities in Cebu: " << endl;
                         cout << "1. Bogo\n";
                         cout << "2. Carcar\n";
-                        cout << "3. Cebu City - Capital of Cebu Province\n";
+                        cout << "3. Cebu City - Capital of Cebu Province and Regional Center of Central Visayas\n";
                         cout << "4. Danao\n";
                         cout << "5. Lapu-Lapu\n";
                         cout << "6. Mandaue\n";
@@ -8542,7 +8583,7 @@ int main () {
                         }
 
                         default:{
-                        cout << "There are only 9 cities in Cebu.\n";
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         } 
                         }
                         }
@@ -8752,7 +8793,7 @@ int main () {
                             break;
                         }
                         default:{
-                            cout << "There are only 46 municipalities in Cebu.\n";
+                            cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         }
                         }
                         }
@@ -8870,6 +8911,7 @@ int main () {
                         }
 
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -9043,7 +9085,7 @@ int main () {
                         }
 
                         default:{
-                        cout << "Corresponding number not found.";
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -9119,7 +9161,7 @@ int main () {
                         }
 
                         default:{
-                        cout << "There are only 6 municipalities in Siquijor.\n";
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -9231,7 +9273,7 @@ int main () {
                         }
 
                         default:{
-                        cout << "There are only 8 municipalities in Biliran.\n";
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -9394,7 +9436,7 @@ int main () {
                         }
 
                         default:{
-                        cout << "Corresponding number not detected.\n";
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
 
@@ -9689,6 +9731,7 @@ int main () {
                         }
 
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -9841,7 +9884,7 @@ int main () {
                             break;
                         }
                         default:{
-                            cout << "Corresponding number not detected.\n";
+                            cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -9899,7 +9942,7 @@ int main () {
                         break;
                         }
                         default:{
-                            cout << "Corresponding number not found.\n";
+                            cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -10045,7 +10088,7 @@ int main () {
                         }
 
                         default:{
-                            cout << "Corresponding number not detected.\n";
+                            cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -10189,7 +10232,7 @@ int main () {
                         }
 
                         default:{
-                            cout << "Corresponding number not detected.\n";
+                            cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -10221,7 +10264,7 @@ int main () {
                 cout << "2. Zamboanga del Sur\n";
                 cout << "3. Zamboanga Sibugay\n";
                 
-                cout << "Choose from 1- to find out more about the different provinces: " << endl;
+                cout << "Choose from 1-3 to find out more about the different provinces: " << endl;
                 cin >> zamboangapen;
 
                     if (zamboangapen == 1){
@@ -10275,6 +10318,7 @@ int main () {
                         }
 
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -10426,7 +10470,7 @@ int main () {
 
 
                         default:{
-                            cout << "Corresponding number not detected.\n";
+                            cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -10634,6 +10678,7 @@ int main () {
 
 
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -10760,6 +10805,7 @@ int main () {
 
 
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -10802,26 +10848,79 @@ int main () {
                     cin >> cmb;
 
                         if (cmb == 'C' || cmb == 'c'){
+                        char citybarangays;
                         cout << "Here are all the cities in Bukidnon: " << endl;
+                        cout << "1. Malaybalay - Capital of Bukodnon\n";
+                        cout << "2. Valencia\n";
+
+                        cout << "Would you like to find out more about the cities and the barangays within them? (Y/N): ";
+                        cin >> citybarangays;
+
+                        if (citybarangays == 'Y' || citybarangays == 'y'){
+                        int barangays;
+
+                        cout << "Enter a number corresponding to a city to get information about it and its barangays; ";
+                        cin >> barangays;
+
+                        switch (barangays){
+                        case 1:{
+                        cout << "You have chosen the city of \n";
+                        cout << "Information about city\n";
+                        cout << "Here are all the barangays in : \n";
+                        
+                        break;
+                        }
+                        case 2:{
+                        cout << "You have chosen the city of \n";
+                        cout << "Information about city\n";
+                        cout << "Here are all the barangays in : \n";
+                        break;
+                        }
+                        }
+                        }
                         }
 
                         else if (cmb == 'M' || cmb == 'm'){
+                        char municipal;
                         cout << "Here are all the municipalities in Bukidnon: " << endl;
+                        cout << "Would you like to find out more about the municipalities? (Y/N): ";
+                        cin >> municipal;
+                            
+                        if (municipal == 'Y' || municipal == 'y'){
+                        int barangays;
+                        cout << "Enter a number corresponding to a municipality to get information about it: ";
+                        cin >> barangays;
+                                                                            
+                        switch (barangays){
+
+                        }
+                        }
                         }
                     }
 
                     else if (northernmind == 2){
                     cout << "You have chosen Camiguin" << endl;
 
-                    cout << "Would you like to find out about the cities or municipalities? Choose from C or M or N to find out about other regions: ";
+                    cout << "Camiguin has no cities, would you like to find out about the municipalities? (Y/N): ";
                     cin >> cmb;
 
-                        if (cmb == 'C' || cmb == 'c'){
-                        cout << "Here are all the cities in Camiguin: " << endl;
-                        }
-
-                        else if (cmb == 'M' || cmb == 'm'){
+                        if (cmb == 'M' || cmb == 'm'){
+                        char municipal;
                         cout << "Here are all the municipalities in Camiguin: " << endl;
+
+                        cout << "Would you like to find out more about the municipalities? (Y/N): ";
+                        cin >> municipal;
+
+                        if (municipal == 'Y' || municipal == 'y'){
+                        int barangays;
+
+                        cout << "Enter a number corresponding to a municipality to get information about it: ";
+                        cin >> barangays;
+
+                        switch (barangays){
+
+                        }
+                        }
                         }
 
                     }
@@ -10833,11 +10932,38 @@ int main () {
                     cin >> cmb;
 
                         if (cmb == 'C' || cmb == 'c'){
+                        char citybarangays;
                         cout << "Here are all the cities in Lanao del Norte: " << endl;
+                        cout << "Iligan - Highly Urbanized City\n";
+
+                        cout << "Would you like to find out more about Iligan and the barangays within it? (Y/N): ";
+                        cin >> citybarangays;
+
+                        if (citybarangays == 'Y' || citybarangays == 'y'){
+
+                        cout << "The city of blah blah \n";
+                        cout << "Information about city\n";
+                        cout << "Here are all the barangays in :\n";
+
+                        }
                         }
 
                         else if (cmb == 'M' || cmb == 'm'){
+                        char municipal;
                         cout << "Here are all the municipalities in Lanao del Norte: " << endl;
+                        cout << "Would you like to find out more about the municipalities? (Y/N): ";
+                        cin >> municipal;
+
+                        if (municipal == 'Y' || municipal == 'y'){
+                        int barangays;
+
+                        cout << "Enter a number corresponding to a municipality to get information about it: ";
+                        cin >> barangays;
+
+                        switch (barangays){
+
+                        }
+                        }
                         }
                     }
 
@@ -10848,11 +10974,71 @@ int main () {
                     cin >> cmb;
 
                         if (cmb == 'C' || cmb == 'c'){
+                        char citybarangays;
                         cout << "Here are all the cities in Misamis Occidental: " << endl;
+                        cout << "1. Oroquieta - Capital of Misamis Occidental\n";
+                        cout << "2. Ozamiz\n";
+                        cout << "3. Tangub\n";
+
+                        cout << "Would you like to find out more about the cities and the barangays within them? (Y/N): ";
+                        cin >> citybarangays;
+
+                        if (citybarangays == 'Y' || citybarangays == 'y'){
+                        int barangays;
+
+                        cout << "Enter a number corresponding to a city to get information about it and its barangays; ";
+                        cin >> barangays;
+
+                        switch (barangays){
+                        case 1:{
+                        cout << "You have chosen the city of \n";
+                        cout << "Information about city\n";
+                        cout << "Here are all the barangays in : \n";
+                        cout << "1. ";
+                        break;
+                        }
+
+                        case 2:{
+                        cout << "You have chosen the city of \n";
+                        cout << "Information about city\n";
+                        cout << "Here are all the barangays in : \n";
+                        cout << "1. ";
+                        break;
+                        }
+
+                        case 3:{
+                        cout << "You have chosen the city of \n";
+                        cout << "Information about city\n";
+                        cout << "Here are all the barangays in : \n";
+                        cout << "1. ";
+                        break;
+                        }
+
+                        default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
+                        break;
+                        }
+                        }
+                        }
                         }
 
                         else if (cmb == 'M' || cmb == 'm'){
+                        char municipal;
                         cout << "Here are all the municipalities in Misamis Occidental: " << endl;
+
+                        cout << "Would you like to find out more about the municipalities? (Y/N): ";
+                        cin >> municipal;
+
+                        if (municipal == 'Y' || municipal == 'y'){
+                        int barangays;
+
+                        cout << "Enter a number corresponding to a municipality to get information about it: ";
+                        cin >> barangays;
+
+                        switch (barangays){
+
+                        }
+                        }
                         }
 
                     }
@@ -10864,11 +11050,69 @@ int main () {
                     cin >> cmb;
 
                         if (cmb == 'C' || cmb == 'c'){
+                        char citybarangays;
                         cout << "Here are all the cities in Misamis Oriental: " << endl;
+                        cout << "1. Cagayan de Oro - Capital of Misamis Oriental and Regional Center of Northern Mindanao.\n";
+                        cout << "2. El Salvador\n";
+                        cout << "3. Gingoog\n";
+                        cout << "Would you like to find out more about the cities and the barangays within them? (Y/N): ";
+                        cin >> citybarangays;
+
+                        if (citybarangays == 'Y' || citybarangays == 'y'){
+                        int barangays;
+
+                        cout << "Enter a number corresponding to a city to get information about it and its barangays; ";
+                        cin >> barangays;
+
+                        switch (barangays){
+                        case 1:{
+                        cout << "You have chosen the city of \n";
+                        cout << "Information about city\n";
+                        cout << "Here are all the barangays in : \n";
+                        cout << "1. ";
+                        break;
+                        }
+
+                        case 2:{
+                        cout << "You have chosen the city of \n";
+                        cout << "Information about city\n";
+                        cout << "Here are all the barangays in : \n";
+                        cout << "1. ";
+                        break;
+                        }
+
+                        case 3:{
+                        cout << "You have chosen the city of \n";
+                        cout << "Information about city\n";
+                        cout << "Here are all the barangays in : \n";
+                        cout << "1. ";
+                        break;
+                        }
+
+                        default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
+                        break;
+                        }
+                        }
+                        }
                         }
 
                         else if (cmb == 'M' || cmb == 'm'){
+                        char municipal;
                         cout << "Here are all the municipalities in Misamis Oriental: " << endl;
+                        cout << "Would you like to find out more about the municipalities? (Y/N): ";
+                        cin >> municipal;
+
+                        if (municipal == 'Y' || municipal == 'y'){
+                        int barangays;
+
+                        cout << "Enter a number corresponding to a municipality to get information about it: ";
+                        cin >> barangays;
+
+                        switch (barangays){
+
+                        }
+                        }
                         }
                     }
 
@@ -10930,73 +11174,63 @@ int main () {
                         cin >> barangays;
                                                         
                         switch (barangays){
-                        case 1:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
+                        case 1: {
+                            cout << "You have chosen the municipality of Compostela.\n";
                         break;
                         }
 
-                        case 2:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 2: {
+                            cout << "You have chosen the municipality of Laak.\n";
+                            break;
                         }
 
-                        case 3:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 3: {
+                            cout << "You have chosen the municipality of Mabini.\n";
+                            break;
                         }
 
-                        case 4:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 4: {
+                            cout << "You have chosen the municipality of Maco.\n";
+                            break;
                         }
 
-                        case 5:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 5: {
+                            cout << "You have chosen the municipality of Maragusan.\n";
+                            break;
                         }
 
-                        case 6:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 6: {
+                            cout << "You have chosen the municipality of Mawab.\n";
+                            break;
                         }
 
-                        case 7:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 7: {
+                            cout << "You have chosen the municipality of Monkayo.\n";
+                            break;
                         }
 
-                        case 8:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 8: {
+                            cout << "You have chosen the municipality of Nabunturan - Capital of Davao de Oro.\n";
+                            break;
                         }
 
-                        case 9:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 9: {
+                            cout << "You have chosen the municipality of Montevista.\n";
+                            break;
                         }
-                                                
-                        case 10:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
+
+                        case 10: {
+                            cout << "You have chosen the municipality of New Bataan.\n";
+                            break;
+                        }
+
+                        case 11: {
+                            cout << "You have chosen the municipality of Pantukan.\n";
+                            break;
+                        }
+
+                        default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -11029,39 +11263,46 @@ int main () {
 
                         switch(barangays){
                         case 1:{
-                        
+                        int barangayCount = sizeof(PanaboBrgys)/sizeof(PanaboBrgys[0]);
                         cout << "You have chosen the city of Panabo.\n";
                         cout << "Mayor: Sabastian Z. Duterte\n";
                         cout << "Panabo is the second most populous city in Davao del Norte (after Tagum) and it is also part of Davao Metropolitan Area as it shares borders with Davao City. It has an area of 25,123 hectares (62,080 acres). The Panabo City Hall is located about 2.23 kilometers from its boundary with Davao City.\n";
                         cout << "The city of Panabo's zip code is 8105.\n";
                         cout << "According to the 2020 census, its total population is 209, 230.\n";
                         cout << "Here are all the barangays in Panabo:\n";
-
+                        for (int i = 0; i < barangayCount; ++i) {
+                            cout << i + 1 << ". " << PanaboBrgys[i] << "\n";
+                        }
                         break;
                         }
                         case 2:{
-                        
+                        int barangayCount = sizeof(SamalBrgys)/sizeof(SamalBrgys[0]);
                         cout << "You have chosen the city of Samal.\n";
                         cout << "Mayor: Al David T. Uy \n";
                         cout << "Samal is the only city in the country that encompasses two entire islands, hence its name the Island Garden City. While pristine beaches dot the island's shores, hills dominate the middle portions of the island. Talikud Island is located southwest of the main island.\n";
                         cout << "The city of Samal's zip code is 8119.\n";
                         cout << "According to the 2020 census, its total population is 116,711.";
                         cout << "Here are all the barangays in Samal:\n";
-
+                        for (int i = 0; i < barangayCount; ++i) {
+                            cout << i + 1 << ". " << SamalBrgys[i] << "\n";
+                        }
                         break;
                         }
                         case 3:{
-
+                        int barangayCount = sizeof(TagumBrgys)/sizeof(TagumBrgys[0]);
                         cout << "You have chosen the city of Tagum.\n";
                         cout << "Mayor: Rey T. Uy";
                         cout << "is the capital of the province of Davao del Norte. Tagum is known for many things, like its coconut and banana plantations, its festivals, and marching bands.\n";
-                        cout << "The city of Tagum’s zip code is 8100.\n";
+                        cout << "The city of Tagum's zip code is 8100.\n";
                         cout << "According to the 2020 census, its total population is 296,202.\n";
                         cout << "Here are all the barangays in Tagum:\n";
-
+                        for (int i = 0; i < barangayCount; ++i) {
+                            cout << i + 1 << ". " << TagumBrgys[i] << "\n";
+                        }
                         break;
                         }
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -11148,7 +11389,7 @@ int main () {
                         }
 
                         default:{
-                        cout << "Corresponding number not detected.\n";
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         }
                         }
                         }
@@ -11164,17 +11405,35 @@ int main () {
                         if (cmb == 'C' || cmb == 'c'){
                         char citybarangays;
                         cout << "Here are all the cities in Davao del Sur: " << endl;
-                        cout << "The only city in Davao del Sur is Digos.\n";
+                        cout << "1. Davao City - Regional Center of Davao Region.\n";
+                        cout << "2. Digos\n";
 
-                        cout << "Would you like to find out more about Digos and the barangays within it? (Y/N): ";
+                        cout << "Would you like to find out more about the cities and the barangays within it? (Y/N): ";
                         cin >> citybarangays;
 
                         if (citybarangays == 'Y' || citybarangays == 'y'){
+                        int barangays;
 
+                        cout << "Enter a number corresponding to a city to get information about it and its barangays; ";
+                        cin >> barangays;
+
+                        switch (barangays){
+                        case 1:{
                         cout << "The city of blah blah \n";
                         cout << "Information about city\n";
                         cout << "Here are all the barangays in :\n";
-
+                        break;
+                        }
+                        case 2:{
+                        cout << "The city of blah blah \n";
+                        cout << "Information about city\n";
+                        cout << "Here are all the barangays in :\n";
+                        break;
+                        }
+                        default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
+                        }
+                        }
                         }
                         }
 
@@ -11201,70 +11460,54 @@ int main () {
                         cin >> barangays;
                                                         
                         switch (barangays){
-                        case 1:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
+                        case 1: {
+                            cout << "You have chosen the municipality of Bansalan.\n";
                         break;
                         }
 
-                        case 2:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 2: {
+                            cout << "You have chosen the municipality of Hagonoy.\n";
+                            break;
                         }
 
-                        case 3:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 3: {
+                            cout << "You have chosen the municipality of Kiblawan.\n";
+                            break;
                         }
 
-                        case 4:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 4: {
+                            cout << "You have chosen the municipality of Magsaysay.\n";
+                            break;
                         }
 
-                        case 5:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 5: {
+                            cout << "You have chosen the municipality of Malalag.\n";
+                            break;
                         }
 
-                        case 6:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 6: {
+                            cout << "You have chosen the municipality of Matanao.\n";
+                            break;
                         }
 
-                        case 7:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 7: {
+                            cout << "You have chosen the municipality of Padada.\n";
+                            break;
                         }
 
-                        case 8:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 8: {
+                            cout << "You have chosen the municipality of Santa Cruz.\n";
+                            break;
                         }
 
-                        case 9:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 9: {
+                            cout << "You have chosen the municipality of Sulop.\n";
+                            break;
                         }
+
 
                         default:{
+                            cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }              
                         }
@@ -11297,39 +11540,34 @@ int main () {
                         cin >> barangays;
                                                         
                         switch (barangays){
-                        case 1:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
+                        case 1: {
+                            cout << "You have chosen the municipality of Don Marcelino.\n";
                         break;
                         }
 
-                        case 2:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 2: {
+                            cout << "You have chosen the municipality of Jose Abad Santos.\n";
+                            break;
                         }
 
-                        case 3:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 3: {
+                            cout << "You have chosen the municipality of Malita - Capital of Davao Occidental.\n";
+                            break;
                         }
 
-                        case 4:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 4: {
+                            cout << "You have chosen the municipality of Santa Maria.\n";
+                            break;
                         }
 
-                        case 5:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 5: {
+                            cout << "You have chosen the municipality of Sarangani.\n";
+                            break;
+                        }
+
+                        default:{
+                            cout << "CORRESPONDING NUMBER NOT FOUND.\n";
+                            break;
                         }
                         }
                         }
@@ -11384,75 +11622,61 @@ int main () {
                         cin >> barangays;
                                                         
                         switch (barangays){
-                        case 1:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
+                        case 1: {
+                            cout << "You have chosen the municipality of Baganga.\n";
                         break;
                         }
 
-                        case 2:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 2: {
+                            cout << "You have chosen the municipality of Banaybanay.\n";
+                            break;
                         }
 
-                        case 3:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 3: {
+                            cout << "You have chosen the municipality of Boston.\n";
+                            break;
                         }
 
-                        case 4:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 4: {
+                            cout << "You have chosen the municipality of Caraga.\n";
+                            break;
                         }
 
-                        case 5:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 5: {
+                            cout << "You have chosen the municipality of Cateel.\n";
+                            break;
                         }
 
-                        case 6:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 6: {
+                            cout << "You have chosen the municipality of Governor Generoso.\n";
+                            break;
                         }
 
-                        case 7:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 7: {
+                            cout << "You have chosen the municipality of Lupon.\n";
+                            break;
                         }
 
-                        case 8:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 8: {
+                            cout << "You have chosen the municipality of Manay.\n";
+                            break;
                         }
 
-                        case 9:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 9: {
+                            cout << "You have chosen the municipality of San Isidro.\n";
+                            break;
                         }
-                                                
-                        case 10:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+
+                        case 10: {
+                            cout << "You have chosen the municipality of Tarragona.\n";
+                            break;
                         }
+
+                        default:{
+                            cout << "CORRESPONDING NUMBER NOT FOUND.\n";
+                            break;
+                        }
+
                         }
                         }
                         }
@@ -11482,7 +11706,7 @@ int main () {
                 cout << "3. South Cotabato\n";
                 cout << "4. Sultan Kudarat\n";
 
-                cout << "Choose from 1- to find out more about the different provinces: ";
+                cout << "Choose from 1-4 to find out more about the different provinces: ";
 	            cin >> soccsk;
 
                     if (soccsk == 1){
@@ -11495,8 +11719,7 @@ int main () {
                         char citybarangays;
                         cout << "Here are all the cities in Cotabato: " << endl;
                         cout << "1. Kidapawan\n";
-                        cout << "2. Cotabato City\n";
-                        cout << "3. General Santos\n";
+                        cout << "2. General Santos - Highly Urbanized City\n";
 
                         cout << "Would you like to find out more about the cities and the barangays within them? (Y/N): ";
                         cin >> citybarangays;
@@ -11524,15 +11747,8 @@ int main () {
                         break;
                         }
 
-                        case 3:{
-                        cout << "You have chosen the city of \n";
-                        cout << "Information about city\n";
-                        cout << "Here are all the barangays in : \n";
-                        
-                        break;
-                        }
-
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -11570,126 +11786,93 @@ int main () {
                         cin >> barangays;
                                                         
                         switch (barangays){
-                        case 1:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
+                        case 1: {
+                            cout << "You have chosen the municipality of Alamada.\n";
                         break;
                         }
 
-                        case 2:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 2: {
+                            cout << "You have chosen the municipality of Aleosan.\n";
+                            break;
                         }
 
-                        case 3:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 3: {
+                            cout << "You have chosen the municipality of Antipas.\n";
+                            break;
                         }
 
-                        case 4:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 4: {
+                            cout << "You have chosen the municipality of Arakan.\n";
+                            break;
                         }
 
-                        case 5:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 5: {
+                            cout << "You have chosen the municipality of Banisilan.\n";
+                            break;
                         }
 
-                        case 6:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 6: {
+                            cout << "You have chosen the municipality of Carmen.\n";
+                            break;
                         }
 
-                        case 7:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 7: {
+                            cout << "You have chosen the municipality of Kabacan.\n";
+                            break;
                         }
 
-                        case 8:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 8: {
+                            cout << "You have chosen the municipality of Libungan.\n";
+                            break;
                         }
 
-                        case 9:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
-                        }
-                                                
-                        case 10:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 9: {
+                            cout << "You have chosen the municipality of Magpet.\n";
+                            break;
                         }
 
-                        case 11:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 10: {
+                            cout << "You have chosen the municipality of Makilala.\n";
+                            break;
                         }
 
-                        case 12:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 11: {
+                            cout << "You have chosen the municipality of Matalam.\n";
+                            break;
                         }
 
-                        case 13:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 12: {
+                            cout << "You have chosen the municipality of Midsayap.\n";
+                            break;
                         }
 
-                        case 14:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 13: {
+                            cout << "You have chosen the municipality of M'lang.\n";
+                            break;
                         }
 
-                        case 15:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 14: {
+                            cout << "You have chosen the municipality of Pigcawayan.\n";
+                            break;
                         }
 
-                        case 16:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 15: {
+                            cout << "You have chosen the municipality of Pikit.\n";
+                            break;
                         }
 
-                        case 17:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 16: {
+                            cout << "You have chosen the municipality of President Roxas.\n";
+                            break;
                         }
-                        
+
+                        case 17: {
+                            cout << "You have chosen the municipality of Tulunan.\n";
+                            break;
+                        }
+            
                         default:{
+                            cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -11707,7 +11890,7 @@ int main () {
                         if (cmb == 'Y' || cmb == 'y'){
                         char municipal;
                         cout << "Here are all the municipalities in Sarangani: " << endl;
-                        cout << "1. Alabel\n";
+                        cout << "1. Alabel - Capital of Sarangani\n";
                         cout << "1. Glan\n";
                         cout << "2. Kiamba\n";
                         cout << "3. Maasim\n";
@@ -11726,48 +11909,53 @@ int main () {
                                                         
                         switch (barangays){
                         case 1:{
-                        cout << "You have chosen the municipality of \n";
-                        
+                        cout << "You have chosen the municipality of Alabel.\n";
                         
                         break;
                         }
 
                         case 2:{
-                        cout << "You have chosen the municipality of \n";
-                        
+                        cout << "You have chosen the municipality of Glan.\n";
                         
                         break;
                         }
 
                         case 3:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Kiamba.\n";
                         
                         
                         break;
                         }
 
                         case 4:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Maasim.\n";
                         
                         
                         break;
                         }
 
                         case 5:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Maitum.\n";
                         
                         
                         break;
                         }
 
                         case 6:{
-                        cout << "You have chosen the municipality of \n";
+                        cout << "You have chosen the municipality of Malapatan.\n";
                         
                         
                         break;
                         }
+
+                        case 7:{
+                        cout << "You have chosen the municipality of Malungon.\n";
+
+                        break;
+                        }
                         
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
 
@@ -11786,7 +11974,7 @@ int main () {
                         if (cmb == 'C' || cmb == 'c'){
                         char citybarangays;
                         cout << "Here are all the cities in South Cotabato: " << endl;
-                        cout << "The only city in South Cotabato is Koronadal\n";
+                        cout << "Koronadal - Capital of South Cotabato and Regional Center of SOCCSKSARGEN\n";
 
                         cout << "Would you like to find out more about Koronadal and the barangays within it? (Y/N): ";
                         cin >> citybarangays;
@@ -11824,74 +12012,58 @@ int main () {
                         cin >> barangays;
                                                         
                         switch (barangays){
-                        case 1:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
+                        case 1: {
+                            cout << "You have chosen the municipality of Banga.\n";
                         break;
                         }
 
-                        case 2:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 2: {
+                            cout << "You have chosen the municipality of Lake Sebu.\n";
+                            break;
                         }
 
-                        case 3:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 3: {
+                            cout << "You have chosen the municipality of Norala.\n";
+                            break;
                         }
 
-                        case 4:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 4: {
+                            cout << "You have chosen the municipality of Polomolok.\n";
+                            break;
                         }
 
-                        case 5:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 5: {
+                            cout << "You have chosen the municipality of Santo Niño.\n";
+                            break;
                         }
 
-                        case 6:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 6: {
+                            cout << "You have chosen the municipality of Surallah.\n";
+                            break;
                         }
 
-                        case 7:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 7: {
+                            cout << "You have chosen the municipality of Tampakan.\n";
+                            break;
                         }
 
-                        case 8:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 8: {
+                            cout << "You have chosen the municipality of Tantangan.\n";
+                            break;
                         }
 
-                        case 9:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 9: {
+                            cout << "You have chosen the municipality of T'Boli.\n";
+                            break;
                         }
-                                                
-                        case 10:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+
+                        case 10: {
+                            cout << "You have chosen the municipality of Tupi.\n";
+                            break;
+                        }
+
+                        default:{
+                            cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         }
                         }
                         }
@@ -11912,14 +12084,14 @@ int main () {
                         cout << "2. Columbio\n";
                         cout << "3. Esperanza\n";
                         cout << "5. Isulan - Capital of Sultan Kudarat";
-                        cout << "5. Kalamansig\n";
-                        cout << "6. Lambayong\n";
-                        cout << "7. Lebak\n";
-                        cout << "8. Lutayan\n";
-                        cout << "9. Palimbang\n";
-                        cout << "10. President Quirino\n";
-                        cout << "11. Senator Ninoy Aquino\n";
-                        cout << "12. Tacurong\n";
+                        cout << "6. Kalamansig\n";
+                        cout << "7. Lambayong\n";
+                        cout << "8. Lebak\n";
+                        cout << "9. Lutayan\n";
+                        cout << "10. Palimbang\n";
+                        cout << "11. President Quirino\n";
+                        cout << "12. Senator Ninoy Aquino\n";
+                        cout << "13. Tacurong\n";
 
                         cout << "Would you like to find out more about the municipalities? (Y/N): ";
                         cin >> municipal;
@@ -11931,91 +12103,68 @@ int main () {
                         cin >> barangays;
                                                         
                         switch (barangays){
-                        case 1:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
+                        case 1: {
+                            cout << "You have chosen the municipality of Bagumbayan.\n";
                         break;
                         }
 
-                        case 2:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 2: {
+                            cout << "You have chosen the municipality of Columbio.\n";
+                            break;
                         }
 
-                        case 3:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 3: {
+                            cout << "You have chosen the municipality of Esperanza.\n";
+                            break;
                         }
 
-                        case 4:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 4: {
+                            cout << "You have chosen the municipality of Isulan - Capital of Sultan Kudarat.\n";
+                            break;
                         }
 
-                        case 5:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 5: {
+                            cout << "You have chosen the municipality of Kalamansig.\n";
+                            break;
                         }
 
-                        case 6:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 6: {
+                            cout << "You have chosen the municipality of Lambayong.\n";
+                            break;
                         }
 
-                        case 7:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 7: {
+                            cout << "You have chosen the municipality of Lebak.\n";
+                            break;
                         }
 
-                        case 8:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 8: {
+                            cout << "You have chosen the municipality of Lutayan.\n";
+                            break;
                         }
 
-                        case 9:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
-                        }
-                                                
-                        case 10:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 9: {
+                            cout << "You have chosen the municipality of Palimbang.\n";
+                            break;
                         }
 
-                        case 11:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 10: {
+                            cout << "You have chosen the municipality of President Quirino.\n";
+                            break;
                         }
 
-                        case 12:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 11: {
+                            cout << "You have chosen the municipality of Senator Ninoy Aquino.\n";
+                            break;
                         }
-                        
+
+                        case 12: {
+                            cout << "You have chosen the municipality of Tacurong.\n";
+                            break;
+                        }
+                      
                         default:{
+                            cout << "CORRESPONDING NUMBER NOT FOUND.";
                         break;
                         }
                         }
@@ -12047,7 +12196,7 @@ int main () {
                 cout << "4. Surigao del Norte\n";
                 cout << "5. Surigao del Sur\n";
 
-                cout << "Choose from 1- to find out more about the different provinces: ";
+                cout << "Choose from 1-5 to find out more about the different provinces: ";
 	            cin >> caraga;
 
                     if (caraga == 1){
@@ -12057,21 +12206,120 @@ int main () {
                     cin >> cmb;
 
                         if (cmb == 'C' || cmb == 'c'){
-                        cout << "Here are all the cities in : " << endl;
+                        char citybarangays;
+                        cout << "Here are all the cities in Agusan del Norte: " << endl;
+                        cout << "1. Butuan - Regional Center of Caraga\n";
+                        cout << "2. Cabadbaran - Capital of Agusan del Norte\n";
+
+                        cout << "Would you like to find out more about the cities and the barangays within them? (Y/N): ";
+                        cin >> citybarangays;
+
+                        if (citybarangays == 'Y' || citybarangays == 'y'){
+                        int barangays;
+                        cout << "Enter a number corresponding to a city to get information about it and its barangays; ";
+                        cin >> barangays;
+
+                        switch (barangays){
+                        case 1:{
+                        cout << "The city of blah blah \n";
+                        cout << "Information about city\n";
+                        cout << "Here are all the barangays in :\n";
+                        break;
+                        }
+                        case 2:{
+                        cout << "The city of blah blah \n";
+                        cout << "Information about city\n";
+                        cout << "Here are all the barangays in :\n";
+                        break;
+                        }
+                        default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
+                        }
+                        }
+                        }
                         }
 
                         else if (cmb == 'M' || cmb == 'm'){
+                        char municipal;
                         cout << "Here are all the municipalities in Agusan Del Norte : " << endl;
-                        cout << "Buenavista\n";
-                        cout << "Carmen\n";
-                        cout << "Jabonga \n";
-                        cout << "Kitcharao \n";
-                        cout << "Las Nieves \n";
-                        cout << "Magallanes \n";
-                        cout << "Nasipit \n";
-                        cout << "Remedios T. Romualdez \n";
-                        cout << "Santiago \n";
-                        cout << "Tubay \n";
+                        cout << "1. Buenavista\n";
+                        cout << "2. Carmen\n";
+                        cout << "3. Jabonga \n";
+                        cout << "4. Kitcharao \n";
+                        cout << "5. Las Nieves \n";
+                        cout << "6. Magallanes \n";
+                        cout << "7. Nasipit \n";
+                        cout << "8. Remedios T. Romualdez \n";
+                        cout << "9. Santiago \n";
+                        cout << "10. Tubay \n";
+
+                        cout << "Would you like to find out more about the municipalities? (Y/N): ";
+                        cin >> municipal;
+
+                        if (municipal == 'Y' || municipal == 'y'){
+                        int barangays;
+
+                        cout << "Enter a number corresponding to a municipality to get information about it: ";
+                        cin >> barangays;
+
+                        switch (barangays){
+                        case 1: {
+                            cout << "You have chosen the municipality of Buenavista.\n";
+                        break;
+                        }
+
+                        case 2: {
+                            cout << "You have chosen the municipality of Carmen.\n";
+                            break;
+                        }
+
+                        case 3: {
+                            cout << "You have chosen the municipality of Jabonga.\n";
+                            break;
+                        }
+
+                        case 4: {
+                            cout << "You have chosen the municipality of Kitcharao.\n";
+                            break;
+                        }
+
+                        case 5: {
+                            cout << "You have chosen the municipality of Las Nieves.\n";
+                            break;
+                        }
+
+                        case 6: {
+                            cout << "You have chosen the municipality of Magallanes.\n";
+                            break;
+                        }
+
+                        case 7: {
+                            cout << "You have chosen the municipality of Nasipit.\n";
+                            break;
+                        }
+
+                        case 8: {
+                            cout << "You have chosen the municipality of Remedios T. Romualdez.\n";
+                            break;
+                        }
+
+                        case 9: {
+                            cout << "You have chosen the municipality of Santiago.\n";
+                            break;
+                        }
+
+                        case 10: {
+                            cout << "You have chosen the municipality of Tubay.\n";
+                            break;
+                        }
+
+                        default:{
+                            cout << "CORRESPONDING NUMBER NOT FOUND.\n";
+                            break;
+                        }
+
+                        }
+                        }
                         }
 
                     }
@@ -12083,24 +12331,119 @@ int main () {
                     cin >> cmb;
 
                         if (cmb == 'C' || cmb == 'c'){
-                        cout << "Here are all the cities in : " << endl;
+                        char citybarangays;
+                        cout << "Here are all the cities in Agusan del Sur: " << endl;
+                        cout << "Bayugan is the only city in Agusan del Sur.\n";
+
+                        cout << "Would you like to find out more about Bayugan and the barangays within it? (Y/N): ";
+                        cin >> citybarangays;
+
+                        if (citybarangays == 'Y' || citybarangays == 'y'){
+
+                        cout << "The city of blah blah \n";
+                        cout << "Information about city\n";
+                        cout << "Here are all the barangays in :\n";
+
+                        }
                         }
 
                         else if (cmb == 'M' || cmb == 'm'){
+                        char municipal;
                         cout << "Here are all the municipalities in Agusan Del Sur: " << endl;
-                        cout << "Bunawan \n";
-                        cout << "Esperenza \n";
-                        cout << "La Paz \n";
-                        cout << "Loreto \n";
-                        cout << "Properidad \n";
-                        cout << "Rosario \n";
-                        cout << "San Francisco \n";
-                        cout << "San Luis \n";
-                        cout << "Santa Josefa \n";
-                        cout << "Sibagat \n";
-                        cout << "Talacogon \n";
-                        cout << "Trento \n";
-                        cout << "Veruela \n";
+                        cout << "1. Bunawan \n";
+                        cout << "2. Esperenza \n";
+                        cout << "3. La Paz \n";
+                        cout << "4. Loreto \n";
+                        cout << "5. Properidad - Capital of Agusan Del Sur \n";
+                        cout << "6. Rosario \n";
+                        cout << "7. San Francisco \n";
+                        cout << "8. San Luis \n";
+                        cout << "9. Santa Josefa \n";
+                        cout << "10. Sibagat \n";
+                        cout << "11. Talacogon \n";
+                        cout << "12. Trento \n";
+                        cout << "13 . Veruela \n";
+
+                        cout << "Would you like to find out more about the municipalities? (Y/N): ";
+                        cin >> municipal;
+
+                        if (municipal == 'Y' || municipal == 'y'){
+                        int barangays;
+
+                        cout << "Enter a number corresponding to a municipality to get information about it: ";
+                        cin >> barangays;
+
+                        switch (barangays){
+                        case 1: {
+                            cout << "You have chosen the municipality of Bunawan.\n";
+                        break;
+                        }
+
+                        case 2: {
+                            cout << "You have chosen the municipality of Esperenza.\n";
+                            break;
+                        }
+
+                        case 3: {
+                            cout << "You have chosen the municipality of La Paz.\n";
+                            break;
+                        }
+
+                        case 4: {
+                            cout << "You have chosen the municipality of Loreto.\n";
+                            break;
+                        }
+
+                        case 5: {
+                            cout << "You have chosen the municipality of Properidad.\n";
+                            break;
+                        }
+
+                        case 6: {
+                            cout << "You have chosen the municipality of Rosario.\n";
+                            break;
+                        }
+
+                        case 7: {
+                            cout << "You have chosen the municipality of San Francisco.\n";
+                            break;
+                        }
+
+                        case 8: {
+                            cout << "You have chosen the municipality of San Luis.\n";
+                            break;
+                        }
+
+                        case 9: {
+                            cout << "You have chosen the municipality of Santa Josefa.\n";
+                            break;
+                        }
+
+                        case 10: {
+                            cout << "You have chosen the municipality of Sibagat.\n";
+                            break;
+                        }
+
+                        case 11: {
+                            cout << "You have chosen the municipality of Talacogon.\n";
+                            break;
+                        }
+
+                        case 12: {
+                            cout << "You have chosen the municipality of Trento.\n";
+                            break;
+                        }
+
+                        case 13: {
+                            cout << "You have chosen the municipality of Veruela.\n";
+                            break;
+                        }
+
+                        default:{
+                            cout << "CORRESPONDING NUMBER NOT FOUND.\n";
+                        }
+                        }
+                        }
                         }
 
                     }
@@ -12108,23 +12451,71 @@ int main () {
                     else if (caraga == 3){
                     cout << "You have chosen Dinagat Islands" << endl;
 
-                    cout << "Would you like to find out about the cities or municipalities? Choose from C or M or N to find out about other regions: ";
+                    cout << "Dinagat Islands has no cities, would you like to find out about the municipalities? (Y/N): ";
                     cin >> cmb;
 
-                        if (cmb == 'C' || cmb == 'c'){
-                        cout << "Here are all the cities in : " << endl;
+                        if (cmb == 'Y' || cmb == 'y'){
+                        char municipal;
+                        cout << "Here are all the municipalities in Dinagat Islands: " << endl;
+                        cout << "1. Basilisa \n";
+                        cout << "2. Cagdianao \n";
+                        cout << "3. Dinagat \n";
+                        cout << "4. Libjo \n";
+                        cout << "5. Loreto \n";
+                        cout << "6. San Jose - Capital of Dinagat Islands\n";
+                        cout << "7. Tubajon \n";
+
+                        cout << "Would you like to find out more about the municipalities? (Y/N): ";
+                        cin >> municipal;
+
+                        if (municipal == 'Y' || municipal == 'y'){
+                        int barangays;
+
+                        cout << "Enter a number corresponding to a municipality to get information about it: ";
+                        cin >> barangays;
+
+                        switch (barangays){
+                        case 1: {
+                            cout << "You have chosen the municipality of Basilisa.\n";
+                            break;
                         }
 
-                        else if (cmb == 'M' || cmb == 'm'){
-                        cout << "Here are all the municipalities in Dinagat Islands: " << endl;
-                        cout << "Basilisa \n";
-                        cout << "Cagdianao \n";
-                        cout << "Dinagat \n";
-                        cout << "Libjo \n";
-                        cout << "Loreto \n";
-                        cout << "San Jose \n";
-                        cout << "Tubajon \n";
+                        case 2: {
+                            cout << "You have chosen the municipality of Cagdianao.\n";
+                            break;
+                        }
 
+                        case 3: {
+                            cout << "You have chosen the municipality of Dinagat.\n";
+                            break;
+                        }
+
+                        case 4: {
+                            cout << "You have chosen the municipality of Libjo.\n";
+                            break;
+                        }
+
+                        case 5: {
+                            cout << "You have chosen the municipality of Loreto.\n";
+                            break;
+                        }
+
+                        case 6: {
+                            cout << "You have chosen the municipality of San Jose.\n";
+                            break;
+                        }
+
+                        case 7: {
+                            cout << "You have chosen the municipality of Tubajon.\n";
+                            break;
+                        }
+
+                        default:{
+                            cout << "CORRESPONDING NUMBER NOT FOUND.\n";
+                            break;
+                        }
+                        }
+                        }
                         }
 
                     }
@@ -12136,33 +12527,151 @@ int main () {
                     cin >> cmb;
 
                         if (cmb == 'C' || cmb == 'c'){
-                        cout << "Here are all the cities in : " << endl;
+                        char citybarangays;
+                        cout << "Here are all the cities in Surigao del Norte: " << endl;
+                        cout << "Surigao City - Capital of Surigao del Norte\n";
+
+                        cout << "Would you like to find out more about Surigao City and the barangays within it? (Y/N): ";
+                        cin >> citybarangays;
+
+                        if (citybarangays == 'Y' || citybarangays == 'y'){
+
+                        cout << "The city of blah blah \n";
+                        cout << "Information about city\n";
+                        cout << "Here are all the barangays in :\n";
+
+                        }
                         }
 
                         else if (cmb == 'M' || cmb == 'm'){
+                        int muniCount = sizeof(SurigaoNorteMuni)/sizeof(SurigaoNorteMuni[0]);
+                        char municipal;
                         cout << "Here are all the municipalities in Surigao Del Norte: " << endl;
-                        cout << "Alegria \n";
-                        cout << "Bacuag \n";
-                        cout << "Burgos \n";
-                        cout << "Claver \n";
-                        cout << "Dapa \n";
-                        cout << "Del Carmen \n";
-                        cout << "General Luna \n";
-                        cout << "Gigaquit \n";
-                        cout << "Mainit \n";
-                        cout << "Malimono \n";
-                        cout << "Pilar \n";
-                        cout << "Placer \n";
-                        cout << "San Benito \n";
-                        cout << "San Francisco \n";
-                        cout << "San Isidro \n";
-                        cout << "Santa Monica \n";
-                        cout << "Sison \n";
-                        cout << "Socorro \n";
-                        cout << "Tagana=an \n";
-                        cout << "Tubod \n";
-                        cout << "Barobo \n"; 
-                        }//gago istring mo mga o
+                        for (int i = 0; i < muniCount; ++i) {
+                            cout << i + 1 << ". " << SurigaoNorteMuni[i] << "\n";
+                        }
+                        cout << "Would you like to find out more about the municipalities? (Y/N): ";
+                        cin >> municipal;
+
+                        if (municipal == 'Y' || municipal == 'y'){
+                        int barangays;
+
+                        cout << "Enter a number corresponding to a municipality to get information about it: ";
+                        cin >> barangays;
+
+                        switch (barangays){
+                        case 1: {
+                            cout << "You have chosen the municipality of Alegria.\n";
+                            break;
+                        }
+
+                        case 2: {
+                            cout << "You have chosen the municipality of Bacuag.\n";
+                            break;
+                        }
+
+                        case 3: {
+                            cout << "You have chosen the municipality of Burgos.\n";
+                            break;
+                        }
+
+                        case 4: {
+                            cout << "You have chosen the municipality of Claver.\n";
+                            break;
+                        }
+
+                        case 5: {
+                            cout << "You have chosen the municipality of Dapa.\n";
+                            break;
+                        }
+
+                        case 6: {
+                            cout << "You have chosen the municipality of Del Carmen.\n";
+                            break;
+                        }
+
+                        case 7: {
+                            cout << "You have chosen the municipality of General Luna.\n";
+                            break;
+                        }
+
+                        case 8: {
+                            cout << "You have chosen the municipality of Gigaquit.\n";
+                            break;
+                        }
+
+                        case 9: {
+                            cout << "You have chosen the municipality of Mainit.\n";
+                            break;
+                        }
+
+                        case 10: {
+                            cout << "You have chosen the municipality of Malimono.\n";
+                            break;
+                        }
+
+                        case 11: {
+                            cout << "You have chosen the municipality of Pilar.\n";
+                            break;
+                        }
+
+                        case 12: {
+                            cout << "You have chosen the municipality of Placer.\n";
+                            break;
+                        }
+
+                        case 13: {
+                            cout << "You have chosen the municipality of San Benito.\n";
+                            break;
+                        }
+
+                        case 14: {
+                            cout << "You have chosen the municipality of San Francisco.\n";
+                            break;
+                        }
+
+                        case 15: {
+                            cout << "You have chosen the municipality of San Isidro.\n";
+                            break;
+                        }
+
+                        case 16: {
+                            cout << "You have chosen the municipality of Santa Monica.\n";
+                            break;
+                        }
+
+                        case 17: {
+                            cout << "You have chosen the municipality of Sison.\n";
+                            break;
+                        }
+
+                        case 18: {
+                            cout << "You have chosen the municipality of Socorro.\n";
+                            break;
+                        }
+
+                        case 19: {
+                            cout << "You have chosen the municipality of Tagana-an.\n";
+                            break;
+                        }
+
+                        case 20: {
+                            cout << "You have chosen the municipality of Tubod.\n";
+                            break;
+                        }
+
+                        case 21: {
+                            cout << "You have chosen the municipality of Barobo.\n";
+                            break;
+                        }
+
+                        default:{
+                            cout << "CORRESPONDING NUMBER NOT FOUND.\n";
+                            break;
+                        }
+                        }
+                        } 
+                        }
 
                     }
 
@@ -12173,14 +12682,152 @@ int main () {
                     cin >> cmb;
 
                         if (cmb == 'C' || cmb == 'c'){
-                        cout << "Here are all the cities in : " << endl;
+                        char citybarangays;
+                        cout << "Here are all the cities in Surigao del Sur: " << endl;
+                        cout << "1. Bislig\n";
+                        cout << "2. Tandag - Capital of Surigao del Sur\n";
+                        cout << "Would you like to find out more about the cities and the barangays within them? (Y/N): ";
+                        cin >> citybarangays;
+
+                        if (citybarangays == 'Y' || citybarangays == 'y'){
+                        int barangays;
+
+                        cout << "Enter a number corresponding to a city to get information about it and its barangays; ";
+                        cin >> barangays;
+
+                        switch(barangays){
+                        case 1:{
+                        cout << "You have chosen the city of \n";
+                        cout << "Information about city\n";
+                        cout << "Here are all the barangays in : \n";
+                        
+                        break;
+                        }
+                        case 2:{
+                        cout << "You have chosen the city of \n";
+                        cout << "Information about city\n";
+                        cout << "Here are all the barangays in : \n";
+                        
+                        break;
+                        }
+
+                        default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
+                        }
+                        }
+                        }
                         }
 
                         else if (cmb == 'M' || cmb == 'm'){
-                        cout << "Here are all the municipalities in : " << endl;
+                        int muniCount = sizeof(SurigaoSurMuni)/sizeof(SurigaoSurMuni[0]);
+                        char municipal;
+                        cout << "Here are all the municipalities in Surigao Del Sur: " << endl;
+                        for (int i = 0; i < muniCount; ++i) {
+                            cout << i + 1 << ". " << SurigaoSurMuni[i] << "\n";
+                        }
+                        cout << "Would you like to find out more about the municipalities? (Y/N): ";
+                        cin >> municipal;
+
+                        if (municipal == 'Y' || municipal == 'y'){
+                        int barangays;
+
+                        cout << "Enter a number corresponding to a municipality to get information about it: ";
+                        cin >> barangays;
+
+                        switch (barangays){
+                        case 1: {
+                            cout << "You have chosen the municipality of Barobo.\n";
+                            break;
                         }
 
-                    }
+                        case 2: {
+                            cout << "You have chosen the municipality of Bayabas.\n";
+                            break;
+                        }
+
+                        case 3: {
+                            cout << "You have chosen the municipality of Cagwait.\n";
+                            break;
+                        }
+
+                        case 4: {
+                            cout << "You have chosen the municipality of Cantilan.\n";
+                            break;
+                        }
+
+                        case 5: {
+                            cout << "You have chosen the municipality of Carmen.\n";
+                            break;
+                        }
+
+                        case 6: {
+                            cout << "You have chosen the municipality of Carrascal.\n";
+                            break;
+                        }
+
+                        case 7: {
+                            cout << "You have chosen the municipality of Cortes.\n";
+                            break;
+                        }
+
+                        case 8: {
+                            cout << "You have chosen the municipality of Hinatuan.\n";
+                            break;
+                        }
+
+                        case 9: {
+                            cout << "You have chosen the municipality of Lanuza.\n";
+                            break;
+                        }
+
+                        case 10: {
+                            cout << "You have chosen the municipality of Lianga.\n";
+                            break;
+                        }
+
+                        case 11: {
+                            cout << "You have chosen the municipality of Lingig.\n";
+                            break;
+                        }
+
+                        case 12: {
+                            cout << "You have chosen the municipality of Madrid.\n";
+                            break;
+                        }
+
+                        case 13: {
+                            cout << "You have chosen the municipality of Marihatag.\n";
+                            break;
+                        }
+
+                        case 14: {
+                            cout << "You have chosen the municipality of San Agustin.\n";
+                            break;
+                        }
+
+                        case 15: {
+                            cout << "You have chosen the municipality of San Miguel.\n";
+                            break;
+                        }
+
+                        case 16: {
+                            cout << "You have chosen the municipality of Tagbina.\n";
+                            break;
+                        }
+
+                        case 17: {
+                            cout << "You have chosen the municipality of Tago.\n";
+                            break;
+                        }
+
+                        default:{
+                            cout << "CORRESPONDING NUMBER NOT FOUND.\n";
+                            break;
+                        }
+                        }
+                        }
+                        }
+                        }
                 }
 
             break; 
@@ -12251,8 +12898,8 @@ int main () {
 
                         case 3:{
                         cout << "You have chosen the city of Makati \n";
-                        cout << "Mayor: Abigial Binay \n";
-                        cout << ": Makati, city, south-central Luzon, Philippines. A southern residential, financial, and industrial suburb of Manila, it has a large, modern manufacturing complex along its segment of the regional belt highway, where a number of national and foreign firms are located. Makati lies in the heart of the Metro Manila. The city is known for its upscale shopping malls with high fashion brands, restaurants and hotels, and is home to many affluent Filipinos. Makati is also a financial, commercial and economic center. \n";
+                        cout << "Mayor: Abigail Binay \n";
+                        cout << "A southern residential, financial, and industrial suburb of Manila, it has a large, modern manufacturing complex along its segment of the regional belt highway, where a number of national and foreign firms are located. Makati lies in the heart of the Metro Manila. The city is known for its upscale shopping malls with high fashion brands, restaurants and hotels, and is home to many affluent Filipinos. Makati is also a financial, commercial and economic center. \n";
                         cout << "The city of Makati's zip code is 1017 \n";
                         cout << "According to 2020 census, its total population is 629,616 \n";
                         cout << "Here are all the barangays in : \n";
@@ -12399,6 +13046,7 @@ int main () {
                         }
 
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -12456,35 +13104,10 @@ int main () {
                     cin >> cmb;
 
                         if (cmb == 'Y' || cmb == 'y'){
+                        int muniCount = sizeof(AbraMuni)/sizeof(AbraMuni[0]);
                         char municipal;
                         cout << "Here are all the municipalities in Abra: " << endl;
-                        cout << "1. Bangued - Capital of Abra\n";
-                        cout << "2. Boliney\n";
-                        cout << "3. Bucay\n";
-                        cout << "4. Bucloc\n";
-                        cout << "5. Daguioman\n";
-                        cout << "6. Danglas\n";
-                        cout << "7. Dolores\n";
-                        cout << "8. La Paz\n";
-                        cout << "9. Lacub\n";
-                        cout << "10. Langailang\n";
-                        cout << "11. Lagayan\n";
-                        cout << "12. Langiden\n";
-                        cout << "13. Licuan-Baay\n";
-                        cout << "14. Luba\n";
-                        cout << "15. Malibcong\n";
-                        cout << "16. Manabo\n";
-                        cout << "17. Peñarrubia\n";
-                        cout << "18. Pidigan\n";
-                        cout << "19. Pilar\n";
-                        cout << "20. Sallapadan\n";
-                        cout << "21. San Isidro\n";
-                        cout << "22. San Juan\n";
-                        cout << "23. San Quintin\n";
-                        cout << "24. Tayum\n";
-                        cout << "25. Tineg\n";
-                        cout << "26. Tubo\n";
-                        cout << "27. Villaciviosa\n";
+                        
 
                         cout << "Would you like to find out more about the municipalities? (Y/N): ";
                         cin >> municipal;
@@ -12496,196 +13119,117 @@ int main () {
                         cin >> barangays;
                                                         
                         switch (barangays){
-                        case 1:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 1: {
+                            cout << "You have chosen the municipality of Bangued - Capital of Abra.\n";
+                            break;
                         }
-
-                        case 2:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 2: {
+                            cout << "You have chosen the municipality of Boliney.\n";
+                            break;
                         }
-
-                        case 3:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 3: {
+                            cout << "You have chosen the municipality of Bucay.\n";
+                            break;
                         }
-
-                        case 4:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 4: {
+                            cout << "You have chosen the municipality of Bucloc.\n";
+                            break;
                         }
-
-                        case 5:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 5: {
+                            cout << "You have chosen the municipality of Daguioman.\n";
+                            break;
                         }
-
-                        case 6:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 6: {
+                            cout << "You have chosen the municipality of Danglas.\n";
+                            break;
                         }
-
-                        case 7:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 7: {
+                            cout << "You have chosen the municipality of Dolores.\n";
+                            break;
                         }
-
-                        case 8:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 8: {
+                            cout << "You have chosen the municipality of La Paz.\n";
+                            break;
                         }
-
-                        case 9:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 9: {
+                            cout << "You have chosen the municipality of Lacub.\n";
+                            break;
                         }
-                                                
-                        case 10:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 10: {
+                            cout << "You have chosen the municipality of Langailang.\n";
+                            break;
                         }
-
-                        case 11:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 11: {
+                            cout << "You have chosen the municipality of Lagayan.\n";
+                            break;
                         }
-
-                        case 12:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 12: {
+                            cout << "You have chosen the municipality of Langiden.\n";
+                            break;
                         }
-
-                        case 13:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 13: {
+                            cout << "You have chosen the municipality of Licuan-Baay.\n";
+                            break;
                         }
-
-                        case 14:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 14: {
+                            cout << "You have chosen the municipality of Luba.\n";
+                            break;
                         }
-
-                        case 15:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 15: {
+                            cout << "You have chosen the municipality of Malibcong.\n";
+                            break;
                         }
-
-                        case 16:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 16: {
+                            cout << "You have chosen the municipality of Manabo.\n";
+                            break;
                         }
-
-                        case 17:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 17: {
+                            cout << "You have chosen the municipality of Peñarrubia.\n";
+                            break;
                         }
-
-                        case 18:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 18: {
+                            cout << "You have chosen the municipality of Pidigan.\n";
+                            break;
                         }
-
-                        case 19:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 19: {
+                            cout << "You have chosen the municipality of Pilar.\n";
+                            break;
                         }
-
-                        case 20:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 20: {
+                            cout << "You have chosen the municipality of Sallapadan.\n";
+                            break;
                         }
-
-                        case 21:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 21: {
+                            cout << "You have chosen the municipality of San Isidro.\n";
+                            break;
                         }
-                        
-                        case 22:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 22: {
+                            cout << "You have chosen the municipality of San Juan.\n";
+                            break;
                         }
-
-                        case 23:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 23: {
+                            cout << "You have chosen the municipality of San Quintin.\n";
+                            break;
                         }
-
-                        case 24:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 24: {
+                            cout << "You have chosen the municipality of Tayum.\n";
+                            break;
                         }
-
-                        case 25:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 25: {
+                            cout << "You have chosen the municipality of Tineg.\n";
+                            break;
                         }
-
-                        case 26:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 26: {
+                            cout << "You have chosen the municipality of Tubo.\n";
+                            break;
                         }
-
-                        case 27:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 27: {
+                            cout << "You have chosen the municipality of Villaciviosa.\n";
+                            break;
                         }
 
                         default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -12721,56 +13265,37 @@ int main () {
                         cin >> barangays;
                                                         
                         switch (barangays){
-                        case 1:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 1: {
+                            cout << "You have chosen the municipality of Calanasan.\n";
+                            break;
                         }
-
-                        case 2:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 2: {
+                            cout << "You have chosen the municipality of Conner.\n";
+                            break;
                         }
-
-                        case 3:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 3: {
+                            cout << "You have chosen the municipality of Flora.\n";
+                            break;
                         }
-
-                        case 4:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 4: {
+                            cout << "You have chosen the municipality of Kabugao.\n";
+                            break;
                         }
-
-                        case 5:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 5: {
+                            cout << "You have chosen the municipality of Luna.\n";
+                            break;
                         }
-
-                        case 6:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 6: {
+                            cout << "You have chosen the municipality of Pudtol.\n";
+                            break;
                         }
-
-                        case 7:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 7: {
+                            cout << "You have chosen the municipality of Santa Marcela.\n";
+                            break;
                         }
 
                         default:{
+                            cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -12828,91 +13353,57 @@ int main () {
                         cin >> barangays;
                                                         
                         switch (barangays){
-                        case 1:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 1: {
+                            cout << "You have chosen the municipality of Bakun.\n";
+                            break;
                         }
-
-                        case 2:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 2: {
+                            cout << "You have chosen the municipality of Bokod.\n";
+                            break;
                         }
-
-                        case 3:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 3: {
+                            cout << "You have chosen the municipality of Buguias.\n";
+                            break;
                         }
-
-                        case 4:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 4: {
+                            cout << "You have chosen the municipality of Itogon.\n";
+                            break;
                         }
-
-                        case 5:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 5: {
+                            cout << "You have chosen the municipality of Kabayan.\n";
+                            break;
                         }
-
-                        case 6:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 6: {
+                            cout << "You have chosen the municipality of Kapangan.\n";
+                            break;
                         }
-
-                        case 7:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 7: {
+                            cout << "You have chosen the municipality of Kibungan.\n";
+                            break;
                         }
-
-                        case 8:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 8: {
+                            cout << "You have chosen the municipality of La Trinidad - Capital of Benguet.\n";
+                            break;
                         }
-
-                        case 9:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 9: {
+                            cout << "You have chosen the municipality of Mankayan.\n";
+                            break;
                         }
-                                                
-                        case 10:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 10: {
+                            cout << "You have chosen the municipality of Sablan.\n";
+                            break;
                         }
-
-                        case 11:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 11: {
+                            cout << "You have chosen the municipality of Tuba.\n";
+                            break;
                         }
-
-                        case 12:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 12: {
+                            cout << "You have chosen the municipality of Tublay.\n";
+                            break;
                         }
 
                         default:{
+                            cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -12952,84 +13443,53 @@ int main () {
                         cin >> barangays;
                                                         
                         switch (barangays){
-                        case 1:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 1: {
+                            cout << "You have chosen the municipality of Aguinaldo.\n";
+                            break;
                         }
-
-                        case 2:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 2: {
+                            cout << "You have chosen the municipality of Alfonso Lista.\n";
+                            break;
                         }
-
-                        case 3:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 3: {
+                            cout << "You have chosen the municipality of Asipulo.\n";
+                            break;
                         }
-
-                        case 4:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 4: {
+                            cout << "You have chosen the municipality of Banaue.\n";
+                            break;
                         }
-
-                        case 5:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 5: {
+                            cout << "You have chosen the municipality of Hingyon.\n";
+                            break;
                         }
-
-                        case 6:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 6: {
+                            cout << "You have chosen the municipality of Hungduan.\n";
+                            break;
                         }
-
-                        case 7:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 7: {
+                            cout << "You have chosen the municipality of Kiangan.\n";
+                            break;
                         }
-
-                        case 8:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 8: {
+                            cout << "You have chosen the municipality of Lagawe - Capital of Ifugao.\n";
+                            break;
                         }
-
-                        case 9:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 9: {
+                            cout << "You have chosen the municipality of Lamut.\n";
+                            break;
                         }
-                                                
-                        case 10:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 10: {
+                            cout << "You have chosen the municipality of Mayoyao.\n";
+                            break;
                         }
-
-                        case 11:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 11: {
+                            cout << "You have chosen the municipality of Tinoc.\n";
+                            break;
                         }
 
                         default:{
+                            cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -13082,56 +13542,37 @@ int main () {
                         cin >> barangays;
                                                         
                         switch (barangays){
-                        case 1:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 1: {
+                            cout << "You have chosen the municipality of Balbalan.\n";
+                            break;
                         }
-
-                        case 2:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 2: {
+                            cout << "You have chosen the municipality of Lubuagan.\n";
+                            break;
                         }
-
-                        case 3:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 3: {
+                            cout << "You have chosen the municipality of Pasil.\n";
+                            break;
                         }
-
-                        case 4:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 4: {
+                            cout << "You have chosen the municipality of Pinukpuk.\n";
+                            break;
                         }
-
-                        case 5:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 5: {
+                            cout << "You have chosen the municipality of Rizal.\n";
+                            break;
                         }
-
-                        case 6:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 6: {
+                            cout << "You have chosen the municipality of Tanudan.\n";
+                            break;
                         }
-
-                        case 7:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 7: {
+                            cout << "You have chosen the municipality of Tinglayan.\n";
+                            break;
                         }
 
                         default:{
+                            cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -13170,74 +13611,49 @@ int main () {
                         cin >> barangays;
                                                         
                         switch (barangays){
-                        case 1:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
+                        case 1: {
+                        cout << "You have chosen the municipality of Barlig.\n";
                         break;
+                        }
+                        case 2: {
+                            cout << "You have chosen the municipality of Bauko.\n";
+                            break;
+                        }
+                        case 3: {
+                            cout << "You have chosen the municipality of Besao.\n";
+                            break;
+                        }
+                        case 4: {
+                            cout << "You have chosen the municipality of Bontoc.\n";
+                            break;
+                        }
+                        case 5: {
+                            cout << "You have chosen the municipality of Natonin.\n";
+                            break;
+                        }
+                        case 6: {
+                            cout << "You have chosen the municipality of Paracelis.\n";
+                            break;
+                        }
+                        case 7: {
+                            cout << "You have chosen the municipality of Sabangan.\n";
+                            break;
+                        }
+                        case 8: {
+                            cout << "You have chosen the municipality of Sadanga.\n";
+                            break;
+                        }
+                        case 9: {
+                            cout << "You have chosen the municipality of Sagada.\n";
+                            break;
+                        }
+                        case 10: {
+                            cout << "You have chosen the municipality of Tadian.\n";
+                            break;
                         }
 
-                        case 2:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
-                        }
-
-                        case 3:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
-                        }
-
-                        case 4:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
-                        }
-
-                        case 5:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
-                        }
-
-                        case 6:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
-                        }
-
-                        case 7:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
-                        }
-
-                        case 8:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
-                        }
-
-                        case 9:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
-                        }
-                                                
-                        case 10:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        default:{
+                            cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         }
                         }
                         }
@@ -13278,7 +13694,7 @@ int main () {
                         if (cmb == 'C' || cmb == 'c'){
                         char citybarangays;
                         cout << "Here are all the cities in Basilan: " << endl;
-                        cout << "1. Isabela City\n";
+                        cout << "1. Isabela City - De facto Capital of Basilan\n";
                         cout << "2. Lamitan \n";
 
                         cout << "Would you like to find out more about the cities and the barangays within them? (Y/N): ";
@@ -13308,6 +13724,7 @@ int main () {
                         }
 
                         default:{
+                            cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -13339,84 +13756,53 @@ int main () {
                         cin >> barangays;
                                                         
                         switch (barangays){
-                        case 1:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 1: {
+                            cout << "You have chosen the municipality of Akbar.\n";
+                            break;
                         }
-
-                        case 2:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 2: {
+                            cout << "You have chosen the municipality of Al-Barka.\n";
+                            break;
                         }
-
-                        case 3:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 3: {
+                            cout << "You have chosen the municipality of Hadji Mohammad Ajul.\n";
+                            break;
                         }
-
-                        case 4:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 4: {
+                            cout << "You have chosen the municipality of Hadji Muhtamad.\n";
+                            break;
                         }
-
-                        case 5:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 5: {
+                            cout << "You have chosen the municipality of Lantawan.\n";
+                            break;
                         }
-
-                        case 6:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 6: {
+                            cout << "You have chosen the municipality of Maluso.\n";
+                            break;
                         }
-
-                        case 7:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 7: {
+                            cout << "You have chosen the municipality of Sumisip.\n";
+                            break;
                         }
-
-                        case 8:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 8: {
+                            cout << "You have chosen the municipality of Tabuan-Lasa.\n";
+                            break;
                         }
-
-                        case 9:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 9: {
+                            cout << "You have chosen the municipality of Tipo-Tipo.\n";
+                            break;
                         }
-                                                
-                        case 10:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 10: {
+                            cout << "You have chosen the municipality of Tuburan.\n";
+                            break;
                         }
-
-                        case 11:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 11: {
+                            cout << "You have chosen the municipality of Ungkaya Pukan.\n";
+                            break;
                         }
 
                         default:{
+                            cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -13448,332 +13834,217 @@ int main () {
                         }
 
                         else if (cmb == 'M' || cmb == 'm'){
+                        int muniCount = sizeof(LanaoSurMuni)/sizeof(LanaoSurMuni[0]);
                         char municipal;
                         cout << "Here are all the municipalities in Lanao del Sur: " << endl;
-                        cout << "1. Amai Manabilang\n";
-                        cout << "2. Bacolod-Kalawi\n";
-                        cout << "3. Balabagan\n";
-                        cout << "4. Balindong\n";
-                        cout << "5. Bayang\n";
-                        cout << "6. Binidayan\n";
-                        cout << "7. Buadiposo-Buntong\n";
-                        cout << "8. Bubong\n";
-                        cout << "9. Butig\n";
-                        cout << "10. Calanogas\n";
-                        cout << "11. Ditsaan-Ramain\n";
-                        cout << "12. Ganassi\n";
-                        cout << "13. Kapai\n";
-                        cout << "14. Kapatagan\n";
-                        cout << "15. Lumba-Bayabao\n";
-                        cout << "16. Lumbaca-Unayan\n";
-                        cout << "17. Lumbatan\n";
-                        cout << "18. Lumbayanague\n";
-                        cout << "19. Madalum\n";
-                        cout << "20. Madamba\n";
-                        cout << "21. Maguing\n";
-                        cout << "22. Malabang\n";
-                        cout << "23. Marantao\n";
-                        cout << "24. Marogong\n";
-                        cout << "25. Masiu\n";
-                        cout << "26. Mulondo\n";
-                        cout << "27. Pagayawan\n";
-                        cout << "28. Piagapo\n";
-                        cout << "29. Picong\n";
-                        cout << "30. Poona Bayabao\n";
-                        cout << "31. Pualas\n";
-                        cout << "32. Saguiaran\n";
-                        cout << "33. Sultan Dumalondong\n";
-                        cout << "34. Tagoloan II\n";
-                        cout << "35. Tamparan\n";
-                        cout << "36. Taraka\n";
-                        cout << "37. Tubaran\n";
-                        cout << "38. Tugaya\n";
-                        cout << "39. Wao\n";
-
+                        for (int i = 0; i < muniCount; ++i) {
+                            cout << i + 1 << ". " << LanaoSurMuni[i] << "\n";
+                        }
                         cout << "Would you like to find out more about the municipalities? (Y/N): ";
-                        cin >> municipal;
-                                                    
+                        cin >> municipal;             
                         if (municipal == 'Y' || municipal == 'y'){
-                        int barangays;
-                                                        
+                        int barangays;                     
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
                                                         
                         switch (barangays){
-                        case 1:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 1: {
+                            cout << "You have chosen the municipality of Amai Manabilang.\n";
+                            break;
                         }
 
-                        case 2:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 2: {
+                            cout << "You have chosen the municipality of Bacolod-Kalawi.\n";
+                            break;
                         }
 
-                        case 3:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 3: {
+                            cout << "You have chosen the municipality of Balabagan.\n";
+                            break;
                         }
 
-                        case 4:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 4: {
+                            cout << "You have chosen the municipality of Balindong.\n";
+                            break;
                         }
 
-                        case 5:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 5: {
+                            cout << "You have chosen the municipality of Bayang.\n";
+                            break;
                         }
 
-                        case 6:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 6: {
+                            cout << "You have chosen the municipality of Binidayan.\n";
+                            break;
                         }
 
-                        case 7:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 7: {
+                            cout << "You have chosen the municipality of Buadiposo-Buntong.\n";
+                            break;
                         }
 
-                        case 8:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 8: {
+                            cout << "You have chosen the municipality of Bubong.\n";
+                            break;
                         }
 
-                        case 9:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
-                        }
-                                                
-                        case 10:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 9: {
+                            cout << "You have chosen the municipality of Butig.\n";
+                            break;
                         }
 
-                        case 11:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 10: {
+                            cout << "You have chosen the municipality of Calanogas.\n";
+                            break;
                         }
 
-                        case 12:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 11: {
+                            cout << "You have chosen the municipality of Ditsaan-Ramain.\n";
+                            break;
                         }
 
-                        case 13:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 12: {
+                            cout << "You have chosen the municipality of Ganassi.\n";
+                            break;
                         }
 
-                        case 14:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 13: {
+                            cout << "You have chosen the municipality of Kapai.\n";
+                            break;
                         }
 
-                        case 15:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 14: {
+                            cout << "You have chosen the municipality of Kapatagan.\n";
+                            break;
                         }
 
-                        case 16:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 15: {
+                            cout << "You have chosen the municipality of Lumba-Bayabao.\n";
+                            break;
                         }
 
-                        case 17:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 16: {
+                            cout << "You have chosen the municipality of Lumbaca-Unayan.\n";
+                            break;
                         }
 
-                        case 18:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 17: {
+                            cout << "You have chosen the municipality of Lumbatan.\n";
+                            break;
                         }
 
-                        case 19:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 18: {
+                            cout << "You have chosen the municipality of Lumbayanague.\n";
+                            break;
                         }
 
-                        case 20:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 19: {
+                            cout << "You have chosen the municipality of Madalum.\n";
+                            break;
                         }
 
-                        case 21:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 20: {
+                            cout << "You have chosen the municipality of Madamba.\n";
+                            break;
                         }
 
-                        case 22:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 21: {
+                            cout << "You have chosen the municipality of Maguing.\n";
+                            break;
                         }
 
-                        case 23:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 22: {
+                            cout << "You have chosen the municipality of Malabang.\n";
+                            break;
                         }
 
-                        case 24:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
-                        }
-                        
-                        case 25:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 23: {
+                            cout << "You have chosen the municipality of Marantao.\n";
+                            break;
                         }
 
-                        case 26:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 24: {
+                            cout << "You have chosen the municipality of Marogong.\n";
+                            break;
                         }
 
-                        case 27:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 25: {
+                            cout << "You have chosen the municipality of Masiu.\n";
+                            break;
                         }
 
-                        case 28:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 26: {
+                            cout << "You have chosen the municipality of Mulondo.\n";
+                            break;
                         }
 
-                        case 29:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 27: {
+                            cout << "You have chosen the municipality of Pagayawan.\n";
+                            break;
                         }
 
-                        case 30:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 28: {
+                            cout << "You have chosen the municipality of Piagapo.\n";
+                            break;
                         }
 
-                        case 31:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 29: {
+                            cout << "You have chosen the municipality of Picong.\n";
+                            break;
                         }
 
-                        case 32:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 30: {
+                            cout << "You have chosen the municipality of Poona Bayabao.\n";
+                            break;
                         }
 
-                        case 33:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 31: {
+                            cout << "You have chosen the municipality of Pualas.\n";
+                            break;
                         }
 
-                        case 34:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 32: {
+                            cout << "You have chosen the municipality of Saguiaran.\n";
+                            break;
                         }
 
-                        case 35:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 33: {
+                            cout << "You have chosen the municipality of Sultan Dumalondong.\n";
+                            break;
                         }
 
-                        case 36:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 34: {
+                            cout << "You have chosen the municipality of Tagoloan II.\n";
+                            break;
                         }
 
-                        case 37:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 35: {
+                            cout << "You have chosen the municipality of Tamparan.\n";
+                            break;
                         }
 
-                        case 38:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 36: {
+                            cout << "You have chosen the municipality of Taraka.\n";
+                            break;
                         }
 
-                        case 39:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 37: {
+                            cout << "You have chosen the municipality of Tubaran.\n";
+                            break;
+                        }
+
+                        case 38: {
+                            cout << "You have chosen the municipality of Tugaya.\n";
+                            break;
+                        }
+
+                        case 39: {
+                            cout << "You have chosen the municipality of Wao.\n";
+                            break;
                         }
 
                         default:{
+                            cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -13790,7 +14061,7 @@ int main () {
                         if (cmb == 'C' || cmb == 'c'){
                         char citybarangays;
                         cout << "Here are all the cities in Maguindanao: " << endl;
-                        cout << "Cotabato City - Independent Component City located in Maguindanao\n";
+                        cout << "Cotabato City - Independent Component City and Regional Center of BARMM\n";
 
                         cout << "Would you like to find out more about Cotabato City and the barangays within it? (Y/N): ";
                         cin >> citybarangays;
@@ -13805,45 +14076,12 @@ int main () {
                         }
 
                         else if (cmb == 'M' || cmb == 'm'){
+                        int muniCount = sizeof(MaguindanaoMuni)/sizeof(MaguindanaoMuni[0]);
                         char municipal;
                         cout << "Here are all the municipalities in Maguindanao: " << endl;
-                        cout << "1. Ampatuan\n";
-                        cout << "2. Barira\n";
-                        cout << "3. Buldon\n";
-                        cout << "4. Buluan\n";
-                        cout << "5. Datu Abdullah Sangki\n";
-                        cout << "6. Datu Anggal Midtimbang\n";
-                        cout << "7. Datu Blah T. Sinsuat\n";
-                        cout << "8. Datu Hoffer Ampatuan\n";
-                        cout << "9. Datu Montawal\n";
-                        cout << "10. Datu Odin Sinsuat\n";
-                        cout << "11. Datu Paglas\n";
-                        cout << "12. Datu Piang\n";
-                        cout << "13. Datu Salibo\n";
-                        cout << "14. Datu Saudi-Ampatuan\n";
-                        cout << "15. Datu Unsay\n";
-                        cout << "16. General Salipada K. Pendatun\n";
-                        cout << "17. Guindulungan\n";
-                        cout << "18. Kabuntalan\n";
-                        cout << "19. Mamasapano\n";
-                        cout << "20. Mangudadatu\n";
-                        cout << "21. Matanog\n";
-                        cout << "22. Northern Kabuntalan\n";
-                        cout << "23. Pagalungan\n";
-                        cout << "24. Paglat\n";
-                        cout << "25. Pandag\n";
-                        cout << "26. Parang\n";
-                        cout << "27. Rajah Buayan\n";
-                        cout << "28. Shariff Aguak - Capital of Maguindanao\n";
-                        cout << "29. Shariff Saydona Mustapaha\n";
-                        cout << "30. South Upi\n";
-                        cout << "31. Sultan Kudarat\n";
-                        cout << "32. Sultan Mastura\n";
-                        cout << "33. Sultan sa Barongis\n";
-                        cout << "34. Sultan Sumagka\n";
-                        cout << "35. Talayan\n";
-                        cout << "36. Upi\n";
-
+                        for (int i = 0; i < muniCount; ++i) {
+                            cout << i + 1 << ". " << MaguindanaoMuni[i] << "\n";
+                        }
                         cout << "Would you like to find out more about the municipalities? (Y/N): ";
                         cin >> municipal;
                                                     
@@ -13854,259 +14092,189 @@ int main () {
                         cin >> barangays;
                                                         
                         switch (barangays){
-                        case 1:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
+                        case 1: {
+                            cout << "You have chosen the municipality of Ampatuan.\n";
                         break;
                         }
 
-                        case 2:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 2: {
+                            cout << "You have chosen the municipality of Barira.\n";
+                            break;
                         }
 
-                        case 3:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 3: {
+                            cout << "You have chosen the municipality of Buldon.\n";
+                            break;
                         }
 
-                        case 4:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 4: {
+                            cout << "You have chosen the municipality of Buluan.\n";
+                            break;
                         }
 
-                        case 5:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 5: {
+                            cout << "You have chosen the municipality of Datu Abdullah Sangki.\n";
+                            break;
                         }
 
-                        case 6:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 6: {
+                            cout << "You have chosen the municipality of Datu Anggal Midtimbang.\n";
+                            break;
                         }
 
-                        case 7:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 7: {
+                            cout << "You have chosen the municipality of Datu Blah T. Sinsuat.\n";
+                            break;
                         }
 
-                        case 8:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 8: {
+                            cout << "You have chosen the municipality of Datu Hoffer Ampatuan.\n";
+                            break;
                         }
 
-                        case 9:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
-                        }
-                                                
-                        case 10:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 9: {
+                            cout << "You have chosen the municipality of Datu Montawal.\n";
+                            break;
                         }
 
-                        case 11:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 10: {
+                            cout << "You have chosen the municipality of Datu Odin Sinsuat.\n";
+                            break;
                         }
 
-                        case 12:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 11: {
+                            cout << "You have chosen the municipality of Datu Paglas.\n";
+                            break;
                         }
 
-                        case 13:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 12: {
+                            cout << "You have chosen the municipality of Datu Piang.\n";
+                            break;
                         }
 
-                        case 14:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 13: {
+                            cout << "You have chosen the municipality of Datu Salibo.\n";
+                            break;
                         }
 
-                        case 15:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 14: {
+                            cout << "You have chosen the municipality of Datu Saudi-Ampatuan.\n";
+                            break;
                         }
 
-                        case 16:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 15: {
+                            cout << "You have chosen the municipality of Datu Unsay.\n";
+                            break;
                         }
 
-                        case 17:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 16: {
+                            cout << "You have chosen the municipality of General Salipada K. Pendatun.\n";
+                            break;
                         }
 
-                        case 18:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 17: {
+                            cout << "You have chosen the municipality of Guindulungan.\n";
+                            break;
                         }
 
-                        case 19:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 18: {
+                            cout << "You have chosen the municipality of Kabuntalan.\n";
+                            break;
                         }
 
-                        case 20:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 19: {
+                            cout << "You have chosen the municipality of Mamasapano.\n";
+                            break;
                         }
 
-                        case 21:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 20: {
+                            cout << "You have chosen the municipality of Mangudadatu.\n";
+                            break;
                         }
 
-                        case 22:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 21: {
+                            cout << "You have chosen the municipality of Matanog.\n";
+                            break;
                         }
 
-                        case 23:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 22: {
+                            cout << "You have chosen the municipality of Northern Kabuntalan.\n";
+                            break;
                         }
 
-                        case 24:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
-                        }
-                        
-                        case 25:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 23: {
+                            cout << "You have chosen the municipality of Pagalungan.\n";
+                            break;
                         }
 
-                        case 26:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 24: {
+                            cout << "You have chosen the municipality of Paglat.\n";
+                            break;
                         }
 
-                        case 27:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 25: {
+                            cout << "You have chosen the municipality of Pandag.\n";
+                            break;
                         }
 
-                        case 28:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
-                        }
-                        
-                        case 29:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 26: {
+                            cout << "You have chosen the municipality of Parang.\n";
+                            break;
                         }
 
-                        case 30:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 27: {
+                            cout << "You have chosen the municipality of Rajah Buayan.\n";
+                            break;
                         }
 
-                        case 31:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 28: {
+                            cout << "You have chosen the municipality of Shariff Aguak.\n";
+                            break;
                         }
 
-                        case 32:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 29: {
+                            cout << "You have chosen the municipality of Shariff Saydona Mustapaha.\n";
+                            break;
                         }
 
-                        case 33:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 30: {
+                            cout << "You have chosen the municipality of South Upi.\n";
+                            break;
                         }
 
-                        case 34:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 31: {
+                            cout << "You have chosen the municipality of Sultan Kudarat.\n";
+                            break;
                         }
 
-                        case 35:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 32: {
+                            cout << "You have chosen the municipality of Sultan Mastura.\n";
+                            break;
                         }
 
-                        case 36:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 33: {
+                            cout << "You have chosen the municipality of Sultan sa Barongis.\n";
+                            break;
                         }
+
+                        case 34: {
+                            cout << "You have chosen the municipality of Sultan Sumagka.\n";
+                            break;
+                        }
+
+                        case 35: {
+                            cout << "You have chosen the municipality of Talayan.\n";
+                            break;
+                        }
+
+                        case 36: {
+                            cout << "You have chosen the municipality of Upi.\n";
+                            break;
+                        }
+
 
                         default:{
+                            cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -14121,28 +14289,12 @@ int main () {
                     cin >> cmb;
 
                        if (cmb == 'Y' || cmb == 'y'){
+                        int muniCount = sizeof(SuluMuni)/sizeof(SuluMuni[0]);
                         char municipal;
                         cout << "Here are all the municipalities in Sulu: " << endl;
-                        cout << "1. Banguingui\n";
-                        cout << "2. Hadji Panglima Tahil\n";
-                        cout << "3. Indanan\n";
-                        cout << "4. Jolo - Capital of Sulu\n";
-                        cout << "5. Kalingalan Caluang\n";
-                        cout << "6. Lugus\n";
-                        cout << "7. Luuk\n";
-                        cout << "8. Maimbung\n";
-                        cout << "9. Old Panamao\n";
-                        cout << "10. Omar\n";
-                        cout << "11. Pandami\n";
-                        cout << "12. Panglima Estino\n";
-                        cout << "13. Pangutaran\n";
-                        cout << "14. Parang\n";
-                        cout << "15. Pata\n";
-                        cout << "16. Patikul\n";
-                        cout << "17. Siasi\n";
-                        cout << "18. Talipao\n";
-                        cout << "19. Tapul\n";
-
+                        for (int i = 0; i < muniCount; ++i) {
+                            cout << i + 1 << ". " << SuluMuni[i] << "\n";
+                        }
                         cout << "Would you like to find out more about the municipalities? (Y/N): ";
                         cin >> municipal;
                                                     
@@ -14153,140 +14305,103 @@ int main () {
                         cin >> barangays;
                                                         
                         switch (barangays){
-                        case 1:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
+                        case 1: {
+                        cout << "You have chosen the municipality of Banguingui.\n";
                         break;
                         }
 
-                        case 2:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 2: {
+                            cout << "You have chosen the municipality of Hadji Panglima Tahil.\n";
+                            break;
                         }
 
-                        case 3:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 3: {
+                            cout << "You have chosen the municipality of Indanan.\n";
+                            break;
                         }
 
-                        case 4:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 4: {
+                            cout << "You have chosen the municipality of Jolo.\n";
+                            break;
                         }
 
-                        case 5:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 5: {
+                            cout << "You have chosen the municipality of Kalingalan Caluang.\n";
+                            break;
                         }
 
-                        case 6:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 6: {
+                            cout << "You have chosen the municipality of Lugus.\n";
+                            break;
                         }
 
-                        case 7:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 7: {
+                            cout << "You have chosen the municipality of Luuk.\n";
+                            break;
                         }
 
-                        case 8:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 8: {
+                            cout << "You have chosen the municipality of Maimbung.\n";
+                            break;
                         }
 
-                        case 9:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
-                        }
-                                                
-                        case 10:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 9: {
+                            cout << "You have chosen the municipality of Old Panamao.\n";
+                            break;
                         }
 
-                        case 11:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 10: {
+                            cout << "You have chosen the municipality of Omar.\n";
+                            break;
                         }
 
-                        case 12:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 11: {
+                            cout << "You have chosen the municipality of Pandami.\n";
+                            break;
                         }
 
-                        case 13:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 12: {
+                            cout << "You have chosen the municipality of Panglima Estino.\n";
+                            break;
                         }
 
-                        case 14:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 13: {
+                            cout << "You have chosen the municipality of Pangutaran.\n";
+                            break;
                         }
 
-                        case 15:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 14: {
+                            cout << "You have chosen the municipality of Parang.\n";
+                            break;
                         }
 
-                        case 16:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 15: {
+                            cout << "You have chosen the municipality of Pata.\n";
+                            break;
                         }
 
-                        case 17:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 16: {
+                            cout << "You have chosen the municipality of Patikul.\n";
+                            break;
                         }
 
-                        case 18:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 17: {
+                            cout << "You have chosen the municipality of Siasi.\n";
+                            break;
                         }
 
-                        case 19:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 18: {
+                            cout << "You have chosen the municipality of Talipao.\n";
+                            break;
+                        }
+
+                        case 19: {
+                            cout << "You have chosen the municipality of Tapul.\n";
+                            break;
                         }
 
                         default:{
+                            cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -14325,84 +14440,64 @@ int main () {
                         cin >> barangays;
                                                         
                         switch (barangays){
-                        case 1:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
+                        case 1: {
+                        cout << "You have chosen the municipality of Bongao - Capital of Tawi-Tawi.\n";
                         break;
                         }
 
-                        case 2:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 2: {
+                            cout << "You have chosen the municipality of Languyan.\n";
+                            break;
                         }
 
-                        case 3:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 3: {
+                            cout << "You have chosen the municipality of Mapun.\n";
+                            break;
                         }
 
-                        case 4:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 4: {
+                            cout << "You have chosen the municipality of Panglima Sugala.\n";
+                            break;
                         }
 
-                        case 5:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 5: {
+                            cout << "You have chosen the municipality of Sapa-Sapa.\n";
+                            break;
                         }
 
-                        case 6:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 6: {
+                            cout << "You have chosen the municipality of Sibutu.\n";
+                            break;
                         }
 
-                        case 7:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 7: {
+                            cout << "You have chosen the municipality of Simunul.\n";
+                            break;
                         }
 
-                        case 8:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 8: {
+                            cout << "You have chosen the municipality of Sitangkai.\n";
+                            break;
                         }
 
-                        case 9:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
-                        }
-                                                
-                        case 10:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 9: {
+                            cout << "You have chosen the municipality of South Ubian.\n";
+                            break;
                         }
 
-                        case 11:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 10: {
+                            cout << "You have chosen the municipality of Tandubas.\n";
+                            break;
                         }
+
+                        case 11: {
+                            cout << "You have chosen the municipality of Turtle Islands.\n";
+                            break;
+                        }
+
 
                         default:{
+                            cout << "CORRESPONDING NUMBER NOT FOUND.\n";
                         break;
                         }
                         }
@@ -14417,7 +14512,7 @@ int main () {
 
             }   
 
-        } while (info == 'Y');
+        } while (info == 'Y' || info == 'y');
 
         }
         
