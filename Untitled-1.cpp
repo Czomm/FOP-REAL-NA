@@ -129,6 +129,11 @@ int main () {
     string MaguindanaoMuni[] = {"Ampatuan", "Barira", "Buldon", "Buluan", "Datu Abdullah Sangki", "Datu Anggal Midtimbang", "Datu Blah T. Sinsuat", "Datu Hoffer Ampatuan", "Datu Montawal", "Datu Odin Sinsuat", "Datu Paglas", "Datu Piang", "Datu Salibo", "Datu Saudi-Ampatuan", "Datu Unsay", "General Salipada K. Pendatun", "Guindulungan", "Kabuntalan", "Mamasapano", "Mangudadatu", "Matanog", "Northern Kabuntalan", "Pagalungan", "Paglat", "Pandag", "Parang", "Rajah Buayan", "Shariff Aguak - Capital of Maguindanao", "Shariff Saydona Mustapaha", "South Upi", "Sultan Kudarat", "Sultan Mastura", "Sultan sa Barongis", "Sultan Sumagka", "Talayan", "Upi"};
     string SuluMuni[] = {"Banguingui", "Hadji Panglima Tahil", "Indanan", "Jolo - Capital of Sulu", "Kalingalan Caluang", "Lugus", "Luuk", "Maimbung", "Old Panamao", "Omar", "Pandami", "Panglima Estino", "Pangutaran", "Parang", "Pata", "Patikul", "Siasi", "Talipao", "Tapul"};
     string AbraMuni[] = {"Bangued - Capital of Abra", "Boliney", "Bucay", "Bucloc", "Daguioman", "Danglas", "Dolores", "La Paz", "Lacub", "Langailang", "Lagayan", "Langiden", "Licuan-Baay", "Luba", "Malibcong", "Manabo", "Peñarrubia", "Pidigan", "Pilar", "Sallapadan", "San Isidro", "San Juan", "San Quintin", "Tayum", "Tineg", "Tubo", "Villaciviosa"};
+    string BukidnonMuni[] = { "Baungon", "Cabanglasan", "Damulog", "Dangcagan", "Don Carlos", "Impasugong", "Kadingilan", "Kalilangan", "Kibawe", "Kitaotao", "Lantapan", "Libona", "Malitbog", "Manolo Fortich", "Maramag", "Pangantucan", "Quezon", "San Fernando", "Sumilao", "Talakag" };
+    string CamiguinMuni[] = { "Catarman", "Guinsiliban", "Mahinog", "Mambajao", "Sagay" };
+    string LanaoDelNorteMuni[] = { "Bacolod", "Baloi", "Baroy", "Kapatagan", "Kauswagan", "Kolambugan", "Lala", "Linamon", "Magsaysay", "Maigo", "Matungao", "Munai", "Nunungan", "Pantao Ragat", "Pantar", "Poona Piagapo", "Salvador", "Sapad", "Sultan Naga Dimaporo", "Tagoloan", "Tangcal", "Tubod" };
+    string MisamisOccidentalMuni[] = { "Aloran", "Baliangao", "Bonifacio", "Calamba", "Clarin", "Concepcion", "Don Victoriano Chiongbian", "Jimenez", "Lopes Jaena", "Panaon", "Plaridel", "Sapang Dalaga", "Sinacaban", "Tudela" };
+    string MisamisOrientalMuni[] = { "Alubijid", "Balingasag", "Balingoan", "Binuangan", "Claveria", "Gitagum", "Initao", "Jasaan", "Kinoguitan", "Lagonglong", "Laguindingan", "Libertad", "Lugait", "Magsaysay", "Manticao", "Medina", "Naawan", "Opol", "Salay", "Sugbongcogon", "Tagoloan", "Talisayan", "Villanueva" };
 
     string greeting = "\nWELCOME TO THE GEOGRAPHICAL INFORMATION OF THE PHILIPPINES!";
     char choose;
@@ -170,7 +175,7 @@ int main () {
         cin.clear(); 
         cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
 
-        cout << "Invalid input. Please enter a number between 1-17.\n ";
+        cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";
 
         } else if (region >= 1 && region <= 17) {
         validation = true;
@@ -201,6 +206,11 @@ int main () {
                 cout << "4. Pangasinan" << endl;
                 cout << "Choose from 1-4 to find out to choose if you want to find out more about the different provinces in Ilocos Region: ";
                 cin >> ilocos;
+                if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
 
                     if (ilocos == 1){
                         cout << "You have chosen Ilocos Norte." << endl;
@@ -223,6 +233,11 @@ int main () {
                                 int barangays;
                                 cout << "Enter a number corresponding to a city to get information about it and its barangays: ";
                                 cin >> barangays;
+                                if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                                 switch (barangays){
                             
                                 case 1: {
@@ -254,6 +269,11 @@ int main () {
                                 
                                 break;
                                 }
+
+                                default:{
+                                    cout << "CORRESPONDING NUMBER NOT DETECTED.\n";
+                                    break;
+                                }
                                 
                                 }
                                 
@@ -276,7 +296,11 @@ int main () {
                                 
                                 cout << "Enter a number corresponding to a municipality to get information about it: ";
                                  cin >> barangays;
-                                 
+                                 if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                             switch (barangays){
                             case 1: {
                             cout << "You have chosen the municipality of Adams. \n";
@@ -439,7 +463,11 @@ int main () {
 
                         cout << "Enter a number corresponding to a city to get information about it and its barangays: ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch (barangays){
                         case 1: {
                         int barangayCount = sizeof(ViganBrgys)/sizeof(ViganBrgys[0]);
@@ -493,7 +521,10 @@ int main () {
                                 
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                 
+                        if (cin.fail()) {
+                        cin.clear(); 
+                        cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                        cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch (barangays){
                         case 1: {
                         cout << "You have chosen the municipality of Alilem. \n";
@@ -750,7 +781,10 @@ int main () {
 
                             cout << "Enter a number corresponding to a municipality to get information about it: ";
                             cin >> barangays;
-
+                            if (cin.fail()) {
+                            cin.clear(); 
+                            cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                            cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                             switch (barangays){
                             case 1: {
                             cout << "You have chosen the municipality of Agoo.\n";
@@ -879,7 +913,10 @@ int main () {
                             int barangays;
                             cout << "Enter a number corresponding to a city to get information about it and its barangays: ";
                             cin >> barangays;
-
+                            if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                             switch (barangays){
                             case 1: {
                             int barangayCount = sizeof(AlaminosBrgys)/sizeof(AlaminosBrgys[0]);
@@ -961,7 +998,10 @@ int main () {
                                 
                             cout << "Enter a number corresponding to a municipality to get information about it: ";
                             cin >> barangays;
-                                 
+                            if (cin.fail()) {
+                            cin.clear(); 
+                            cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                            cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                             switch (barangays){
                             case 1: {
                             cout << "1. You have chosen the municipality of Agno.\n";
@@ -1264,7 +1304,10 @@ int main () {
                 cout << "4. Nueva Viscaya" << endl;
                 cout << "Choose from 1-4 to find out to choose if you want to find out more about the different provinces: ";
                 cin >> cagayan;
-
+                if (cin.fail()) {
+                            cin.clear(); 
+                            cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                            cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                     if (cagayan == 1){
                         cout << "You have chosen Batanes." << endl;
                         
@@ -1286,10 +1329,13 @@ int main () {
                             
 	                        if (municipal == 'Y' || municipal == 'y'){
 	                        int barangays;
-                                
+                            
                             cout << "Enter a number corresponding to a municipality to get information about it: ";
                             cin >> barangays;
-                                 
+                            if (cin.fail()) {
+                            cin.clear(); 
+                            cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                            cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}     
                             switch (barangays){
                             case 1: {
                             cout << "You have chosen the municipality of Basco - Capital of Batanes.\n";
@@ -1372,10 +1418,13 @@ int main () {
                             
 	                        if (municipal == 'Y' || municipal == 'y'){
 	                        int barangays;
-                                
+                            
                             cout << "Enter a number corresponding to a municipality to get information about it: ";
                             cin >> barangays;
-                                 
+                            if (cin.fail()) {
+                            cin.clear(); 
+                            cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                            cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}     
                             switch (barangays){
                             case 1:{
                             cout << "1. You have chosen the municipality of Abulug.\n";
@@ -1576,7 +1625,10 @@ int main () {
 
                         cout << "Enter a number corresponding to a city to get information about it and its barangays: ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                            cin.clear(); 
+                            cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                            cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch (barangays){//SWITCHCITYOFISABELA
                         case 1:{
                         int barangayCount = sizeof(CauayanBrgys)/sizeof(CauayanBrgys[0]);
@@ -1645,7 +1697,10 @@ int main () {
                                 
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                 
+                        if (cin.fail()) {
+                            cin.clear(); 
+                            cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                            cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}         
                         switch (barangays){
                         case 1:{
 	                    cout << "You have chosen the municipality of Alicia.\n";
@@ -1886,7 +1941,10 @@ int main () {
                                 
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                 
+                        if (cin.fail()) {
+                            cin.clear(); 
+                            cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                            cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}         
                         switch (barangays){
 	                    case 1:{
 	                    cout << "You have chosen the municipality of Alfonso Castañeda.\n";
@@ -2010,7 +2068,10 @@ int main () {
                                 
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                 
+                        if (cin.fail()) {
+                            cin.clear(); 
+                            cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                            cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}         
                         switch (barangays){
 	                    case 1:{
 	                    cout << "You have chosen the municipality of Aglipay.\n";
@@ -2082,7 +2143,10 @@ int main () {
                 cout << "7. Zambales\n";
                 cout << "Choose from 1-7 to find out to choose if you want to find out more about the different provinces: ";
                 cin >> centrall;
-
+                if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                     if (centrall == 1){
                     cout << "You have chosen Aurora." << endl;
 
@@ -2109,7 +2173,10 @@ int main () {
                                 
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                 
+                        if (cin.fail()) {
+                            cin.clear(); 
+                            cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                            cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}         
                         switch (barangays){
 	                    case 1:{
 	                    cout << "You have chosen the municipality of Aurora.\n";
@@ -2219,7 +2286,10 @@ int main () {
                                 
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                 
+                        if (cin.fail()) {
+                            cin.clear(); 
+                            cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                            cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}         
                         switch (barangays){
 	                    case 1:{
 	                    cout << "You have chosen the municipality of Abucay.\n";
@@ -2319,7 +2389,10 @@ int main () {
 
                         cout << "Enter a number corresponding to a city to get information about it and its barangays: ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                            cin.clear(); 
+                            cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                            cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch (barangays){
                         case 1:{
                         int barangayCount = sizeof(MeycauayanBrgys)/sizeof(MeycauayanBrgys[0]);
@@ -2402,153 +2475,90 @@ int main () {
                                                     
                             cout << "Enter a number corresponding to a municipality to get information about it: ";
                             cin >> barangays;
-                                                    
-                            switch (barangays){
-                        case 1:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
+                            if (cin.fail()) {
+                            cin.clear(); 
+                            cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                            cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                        
+                        switch (barangays){
+                        case 1: {
+                        cout << "You have chosen the municipality of Angat.\n";
                         break;
                         }
-
-                        case 2:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 2: {
+                            cout << "You have chosen the municipality of Balagtas.\n";
+                            break;
                         }
-
-                        case 3:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 3: {
+                            cout << "You have chosen the municipality of Baliuag.\n";
+                            break;
                         }
-
-                        case 4:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 4: {
+                            cout << "You have chosen the municipality of Bocaue.\n";
+                            break;
                         }
-
-                        case 5:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 5: {
+                            cout << "You have chosen the municipality of Bulakan.\n";
+                            break;
                         }
-
-                        case 6:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 6: {
+                            cout << "You have chosen the municipality of Bustos.\n";
+                            break;
                         }
-
-                        case 7:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 7: {
+                            cout << "You have chosen the municipality of Calumpit.\n";
+                            break;
                         }
-
-                        case 8:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 8: {
+                            cout << "You have chosen the municipality of Doña Remedios Trinidad.\n";
+                            break;
                         }
-
-                        case 9:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 9: {
+                            cout << "You have chosen the municipality of Guiginto.\n";
+                            break;
                         }
-
-                        case 10:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 10: {
+                            cout << "You have chosen the municipality of Hagonoy.\n";
+                            break;
                         }
-
-                        case 11:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 11: {
+                            cout << "You have chosen the municipality of Marilao.\n";
+                            break;
                         }
-
-                        case 12:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 12: {
+                            cout << "You have chosen the municipality of Norzagaray.\n";
+                            break;
                         }
-
-                        case 13:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 13: {
+                            cout << "You have chosen the municipality of Pandi.\n";
+                            break;
                         }
-
-                        case 14:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 14: {
+                            cout << "You have chosen the municipality of Paombong.\n";
+                            break;
                         }
-
-                        case 15:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 15: {
+                            cout << "You have chosen the municipality of Plaridel.\n";
+                            break;
                         }
-
-                        case 16:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 16: {
+                            cout << "You have chosen the municipality of Pulilan.\n";
+                            break;
                         }
-
-                        case 17:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 17: {
+                            cout << "You have chosen the municipality of San Ildefonso.\n";
+                            break;
                         }
-
-                        case 18:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 18: {
+                            cout << "You have chosen the municipality of San Miguel.\n";
+                            break;
                         }
-
-                        case 19:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 19: {
+                            cout << "You have chosen the municipality of San Rafael.\n";
+                            break;
                         }
-
-                        case 20:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
-                        }
-
-                        case 21:{
-                        cout << "You have chosen the municipality of \n";
-                        
-                        
-                        break;
+                        case 20: {
+                            cout << "You have chosen the municipality of Santa Maria.\n";
+                            break;
                         }
 
                         default:{
@@ -2582,20 +2592,29 @@ int main () {
                             int barangays;
                             cout << "Enter a number corresponding to a city to get information about it and its barangays: ";
                             cin >> barangays;
+                            if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                             switch (barangays){
                             case 1:{
+                            cout << "You have chosen the city of Cabanatuan.\n";
                             break;
                             }
                             case 2:{
+                            cout << "You have chosen the city of Gapan.\n";
                             break;
                             }
                             case 3:{
+                            cout << "You have chosen the city of Muñoz.\n";
                             break;
                             }
                             case 4:{
+                            cout << "You have chosen the city of Palayan.\n";
                             break;
                             }
                             case 5:{
+                            cout << "You have chosen the city of San Jose.\n";
                             break;
                             }
                             default:{
@@ -2622,7 +2641,10 @@ int main () {
                                                         
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                                        
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                                
                         switch (barangays){
                         case 1: {
                         cout << "You have chosen the municipality of Aliaga\n";
@@ -2790,7 +2812,10 @@ int main () {
 
                         cout << "Enter a number corresponding to a city to get information about it and its barangays: ";
                         cin >> barangays;
-                        
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch(barangays){
                         case 1:{
                         int barangayCount = sizeof(SanFernandoPampangaBrgys)/sizeof(SanFernandoPampangaBrgys[0]);
@@ -2857,10 +2882,13 @@ int main () {
                         if (municipal == 'Y' || municipal == 'y'){
                         int barangays;
                                                     
-                            cout << "Enter a number corresponding to a municipality to get information about it: ";
-                            cin >> barangays;
-                                                    
-                            switch (barangays){
+                        cout << "Enter a number corresponding to a municipality to get information about it: ";
+                        cin >> barangays;
+                        if (cin.fail()) {
+                            cin.clear(); 
+                            cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                            cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                       
+                        switch (barangays){
                         case 1:{
                         cout << "You have chosen the municipality of Apalit.\n";
                         
@@ -3065,10 +3093,13 @@ int main () {
                         if (municipal == 'Y' || municipal == 'y'){
                         int barangays;
                                                     
-                            cout << "Enter a number corresponding to a municipality to get information about it: ";
-                            cin >> barangays;
-                                                    
-                            switch (barangays){
+                        cout << "Enter a number corresponding to a municipality to get information about it: ";
+                        cin >> barangays;
+                        if (cin.fail()) {
+                            cin.clear(); 
+                            cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                            cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                        
+                        switch (barangays){
                         case 1:{
                         cout << "You have chosen the municipality of Anao.\n";
                         
@@ -3247,10 +3278,13 @@ int main () {
                         if (municipal == 'Y' || municipal == 'y'){
                         int barangays;
                                                     
-                            cout << "Enter a number corresponding to a municipality to get information about it: ";
-                            cin >> barangays;
-                                                    
-                            switch (barangays){
+                        cout << "Enter a number corresponding to a municipality to get information about it: ";
+                        cin >> barangays;
+                        if (cin.fail()) {
+                            cin.clear(); 
+                            cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                            cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                            
+                        switch (barangays){
                         case 1:{
                         cout << "You have chosen the municipality of Botolan.\n";
                         
@@ -3374,7 +3408,10 @@ int main () {
 
                 cout << "Choose from 1-5 to find out to choose if you want to find out more about the different provinces: ";
                 cin >> calabarzon;
-
+                if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}    
                     if (calabarzon == 1){
                     cout << "You have chosen Batangas. " << endl;
 
@@ -3397,7 +3434,10 @@ int main () {
 
                         cout << "Enter a number corresponding to a city to get information about it and its barangays: ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                            cin.clear(); 
+                            cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                            cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch (barangays){
                         case 1:{
                         int barangayCount = sizeof(BatangasCityBrgys)/sizeof(BatangasCityBrgys[0]);
@@ -3477,11 +3517,13 @@ int main () {
                         if (municipal == 'Y' || municipal == 'y'){
                         int barangays;
                                                     
-                            cout << "Enter a number corresponding to a municipality to get information about it: ";
-                            cin >> barangays;
-                                                    
-                            switch (barangays){
-                        
+                        cout << "Enter a number corresponding to a municipality to get information about it: ";
+                        cin >> barangays;
+                        if (cin.fail()) {
+                            cin.clear(); 
+                            cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                            cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                        
+                        switch (barangays){
                         case 1:{
                         cout << "You have chosen the municipality of Agoncillo.\n";
                         
@@ -3727,7 +3769,10 @@ int main () {
 
                         cout << "Enter a number corresponding to a city to get information about it and its barangays: ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch (barangays){
                         case 1:{
                         int barangayCount = sizeof(BacoorBrgys)/sizeof(BacoorBrgys[0]);
@@ -3863,7 +3908,10 @@ int main () {
                                                     
                             cout << "Enter a number corresponding to a municipality to get information about it: ";
                             cin >> barangays;
-                                                    
+                            if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                        
                             switch (barangays){
                         case 1:{
                         cout << "You have chosen the municipality of Alfonso.\n";
@@ -4010,7 +4058,10 @@ int main () {
 
                         cout << "Enter a number corresponding to a city to get information about it and its barangays: ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch (barangays){
                         case 1:{
                         int barangayCount = sizeof(BiñanCityBrgys)/sizeof(BiñanCityBrgys[0]);
@@ -4120,7 +4171,10 @@ int main () {
                                                     
                             cout << "Enter a number corresponding to a municipality to get information about it: ";
                             cin >> barangays;
-                                                    
+                            if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                        
                             switch (barangays){
                         case 1:{
                         cout << "You have chosen the municipality of Alaminos.\n";
@@ -4319,7 +4373,10 @@ int main () {
 
                         cout << "Enter a number corresponding to a city to get information about it and its barangays: ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch (barangays){
                         case 1:{
                         int barangayCount = sizeof(LucenaCityBrgys)/sizeof(LucenaCityBrgys[0]);
@@ -4374,8 +4431,11 @@ int main () {
                                                     
                             cout << "Enter a number corresponding to a municipality to get information about it: ";
                             cin >> barangays;
-                                                    
-                            switch (barangays){
+                            if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                        
+                        switch (barangays){
                         case 1:{
                         cout << "You have chosen the municipality of Agdangan.\n";
                         
@@ -4697,7 +4757,10 @@ int main () {
                                                     
                             cout << "Enter a number corresponding to a municipality to get information about it: ";
                             cin >> barangays;
-                                                    
+                            if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                        
                             switch (barangays){
                         case 1:{
                         cout << "You have chosen the municipality of Angono.\n";
@@ -4824,7 +4887,10 @@ int main () {
 
                 cout << "Choose from 1-5 to find out to choose if you want to find out more about the different provinces: ";
                 cin >> mimaropa;
-
+                if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                     if (mimaropa == 1){
                     cout << "You have chosen Marinduque. \n";
 
@@ -4849,7 +4915,10 @@ int main () {
                                                     
                             cout << "Enter a number corresponding to a municipality to get information about it: ";
                             cin >> barangays;
-                                                    
+                            if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                        
                             switch (barangays){
                         case 1:{
                         cout << "You have chosen the municipality of Boac.\n";
@@ -4931,7 +5000,10 @@ int main () {
                                                     
                             cout << "Enter a number corresponding to a municipality to get information about it: ";
                             cin >> barangays;
-                                                    
+                            if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                        
                             switch (barangays){
                         case 1:{
                         cout << "You have chosen the municipality of Abra de Ilog.\n";
@@ -5068,7 +5140,10 @@ int main () {
                                                     
                             cout << "Enter a number corresponding to a municipality to get information about it: ";
                             cin >> barangays;
-                                                    
+                            if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                        
                             switch (barangays){
                         case 1:{
                         cout << "You have chosen the municipality of Baco.\n";
@@ -5219,7 +5294,10 @@ int main () {
                                                     
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                                    
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                            
                         switch (barangays){
                         case 1:{
                         cout << "You have chosen the municipality of Aborlan.\n";
@@ -5414,9 +5492,11 @@ int main () {
                                                     
                             cout << "Enter a number corresponding to a municipality to get information about it: ";
                             cin >> barangays;
-                                                    
-                            switch (barangays){
-
+                            if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                        
+                        switch (barangays){
                         case 1:{
                         cout << "You have chosen the municipality of Alcantara.\n";
                         
@@ -5574,7 +5654,10 @@ int main () {
 
                 cout << "Choose from 1-6 to find out more about the different provinces: ";
                 cin >> bicol;
-
+                if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                     if (bicol == 1){
                     cout << "You have chosen Albay." << endl;
 
@@ -5596,7 +5679,10 @@ int main () {
 
                         cout << "Enter a number corresponding to a city to get information about it and its barangays: ";
                         cin >> barangays;
-                        
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch(barangays){
                         case 1:{
                         int barangayCount = sizeof(LegazpiBrgys)/sizeof(LegazpiBrgys[0]);
@@ -5673,8 +5759,11 @@ int main () {
                                                     
                             cout << "Enter a number corresponding to a municipality to get information about it: ";
                             cin >> barangays;
-                                                    
-                            switch (barangays){
+                            if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                        
+                        switch (barangays){
                         case 1:{
                         cout << "You have chosen the municipality of Bacacay.\n";
                         
@@ -5820,8 +5909,11 @@ int main () {
                                                     
                             cout << "Enter a number corresponding to a municipality to get information about it: ";
                             cin >> barangays;
-                                                    
-                            switch (barangays){
+                            if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                        
+                        switch (barangays){
                         case 1:{
                         cout << "You have chosen the municipality of Basud.\n";
                         
@@ -5936,7 +6028,10 @@ int main () {
 
                         cout << "Enter a number corresponding to a city to get information about it and its barangays: ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch (barangays){
                         case 1:{
                         int barangayCount = sizeof(IrigaBrgys)/sizeof(IrigaBrgys[0]);
@@ -5989,8 +6084,11 @@ int main () {
                                                     
                             cout << "Enter a number corresponding to a municipality to get information about it: ";
                             cin >> barangays;
-                                                    
-                            switch (barangays){
+                            if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                        
+                        switch (barangays){
                         case 1:{
                         cout << "You have chosen the municipality of Baao.\n";
                         
@@ -6274,8 +6372,11 @@ int main () {
                                                     
                             cout << "Enter a number corresponding to a municipality to get information about it: ";
                             cin >> barangays;
-                                                    
-                            switch (barangays){
+                            if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                        
+                        switch (barangays){
                         case 1:{
                         cout << "You have chosen the municipality of Bagamonoc.\n";
                         
@@ -6407,8 +6508,11 @@ int main () {
                                                     
                             cout << "Enter a number corresponding to a municipality to get information about it: ";
                             cin >> barangays;
-                                                    
-                            switch (barangays){
+                            if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                        
+                        switch (barangays){
                         case 1:{
                         cout << "You have chosen the municipality of Aroroy.\n";
                         
@@ -6613,7 +6717,10 @@ int main () {
                                                         
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                                        
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                                
                         switch (barangays){
                         case 1:{
                         cout << "You have chosen the municipality of Barcelona.\n";
@@ -6749,7 +6856,10 @@ int main () {
 
 	            cout << "Choose from 1-6 to find out more about the different provinces: ";
 	            cin >> westernvis;
-
+                if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                     if (westernvis == 1){
                     cout << "You have chosen Aklan. " << endl;
 
@@ -6784,7 +6894,10 @@ int main () {
                                                         
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                                        
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                                
                         switch (barangays){
                         case 1:{
                         cout << "You have chosen the municipality of Atlavas.\n";
@@ -6965,7 +7078,10 @@ int main () {
                                                         
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                                        
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                                
                         switch (barangays){
                         case 1:{
                         cout << "You have chosen the municipality of Anini-y.\n";
@@ -7158,7 +7274,10 @@ int main () {
                                                         
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                                        
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                                
                         switch (barangays){
                         case 1:{
                         cout << "You have chosen the municipality of Cuartero.\n";
@@ -7304,7 +7423,10 @@ int main () {
                                                         
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                                        
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                                
                         switch (barangays){
                         case 1:{
                         cout << "You have chosen the municipality of Buenavista.\n";
@@ -7370,7 +7492,10 @@ int main () {
 
                         cout << "Enter a number corresponding to a city to get information about it and its barangays: ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch (barangays){
                         case 1:{
                         int barangayCount = sizeof(PassiBrgys)/sizeof(PassiBrgys[0]);
@@ -7424,7 +7549,10 @@ int main () {
                                                         
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                                        
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                                
                         switch (barangays){
                         case 1:{
                         cout << "You have chosen the municipality of Ajuy.\n";
@@ -7759,7 +7887,10 @@ int main () {
 
                         cout << "Enter a number corresponding to a city to get information about it and its barangays: ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch (barangays){
                         case 1:{
                         int barangayCount = sizeof(BagoBrgys)/sizeof(BagoBrgys[0]);
@@ -7968,7 +8099,10 @@ int main () {
                                                         
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                                        
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                                
                         switch (barangays){
                         case 1:{
                         cout << "You have chosen the municipality of Binalbagan.\n";
@@ -8137,7 +8271,10 @@ int main () {
 
                 cout << "Choose from 1-4 to find out more about the different provinces: ";
                 cin >> centralvis;
-
+                if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                     if (centralvis == 1){
                     cout << "You have chosen Bohol. " << endl;
 
@@ -8181,7 +8318,10 @@ int main () {
                                                         
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                                        
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                                
                         switch (barangays){
                         case 1:{
                         cout << "You have chosen the municipality of Alburquerque\n";
@@ -8455,7 +8595,10 @@ int main () {
 
                         cout << "Enter a number corresponding to a city to get information about it and its barangays: ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch(barangays){
                         case 1:{
                         int barangayCount = sizeof(BogoBrgys)/sizeof(BogoBrgys[0]);
@@ -8607,7 +8750,10 @@ int main () {
 
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch (barangays){
                         case 1: {
                         cout << "You have chosen the municipality of Alcantara\n";
@@ -8825,7 +8971,10 @@ int main () {
 
                         cout << "Enter a number corresponding to a city to get information about it and its barangays: ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch (barangays){
                         case 1:{
                         int barangayCount = sizeof(BaisBrgys)/sizeof(BaisBrgys[0]);
@@ -8950,7 +9099,10 @@ int main () {
                                                         
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-         
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch (barangays){
                         case 1:{
                         cout << "You have chosen the municipality of Amlan.\n";
@@ -9117,7 +9269,10 @@ int main () {
                                                         
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                                        
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                                   
                         switch (barangays){
                         case 1:{
                         cout << "You have chosen the municipality of Enrique Villanueva.\n";
@@ -9196,7 +9351,10 @@ int main () {
 
                 cout << "Choose from 1-6 to find out more about the different provinces: ";
 	            cin >> easternvis;
-
+                if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                     if (easternvis == 1){
                     cout << "You have chosen Biliran. " << endl;
 
@@ -9223,7 +9381,10 @@ int main () {
                                                         
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                                        
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                                
                         switch (barangays){
                         case 1:{
                         cout << "You have chosen the municipality of Almeria.\n";
@@ -9324,7 +9485,10 @@ int main () {
                                                         
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                                        
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                                 
                         switch (barangays){
                         case 1:{
                         cout << "You have chosen the municipality of Arteche.\n";
@@ -9468,7 +9632,10 @@ int main () {
 
                         cout << "Enter a number corresponding to a city to get information about it and its barangays: ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch (barangays){
                         case 1:{
                         int barangayCount = sizeof(BaybayBrgys)/sizeof(BaybayBrgys[0]);
@@ -9529,7 +9696,10 @@ int main () {
 
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch(barangays){
                         case 1: {
                         cout << "You have chosen the municipality of Abuyog.\n";
@@ -9763,7 +9933,10 @@ int main () {
 
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch(barangays){
                         case 1: {
                         cout << "You have chosen the municipality of Allen.\n";
@@ -9914,7 +10087,10 @@ int main () {
 
                         cout << "Enter a number corresponding to a city to get information about it and its barangays: ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch (barangays){
                         case 1:{
                         int barangayCount = sizeof(CalbayogBrgys)/sizeof(CalbayogBrgys[0]);
@@ -9966,7 +10142,10 @@ int main () {
 
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch(barangays){
                         case 1: {
                             cout << "You have chosen the municipality of Almagro.\n";
@@ -10140,7 +10319,10 @@ int main () {
 
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch(barangays){
                         case 1: {
                         cout << "You have chosen the municipality of Anahawan.\n";
@@ -10267,7 +10449,10 @@ int main () {
                 
                 cout << "Choose from 1-3 to find out more about the different provinces: " << endl;
                 cin >> zamboangapen;
-
+                if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                     if (zamboangapen == 1){
                     cout << "You have chosen Zamboanga Del Norte." << endl;
 
@@ -10288,7 +10473,10 @@ int main () {
 
                         cout << "Enter a number corresponding to a city to get information about it and its barangays: ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch (barangays){
                         case 1:{
                         int barangayCount = sizeof(DapitanBrgys)/sizeof(DapitanBrgys[0]);
@@ -10342,7 +10530,10 @@ int main () {
                                                         
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                                        
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                                      
                         switch (barangays){
                         case 1: {
                             cout << "You have chosen the municipality of Baliguian.\n";
@@ -10499,7 +10690,10 @@ int main () {
 
                         cout << "Enter a number corresponding to a city to get information about it and its barangays: ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch(barangays){
                         case 1:{
                         int barangayCount = sizeof(PagadianBrgys)/sizeof(PagadianBrgys[0]);
@@ -10545,7 +10739,10 @@ int main () {
                         int barangays;                     
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                                        
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                                     
                         switch (barangays){
                         case 1: {
                             cout << "You have chosen the municipality of Aurora.\n";
@@ -10722,7 +10919,10 @@ int main () {
                                                         
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                                        
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                                     
                         switch (barangays){
                         case 1: {
                         cout << "You have chosen the municipality of Alicia.\n";
@@ -10841,7 +11041,10 @@ int main () {
 
                 cout << "Choose from 1-5 to find out more about the different provinces: ";
                 cin >> northernmind;
-
+                if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                     if (northernmind == 1){
                     cout << "You have chosen Bukidnon" << endl;
 
@@ -10862,7 +11065,10 @@ int main () {
 
                         cout << "Enter a number corresponding to a city to get information about it and its barangays; ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch (barangays){
                         case 1:{
                         cout << "You have chosen the city of \n";
@@ -10882,8 +11088,12 @@ int main () {
                         }
 
                         else if (cmb == 'M' || cmb == 'm'){
+                        int muniCount = sizeof(BukidnonMuni)/sizeof(BukidnonMuni[0]);
                         char municipal;
                         cout << "Here are all the municipalities in Bukidnon: " << endl;
+                        for (int i = 0; i < muniCount; ++i) {
+                            cout << i + 1 << ". " << BukidnonMuni[i] << "\n";
+                        }
                         cout << "Would you like to find out more about the municipalities? (Y/N): ";
                         cin >> municipal;
                             
@@ -10891,9 +11101,95 @@ int main () {
                         int barangays;
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                                                            
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch (barangays){
-
+                        case 1: {
+                        cout << "You have chosen the municipality of Baungon.\n";
+                        break;
+                        }
+                        case 2: {
+                            cout << "You have chosen the municipality of Cabanglasan.\n";
+                            break;
+                        }
+                        case 3: {
+                            cout << "You have chosen the municipality of Damulog.\n";
+                            break;
+                        }
+                        case 4: {
+                            cout << "You have chosen the municipality of Dangcagan.\n";
+                            break;
+                        }
+                        case 5: {
+                            cout << "You have chosen the municipality of Don Carlos.\n";
+                            break;
+                        }
+                        case 6: {
+                            cout << "You have chosen the municipality of Impasugong.\n";
+                            break;
+                        }
+                        case 7: {
+                            cout << "You have chosen the municipality of Kadingilan.\n";
+                            break;
+                        }
+                        case 8: {
+                            cout << "You have chosen the municipality of Kalilangan.\n";
+                            break;
+                        }
+                        case 9: {
+                            cout << "You have chosen the municipality of Kibawe.\n";
+                            break;
+                        }
+                        case 10: {
+                            cout << "You have chosen the municipality of Kitaotao.\n";
+                            break;
+                        }
+                        case 11: {
+                            cout << "You have chosen the municipality of Lantapan.\n";
+                            break;
+                        }
+                        case 12: {
+                            cout << "You have chosen the municipality of Libona.\n";
+                            break;
+                        }
+                        case 13: {
+                            cout << "You have chosen the municipality of Malitbog.\n";
+                            break;
+                        }
+                        case 14: {
+                            cout << "You have chosen the municipality of Manolo Fortich.\n";
+                            break;
+                        }
+                        case 15: {
+                            cout << "You have chosen the municipality of Maramag.\n";
+                            break;
+                        }
+                        case 16: {
+                            cout << "You have chosen the municipality of Pangantucan.\n";
+                            break;
+                        }
+                        case 17: {
+                            cout << "You have chosen the municipality of Quezon.\n";
+                            break;
+                        }
+                        case 18: {
+                            cout << "You have chosen the municipality of San Fernando.\n";
+                            break;
+                        }
+                        case 19: {
+                            cout << "You have chosen the municipality of Sumilao.\n";
+                            break;
+                        }
+                        case 20: {
+                            cout << "You have chosen the municipality of Talakag.\n";
+                            break;
+                        }
+                        default: {
+                            cout << "CORRESPONDING NUMBER NOT FOUND.\n";
+                            break;
+                        }
                         }
                         }
                         }
@@ -10906,8 +11202,12 @@ int main () {
                     cin >> cmb;
 
                         if (cmb == 'M' || cmb == 'm'){
+                        int muniCount = sizeof(CamiguinMuni)/sizeof(CamiguinMuni[0]);
                         char municipal;
                         cout << "Here are all the municipalities in Camiguin: " << endl;
+                        for (int i = 0; i < muniCount; ++i) {
+                            cout << i + 1 << ". " << CamiguinMuni[i] << "\n";
+                        }
 
                         cout << "Would you like to find out more about the municipalities? (Y/N): ";
                         cin >> municipal;
@@ -10917,9 +11217,35 @@ int main () {
 
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch (barangays){
-
+                        case 1: {
+                        cout << "You have chosen the municipality of Catarman.\n";
+                        break;
+                        }
+                        case 2: {
+                            cout << "You have chosen the municipality of Guinsiliban.\n";
+                            break;
+                        }
+                        case 3: {
+                            cout << "You have chosen the municipality of Mahinog.\n";
+                            break;
+                        }
+                        case 4: {
+                            cout << "You have chosen the municipality of Mambajao.\n";
+                            break;
+                        }
+                        case 5: {
+                            cout << "You have chosen the municipality of Sagay.\n";
+                            break;
+                        }
+                        default: {
+                            cout << "CORRESPONDING NUMBER NOT FOUND";
+                            break;
+                        }
                         }
                         }
                         }
@@ -10950,8 +11276,12 @@ int main () {
                         }
 
                         else if (cmb == 'M' || cmb == 'm'){
+                        int muniCount = sizeof(LanaoDelNorteMuni)/sizeof(LanaoDelNorteMuni[0]);
                         char municipal;
                         cout << "Here are all the municipalities in Lanao del Norte: " << endl;
+                        for (int i = 0; i < muniCount; ++i) {
+                            cout << i + 1 << ". " << LanaoDelNorteMuni[i] << "\n";
+                        }
                         cout << "Would you like to find out more about the municipalities? (Y/N): ";
                         cin >> municipal;
 
@@ -10960,9 +11290,103 @@ int main () {
 
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch (barangays){
-
+                        case 1: {
+                        cout << "You have chosen the municipality of Bacolod.\n";
+                        break;
+                        }
+                        case 2: {
+                            cout << "You have chosen the municipality of Baloi.\n";
+                            break;
+                        }
+                        case 3: {
+                            cout << "You have chosen the municipality of Baroy.\n";
+                            break;
+                        }
+                        case 4: {
+                            cout << "You have chosen the municipality of Kapatagan.\n";
+                            break;
+                        }
+                        case 5: {
+                            cout << "You have chosen the municipality of Kauswagan.\n";
+                            break;
+                        }
+                        case 6: {
+                            cout << "You have chosen the municipality of Kolambugan.\n";
+                            break;
+                        }
+                        case 7: {
+                            cout << "You have chosen the municipality of Lala.\n";
+                            break;
+                        }
+                        case 8: {
+                            cout << "You have chosen the municipality of Linamon.\n";
+                            break;
+                        }
+                        case 9: {
+                            cout << "You have chosen the municipality of Magsaysay.\n";
+                            break;
+                        }
+                        case 10: {
+                            cout << "You have chosen the municipality of Maigo.\n";
+                            break;
+                        }
+                        case 11: {
+                            cout << "You have chosen the municipality of Matungao.\n";
+                            break;
+                        }
+                        case 12: {
+                            cout << "You have chosen the municipality of Munai.\n";
+                            break;
+                        }
+                        case 13: {
+                            cout << "You have chosen the municipality of Nunungan.\n";
+                            break;
+                        }
+                        case 14: {
+                            cout << "You have chosen the municipality of Pantao Ragat.\n";
+                            break;
+                        }
+                        case 15: {
+                            cout << "You have chosen the municipality of Pantar.\n";
+                            break;
+                        }
+                        case 16: {
+                            cout << "You have chosen the municipality of Poona Piagapo.\n";
+                            break;
+                        }
+                        case 17: {
+                            cout << "You have chosen the municipality of Salvador.\n";
+                            break;
+                        }
+                        case 18: {
+                            cout << "You have chosen the municipality of Sapad.\n";
+                            break;
+                        }
+                        case 19: {
+                            cout << "You have chosen the municipality of Sultan Naga Dimaporo.\n";
+                            break;
+                        }
+                        case 20: {
+                            cout << "You have chosen the municipality of Tagoloan.\n";
+                            break;
+                        }
+                        case 21: {
+                            cout << "You have chosen the municipality of Tangcal.\n";
+                            break;
+                        }
+                        case 22: {
+                            cout << "You have chosen the municipality of Tubod - Capital of Lanao del Norte.\n";
+                            break;
+                        }
+                        default: {
+                            cout << "CORRESPONDING NUMBER NOT FOUND.\n";
+                            break;
+                        }
                         }
                         }
                         }
@@ -10989,7 +11413,10 @@ int main () {
 
                         cout << "Enter a number corresponding to a city to get information about it and its barangays; ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch (barangays){
                         case 1:{
                         cout << "You have chosen the city of \n";
@@ -11024,9 +11451,12 @@ int main () {
                         }
 
                         else if (cmb == 'M' || cmb == 'm'){
+                        int muniCount = sizeof(MisamisOccidentalMuni)/sizeof(MisamisOccidentalMuni[0]);
                         char municipal;
                         cout << "Here are all the municipalities in Misamis Occidental: " << endl;
-
+                        for (int i = 0; i < muniCount; ++i) {
+                            cout << i + 1 << ". " << MisamisOccidentalMuni[i] << "\n";
+                        }
                         cout << "Would you like to find out more about the municipalities? (Y/N): ";
                         cin >> municipal;
 
@@ -11035,9 +11465,71 @@ int main () {
 
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch (barangays){
-
+                        case 1: {
+                        cout << "You have chosen the municipality of Aloran.\n";
+                        break;
+                        }
+                        case 2: {
+                            cout << "You have chosen the municipality of Baliangao.\n";
+                            break;
+                        }
+                        case 3: {
+                            cout << "You have chosen the municipality of Bonifacio.\n";
+                            break;
+                        }
+                        case 4: {
+                            cout << "You have chosen the municipality of Calamba.\n";
+                            break;
+                        }
+                        case 5: {
+                            cout << "You have chosen the municipality of Clarin.\n";
+                            break;
+                        }
+                        case 6: {
+                            cout << "You have chosen the municipality of Concepcion.\n";
+                            break;
+                        }
+                        case 7: {
+                            cout << "You have chosen the municipality of Don Victoriano Chiongbian.\n";
+                            break;
+                        }
+                        case 8: {
+                            cout << "You have chosen the municipality of Jimenez.\n";
+                            break;
+                        }
+                        case 9: {
+                            cout << "You have chosen the municipality of Lopes Jaena.\n";
+                            break;
+                        }
+                        case 10: {
+                            cout << "You have chosen the municipality of Panaon.\n";
+                            break;
+                        }
+                        case 11: {
+                            cout << "You have chosen the municipality of Plaridel.\n";
+                            break;
+                        }
+                        case 12: {
+                            cout << "You have chosen the municipality of Sapang Dalaga.\n";
+                            break;
+                        }
+                        case 13: {
+                            cout << "You have chosen the municipality of Sinacaban.\n";
+                            break;
+                        }
+                        case 14: {
+                            cout << "You have chosen the municipality of Tudela.\n";
+                            break;
+                        }
+                        default: {
+                            cout << "CORRESPONDING NUMBER NOT FOUND.\n";
+                            break;
+                        }
                         }
                         }
                         }
@@ -11064,7 +11556,10 @@ int main () {
 
                         cout << "Enter a number corresponding to a city to get information about it and its barangays; ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch (barangays){
                         case 1:{
                         cout << "You have chosen the city of \n";
@@ -11099,8 +11594,12 @@ int main () {
                         }
 
                         else if (cmb == 'M' || cmb == 'm'){
+                        int muniCount = sizeof(MisamisOrientalMuni)/sizeof(MisamisOrientalMuni[0]);
                         char municipal;
                         cout << "Here are all the municipalities in Misamis Oriental: " << endl;
+                        for (int i = 0; i < muniCount; ++i) {
+                            cout << i + 1 << ". " << MisamisOrientalMuni[i] << "\n";
+                        }
                         cout << "Would you like to find out more about the municipalities? (Y/N): ";
                         cin >> municipal;
 
@@ -11109,9 +11608,107 @@ int main () {
 
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch (barangays){
-
+                        case 1: {
+                        cout << "You have chosen the municipality of Alubijid.\n";
+                        break;
+                        }
+                        case 2: {
+                            cout << "You have chosen the municipality of Balingasag.\n";
+                            break;
+                        }
+                        case 3: {
+                            cout << "You have chosen the municipality of Balingoan.\n";
+                            break;
+                        }
+                        case 4: {
+                            cout << "You have chosen the municipality of Binuangan.\n";
+                            break;
+                        }
+                        case 5: {
+                            cout << "You have chosen the municipality of Claveria.\n";
+                            break;
+                        }
+                        case 6: {
+                            cout << "You have chosen the municipality of Gitagum.\n";
+                            break;
+                        }
+                        case 7: {
+                            cout << "You have chosen the municipality of Initao.\n";
+                            break;
+                        }
+                        case 8: {
+                            cout << "You have chosen the municipality of Jasaan.\n";
+                            break;
+                        }
+                        case 9: {
+                            cout << "You have chosen the municipality of Kinoguitan.\n";
+                            break;
+                        }
+                        case 10: {
+                            cout << "You have chosen the municipality of Lagonglong.\n";
+                            break;
+                        }
+                        case 11: {
+                            cout << "You have chosen the municipality of Laguindingan.\n";
+                            break;
+                        }
+                        case 12: {
+                            cout << "You have chosen the municipality of Libertad.\n";
+                            break;
+                        }
+                        case 13: {
+                            cout << "You have chosen the municipality of Lugait.\n";
+                            break;
+                        }
+                        case 14: {
+                            cout << "You have chosen the municipality of Magsaysay.\n";
+                            break;
+                        }
+                        case 15: {
+                            cout << "You have chosen the municipality of Manticao.\n";
+                            break;
+                        }
+                        case 16: {
+                            cout << "You have chosen the municipality of Medina.\n";
+                            break;
+                        }
+                        case 17: {
+                            cout << "You have chosen the municipality of Naawan.\n";
+                            break;
+                        }
+                        case 18: {
+                            cout << "You have chosen the municipality of Opol.\n";
+                            break;
+                        }
+                        case 19: {
+                            cout << "You have chosen the municipality of Salay.\n";
+                            break;
+                        }
+                        case 20: {
+                            cout << "You have chosen the municipality of Sugbongcogon.\n";
+                            break;
+                        }
+                        case 21: {
+                            cout << "You have chosen the municipality of Tagoloan.\n";
+                            break;
+                        }
+                        case 22: {
+                            cout << "You have chosen the municipality of Talisayan.\n";
+                            break;
+                        }
+                        case 23: {
+                            cout << "You have chosen the municipality of Villanueva.\n";
+                            break;
+                        }
+                        default: {
+                            cout << "CORRESPONDING NUMBER NOT FOUND.\n";
+                            break;
+                        }
                         }
                         }
                         }
@@ -11143,7 +11740,10 @@ int main () {
 
                 cout << "Choose from 1-5 to find out more about the different provinces: ";
                 cin >> davaoreg;
-
+                if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                     if (davaoreg == 1){
                     cout << "You have chosen Davao de Oro\n";
 
@@ -11173,7 +11773,10 @@ int main () {
                                                         
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                                        
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                                
                         switch (barangays){
                         case 1: {
                             cout << "You have chosen the municipality of Compostela.\n";
@@ -11261,7 +11864,10 @@ int main () {
 
                         cout << "Enter a number corresponding to a city to get information about it and its barangays; ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch(barangays){
                         case 1:{
                         int barangayCount = sizeof(PanaboBrgys)/sizeof(PanaboBrgys[0]);
@@ -11331,7 +11937,10 @@ int main () {
                                                         
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                                        
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                                
                         switch (barangays){
                         case 1:{
                         cout << "You have chosen the municipality of Asuncion.\n";
@@ -11417,7 +12026,10 @@ int main () {
 
                         cout << "Enter a number corresponding to a city to get information about it and its barangays; ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch (barangays){
                         case 1:{
                         cout << "The city of blah blah \n";
@@ -11459,7 +12071,10 @@ int main () {
                                                         
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                                        
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                                        
                         switch (barangays){
                         case 1: {
                             cout << "You have chosen the municipality of Bansalan.\n";
@@ -11539,7 +12154,10 @@ int main () {
                                                         
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                                        
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                                    
                         switch (barangays){
                         case 1: {
                             cout << "You have chosen the municipality of Don Marcelino.\n";
@@ -11621,7 +12239,10 @@ int main () {
                                                         
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                                        
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                                    
                         switch (barangays){
                         case 1: {
                             cout << "You have chosen the municipality of Baganga.\n";
@@ -11709,7 +12330,10 @@ int main () {
 
                 cout << "Choose from 1-4 to find out more about the different provinces: ";
 	            cin >> soccsk;
-
+                if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                     if (soccsk == 1){
                     cout << "You have chosen Cotabato." << endl;
 
@@ -11730,7 +12354,10 @@ int main () {
 
                         cout << "Enter a number corresponding to a city to get information about it and its barangays: ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch (barangays){
                         case 1:{
                         cout << "You have chosen the city of \n";
@@ -11785,7 +12412,10 @@ int main () {
                                                         
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                                        
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                                    
                         switch (barangays){
                         case 1: {
                             cout << "You have chosen the municipality of Alamada.\n";
@@ -11907,7 +12537,10 @@ int main () {
                                                         
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                                        
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                                    
                         switch (barangays){
                         case 1:{
                         cout << "You have chosen the municipality of Alabel.\n";
@@ -12011,7 +12644,10 @@ int main () {
                                                         
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                                        
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                                   
                         switch (barangays){
                         case 1: {
                             cout << "You have chosen the municipality of Banga.\n";
@@ -12102,7 +12738,10 @@ int main () {
                                                         
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                                        
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                                   
                         switch (barangays){
                         case 1: {
                             cout << "You have chosen the municipality of Bagumbayan.\n";
@@ -12199,7 +12838,10 @@ int main () {
 
                 cout << "Choose from 1-5 to find out more about the different provinces: ";
 	            cin >> caraga;
-
+                if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                     if (caraga == 1){
                     cout << "You have chosen Agusan del Norte" << endl;
 
@@ -12219,7 +12861,10 @@ int main () {
                         int barangays;
                         cout << "Enter a number corresponding to a city to get information about it and its barangays; ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch (barangays){
                         case 1:{
                         cout << "The city of blah blah \n";
@@ -12262,7 +12907,10 @@ int main () {
 
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch (barangays){
                         case 1: {
                             cout << "You have chosen the municipality of Buenavista.\n";
@@ -12373,7 +13021,10 @@ int main () {
 
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch (barangays){
                         case 1: {
                             cout << "You have chosen the municipality of Bunawan.\n";
@@ -12474,7 +13125,10 @@ int main () {
 
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch (barangays){
                         case 1: {
                             cout << "You have chosen the municipality of Basilisa.\n";
@@ -12559,7 +13213,10 @@ int main () {
 
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch (barangays){
                         case 1: {
                             cout << "You have chosen the municipality of Alegria.\n";
@@ -12695,7 +13352,10 @@ int main () {
 
                         cout << "Enter a number corresponding to a city to get information about it and its barangays; ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch(barangays){
                         case 1:{
                         cout << "You have chosen the city of \n";
@@ -12734,7 +13394,10 @@ int main () {
 
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch (barangays){
                         case 1: {
                             cout << "You have chosen the municipality of Barobo.\n";
@@ -12871,7 +13534,10 @@ int main () {
 
                         cout << "Enter a number corresponding to a city to get information about it and its barangays: ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch (barangays){
                         case 1:{
                         int barangayCount = sizeof(CaloocanBrgys)/sizeof(CaloocanBrgys[0]);
@@ -13097,7 +13763,10 @@ int main () {
 
 	            cout << "Choose from 1-6 to find out more about the different provinces: ";
 	            cin >> car;
-                
+                if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                     if (car == 1){
                     cout << "You have chosen Abra" << endl;
 
@@ -13118,7 +13787,10 @@ int main () {
                                                         
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                                        
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                                
                         switch (barangays){
                         case 1: {
                             cout << "You have chosen the municipality of Bangued - Capital of Abra.\n";
@@ -13264,7 +13936,10 @@ int main () {
                                                         
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                                        
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                                    
                         switch (barangays){
                         case 1: {
                             cout << "You have chosen the municipality of Calanasan.\n";
@@ -13352,7 +14027,10 @@ int main () {
                                                         
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                                        
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                                   
                         switch (barangays){
                         case 1: {
                             cout << "You have chosen the municipality of Bakun.\n";
@@ -13442,7 +14120,10 @@ int main () {
                                                         
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                                        
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                                    
                         switch (barangays){
                         case 1: {
                             cout << "You have chosen the municipality of Aguinaldo.\n";
@@ -13541,7 +14222,10 @@ int main () {
                                                         
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                                        
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                                    
                         switch (barangays){
                         case 1: {
                             cout << "You have chosen the municipality of Balbalan.\n";
@@ -13610,7 +14294,10 @@ int main () {
                                                         
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                                        
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                                    
                         switch (barangays){
                         case 1: {
                         cout << "You have chosen the municipality of Barlig.\n";
@@ -13670,7 +14357,7 @@ int main () {
             char cmb;
             cout << "BARMM - Bangsamoro Autonomous in Muslim Mindanao";
             cout << "PLACE INFORMATION HERE" << endl;
-            cout << "Would you like to find out about the different provinces in BARMM? (Y/N): " << endl;
+            cout << "Would you like to find out about the different provinces in BARMM? (Y/N): ";
             cin >> prov;
             
                 if (prov == 'Y' || prov == 'y'){
@@ -13685,7 +14372,10 @@ int main () {
 
                 cout << "Choose from 1-5 to find out more about the different provinces: ";
 	            cin >> barmm;
-
+                if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                     if (barmm == 1){
                     cout << "You have chosen Basilan. " << endl;
 
@@ -13706,7 +14396,10 @@ int main () {
 
                         cout << "Enter a number corresponding to a city to get information about it and its barangays: ";
                         cin >> barangays;
-
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch (barangays){
                         case 1:{
                         cout << "You have chosen the city of \n";
@@ -13755,7 +14448,10 @@ int main () {
                                                         
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                                        
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                                    
                         switch (barangays){
                         case 1: {
                             cout << "You have chosen the municipality of Akbar.\n";
@@ -13847,7 +14543,10 @@ int main () {
                         int barangays;                     
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                                        
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                                   
                         switch (barangays){
                         case 1: {
                             cout << "You have chosen the municipality of Amai Manabilang.\n";
@@ -14091,7 +14790,10 @@ int main () {
                                                         
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                                        
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                                    
                         switch (barangays){
                         case 1: {
                             cout << "You have chosen the municipality of Ampatuan.\n";
@@ -14304,7 +15006,10 @@ int main () {
                                                         
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                                        
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                                    
                         switch (barangays){
                         case 1: {
                         cout << "You have chosen the municipality of Banguingui.\n";
@@ -14439,7 +15144,10 @@ int main () {
                                                         
                         cout << "Enter a number corresponding to a municipality to get information about it: ";
                         cin >> barangays;
-                                                        
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}                                    
                         switch (barangays){
                         case 1: {
                         cout << "You have chosen the municipality of Bongao - Capital of Tawi-Tawi.\n";
@@ -14533,7 +15241,7 @@ int main () {
         }
     
     
-    cout << "Would you like to find about something different? (Y/N) ";
+    cout << "Would you like to find about something different? (Y/N): ";
     cin >> decision2;
     cin.ignore();
 
