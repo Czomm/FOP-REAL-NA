@@ -5,7 +5,7 @@ using namespace std;
 
 int main () {
     string CaloocanBrgys[] = {"Barangay 1", "Barangay 10", "Barangay 100", "Barangay 101", "Barangay 102","Barangay 103", "Barangay 104", "Barangay 105", "Barangay 106", "Barangay 107","Barangay 108", "Barangay 109", "Barangay 110", "Barangay 111", "Barangay 112","Barangay 113", "Barangay 114", "Barangay 115", "Barangay 116", "Barangay 117","Barangay 118", "Barangay 119", "Barangay 12", "Barangay 120", "Barangay 121","Barangay 122", "Barangay 123", "Barangay 124", "Barangay 125", "Barangay 126","Barangay 127", "Barangay 128", "Barangay 129", "Barangay 13", "Barangay 130","Barangay 131", "Barangay 132", "Barangay 133", "Barangay 134", "Barangay 135","Barangay 136", "Barangay 137", "Barangay 138", "Barangay 139", "Barangay 14","Barangay 140", "Barangay 141", "Barangay 142", "Barangay 143", "Barangay 144","Barangay 145", "Barangay 146", "Barangay 147", "Barangay 148", "Barangay 149","Barangay 15", "Barangay 150", "Barangay 151", "Barangay 152", "Barangay 153","Barangay 154", "Barangay 155", "Barangay 156", "Barangay 157", "Barangay 158","Barangay 159", "Barangay 16", "Barangay 161", "Barangay 162", "Barangay 163","Barangay 164", "Barangay 165", "Barangay 166", "Barangay 167", "Barangay 168","Barangay 169", "Barangay 17", "Barangay 170", "Barangay 171", "Barangay 172","Barangay 173", "Barangay 174", "Barangay 175", "Barangay 176", "Barangay 177","Barangay 178", "Barangay 179", "Barangay 18", "Barangay 180", "Barangay 181","Barangay 182", "Barangay 183", "Barangay 184", "Barangay 185", "Barangay 186","Barangay 187", "Barangay 188", "Barangay 19", "Barangay 2", "Barangay 20","Barangay 21", "Barangay 22", "Barangay 23", "Barangay 24", "Barangay 25","Barangay 26", "Barangay 27", "Barangay 28", "Barangay 29", "Barangay 3","Barangay 30", "Barangay 31", "Barangay 32", "Barangay 33", "Barangay 34","Barangay 35", "Barangay 36", "Barangay 37", "Barangay 38", "Barangay 39","Barangay 4", "Barangay 40", "Barangay 41", "Barangay 42", "Barangay 43","Barangay 44", "Barangay 45", "Barangay 46", "Barangay 47", "Barangay 48","Barangay 49", "Barangay 5", "Barangay 50", "Barangay 51", "Barangay 52","Barangay 53", "Barangay 54", "Barangay 55", "Barangay 56", "Barangay 57","Barangay 58", "Barangay 59", "Barangay 6", "Barangay 60", "Barangay 61","Barangay 62", "Barangay 63", "Barangay 64", "Barangay 65", "Barangay 66","Barangay 67", "Barangay 68", "Barangay 69", "Barangay 7", "Barangay 70","Barangay 71", "Barangay 72", "Barangay 73", "Barangay 74", "Barangay 75","Barangay 76", "Barangay 77", "Barangay 78", "Barangay 79", "Barangay 8","Barangay 80", "Barangay 81", "Barangay 82", "Barangay 83", "Barangay 84","Barangay 85", "Barangay 86", "Barangay 87", "Barangay 88", "Barangay 89","Barangay 9", "Barangay 90", "Barangay 91", "Barangay 92", "Barangay 93","Barangay 94", "Barangay 95", "Barangay 96", "Barangay 97", "Barangay 98","Barangay 99","Barangay 11"};
-    string LaoagBrgys[] = { "Barangay No. 1, San Lorenzo","Barangay No. 10, San Jose","Barangay No. 11, Santa Balbina","Barangay No. 12, San Isidro","Barangay No. 13, Nuestra Señora de Visitacion","Barangay No. 14, Santo Tomas","Barangay No. 15, San Guillermo","Barangay No. 16, San Jacinto","Barangay No. 17, San Francisco","Barangay No. 18, San Quirino","Barangay No. 19, Santa Marcela","Barangay No. 2, Santa Joaquina","Barangay No. 20, San Miguel","Barangay No. 21, San Pedro","Barangay No. 22, San Andres","Barangay No. 23, San Matias","Barangay No. 24, Nuestra Señora de Consolacion","Barangay No. 25, Santa Cayetana","Barangay No. 26, San Marcelino","Barangay No. 27, Nuestra Señora de Soledad","Barangay No. 28, San Bernardo","Barangay No. 29, Santo Tomas","Barangay No. 3, Nuestra Señora del Rosario","Barangay No. 30-A, Suyo","Barangay No. 30-B, Santa Maria","Barangay No. 31, Talingaan","Barangay No. 32-A, La Paz East","Barangay No. 32-B, La Paz West","Barangay No. 32-C La Paz East","Barangay No. 33-A, La Paz Proper","Barangay No. 33-B, La Paz Proper","Barangay No. 34-A, Gabu Norte West","Barangay No. 34-B, Gabu Norte East","Barangay No. 35, Gabu Sur","Barangay No. 36, Araniw","Barangay No. 37, Calayab","Barangay No. 38-A, Mangato East","Barangay No. 38-B, Mangato West","Barangay No. 39, Santa Rosa","Barangay No. 4, San Guillermo","Barangay No. 40, Balatong","Barangay No. 41, Balacad","Barangay No. 42, Apaya","Barangay No. 43, Cavit","Barangay No. 44, Zamboanga","Barangay No. 45, Tangid","Barangay No. 46, Nalbo","Barangay No. 47, Bengcag","Barangay No. 48-A, Cabungaan North","Barangay No. 48-B, Cabungaan South","Barangay No. 49-A, Darayday","Barangay No. 49-B, Raraburan","Barangay No. 5, San Pedro","Barangay No. 50, Buttong","Barangay No. 51-A, Nangalisan East","Barangay No. 51-B, Nangalisan West","Barangay No. 52-A, San Mateo","Barangay No. 52-B, Lataag","Barangay No. 53, Rioeng","Barangay No. 54-A, Lagui-Sail","Barangay No. 54-B, Camangaan","Barangay No. 55-A, Barit-Pandan","Barangay No. 55-B, Salet-Bulangon","Barangay No. 55-C, Vira","Barangay No. 56-A, Bacsil North","Barangay No. 56-B, Bacsil South","Barangay No. 57, Pila","Barangay No. 58, Casili","Barangay No. 59-A, Dibua South","Barangay No. 59-B, Dibua North","Barangay No. 6, San Agustin","Barangay No. 60-A, Caaoacan","Barangay No. 60-B, Madiladig","Barangay No. 61, Cataban","Barangay No. 62-A, Navotas North","Barangay No. 62-B, Navotas South","Barangay No. 7-A, Nuestra Señora de Natividad","Barangay No. 7-B, Nuestra Señora de Natividad", "Barangay No. 8, San Vicente", "Barangay No. 9, Santa Angela"};
+    string LaoagBrgys[] = { "Barangay No. 1, San Lorenzo","Barangay No. 10, San Jose","Barangay No. 11, Santa Balbina","Barangay No. 12, San Isidro","Barangay No. 13, Nuestra Senora de Visitacion","Barangay No. 14, Santo Tomas","Barangay No. 15, San Guillermo","Barangay No. 16, San Jacinto","Barangay No. 17, San Francisco","Barangay No. 18, San Quirino","Barangay No. 19, Santa Marcela","Barangay No. 2, Santa Joaquina","Barangay No. 20, San Miguel","Barangay No. 21, San Pedro","Barangay No. 22, San Andres","Barangay No. 23, San Matias","Barangay No. 24, Nuestra Senora de Consolacion","Barangay No. 25, Santa Cayetana","Barangay No. 26, San Marcelino","Barangay No. 27, Nuestra Senora de Soledad","Barangay No. 28, San Bernardo","Barangay No. 29, Santo Tomas","Barangay No. 3, Nuestra Senora del Rosario","Barangay No. 30-A, Suyo","Barangay No. 30-B, Santa Maria","Barangay No. 31, Talingaan","Barangay No. 32-A, La Paz East","Barangay No. 32-B, La Paz West","Barangay No. 32-C La Paz East","Barangay No. 33-A, La Paz Proper","Barangay No. 33-B, La Paz Proper","Barangay No. 34-A, Gabu Norte West","Barangay No. 34-B, Gabu Norte East","Barangay No. 35, Gabu Sur","Barangay No. 36, Araniw","Barangay No. 37, Calayab","Barangay No. 38-A, Mangato East","Barangay No. 38-B, Mangato West","Barangay No. 39, Santa Rosa","Barangay No. 4, San Guillermo","Barangay No. 40, Balatong","Barangay No. 41, Balacad","Barangay No. 42, Apaya","Barangay No. 43, Cavit","Barangay No. 44, Zamboanga","Barangay No. 45, Tangid","Barangay No. 46, Nalbo","Barangay No. 47, Bengcag","Barangay No. 48-A, Cabungaan North","Barangay No. 48-B, Cabungaan South","Barangay No. 49-A, Darayday","Barangay No. 49-B, Raraburan","Barangay No. 5, San Pedro","Barangay No. 50, Buttong","Barangay No. 51-A, Nangalisan East","Barangay No. 51-B, Nangalisan West","Barangay No. 52-A, San Mateo","Barangay No. 52-B, Lataag","Barangay No. 53, Rioeng","Barangay No. 54-A, Lagui-Sail","Barangay No. 54-B, Camangaan","Barangay No. 55-A, Barit-Pandan","Barangay No. 55-B, Salet-Bulangon","Barangay No. 55-C, Vira","Barangay No. 56-A, Bacsil North","Barangay No. 56-B, Bacsil South","Barangay No. 57, Pila","Barangay No. 58, Casili","Barangay No. 59-A, Dibua South","Barangay No. 59-B, Dibua North","Barangay No. 6, San Agustin","Barangay No. 60-A, Caaoacan","Barangay No. 60-B, Madiladig","Barangay No. 61, Cataban","Barangay No. 62-A, Navotas North","Barangay No. 62-B, Navotas South","Barangay No. 7-A, Nuestra Senora de Natividad","Barangay No. 7-B, Nuestra Senora de Natividad", "Barangay No. 8, San Vicente", "Barangay No. 9, Santa Angela"};
     string BatacBrgys[] = {"Ablan Poblacion","Acosta Poblacion","Aglipay","Baay","Baligat","Baoa East","Baoa West","Barani","Ben-agan","Bil-loca","Biningan","Bungon","Callaguip","Camandingan","Camguidan","Cangrunaan","Capacuan","Caunayan","Colo","Dariwdiw","Lacub","Mabaleng","Magnuang","Maipalig","Nagbacalan","Naguirangan","Palongpong","Palpalicong","Parangopong","Payao","Pimentel","Quiling Norte","Quiling Sur","Quiom","Rayuray","Ricarte Poblacion","San Julian","San Mateo","San Pedro","Suabit","Sumader","Tabug","Valdez Poblacion"};
     string IlocosNorMuni[]{"Adams","Bacarra","Badoc","Bangui","Banna","Burgos","Carasi","Currimao","Dingras","Dumalneg","Marcos","Nueva Era","Pagudpud","Paoay","Pasuquin","Piddig","Pinili","San Nicolas","Sarrat","Solsona","Vintar"};
     string ViganBrgys[]{"Ayusan Norte","Ayusan Sur","Barangay I","Barangay II","Barangay II","Barangay IV","Barangay IX","Barangay V","Barangay VI","Barangay VII","Barangay VIII","Barraca","Beddeng Daya","Beddeng Laud","Bongtolan","Bulala","Cabalangegan","Cabaroan Daya","Cabaroan Laud","Camangaan","Capangpangan","Mindoro","Nagsangalan","Pantay Daya","Pantay Fatima","Pantay Laud","Paoa","Paratong","Pong-ol","Purok-a-bassit","Purok-a-dackel","Raois","Rugsuanan","Salindeg","San Jose","San Julian Norte","San Julian Sur","San Pedro","Tamag"};
@@ -14,64 +14,64 @@ int main () {
     string SanFernandoBrgys[] {"Abut","Apaleng","Bacsil","Bangbangolan","Bangcusay","Barangay I","Barangay II","Barangay III","Barangay IV","Baraoas","Bato","Biday","Birunget","Bungro","Cabaroan","Cabarsican","Cadaclan","Calabugao","Camansi","Canaoay","Carlatan","Catbangen","Dallangayan Este","Dallangayan Oeste","Dalumpinas Este","Dalumpinas Oeste","Ilocanos Norte","Ilocanos Sur","Langcuas","Lingsat","Madayegdeg","Mameltac","Masicong","Nagyubuyuban","Namtutan","Narra Este","Narra Oeste","Pacpaco","Pagdalagan","Pagdaraoan","Pagudpud","Pao Norte","Pao Sur","Parian","Pias","Poro","Puspus","Sacyud","Sagayad","San Agustin","San Francisco","San Vicente","Santiago Norte","Santiago Sur","Saoay","Sevilla","Siboan-Otong","Tanqui","Tanquigan"};
     string AlaminosBrgys[] {"Alos","Amandiego","Amangbangan","Balangobong","Balayang","Baleyadaan","Bisocol","Bolaney","Bued","Cabatuan","Cayucay","Dulacac","Inerangan","Landoc","Linmansangan","Lucap","Maawi","Macatiw","Magsaysay","Mona","Palamis","Pandan","Pangapisan","Poblacion","Pocalpocal","Pogo","Polo","Quibuar","Sabangan","San Antonio","San Jose","San Roque","San Vicente","Santa Maria","Tanaytay","Tangcarang","Tawintawin","Telbang","Victoria"};
     string DagupanBrgys[] {"Bacayao Norte","Bacayao Sur","Barangay I","Barangay II","Barangay IV","Bolosan","Bonuan Binloc","Bonuan Boquig","Bonuan Gueset","Calmay","Carael","Caranglaan","Herrero","Lasip Chico","Lasip Grande","Lomboy","Lucao","Malued","Mamalingling","Mangin","Mayombo","Pantal","Poblacion Oeste","Pogo Chico","Pogo Grande","Pugaro Suit","Salapingao","Salisay","Tambac","Tapuac","Tebeng"};
-    string SanCarlosBrgys[] {"Abanon","Agdao","Anando","Ano","Antipangol","Aponit","Bacnar","Balaya","Balayong","Baldog","Balite Sur","Balococ","Bani","Bega","Bocboc","Bogaoan","Bolingit","Bolosan","Bonifacio","Buenglat","Bugallon-Posadas Street","Burgos Padlan","Cacaritan","Caingal","Calobaoan","Calomboyan","Caoayan-Kiling","Capataan","Cobol","Coliling","Cruz","Doyong","Gamata","Guelew","Ilang","Inerangan","Isla","Libas","Lilimasan","Longos","Lucban","M. Soriano","Mabalbalino","Mabini","Magtaking","Malacañang","Maliwara","Mamarlao","Manzon","Matagdem","Mestizo Norte","Naguilayan","Nilentap","Padilla-Gomez","Pagal","Paitan-Panoypoy","Palaming","Palaris","Palospos","Pangalangan","Pangoloan","Pangpang","Parayao","Payapa","Payar","Perez Boulevard","PNR Station Site","Polo","Quezon Boulevard","Quintong","Rizal","Roxas Boulevard","Salinap","San Juan","San Pedro-Taloy","Sapinit","Supo","Talang","Tamayo","Tandang Sora","Tandoc","Tarece","Tarectec","Tayambani","Tebag","Turac"};
+    string SanCarlosBrgys[] {"Abanon","Agdao","Anando","Ano","Antipangol","Aponit","Bacnar","Balaya","Balayong","Baldog","Balite Sur","Balococ","Bani","Bega","Bocboc","Bogaoan","Bolingit","Bolosan","Bonifacio","Buenglat","Bugallon-Posadas Street","Burgos Padlan","Cacaritan","Caingal","Calobaoan","Calomboyan","Caoayan-Kiling","Capataan","Cobol","Coliling","Cruz","Doyong","Gamata","Guelew","Ilang","Inerangan","Isla","Libas","Lilimasan","Longos","Lucban","M. Soriano","Mabalbalino","Mabini","Magtaking","Malacanang","Maliwara","Mamarlao","Manzon","Matagdem","Mestizo Norte","Naguilayan","Nilentap","Padilla-Gomez","Pagal","Paitan-Panoypoy","Palaming","Palaris","Palospos","Pangalangan","Pangoloan","Pangpang","Parayao","Payapa","Payar","Perez Boulevard","PNR Station Site","Polo","Quezon Boulevard","Quintong","Rizal","Roxas Boulevard","Salinap","San Juan","San Pedro-Taloy","Sapinit","Supo","Talang","Tamayo","Tandang Sora","Tandoc","Tarece","Tarectec","Tayambani","Tebag","Turac"};
     string UrdanetaBrgys[] {"Anonas","Bactad East","Bayaoas","Bolaoen","Cabaruan","Cabuloan","Camanang","Camantiles","Casantaan","Catablan","Cayambanan","Consolacion","Dilan Paurido","Dr. Pedro T. Orata","Labit Proper","Labit West","Mabanogbog","Macalong","Nancalobasaan","Nancamaliran East","Nancamaliran West","Nancayasan","Oltama","Palina East","Palina West","Pinmaludpod","Poblacion","San Jose","San Vicente","Santa Lucia","Santo Domingo","Sugcong","Tipuso","Tulong"};
     string PangasinanMuni[] = {"Agno", "Aguilar", "Alcala", "Anda", "Asingan", "Balungao", "Bani", "Basista", "Bautista", "Bayambang", "Binalonan", "Binmaley", "Bolinao", "Bugallon", "Burgos", "Calasiao", "Dasol", "Infanta", "Labrador", "Laoac", "Lingayen - Capital of Pangasinan", "Mabini", "Malasiqui", "Manaoag", "Mangaldan", "Mangatarem", "Mapandan", "Natividad", "Pozorrubio", "Rosales", "San Fabian", "San Jacinto", "San Manuel", "San Nicolas", "San Quintin", "Santa Barbara", "Santa Maria", "Santo Tomas", "Sison", "Sual", "Tayug", "Umingan", "Urbiztondo", "Villasis"};
     string TuguegaraoBrgys[] = {"Annafunan East", "Annafunan West", "Atulayan Norte", "Atulayan Sur", "Bagay", "Buntun", "Caggay", "Capatan", "Carig", "Caritan Centro", "Caritan Norte", "Caritan Sur", "Cataggaman Nuevo", "Cataggaman Pardo", "Cataggaman Viejo", "Centro 1", "Centro 10", "Centro 11", "Centro 12", "Centro 2", "Centro 3", "Centro 4", "Centro 5", "Centro 6", "Centro 7", "Centro 8", "Centro 9", "Dadda", "Gosi Norte", "Gosi Sur", "Larion Alto", "Larion Bajo", "Leonarda", "Libag Norte", "Libag Sur", "Linao East", "Linao Norte", "Linao West", "Nambbalan Norte", "Nambbalan Sur", "Pallua Norte", "Pallua Sur", "Pengue", "Reyes", "San Gabriel", "Tagga", "Tanza", "Ugac Norte", "Ugac Sur"};
-    string CagayanMuni[] = {"Abulug", "Alcala", "Allacapan", "Amulung", "Aparri", "Baggao", "Ballesteros", "Buguey", "Calayan", "Camalaniugan", "Claveria", "Enrile", "Gattaran", "Gonzaga", "Iguig", "Lal-lo", "Lasam", "Pamplona", "Peñablanca", "Piat", "Rizal", "Sanchez-Mira", "Santa Ana", "Santa Praxedes", "Santa Teresita", "Santo Niño", "Solana", "Tuao"};
+    string CagayanMuni[] = {"Abulug", "Alcala", "Allacapan", "Amulung", "Aparri", "Baggao", "Ballesteros", "Buguey", "Calayan", "Camalaniugan", "Claveria", "Enrile", "Gattaran", "Gonzaga", "Iguig", "Lal-lo", "Lasam", "Pamplona", "Penablanca", "Piat", "Rizal", "Sanchez-Mira", "Santa Ana", "Santa Praxedes", "Santa Teresita", "Santo Nino", "Solana", "Tuao"};
     string CauayanBrgys[] = {"Alicaocao", "Alinam", "Amobocan", "Andarayan", "Baculod", "Baringin Norte", "Baringin Sur", "Buena Suerte", "Bugallon", "Buyon", "Cabaruan", "Cabugao", "Carabatan Bacareno", "Carabatan Chica", "Carabatan Grande", "Carabatan Punta", "Casalatan", "Cassap Fuera", "Catalina", "Culalabat", "Dabburab", "De Vera", "Dianao", "Disimuray", "District I", "District II", "District III", "Duminit", "Faustino", "Gagabutan", "Gappal", "Guayabal", "Labinab", "Linglingay", "Mabantad", "Maligaya", "Manaoag", "Marabulig I", "Marabulig II", "Minante I", "Minante II", "Naganacan", "Nagcampegan", "Nagrumbuan", "Nungnungan I", "Nungnungan II", "Pinoma", "Rizal", "Rogus", "San Antonio", "San Fermin", "San Francisco", "San Isidro", "San Luis", "San Pablo", "Santa Luciana", "Santa Maria", "Sillawit", "Sinippil", "Tagaran", "Turayong", "Union", "Villa Concepcion", "Villa Luna", "Villaflor"};
-    string IlaganBrgys[] = {"Aggasian", "Alibagu", "Allinguigan 1st", "Allinguigan 2nd", "Allinguigan 3rd", "Arusip", "Baculod", "Bagong Silang", "Bagumbayan", "Baligatan", "Ballacong", "Bangag", "Batong-Labang", "Bigao", "Cabannungan 1st", "Cabannungan 2nd", "Cabeseria 10", "Cabeseria 14 and 16", "Cabeseria 17 and 21", "Cabeseria 19", "Cabeseria 2", "Cabeseria 22", "Cabeseria 23", "Cabeseria 25", "Cabeseria 27", "Cabeseria 3", "Cabeseria 4", "Cabeseria 5", "Cabeseria 6 & 24", "Cabeseria 7", "Cabeseria 9 and 11", "Cadu", "Calamagui 1st", "Calamagui 2nd", "Camunatan", "Capellan", "Capo", "Carikkikan Norte", "Carikkikan Sur", "Centro Poblacion", "Centro-San Antonio", "Fugu", "Fuyo", "Gayong-Gayong Norte", "Gayong-Gayong Sur", "Guinatan", "Imelda Bliss Village", "Lullutan", "Malalam", "Malasin", "Manaring", "Mangcuram", "Marana I", "Marana II", "Marana III", "Minabang", "Morado", "Naguilian Norte", "Naguilian Sur", "Namnama", "Nanaguan", "Osmeña", "Paliueg", "Pasa", "Pilar", "Quimalabasa", "Rang-ayan", "Rugao", "Salindingan", "San Andres", "San Felipe", "San Ignacio", "San Isidro", "San Juan", "San Lorenzo", "San Pablo", "San Rodrigo", "San Vicente", "Santa Barbara", "Santa Catalina", "Santa Isabel Norte", "Santa Isabel Sur", "Santa Maria", "Santa Victoria", "Santo Tomas", "Siffu", "Sindon Bayabo", "Sindon Maride", "Sipay", "Tangcul", "Villa Imelda"};
+    string IlaganBrgys[] = {"Aggasian", "Alibagu", "Allinguigan 1st", "Allinguigan 2nd", "Allinguigan 3rd", "Arusip", "Baculod", "Bagong Silang", "Bagumbayan", "Baligatan", "Ballacong", "Bangag", "Batong-Labang", "Bigao", "Cabannungan 1st", "Cabannungan 2nd", "Cabeseria 10", "Cabeseria 14 and 16", "Cabeseria 17 and 21", "Cabeseria 19", "Cabeseria 2", "Cabeseria 22", "Cabeseria 23", "Cabeseria 25", "Cabeseria 27", "Cabeseria 3", "Cabeseria 4", "Cabeseria 5", "Cabeseria 6 & 24", "Cabeseria 7", "Cabeseria 9 and 11", "Cadu", "Calamagui 1st", "Calamagui 2nd", "Camunatan", "Capellan", "Capo", "Carikkikan Norte", "Carikkikan Sur", "Centro Poblacion", "Centro-San Antonio", "Fugu", "Fuyo", "Gayong-Gayong Norte", "Gayong-Gayong Sur", "Guinatan", "Imelda Bliss Village", "Lullutan", "Malalam", "Malasin", "Manaring", "Mangcuram", "Marana I", "Marana II", "Marana III", "Minabang", "Morado", "Naguilian Norte", "Naguilian Sur", "Namnama", "Nanaguan", "Osmena", "Paliueg", "Pasa", "Pilar", "Quimalabasa", "Rang-ayan", "Rugao", "Salindingan", "San Andres", "San Felipe", "San Ignacio", "San Isidro", "San Juan", "San Lorenzo", "San Pablo", "San Rodrigo", "San Vicente", "Santa Barbara", "Santa Catalina", "Santa Isabel Norte", "Santa Isabel Sur", "Santa Maria", "Santa Victoria", "Santo Tomas", "Siffu", "Sindon Bayabo", "Sindon Maride", "Sipay", "Tangcul", "Villa Imelda"};
     string SantiagoBrgys[] = {"Abra", "Ambalatungan", "Balintocatoc", "Baluarte", "Bannawag Norte", "Batal", "Buenavista", "Cabulay", "Calao East", "Calao West", "Calaocan", "Centro East", "Centro West", "Divisoria", "Dubinan East", "Dubinan West", "Luna", "Mabini", "Malvar", "Nabbuan", "Naggasican", "Patul", "Plaridel", "Rizal", "Rosario", "Sagana", "Salvador", "San Andres", "San Isidro", "San Jose", "Santa Rosa", "Sinili", "Sinsayon", "Victory Norte", "Victory Sur", "Villa Gonzaga", "Villasis"};
     string IsabelaMuni[] = {"Alicia", "Angadanan", "Aurora", "Benito Soliven", "Burgos", "Cabagan", "Cabatuan", "Cordon", "Delfin Albano", "Dinapigue", "Echague", "Gamu", "Jones", "Luna", "Maconacon", "Mailig", "Naguilian", "Palanan", "Quezon", "Quirino", "Ramon", "Reina Mercedes", "Roxas", "San Agustin", "San Guillermo", "San Isidro", "San Manuel", "San Mariano", "San Matero", "San Pablo", "Santa Maria", "Santo Tomas", "Tumauini"};
-    string BalangaBrgys[] = {"Bagong Silang", "Bagumbayan", "Cabog-Cabog", "Camacho", "Cataning", "Central", "Cupang North", "Cupang Proper", "Cupang West", "Dangcol", "Doña Francisca", "Ibayo", "Lote", "Malabia", "Munting Batangas", "Poblacion", "Pto. Rivas Ibaba", "Pto. Rivas Itaas", "San Jose", "Sibacan", "Talisay", "Tanato", "Tenejero", "Tortugas", "Tuyo"};
+    string BalangaBrgys[] = {"Bagong Silang", "Bagumbayan", "Cabog-Cabog", "Camacho", "Cataning", "Central", "Cupang North", "Cupang Proper", "Cupang West", "Dangcol", "Dona Francisca", "Ibayo", "Lote", "Malabia", "Munting Batangas", "Poblacion", "Pto. Rivas Ibaba", "Pto. Rivas Itaas", "San Jose", "Sibacan", "Talisay", "Tanato", "Tenejero", "Tortugas", "Tuyo"};
     string MeycauayanBrgys[] = {"Bagbaguin", "Bahay Pare", "Bancal", "Banga", "Bayugo", "Caingin", "Calvario", "Camalig", "Hulo", "Iba", "Langka", "Lawa", "Libtong", "Liputan", "Longos", "Malhacan", "Pajo", "Pandayan", "Pantoc", "Perez", "Poblacion", "Saint Francis", "Saluysoy", "Tugatog", "Ubihan", "Zamora"};
-    string SJdMBrgys[] = {"Assumption", "Bagong Buhay", "Bagong Buhay II", "Bagong Buhay III", "Citrus", "Ciudad Real", "Dulong Bayan", "Fatima", "Fatima II", "Fatima III", "Fatima IV", "Fatima V", "Francisco Homes-Guijo", "Francisco Homes-Mulawin", "Francisco Homes-Narra", "Francisco Homes-Yakal", "Gaya-gaya", "Graceville", "Gumaoc Central", "Gumaoc East", "Gumaoc West", "Kaybanban", "Kaypian", "Lawang Pari", "Maharlika", "Minuyan", "Minuyan II", "Minuyan III", "Minuyan IV", "Minuyan Proper", "Minuyan V", "Muzon", "Paradise III", "Poblacion", "Poblacion I", "Saint Martin de Porres", "San Isidro", "San Manuel", "San Martin", "San Martin II", "San Martin III", "San Martin IV", "San Pedro", "San Rafael", "San Rafael I", "San Rafael III", "San Rafael IV", "San Rafael V", "San Roque", "Santa Cruz", "Santa Cruz II", "Santa Cruz III", "Santa Cruz IV", "Santa Cruz V", "Santo Cristo", "Santo Niño", "Santo Niño II", "Sapang Palay", "Tungkong Mangga"};
-    string MalolosBrgys[] = {"Anilao", "Atlag", "Babatnin", "Bagna", "Bagong Bayan", "Balayong", "Balite", "Bangkal", "Barihan", "Bulihan", "Bungahan", "Caingin", "Calero", "Caliligawan", "Canalate", "Caniogan", "Catmon", "Cofradia", "Dakila", "Guinhawa", "Ligas", "Liyang", "Longos", "Look 1st", "Look 2nd", "Lugam", "Mabolo", "Mambog", "Masile", "Matimbo", "Mojon", "Namayan", "Niugan", "Pamarawan", "Panasakan", "Pinagbakahan", "San Agustin", "San Gabriel", "San Juan", "San Pablo", "San Vicente", "Santiago", "Santisima Trinidad", "Santo Cristo", "Santo Niño", "Santo Rosario", "Santol", "Sumapang Bata", "Sumapang Matanda", "Taal", "Tikay"};
-    string NuevaEcijaMuni[] = {"Aliaga", "Bongabon", "Cabiao", "Carranglan", "Cuyapo", "Gabaldon", "General Mamerto Natividad", "General Tinio", "Guimba", "Jaen", "Laur", "Licab", "Llanera", "Lupao", "Nampicuan", "Pantabangan", "Peñaranda", "Quezon", "Rizal", "San Antonio", "San Isidro", "San Leonardo", "Santa Rosa", "Santo Domingo", "Talavera", "Talugtug", "Zaragoza"};
-    string SanFernandoPampangaBrgys[] = {"Alasas", "Baliti", "Bulaon", "Calulut", "Del Carmen", "Del Pilar", "Del Rosario", "Dela Paz Norte", "Dela Paz Sur", "Dolores", "Juliana", "Lara", "Lourdes", "Magliman", "Maimpis", "Malino", "Malpitic", "Pandaras", "Panipuan", "Pulung Bulu", "Quebiauan", "Saguin", "San Agustin", "San Felipe", "San Isidro", "San Jose", "San Juan", "San Nicolas", "San Pedro", "Santa Lucia", "Santa Teresita", "Santo Niño", "Santo Rosario", "Sindalan", "Telabastagan"};
+    string SJdMBrgys[] = {"Assumption", "Bagong Buhay", "Bagong Buhay II", "Bagong Buhay III", "Citrus", "Ciudad Real", "Dulong Bayan", "Fatima", "Fatima II", "Fatima III", "Fatima IV", "Fatima V", "Francisco Homes-Guijo", "Francisco Homes-Mulawin", "Francisco Homes-Narra", "Francisco Homes-Yakal", "Gaya-gaya", "Graceville", "Gumaoc Central", "Gumaoc East", "Gumaoc West", "Kaybanban", "Kaypian", "Lawang Pari", "Maharlika", "Minuyan", "Minuyan II", "Minuyan III", "Minuyan IV", "Minuyan Proper", "Minuyan V", "Muzon", "Paradise III", "Poblacion", "Poblacion I", "Saint Martin de Porres", "San Isidro", "San Manuel", "San Martin", "San Martin II", "San Martin III", "San Martin IV", "San Pedro", "San Rafael", "San Rafael I", "San Rafael III", "San Rafael IV", "San Rafael V", "San Roque", "Santa Cruz", "Santa Cruz II", "Santa Cruz III", "Santa Cruz IV", "Santa Cruz V", "Santo Cristo", "Santo Nino", "Santo Nino II", "Sapang Palay", "Tungkong Mangga"};
+    string MalolosBrgys[] = {"Anilao", "Atlag", "Babatnin", "Bagna", "Bagong Bayan", "Balayong", "Balite", "Bangkal", "Barihan", "Bulihan", "Bungahan", "Caingin", "Calero", "Caliligawan", "Canalate", "Caniogan", "Catmon", "Cofradia", "Dakila", "Guinhawa", "Ligas", "Liyang", "Longos", "Look 1st", "Look 2nd", "Lugam", "Mabolo", "Mambog", "Masile", "Matimbo", "Mojon", "Namayan", "Niugan", "Pamarawan", "Panasakan", "Pinagbakahan", "San Agustin", "San Gabriel", "San Juan", "San Pablo", "San Vicente", "Santiago", "Santisima Trinidad", "Santo Cristo", "Santo Nino", "Santo Rosario", "Santol", "Sumapang Bata", "Sumapang Matanda", "Taal", "Tikay"};
+    string NuevaEcijaMuni[] = {"Aliaga", "Bongabon", "Cabiao", "Carranglan", "Cuyapo", "Gabaldon", "General Mamerto Natividad", "General Tinio", "Guimba", "Jaen", "Laur", "Licab", "Llanera", "Lupao", "Nampicuan", "Pantabangan", "Penaranda", "Quezon", "Rizal", "San Antonio", "San Isidro", "San Leonardo", "Santa Rosa", "Santo Domingo", "Talavera", "Talugtug", "Zaragoza"};
+    string SanFernandoPampangaBrgys[] = {"Alasas", "Baliti", "Bulaon", "Calulut", "Del Carmen", "Del Pilar", "Del Rosario", "Dela Paz Norte", "Dela Paz Sur", "Dolores", "Juliana", "Lara", "Lourdes", "Magliman", "Maimpis", "Malino", "Malpitic", "Pandaras", "Panipuan", "Pulung Bulu", "Quebiauan", "Saguin", "San Agustin", "San Felipe", "San Isidro", "San Jose", "San Juan", "San Nicolas", "San Pedro", "Santa Lucia", "Santa Teresita", "Santo Nino", "Santo Rosario", "Sindalan", "Telabastagan"};
     string AngelesBrgys[] = {"Agapito del Rosario", "Amsic", "Anunas", "Balibago", "Capaya", "Claro M. Recto", "Cuayan", "Cutcut", "Cutud", "Lourdes North West", "Lourdes Sur", "Lourdes Sur East", "Malabanias", "Margot", "Mining", "Ninoy Aquino", "Pampang", "Pandan", "Pulung Cacutud", "Pulung Maragul", "Pulungbulu", "Salapungan", "San Jose", "San Nicolas", "Santa Teresita", "Santa Trinidad", "Santo Cristo", "Santo Domingo", "Santo Rosario", "Sapalibutad", "Sapangbato", "Tabun", "Virgen Delos Remedios"};
-    string TarlacBrgys[] = {"Aguso", "Alvindia Segundo", "Amucao", "Armenia", "Asturias", "Atioc", "Balanti", "Balete", "Balibago I", "Balibago II", "Balingcanaway", "Banaba", "Bantog", "Baras-baras", "Batang-batang", "Binauganan", "Bora", "Buenavista", "Buhilit", "Burot", "Calingcuan", "Capehan", "Carangian", "Care", "Central", "Culipat", "Cut-cut I", "Cut-cut II", "Dalayap", "Dela Paz", "Dolores", "Laoang", "Ligtasan", "Lourdes", "Mabini", "Maligaya", "Maliwalo", "Mapalacsiao", "Mapalad", "Matadero", "Matatalaib", "Paraiso", "Poblacion", "Salapungan", "San Carlos", "San Francisco", "San Isidro", "San Jose", "San Jose de Urquico", "San Juan de Mata", "San Luis", "San Manuel", "San Miguel", "San Nicolas", "San Pablo", "San Pascual", "San Rafael", "San Roque", "San Sebastian", "San Vicente", "Santa Cruz", "Santa Maria", "Santo Cristo", "Santo Domingo", "Santo Niño", "Sapang Maragul", "Sapang Tagalog", "Sepung Calzada", "Sinait", "Suizo", "Tariji", "Tibag", "Tibagan", "Trinidad", "Ungot", "Villa Bacolor"};
+    string TarlacBrgys[] = {"Aguso", "Alvindia Segundo", "Amucao", "Armenia", "Asturias", "Atioc", "Balanti", "Balete", "Balibago I", "Balibago II", "Balingcanaway", "Banaba", "Bantog", "Baras-baras", "Batang-batang", "Binauganan", "Bora", "Buenavista", "Buhilit", "Burot", "Calingcuan", "Capehan", "Carangian", "Care", "Central", "Culipat", "Cut-cut I", "Cut-cut II", "Dalayap", "Dela Paz", "Dolores", "Laoang", "Ligtasan", "Lourdes", "Mabini", "Maligaya", "Maliwalo", "Mapalacsiao", "Mapalad", "Matadero", "Matatalaib", "Paraiso", "Poblacion", "Salapungan", "San Carlos", "San Francisco", "San Isidro", "San Jose", "San Jose de Urquico", "San Juan de Mata", "San Luis", "San Manuel", "San Miguel", "San Nicolas", "San Pablo", "San Pascual", "San Rafael", "San Roque", "San Sebastian", "San Vicente", "Santa Cruz", "Santa Maria", "Santo Cristo", "Santo Domingo", "Santo Nino", "Sapang Maragul", "Sapang Tagalog", "Sepung Calzada", "Sinait", "Suizo", "Tariji", "Tibag", "Tibagan", "Trinidad", "Ungot", "Villa Bacolor"};
     string OlongapoBrgys[] = {"Asinan", "Banicain", "Barreto", "East Bajac-bajac", "East Tapinac", "Gordon Heights", "Kalaklan", "Mabayuan", "New Cabalan", "New Ilalim", "New Kababae", "New Kalalake", "Old Cabalan", "Pag-asa", "Santa Rita", "West Bajac-bajac", "West Tapinac"};
-    string BatangasCityBrgys[] = {"Alangilan", "Balagtas", "Balete", "Banaba Center", "Banaba Ibaba", "Banaba Kanluran", "Banaba Silangan", "Barangay 1", "Barangay 10", "Barangay 11", "Barangay 12", "Barangay 13", "Barangay 14", "Barangay 15", "Barangay 16", "Barangay 17", "Barangay 18", "Barangay 19", "Barangay 2", "Barangay 20", "Barangay 21", "Barangay 22", "Barangay 23", "Barangay 24", "Barangay 3", "Barangay 4", "Barangay 5", "Barangay 6", "Barangay 7", "Barangay 8", "Barangay 9", "Bilogo", "Bolbok", "Bukal", "Calicanto", "Catandala", "Concepcion", "Conde Itaas", "Conde Labak", "Cuta", "Dalig", "Dela Paz", "Dela Paz Pulot Aplaya", "Dela Paz Pulot Itaas", "Domoclay", "Dumantay", "Gulod Itaas", "Gulod Labak", "Haligue Kanluran", "Haligue Silangan", "Ilihan", "Kumba", "Kumintang Ibaba", "Kumintang Ilaya", "Libjo", "Liponpon, Isla Verde", "Maapas", "Mabacong", "Mahabang Dahilig", "Mahabang Parang", "Mahacot Kanluran", "Mahacot Silangan", "Malalim", "Malibayo", "Malitam", "Maruclap", "Pagkilatan", "Paharang Kanluran", "Paharang Silangan", "Pallocan Kanluran", "Pallocan Silangan", "Pinamucan", "Pinamucan Ibaba", "Pinamucan Silangan", "Sampaga", "San Agapito, Isla Verde", "San Agustin Kanluran, Isla Verde", "San Agustin Silangan, Isla Verde", "San Andres, Isla Verde", "San Antonio, Isla Verde", "San Isidro", "San Jose Sico", "San Miguel", "San Pedro", "Santa Clara", "Santa Rita Aplaya", "Santa Rita Karsada", "Santo Domingo", "Santo Niño", "Simlong", "Sirang Lupa", "Sorosoro Ibaba", "Sorosoro Ilaya", "Sorosoro Karsada", "Tabangao Ambulong", "Tabangao Aplaya", "Tabangao Dao", "Talahib Pandayan", "Talahib Payapa", "Talumpok Kanluran", "Talumpok Silangan", "Tinga Itaas", "Tinga Labak", "Tulo", "Wawa"};
-    string LipaCityBrgys[] = {"Adya", "Anilao", "Anilao-Labac", "Antipolo del Norte", "Antipolo del Sur", "Bagong Pook", "Balintawak", "Banaybanay", "Barangay 12", "Bolbok", "Bugtong na Pulo", "Bulacnin", "Bulaklakan", "Calamias", "Cumba", "Dagatan", "Duhatan", "Halang", "Inosloban", "Kayumanggi", "Latag", "Lodlod", "Lumbang", "Mabini", "Malagonlong", "Malitlit", "Marauoy", "Mataas na Lupa", "Munting Pulo", "Pagolingin Bata", "Pagolingin East", "Pagolingin West", "Pangao", "Pinagkawitan", "Pinagtongulan", "Plaridel", "Poblacion Barangay 1", "Poblacion Barangay 10", "Poblacion Barangay 11", "Poblacion Barangay 2", "Poblacion Barangay 3", "Poblacion Barangay 4", "Poblacion Barangay 5", "Poblacion Barangay 6", "Poblacion Barangay 7", "Poblacion Barangay 8", "Poblacion Barangay 9", "Poblacion Barangay 9-A", "Pusil", "Quezon", "Rizal", "Sabang", "Sampaguita", "San Benito", "San Carlos", "San Celestino", "San Francisco", "San Guillermo", "San Jose", "San Lucas", "San Salvador", "San Sebastian", "Santo Niño", "Santo Toribio", "Sapac", "Sico", "Talisay", "Tambo", "Tangob", "Tanguay", "Tibig", "Tipacan"};
+    string BatangasCityBrgys[] = {"Alangilan", "Balagtas", "Balete", "Banaba Center", "Banaba Ibaba", "Banaba Kanluran", "Banaba Silangan", "Barangay 1", "Barangay 10", "Barangay 11", "Barangay 12", "Barangay 13", "Barangay 14", "Barangay 15", "Barangay 16", "Barangay 17", "Barangay 18", "Barangay 19", "Barangay 2", "Barangay 20", "Barangay 21", "Barangay 22", "Barangay 23", "Barangay 24", "Barangay 3", "Barangay 4", "Barangay 5", "Barangay 6", "Barangay 7", "Barangay 8", "Barangay 9", "Bilogo", "Bolbok", "Bukal", "Calicanto", "Catandala", "Concepcion", "Conde Itaas", "Conde Labak", "Cuta", "Dalig", "Dela Paz", "Dela Paz Pulot Aplaya", "Dela Paz Pulot Itaas", "Domoclay", "Dumantay", "Gulod Itaas", "Gulod Labak", "Haligue Kanluran", "Haligue Silangan", "Ilihan", "Kumba", "Kumintang Ibaba", "Kumintang Ilaya", "Libjo", "Liponpon, Isla Verde", "Maapas", "Mabacong", "Mahabang Dahilig", "Mahabang Parang", "Mahacot Kanluran", "Mahacot Silangan", "Malalim", "Malibayo", "Malitam", "Maruclap", "Pagkilatan", "Paharang Kanluran", "Paharang Silangan", "Pallocan Kanluran", "Pallocan Silangan", "Pinamucan", "Pinamucan Ibaba", "Pinamucan Silangan", "Sampaga", "San Agapito, Isla Verde", "San Agustin Kanluran, Isla Verde", "San Agustin Silangan, Isla Verde", "San Andres, Isla Verde", "San Antonio, Isla Verde", "San Isidro", "San Jose Sico", "San Miguel", "San Pedro", "Santa Clara", "Santa Rita Aplaya", "Santa Rita Karsada", "Santo Domingo", "Santo Nino", "Simlong", "Sirang Lupa", "Sorosoro Ibaba", "Sorosoro Ilaya", "Sorosoro Karsada", "Tabangao Ambulong", "Tabangao Aplaya", "Tabangao Dao", "Talahib Pandayan", "Talahib Payapa", "Talumpok Kanluran", "Talumpok Silangan", "Tinga Itaas", "Tinga Labak", "Tulo", "Wawa"};
+    string LipaCityBrgys[] = {"Adya", "Anilao", "Anilao-Labac", "Antipolo del Norte", "Antipolo del Sur", "Bagong Pook", "Balintawak", "Banaybanay", "Barangay 12", "Bolbok", "Bugtong na Pulo", "Bulacnin", "Bulaklakan", "Calamias", "Cumba", "Dagatan", "Duhatan", "Halang", "Inosloban", "Kayumanggi", "Latag", "Lodlod", "Lumbang", "Mabini", "Malagonlong", "Malitlit", "Marauoy", "Mataas na Lupa", "Munting Pulo", "Pagolingin Bata", "Pagolingin East", "Pagolingin West", "Pangao", "Pinagkawitan", "Pinagtongulan", "Plaridel", "Poblacion Barangay 1", "Poblacion Barangay 10", "Poblacion Barangay 11", "Poblacion Barangay 2", "Poblacion Barangay 3", "Poblacion Barangay 4", "Poblacion Barangay 5", "Poblacion Barangay 6", "Poblacion Barangay 7", "Poblacion Barangay 8", "Poblacion Barangay 9", "Poblacion Barangay 9-A", "Pusil", "Quezon", "Rizal", "Sabang", "Sampaguita", "San Benito", "San Carlos", "San Celestino", "San Francisco", "San Guillermo", "San Jose", "San Lucas", "San Salvador", "San Sebastian", "Santo Nino", "Santo Toribio", "Sapac", "Sico", "Talisay", "Tambo", "Tangob", "Tanguay", "Tibig", "Tipacan"};
     string SantoTomasBatangasBrgys[] = {"Barangay I", "Barangay II", "Barangay III", "Barangay IV", "San Agustin", "San Antonio", "San Bartolome", "San Felix", "San Fernando", "San Francisco", "San Isidro Norte", "San Isidro Sur", "San Joaquin", "San Jose", "San Juan", "San Luis", "San Miguel", "San Pablo", "San Pedro", "San Rafael", "San Roque", "San Vicente", "Santa Ana", "Santa Anastacia", "Santa Clara", "Santa Cruz", "Santa Elena", "Santa Maria", "Santa Teresita", "Santiago"};
-    string TanauanBrgys[] = {"Altura Bata", "Altura Matanda", "Altura-South", "Ambulong", "Bagbag", "Bagumbayan", "Balele", "Banadero", "Banjo East", "Banjo Laurel", "Bilog-bilog", "Boot", "Cale", "Darasa", "Gonzales", "Hidalgo", "Janopol", "Janopol Oriental", "Laurel", "Luyos", "Mabini", "Malaking Pulo", "Maria Paz", "Maugat", "Montaña", "Natatas", "Pagaspas", "Pantay Bata", "Pantay Matanda", "Poblacion Barangay 1", "Poblacion Barangay 2", "Poblacion Barangay 3", "Poblacion Barangay 4", "Poblacion Barangay 5", "Poblacion Barangay 6", "Poblacion Barangay 7", "Sala", "Sambat", "San Jose", "Santol", "Santor", "Sulpoc", "Suplang", "Talaga", "Tinurik", "Trapiche", "Ulango", "Wawa"};
+    string TanauanBrgys[] = {"Altura Bata", "Altura Matanda", "Altura-South", "Ambulong", "Bagbag", "Bagumbayan", "Balele", "Banadero", "Banjo East", "Banjo Laurel", "Bilog-bilog", "Boot", "Cale", "Darasa", "Gonzales", "Hidalgo", "Janopol", "Janopol Oriental", "Laurel", "Luyos", "Mabini", "Malaking Pulo", "Maria Paz", "Maugat", "Montana", "Natatas", "Pagaspas", "Pantay Bata", "Pantay Matanda", "Poblacion Barangay 1", "Poblacion Barangay 2", "Poblacion Barangay 3", "Poblacion Barangay 4", "Poblacion Barangay 5", "Poblacion Barangay 6", "Poblacion Barangay 7", "Sala", "Sambat", "San Jose", "Santol", "Santor", "Sulpoc", "Suplang", "Talaga", "Tinurik", "Trapiche", "Ulango", "Wawa"};
     string BatangasProvMuni[] = {"Agoncillo", "Alitagtag", "Balayan", "Balete", "Bauan", "Calaca", "Calatagan", "Cuenca", "Ibaan", "Laurel", "Lemery", "Lian", "Lobo", "Mabini", "Malvar", "Mataasnakahoy", "Nasugbu", "Padre Garcia", "Rosario", "San Jose", "San Juan", "San Luis", "San Nicolas", "San Pascual", "Santa Teresita", "Taal", "Talisay", "Taysan", "Tingloy", "Tuy"};
     string BacoorBrgys[] = {"Alima", "Aniban I", "Aniban II", "Aniban III", "Aniban IV", "Aniban V", "Banalo", "Bayanan", "Campo Santo", "Daang Bukid", "Digman", "Dulong Bayan", "Habay I", "Habay II", "Kaingin", "Ligas I", "Ligas II", "Ligas III", "Mabolo I", "Mabolo II", "Mabolo III", "Maliksi I", "Maliksi II", "Maliksi III", "Mambog I", "Mambog II", "Mambog III", "Mambog IV", "Mambog V", "Molino I", "Molino II", "Molino III", "Molino IV", "Molino V", "Molino VI", "Molino VII", "Niog I", "Niog II", "Niog III", "P. F. Espiritu I", "P. F. Espiritu II", "P. F. Espiritu III", "P. F. Espiritu IV", "P. F. Espiritu V", "P. F. Espiritu VI", "P. F. Espiritu VII", "P. F. Espiritu VIII", "Queens Row Central", "Queens Row East", "Queens Row West", "Real I", "Real II", "Salinas I", "Salinas II", "Salinas III", "Salinas IV", "San Nicolas I", "San Nicolas II", "San Nicolas III", "Sineguelasan", "Tabing Dagat", "Talaba I", "Talaba II", "Talaba III", "Talaba IV", "Talaba V", "Talaba VI", "Talaba VII", "Zapote I", "Zapote II", "Zapote III", "Zapote IV", "Zapote V"};
     string CaviteCityBrgys[] = {"Barangay 1", "Barangay 10", "Barangay 10-A", "Barangay 10-B", "Barangay 11", "Barangay 12", "Barangay 13", "Barangay 14", "Barangay 15", "Barangay 16", "Barangay 17", "Barangay 18", "Barangay 19", "Barangay 2", "Barangay 20", "Barangay 21", "Barangay 22", "Barangay 22-A", "Barangay 23", "Barangay 24", "Barangay 25", "Barangay 26", "Barangay 27", "Barangay 28", "Barangay 29", "Barangay 29-A", "Barangay 3", "Barangay 30", "Barangay 31", "Barangay 32", "Barangay 33", "Barangay 34", "Barangay 35", "Barangay 36", "Barangay 36-A", "Barangay 37", "Barangay 37-A", "Barangay 38", "Barangay 38-A", "Barangay 39", "Barangay 4", "Barangay 40", "Barangay 41", "Barangay 42", "Barangay 42-A", "Barangay 42-B", "Barangay 42-C", "Barangay 43", "Barangay 44", "Barangay 45", "Barangay 45-A", "Barangay 46", "Barangay 47", "Barangay 47-A", "Barangay 47-B", "Barangay 48", "Barangay 48-A", "Barangay 49", "Barangay 49-A", "Barangay 5", "Barangay 50", "Barangay 51", "Barangay 52", "Barangay 53", "Barangay 53-A", "Barangay 53-B", "Barangay 54", "Barangay 54-A", "Barangay 55", "Barangay 56", "Barangay 57", "Barangay 58", "Barangay 58-A", "Barangay 59", "Barangay 6", "Barangay 60", "Barangay 61", "Barangay 61-A", "Barangay 62", "Barangay 62-A", "Barangay 62-B", "Barangay 7", "Barangay 8", "Barangay 9"};
-    string DasmaBrgys[] = {"Burol", "Burol I", "Burol II", "Burol III", "Datu Esmael", "Emmanuel Bergado I", "Emmanuel Bergado II", "Fatima I", "Fatima II", "Fatima III", "H-2", "Langkaan I", "Langkaan II", "Luzviminda I", "Luzviminda II", "Paliparan I", "Paliparan II", "Paliparan III", "Sabang", "Saint Peter I", "Saint Peter II", "Salawag", "Salitran I", "Salitran II", "Salitran III", "Salitran IV", "Sampaloc I", "Sampaloc II", "Sampaloc III", "Sampaloc IV", "Sampaloc V", "San Agustin I", "San Agustin II", "San Agustin III", "San Andres I", "San Andres II", "San Antonio de Padua I", "San Antonio de Padua II", "San Dionisio", "San Esteban", "San Francisco I", "San Francisco II", "San Isidro Labrador I", "San Isidro Labrador II", "San Jose", "San Juan", "San Lorenzo Ruiz I", "San Lorenzo Ruiz II", "San Luis I", "San Luis II", "San Manuel I", "San Manuel II", "San Mateo", "San Miguel", "San Miguel II", "San Nicolas I", "San Nicolas II", "San Roque", "San Simon", "Santa Cristina I", "Santa Cristina II", "Santa Cruz I", "Santa Cruz II", "Santa Fe", "Santa Lucia", "Santa Maria", "Santo Cristo", "Santo Niño I", "Santo Niño II", "Victoria Reyes", "Zone I", "Zone I-B", "Zone II", "Zone III", "Zone IV"};
+    string DasmaBrgys[] = {"Burol", "Burol I", "Burol II", "Burol III", "Datu Esmael", "Emmanuel Bergado I", "Emmanuel Bergado II", "Fatima I", "Fatima II", "Fatima III", "H-2", "Langkaan I", "Langkaan II", "Luzviminda I", "Luzviminda II", "Paliparan I", "Paliparan II", "Paliparan III", "Sabang", "Saint Peter I", "Saint Peter II", "Salawag", "Salitran I", "Salitran II", "Salitran III", "Salitran IV", "Sampaloc I", "Sampaloc II", "Sampaloc III", "Sampaloc IV", "Sampaloc V", "San Agustin I", "San Agustin II", "San Agustin III", "San Andres I", "San Andres II", "San Antonio de Padua I", "San Antonio de Padua II", "San Dionisio", "San Esteban", "San Francisco I", "San Francisco II", "San Isidro Labrador I", "San Isidro Labrador II", "San Jose", "San Juan", "San Lorenzo Ruiz I", "San Lorenzo Ruiz II", "San Luis I", "San Luis II", "San Manuel I", "San Manuel II", "San Mateo", "San Miguel", "San Miguel II", "San Nicolas I", "San Nicolas II", "San Roque", "San Simon", "Santa Cristina I", "Santa Cristina II", "Santa Cruz I", "Santa Cruz II", "Santa Fe", "Santa Lucia", "Santa Maria", "Santo Cristo", "Santo Nino I", "Santo Nino II", "Victoria Reyes", "Zone I", "Zone I-B", "Zone II", "Zone III", "Zone IV"};
     string GenTriasBrgys[] = {"Alingaro", "Arnaldo Poblacion", "Bacao I", "Bacao II", "Bagumbayan Poblacion", "Biclatan", "Buenavista I", "Buenavista II", "Buenavista III", "Corregidor Poblacion", "Dulong Bayan Poblacion", "Gov. Ferrer Poblacion", "Javalera", "Manggahan", "Navarro", "Ninety Sixth Poblacion", "Panungyanan", "Pasong Camachile I", "Pasong Camachile II", "Pasong Kawayan I", "Pasong Kawayan II", "Pinagtipunan", "Prinza Poblacion", "Sampalucan Poblacion", "San Francisco", "San Gabriel Poblacion", "San Juan I", "San Juan II", "Santa Clara", "Santiago", "Tapia", "Tejero", "Vibora Poblacion"};
     string ImusBrgys[] = {"Alapan I-A", "Alapan I-B", "Alapan I-C", "Alapan II-A", "Alapan II-B", "Anabu I-A", "Anabu I-B", "Anabu I-C", "Anabu I-D", "Anabu I-E", "Anabu I-F", "Anabu I-G", "Anabu II-A", "Anabu II-B", "Anabu II-C", "Anabu II-D", "Anabu II-E", "Anabu II-F", "Bagong Silang", "Bayan Luma I", "Bayan Luma II", "Bayan Luma III", "Bayan Luma IV", "Bayan Luma IX", "Bayan Luma V", "Bayan Luma VI", "Bayan Luma VII", "Bayan Luma VIII", "Bucandala I", "Bucandala II", "Bucandala III", "Bucandala IV", "Bucandala V", "Buhay na Tubig", "Carsadang Bago I", "Carsadang Bago II", "Magdalo", "Maharlika", "Malagasang I-A", "Malagasang I-B", "Malagasang I-C", "Malagasang I-D", "Malagasang I-E", "Malagasang I-F", "Malagasang I-G", "Malagasang II-A", "Malagasang II-B", "Malagasang II-C", "Malagasang II-D", "Malagasang II-E", "Malagasang II-F", "Malagasang II-G", "Mariano Espeleta I", "Mariano Espeleta II", "Mariano Espeleta III", "Medicion I-A", "Medicion I-B", "Medicion I-C", "Medicion I-D", "Medicion II-A", "Medicion II-B", "Medicion II-C", "Medicion II-D", "Medicion II-E", "Medicion II-F", "Pag-asa I", "Pag-asa II", "Pag-asa III", "Palico I", "Palico II", "Palico III", "Palico IV", "Pasong Buaya I", "Pasong Buaya II", "Pinagbuklod", "Poblacion I-A", "Poblacion I-B", "Poblacion I-C", "Poblacion II-A", "Poblacion II-B", "Poblacion III-A", "Poblacion III-B", "Poblacion IV-A", "Poblacion IV-B", "Poblacion IV-C", "Poblacion IV-D", "Tanzang Luma I", "Tanzang Luma II", "Tanzang Luma III", "Tanzang Luma IV", "Tanzang Luma V", "Tanzang Luma VI", "Toclong I-A", "Toclong I-B", "Toclong I-C", "Toclong II-A", "Toclong II-B"};
     string TagaytayBrgys[] = {"Asisan", "Bagong Tubig", "Calabuso", "Dapdap East", "Dapdap West", "Francisco", "Guinhawa North", "Guinhawa South", "Iruhin East", "Iruhin South", "Iruhin West", "Kaybagal East", "Kaybagal North", "Kaybagal South", "Mag-Asawang Ilat", "Maharlika East", "Maharlika West", "Maitim 2nd Central", "Maitim 2nd East", "Maitim 2nd West", "Mendez Crossing East", "Mendez Crossing West", "Neogan", "Patutong Malaki North", "Patutong Malaki South", "Sambong", "San Jose", "Silang Junction North", "Silang Junction South", "Sungay North", "Sungay South", "Tolentino East", "Tolentino West", "Zambal"};
     string TreceMartBrgys[] = {"Aguado", "Cabezas", "Cabuco", "Conchu", "De Ocampo", "Gregorio", "Inocencio", "Lallana", "Lapidario", "Luciano", "Osorio", "Perez", "San Agustin"};
-    string BiñanCityBrgys[] = {"Biñan", "Bungahan", "Canlalay", "Casile", "De La Paz", "Ganado", "Langkiwa", "Loma", "Malaban", "Malamig", "Mampalasan", "Platero", "Poblacion", "San Antonio", "San Francisco", "San Jose", "San Vicente", "Santo Domingo", "Santo Niño", "Santo Tomas", "Soro-soro", "Timbao", "Tubigan", "Zapote"};
+    string BinanCityBrgys[] = {"Binan", "Bungahan", "Canlalay", "Casile", "De La Paz", "Ganado", "Langkiwa", "Loma", "Malaban", "Malamig", "Mampalasan", "Platero", "Poblacion", "San Antonio", "San Francisco", "San Jose", "San Vicente", "Santo Domingo", "Santo Nino", "Santo Tomas", "Soro-soro", "Timbao", "Tubigan", "Zapote"};
     string CabuyaoBrgys[] = {"Baclaran", "Banaybanay", "Banlic", "Barangay Dos", "Barangay Tres", "Barangay Uno", "Bigaa", "Butong", "Casile", "Diezmo", "Gulod", "Mamatid", "Marinig", "Niugan", "Pittland", "Pulo", "Sala", "San Isidro"};
     string CalambaBrgys[] = {"Bagong Kalsada", "Banadero", "Banlic", "Barandal", "Barangay 1", "Barangay 2", "Barangay 3", "Barangay 4", "Barangay 5", "Barangay 6", "Barangay 7", "Batino", "Bubuyan", "Bucal", "Bunggo", "Burol", "Camaligan", "Canlubang", "Halang", "Hornalan", "Kay-Anlog", "La Mesa", "Laguerta", "Lawa", "Lecheria", "Lingga", "Looc", "Mabato", "Majada Labas", "Makiling", "Mapagong", "Masili", "Maunong", "Mayapa", "Milagrosa", "Paciano Rizal", "Palingon", "Palo-Alto", "Pansol", "Parian", "Prinza", "Punta", "Puting Lupa", "Real", "Saimsim", "Sampiruhan", "San Cristobal", "San Jose", "San Juan", "Sirang Lupa", "Sucol", "Turbina", "Ulango", "Uwisan"};
-    string SanPabLagunaBrgys[] = {"Atisan", "Bagong Bayan II-A", "Bagong Pook VI-C", "Barangay I-A", "Barangay I-B", "Barangay II-A", "Barangay II-B", "Barangay II-C", "Barangay II-D", "Barangay II-E", "Barangay II-F", "Barangay III-A", "Barangay III-B", "Barangay III-C", "Barangay III-D", "Barangay III-E", "Barangay III-F", "Barangay IV-A", "Barangay IV-B", "Barangay IV-C", "Barangay V-A", "Barangay V-B", "Barangay V-C", "Barangay V-D", "Barangay VI-A", "Barangay VI-B", "Barangay VI-D", "Barangay VI-E", "Barangay VII-A", "Barangay VII-B", "Barangay VII-C", "Barangay VII-D", "Barangay VII-E", "Bautista", "Concepcion", "Del Remedio", "Dolores", "San Antonio 1", "San Antonio 2", "San Bartolome", "San Buenaventura", "San Crispin", "San Cristobal", "San Diego", "San Francisco", "San Gabriel", "San Gregorio", "San Ignacio", "San Isidro", "San Joaquin", "San Jose", "San Juan", "San Lorenzo", "San Lucas 1", "San Lucas 2", "San Marcos", "San Mateo", "San Miguel", "San Nicolas", "San Pedro", "San Rafael", "San Roque", "San Vicente", "Santa Ana", "Santa Catalina", "Santa Cruz", "Santa Elena", "Santa Felomina", "Santa Isabel", "Santa Maria", "Santa Maria Magdalena", "Santa Monica", "Santa Veronica", "Santiago I", "Santiago II", "Santisimo Rosario", "Santo Angel", "Santo Cristo", "Santo Niño", "Soledad"};
-    string SanPedLagunaBrgys[] = {"Bagong Silang", "Calendola", "Chrysanthemum", "Cuyab", "Estrella", "Fatima", "G.S.I.S.", "Landayan", "Langgam", "Laram", "Magsaysay", "Maharlika", "Narra", "Nueva", "Pacita 1", "Pacita 2", "Poblacion", "Riverside", "Rosario", "Sampaguita Village", "San Antonio", "San Lorenzo Ruiz", "San Roque", "San Vicente", "Santo Niño", "United Bayanihan", "United Better Living"};
+    string SanPabLagunaBrgys[] = {"Atisan", "Bagong Bayan II-A", "Bagong Pook VI-C", "Barangay I-A", "Barangay I-B", "Barangay II-A", "Barangay II-B", "Barangay II-C", "Barangay II-D", "Barangay II-E", "Barangay II-F", "Barangay III-A", "Barangay III-B", "Barangay III-C", "Barangay III-D", "Barangay III-E", "Barangay III-F", "Barangay IV-A", "Barangay IV-B", "Barangay IV-C", "Barangay V-A", "Barangay V-B", "Barangay V-C", "Barangay V-D", "Barangay VI-A", "Barangay VI-B", "Barangay VI-D", "Barangay VI-E", "Barangay VII-A", "Barangay VII-B", "Barangay VII-C", "Barangay VII-D", "Barangay VII-E", "Bautista", "Concepcion", "Del Remedio", "Dolores", "San Antonio 1", "San Antonio 2", "San Bartolome", "San Buenaventura", "San Crispin", "San Cristobal", "San Diego", "San Francisco", "San Gabriel", "San Gregorio", "San Ignacio", "San Isidro", "San Joaquin", "San Jose", "San Juan", "San Lorenzo", "San Lucas 1", "San Lucas 2", "San Marcos", "San Mateo", "San Miguel", "San Nicolas", "San Pedro", "San Rafael", "San Roque", "San Vicente", "Santa Ana", "Santa Catalina", "Santa Cruz", "Santa Elena", "Santa Felomina", "Santa Isabel", "Santa Maria", "Santa Maria Magdalena", "Santa Monica", "Santa Veronica", "Santiago I", "Santiago II", "Santisimo Rosario", "Santo Angel", "Santo Cristo", "Santo Nino", "Soledad"};
+    string SanPedLagunaBrgys[] = {"Bagong Silang", "Calendola", "Chrysanthemum", "Cuyab", "Estrella", "Fatima", "G.S.I.S.", "Landayan", "Langgam", "Laram", "Magsaysay", "Maharlika", "Narra", "Nueva", "Pacita 1", "Pacita 2", "Poblacion", "Riverside", "Rosario", "Sampaguita Village", "San Antonio", "San Lorenzo Ruiz", "San Roque", "San Vicente", "Santo Nino", "United Bayanihan", "United Better Living"};
     string SantaRosaLagunaBrgys[] = {"Aplaya", "Balibago", "Caingin", "Dila", "Dita", "Don Jose", "Ibaba", "Kanluran", "Labas", "Macabling", "Malitlit", "Malusak", "Market Area", "Pook", "Pulong Santa Cruz", "Santo Domingo", "Sinalhan", "Tagapo"};
-    string LagunaMuni[] = {"Alaminos", "Bay", "Calauan", "Cavinti", "Famy", "Kalayaan", "Liliw", "Los Baños", "Luisiana", "Lumban", "Mabitac", "Magdalena", "Majayjay", "Nagcarlan", "Paete", "Pagsanjan", "Pakil", "Pangil", "Pila", "Rizal", "Santa Cruz - Capital of Laguna", "Santa Maria", "Siniloan", "Victoria"};
+    string LagunaMuni[] = {"Alaminos", "Bay", "Calauan", "Cavinti", "Famy", "Kalayaan", "Liliw", "Los Banos", "Luisiana", "Lumban", "Mabitac", "Magdalena", "Majayjay", "Nagcarlan", "Paete", "Pagsanjan", "Pakil", "Pangil", "Pila", "Rizal", "Santa Cruz - Capital of Laguna", "Santa Maria", "Siniloan", "Victoria"};
     string LucenaCityBrgys[] = {"Barangay 1", "Barangay 10", "Barangay 11", "Barangay 2", "Barangay 3", "Barangay 4", "Barangay 5", "Barangay 6", "Barangay 7", "Barangay 8", "Barangay 9", "Barra", "Bocohan", "Cotta", "Dalahican", "Domoit", "Gulang-gulang", "Ibabang Dupay", "Ibabang Iyam", "Ibabang Talim", "Ilayang Dupay", "Ilayang Iyam", "Ilayang Talim", "Isabang", "Market View", "Mayao Castillo", "Mayao Crossing", "Mayao Kanluran", "Mayao Parada", "Mayao Silangan", "Ransohan", "Salinas", "Talao-talao"};
     string TayabasBrgys[] = {"Alitao", "Alsam Ibaba", "Alsam Ilaya", "Alupay", "Angeles Zone I", "Angeles Zone II", "Angeles Zone III", "Angeles Zone IV", "Angustias Zone I", "Angustias Zone II", "Angustias Zone III", "Angustias Zone IV", "Anos", "Ayaas", "Baguio", "Banilad", "Bukal Ibaba", "Bukal Ilaya", "Calantas", "Calumpang", "Camaysa", "Dapdap", "Domoit Kanluran", "Domoit Silangan", "Gibanga", "Ibas", "Ilasan Ibaba", "Ilasan Ilaya", "Ipilan", "Isabang", "Katigan Kanluran", "Katigan Silangan", "Lakawan", "Lalo", "Lawigue", "Lita", "Malaoa", "Masin", "Mate", "Mateuna", "Mayowe", "Nangka Ibaba", "Nangka Ilaya", "Opias", "Palale Ibaba", "Palale Ilaya", "Palale Kanluran", "Palale Silangan", "Pandakaki", "Pook", "Potol", "San Diego Zone I", "San Diego Zone II", "San Diego Zone III", "San Diego Zone IV", "San Isidro Zone I", "San Isidro Zone II", "San Isidro Zone III", "San Isidro Zone IV", "San Roque Zone I", "San Roque Zone II", "Talolong", "Tamlong", "Tongko", "Valencia", "Wakas"};
     string AntipoloRizalBrgys[] = {"Bagong Nayon", "Beverly Hills", "Calawis", "Cupang", "Dalig", "Dela Paz", "Inarawan", "Mambugan", "Mayamot", "Muntingdilaw", "San Isidro", "San Jose", "San Juan", "San Luis", "San Roque", "Santa Cruz"};
     string PuertoPrincesaBrgys[] = {"Babuyan", "Bacungan", "Bagong Bayan", "Bagong Pag-asa", "Bagong Sikat", "Bagong Silang", "Bahile", "Bancao-bancao", "Barangay ng mga Mangingisda", "Binduyan", "Buenavista", "Cabayugan", "Concepcion", "Inagawan", "Inagawan Sub-Colony", "Irawan", "Iwahig", "Kalipay", "Kamuning", "Langogan", "Liwanag", "Lucbuan", "Luzviminda", "Mabuhay", "Macarascas", "Magkakaibigan", "Maligaya", "Manalo", "Mandaragat", "Manggahan", "Maningning", "Maoyon", "Marufinas", "Maruyogon", "Masigla", "Masikap", "Masipag", "Matahimik", "Matiyaga", "Maunlad", "Milagrosa", "Model", "Montible", "Napsan", "New Panggangan", "Pagkakaisa", "Princesa", "Salvacion", "San Jose", "San Manuel", "San Miguel", "San Pedro", "San Rafael", "Santa Cruz", "Santa Lourdes", "Santa Lucia", "Santa Monica", "Seaside", "Sicsican", "Simpocan", "Tagabinit", "Tagburos", "Tagumpay", "Tanabag", "Tanglaw", "Tiniguiban"};
-    string PalawanMuni[] = {"Aborlan", "Agutaya", "Araceli", "Balabac", "Bataraza", "Brooke's Point", "Busuanga", "Cagayancillo", "Coron", "Culion", "Cuyo", "Dumaran", "El Nido", "Kalayaan", "Linapacan", "Magsaysay", "Narra", "Quezon", "Rizal", "Roxas", "San Vicente", "Sofronio Española", "Taytay"};
+    string PalawanMuni[] = {"Aborlan", "Agutaya", "Araceli", "Balabac", "Bataraza", "Brooke's Point", "Busuanga", "Cagayancillo", "Coron", "Culion", "Cuyo", "Dumaran", "El Nido", "Kalayaan", "Linapacan", "Magsaysay", "Narra", "Quezon", "Rizal", "Roxas", "San Vicente", "Sofronio Espanola", "Taytay"};
     string RomblonProvMuni[] = {"Alcantara", "Banton", "Cajidiocan", "Calatrava", "Concepcion", "Corcuera", "Ferrol", "Looc", "Magdiwang", "Odiongan", "Romblon - Capital of Romblon", "San Agustin", "San Andres", "San Fernando", "San Jose", "Santa Fe", "Santa Maria"};
     string QuezonProvMuni[] = {"Agdangan", "Alabat", "Atimonan", "Buenavista", "Burdeos", "Candelaria", "Catanauan", "Dolores", "General Luna", "General Nakar", "Gumaca", "Infanta", "Jomalig", "Lopez", "Lucban", "Macalelon", "Mauban", "Mulanay", "Padre Burgos", "Pagbilao", "Panukulan", "Patnanungan", "Perez", "Pitogo", "Plaridel", "Polillo", "Quezon", "Real", "Sampaloc", "San Andres", "San Antonio", "San Francisco", "San Narciso", "Sariaya", "Tagkawayan", "Tiaong", "Unisan"};
-    string LegazpiBrgys[] = {"Barangay 10-Cabugao", "Barangay 11-Maoyod Poblacion", "Barangay 12-Tula-tula", "Barangay 13-Ilawod West Poblacion", "Barangay 14-Ilawod Poblacion", "Barangay 15-Ilawod East Poblacion", "Barangay 16-Kawit-East Washington Drive", "Barangay 17-Rizal Street, Ilawod", "Barangay 18-Cabagñan West", "Barangay 19-Cabagñan", "Barangay 1-Em's Barrio", "Barangay 20-Cabagñan East", "Barangay 21-Binanuahan West", "Barangay 22-Binanuahan East", "Barangay 23-Imperial Court Subd.", "Barangay 24-Rizal Street", "Barangay 25-Lapu-lapu", "Barangay 26-Dinagaan", "Barangay 27-Victory Village South", "Barangay 28-Victory Village North", "Barangay 29-Sabang", "Barangay 2-Em's Barrio South", "Barangay 30-Pigcale", "Barangay 31-Centro-Baybay", "Barangay 32-San Roque", "Barangay 33-PNR-Peñaranda St.-Iraya", "Barangay 34-Oro Site-Magallanes St.", "Barangay 35-Tinago", "Barangay 36-Kapantawan", "Barangay 37-Bitano", "Barangay 38-Gogon", "Barangay 39-Bonot", "Barangay 3-Em's Barrio East", "Barangay 40-Cruzada", "Barangay 41-Bogtong", "Barangay 42-Rawis", "Barangay 43-Tamaoyan", "Barangay 44-Pawa", "Barangay 45-Dita", "Barangay 46-San Joaquin", "Barangay 47-Arimbay", "Barangay 48-Bagong Abre", "Barangay 49-Bigaa", "Barangay 4-Sagpon Poblacion", "Barangay 50-Padang", "Barangay 51-Buyuan", "Barangay 52-Matanag", "Barangay 53-Bonga", "Barangay 54-Mabinit", "Barangay 55-Estanza", "Barangay 56-Taysan", "Barangay 57-Dap-dap", "Barangay 58-Buragwis", "Barangay 59-Puro", "Barangay 5-Sagmin Poblacion", "Barangay 60-Lamba", "Barangay 61-Maslog", "Barangay 62-Homapon", "Barangay 63-Mariawa", "Barangay 64-Bagacay", "Barangay 65-Imalnod", "Barangay 66-Banquerohan", "Barangay 67-Bariis", "Barangay 68-San Francisco", "Barangay 69-Buenavista", "Barangay 6-Bañadero Poblacion", "Barangay 70-Cagbacong", "Barangay 7-Baño", "Barangay 8-Bagumbayan", "Barangay 9-Pinaric"};
-    string LigaoBrgys[] = {"Abella", "Allang", "Amtic", "Bacong", "Bagumbayan", "Balanac", "Baligang", "Barayong", "Basag", "Batang", "Bay", "Binanowan", "Binatagan", "Bobonsuran", "Bonga", "Busac", "Busay", "Cabarian", "Calzada", "Catburawan", "Cavasi", "Culliat", "Dunao", "Francia", "Guilid", "Herrera", "Layon", "Macalidong", "Mahaba", "Malama", "Maonon", "Nabonton", "Nasisi", "Oma-oma", "Palapas", "Pandan", "Paulba", "Paulog", "Pinamaniquian", "Pinit", "Ranao-ranao", "San Vicente", "Santa Cruz", "Tagpo", "Tambo", "Tandarura", "Tastas", "Tinago", "Tinampo", "Tiongson", "Tomolin", "Tuburan", "Tula-tula Grande", "Tula-tula Pequeño", "Tupas"};
-    string TabacoBrgys[] = {"Agnas", "Bacolod", "Bangkilingan", "Bantayan", "Baranghawon", "Basagan", "Basud", "Bogñabong", "Bombon", "Bonot", "Buang", "Buhian", "Cabagñan", "Cobo", "Comon", "Cormidal", "Divino Rostro", "Fatima", "Guinobat", "Hacienda", "Magapo", "Mariroc", "Matagbac", "Oras", "Oson", "Panal", "Pawa", "Pinagbobong", "Quinale Cabasan", "Quinastillojan", "Rawis", "Sagurong", "Salvacion", "San Antonio", "San Carlos", "San Isidro", "San Juan", "San Lorenzo", "San Ramon", "San Roque", "San Vicente", "Santo Cristo", "Sua-Igot", "Tabiguian", "Tagas", "Tayhi", "Visita"};
-    string IrigaBrgys[] = {"Antipolo", "Cristo Rey", "Del Rosario", "Francia", "La Anunciacion", "La Medalla", "La Purisima", "La Trinidad", "Niño Jesus", "Perpetual Help", "Sagrada", "Salvacion", "San Agustin", "San Andres", "San Antonio", "San Francisco", "San Isidro", "San Jose", "San Juan", "San Miguel", "San Nicolas", "San Pedro", "San Rafael", "San Ramon", "San Roque", "San Vicente Norte", "San Vicente Sur", "Santa Cruz Norte", "Santa Cruz Sur", "Santa Elena", "Santa Isabel", "Santa Maria", "Santa Teresita", "Santiago", "Santo Domingo", "Santo Niño"};
-    string NagaBrgys[] = {"Abella", "Bagumbayan Norte", "Bagumbayan Sur", "Balatas", "Calauag", "Cararayan", "Carolina", "Concepcion Grande", "Concepcion Pequeña", "Dayangdang", "Del Rosario", "Dinaga", "Igualdad Interior", "Lerma", "Liboton", "Mabolo", "Pacol", "Panicuason", "Peñafrancia", "Sabang", "San Felipe", "San Francisco", "San Isidro", "Santa Cruz", "Tabuco", "Tinago", "Triangulo"};
-    string CamarinesSurMuni[] = {"Baao", "Balatan", "Bato", "Bombon", "Buhi", "Bula", "Cabusao", "Calabanga", "Camaligan", "Canaman", "Caramoan", "Del Gallego", "Gainza", "Garchitorena", "Goa", "Lagonoy", "Libmanan", "Lupi", "Magarao", "Milaor", "Minalabac", "Nabua", "Ocampo", "Pamplona", "Pasacao", "Pili", "Presentacion", "Ragay", "Sagñay", "San Fernando", "San Jose", "Sipocot", "Siruma", "Tigaon", "Tinambac"};
-    string MasbateCityBrgys[] = {"Anas", "Asid", "B. Titong", "Bagumbayan", "Bantigue", "Bapor", "Batuhan", "Bayombon", "Biyong", "Bolo", "Cagay", "Cawayan Exterior", "Cawayan Interior", "Centro", "Espinosa", "F. Magallanes", "Ibingay", "Igang", "Kalipay", "Kinamaligan", "Malinta", "Mapiña", "Mayngaran", "Nursery", "Pating", "Pawa", "Sinalongan", "Tugbo", "Ubongan Dacu", "Usab"};
+    string LegazpiBrgys[] = {"Barangay 10-Cabugao", "Barangay 11-Maoyod Poblacion", "Barangay 12-Tula-tula", "Barangay 13-Ilawod West Poblacion", "Barangay 14-Ilawod Poblacion", "Barangay 15-Ilawod East Poblacion", "Barangay 16-Kawit-East Washington Drive", "Barangay 17-Rizal Street, Ilawod", "Barangay 18-Cabagnan West", "Barangay 19-Cabagnan", "Barangay 1-Em's Barrio", "Barangay 20-Cabagnan East", "Barangay 21-Binanuahan West", "Barangay 22-Binanuahan East", "Barangay 23-Imperial Court Subd.", "Barangay 24-Rizal Street", "Barangay 25-Lapu-lapu", "Barangay 26-Dinagaan", "Barangay 27-Victory Village South", "Barangay 28-Victory Village North", "Barangay 29-Sabang", "Barangay 2-Em's Barrio South", "Barangay 30-Pigcale", "Barangay 31-Centro-Baybay", "Barangay 32-San Roque", "Barangay 33-PNR-Penaranda St.-Iraya", "Barangay 34-Oro Site-Magallanes St.", "Barangay 35-Tinago", "Barangay 36-Kapantawan", "Barangay 37-Bitano", "Barangay 38-Gogon", "Barangay 39-Bonot", "Barangay 3-Em's Barrio East", "Barangay 40-Cruzada", "Barangay 41-Bogtong", "Barangay 42-Rawis", "Barangay 43-Tamaoyan", "Barangay 44-Pawa", "Barangay 45-Dita", "Barangay 46-San Joaquin", "Barangay 47-Arimbay", "Barangay 48-Bagong Abre", "Barangay 49-Bigaa", "Barangay 4-Sagpon Poblacion", "Barangay 50-Padang", "Barangay 51-Buyuan", "Barangay 52-Matanag", "Barangay 53-Bonga", "Barangay 54-Mabinit", "Barangay 55-Estanza", "Barangay 56-Taysan", "Barangay 57-Dap-dap", "Barangay 58-Buragwis", "Barangay 59-Puro", "Barangay 5-Sagmin Poblacion", "Barangay 60-Lamba", "Barangay 61-Maslog", "Barangay 62-Homapon", "Barangay 63-Mariawa", "Barangay 64-Bagacay", "Barangay 65-Imalnod", "Barangay 66-Banquerohan", "Barangay 67-Bariis", "Barangay 68-San Francisco", "Barangay 69-Buenavista", "Barangay 6-Banadero Poblacion", "Barangay 70-Cagbacong", "Barangay 7-Bano", "Barangay 8-Bagumbayan", "Barangay 9-Pinaric"};
+    string LigaoBrgys[] = {"Abella", "Allang", "Amtic", "Bacong", "Bagumbayan", "Balanac", "Baligang", "Barayong", "Basag", "Batang", "Bay", "Binanowan", "Binatagan", "Bobonsuran", "Bonga", "Busac", "Busay", "Cabarian", "Calzada", "Catburawan", "Cavasi", "Culliat", "Dunao", "Francia", "Guilid", "Herrera", "Layon", "Macalidong", "Mahaba", "Malama", "Maonon", "Nabonton", "Nasisi", "Oma-oma", "Palapas", "Pandan", "Paulba", "Paulog", "Pinamaniquian", "Pinit", "Ranao-ranao", "San Vicente", "Santa Cruz", "Tagpo", "Tambo", "Tandarura", "Tastas", "Tinago", "Tinampo", "Tiongson", "Tomolin", "Tuburan", "Tula-tula Grande", "Tula-tula Pequeno", "Tupas"};
+    string TabacoBrgys[] = {"Agnas", "Bacolod", "Bangkilingan", "Bantayan", "Baranghawon", "Basagan", "Basud", "Bognabong", "Bombon", "Bonot", "Buang", "Buhian", "Cabagnan", "Cobo", "Comon", "Cormidal", "Divino Rostro", "Fatima", "Guinobat", "Hacienda", "Magapo", "Mariroc", "Matagbac", "Oras", "Oson", "Panal", "Pawa", "Pinagbobong", "Quinale Cabasan", "Quinastillojan", "Rawis", "Sagurong", "Salvacion", "San Antonio", "San Carlos", "San Isidro", "San Juan", "San Lorenzo", "San Ramon", "San Roque", "San Vicente", "Santo Cristo", "Sua-Igot", "Tabiguian", "Tagas", "Tayhi", "Visita"};
+    string IrigaBrgys[] = {"Antipolo", "Cristo Rey", "Del Rosario", "Francia", "La Anunciacion", "La Medalla", "La Purisima", "La Trinidad", "Nino Jesus", "Perpetual Help", "Sagrada", "Salvacion", "San Agustin", "San Andres", "San Antonio", "San Francisco", "San Isidro", "San Jose", "San Juan", "San Miguel", "San Nicolas", "San Pedro", "San Rafael", "San Ramon", "San Roque", "San Vicente Norte", "San Vicente Sur", "Santa Cruz Norte", "Santa Cruz Sur", "Santa Elena", "Santa Isabel", "Santa Maria", "Santa Teresita", "Santiago", "Santo Domingo", "Santo Nino"};
+    string NagaBrgys[] = {"Abella", "Bagumbayan Norte", "Bagumbayan Sur", "Balatas", "Calauag", "Cararayan", "Carolina", "Concepcion Grande", "Concepcion Pequena", "Dayangdang", "Del Rosario", "Dinaga", "Igualdad Interior", "Lerma", "Liboton", "Mabolo", "Pacol", "Panicuason", "Penafrancia", "Sabang", "San Felipe", "San Francisco", "San Isidro", "Santa Cruz", "Tabuco", "Tinago", "Triangulo"};
+    string CamarinesSurMuni[] = {"Baao", "Balatan", "Bato", "Bombon", "Buhi", "Bula", "Cabusao", "Calabanga", "Camaligan", "Canaman", "Caramoan", "Del Gallego", "Gainza", "Garchitorena", "Goa", "Lagonoy", "Libmanan", "Lupi", "Magarao", "Milaor", "Minalabac", "Nabua", "Ocampo", "Pamplona", "Pasacao", "Pili", "Presentacion", "Ragay", "Sagnay", "San Fernando", "San Jose", "Sipocot", "Siruma", "Tigaon", "Tinambac"};
+    string MasbateCityBrgys[] = {"Anas", "Asid", "B. Titong", "Bagumbayan", "Bantigue", "Bapor", "Batuhan", "Bayombon", "Biyong", "Bolo", "Cagay", "Cawayan Exterior", "Cawayan Interior", "Centro", "Espinosa", "F. Magallanes", "Ibingay", "Igang", "Kalipay", "Kinamaligan", "Malinta", "Mapina", "Mayngaran", "Nursery", "Pating", "Pawa", "Sinalongan", "Tugbo", "Ubongan Dacu", "Usab"};
     string MasbateProvMuni[] = {"Aroroy", "Baleno", "Balud", "Batuan", "Cataingan", "Cawayan", "Claveria", "Dimasalang", "Esperanza", "Mandaon", "Milagros", "Mobo", "Monreal", "Palanas", "Pio V. Corpuz", "Placer", "San Fernando", "San Jacinto", "San Pascual", "Uson"};
-    string SorsogonCityBrgys[] = {"Abuyog", "Almendras-Cogon", "Balete", "Balogo (Sorsogon East District)", "Balogo (Bacon District)", "Barayong", "Basud", "Bato", "Bibincahan", "Bitan-o/Dalipay", "Bogña", "Bon-ot", "Bucalbucalan", "Buenavista", "Buenavista (Bacon District)", "Buhatan", "Bulabog", "Burabod", "Cabarbuhan", "Cabid-an", "Cambulaga", "Capuy", "Caricaran", "Del Rosario", "Gatbo", "Gimaloto", "Guinlajon", "Jamislagan", "Macabog", "Maricrum", "Marinas", "Osiao", "Pamurayan", "Pangpang", "Panlayaan", "Peñafrancia", "Piot", "Poblacion", "Polvorista", "Rawis", "Rizal", "Salog", "Salvacion", "Salvacion (Bacon District)", "Sampaloc", "San Isidro", "San Isidro (Bacon District)", "San Juan (Roro)", "San Juan (Bacon District)", "San Pascual", "San Ramon", "San Roque", "San Vicente", "Santa Cruz", "Santa Lucia", "Santo Domingo", "Santo Niño", "Sawanga", "Sirangan", "Sugod", "Sulucan", "Talisay", "Ticol", "Tugos"};
+    string SorsogonCityBrgys[] = {"Abuyog", "Almendras-Cogon", "Balete", "Balogo (Sorsogon East District)", "Balogo (Bacon District)", "Barayong", "Basud", "Bato", "Bibincahan", "Bitan-o/Dalipay", "Bogna", "Bon-ot", "Bucalbucalan", "Buenavista", "Buenavista (Bacon District)", "Buhatan", "Bulabog", "Burabod", "Cabarbuhan", "Cabid-an", "Cambulaga", "Capuy", "Caricaran", "Del Rosario", "Gatbo", "Gimaloto", "Guinlajon", "Jamislagan", "Macabog", "Maricrum", "Marinas", "Osiao", "Pamurayan", "Pangpang", "Panlayaan", "Penafrancia", "Piot", "Poblacion", "Polvorista", "Rawis", "Rizal", "Salog", "Salvacion", "Salvacion (Bacon District)", "Sampaloc", "San Isidro", "San Isidro (Bacon District)", "San Juan (Roro)", "San Juan (Bacon District)", "San Pascual", "San Ramon", "San Roque", "San Vicente", "Santa Cruz", "Santa Lucia", "Santo Domingo", "Santo Nino", "Sawanga", "Sirangan", "Sugod", "Sulucan", "Talisay", "Ticol", "Tugos"};
     string BacolodBrgys[] = {"Alangilan", "Alijis", "Banago", "Barangay 1", "Barangay 10", "Barangay 11", "Barangay 12", "Barangay 13", "Barangay 14", "Barangay 15", "Barangay 16", "Barangay 17", "Barangay 18", "Barangay 19", "Barangay 2", "Barangay 20", "Barangay 21", "Barangay 22", "Barangay 23", "Barangay 24", "Barangay 25", "Barangay 26", "Barangay 27", "Barangay 28", "Barangay 29", "Barangay 3", "Barangay 30", "Barangay 31", "Barangay 32", "Barangay 33", "Barangay 34", "Barangay 35", "Barangay 36", "Barangay 37", "Barangay 38", "Barangay 39", "Barangay 4", "Barangay 40", "Barangay 41", "Barangay 5", "Barangay 6", "Barangay 7", "Barangay 8", "Barangay 9", "Bata", "Cabug", "Estefania", "Felisa", "Granada", "Handumanan", "Mandalagan", "Mansilingan", "Montevista", "Pahanocoy", "Punta Taytay", "Singcang-Airport", "Sum-ag", "Taculing", "Tangub", "Villamonte", "Vista Alegre"};
     string RoxasCityBrgys[] = {"Adlawan", "Bago", "Balijuagan", "Banica", "Barra", "Bato", "Baybay", "Bolo", "Cabugao", "Cagay", "Cogon", "Culajao", "Culasi", "Dayao", "Dinginan", "Dumolog", "Gabu-an", "Inzo Arnaldo Village", "Jumaguicjic", "Lanot", "Lawa-an", "Libas", "Liong", "Loctugan", "Lonoy", "Milibili", "Mongpong", "Olotayan", "Poblacion I", "Poblacion II", "Poblacion III", "Poblacion IV", "Poblacion IX", "Poblacion V", "Poblacion VI", "Poblacion VII", "Poblacion VIII", "Poblacion X", "Poblacion XI", "Punta Cogon", "Punta Tabuc", "San Jose", "Sibaguan", "Talon", "Tanque", "Tanza", "Tiza"};
-    string IloiloCityBrgys[] = {"Abeto Mirasol Taft South", "Aguinaldo", "Airport", "Alalasan Lapuz", "Arguelles", "Arsenal Aduana", "Bakhaw", "Balabago", "Balantang", "Baldoza", "Bantud", "Banuyao", "Baybay Tanza", "Benedicto", "Bito-on", "Bolilao", "Bonifacio", "Bonifacio Tanza", "Buhang", "Buhang Taft North", "Buntatala", "Burgos-Mabini-Plaza", "Caingin", "Calahunan", "Calaparan", "Calubihan", "Calumpang", "Camalig", "Cochero", "Compania", "Concepcion-Montes", "Cuartero", "Cubay", "Danao", "Delgado-Jalandoni-Bagumbayan", "Democracia", "Desamparados", "Divinagracia", "Don Esteban-Lapuz", "Dulonan", "Dungon", "Dungon A", "Dungon B", "East Baluarte", "East Timawa", "Edganzon", "El 98 Castilla", "Fajardo", "Flores", "General Hughes-Montes", "Gloria", "Gustilo", "Guzman-Jesena", "Habog-habog Salvacion", "Hibao-an Norte", "Hibao-an Sur", "Hinactacan", "Hipodromo", "Inday", "Infante", "Ingore", "Jalandoni Estate-Lapuz", "Jalandoni-Wilson", "Javellana", "Jereos", "Kahirupan", "Kasingkasing", "Katilingban", "Kauswagan", "Laguda", "Lanit", "Lapuz Norte", "Lapuz Sur", "Legaspi dela Rama", "Liberation", "Libertad, Santa Isabel", "Libertad-Lapuz", "Loboc-Lapuz", "Lopez Jaena", "Lopez Jaena Norte", "Lopez Jaena Sur", "Luna (Jaro)", "Luna (La Paz)", "M. V. Hechanova", "Mabolo-Delgado", "Macarthur", "Magdalo", "Magsaysay", "Magsaysay Village", "Malipayon-Delgado", "Mansaya-Lapuz", "Marcelo H. del Pilar", "Maria Clara", "Maria Cristina", "Mohon", "Molo Boulevard", "Monica Blumentritt", "Montinola", "Muelle Loney-Montes", "Nabitasan", "Navais", "Nonoy", "North Avanceña", "North Baluarte", "North Fundidor", "North San Jose", "Obrero-Lapuz", "Oñate de Leon", "Ortiz", "Osmeña", "Our Lady of Fatima", "Our Lady of Lourdes", "Pale Benedicto Rizal", "PHHC Block 17", "PHHC Block 22 NHA", "Poblacion Molo", "President Roxas", "Progreso-Lapuz", "Punong-Lapuz", "Quezon", "Quintin Salas", "Railway", "Rima-Rizal", "Rizal", "Rizal Estanzuela", "Rizal Ibarra", "Rizal Palapala I", "Rizal Palapala II", "Roxas Village", "Sambag", "Sampaguita", "San Agustin", "San Antonio", "San Felix", "San Isidro (Jaro)", "San Isidro (La Paz)", "San Jose (Jaro)", "San Jose (Arevalo)", "San Jose (City Proper)", "San Juan", "San Nicolas", "San Pedro (Molo)", "San Pedro (Jaro)", "San Rafael", "San Roque", "San Vicente", "Santa Cruz", "Santa Filomena", "Santa Rosa", "Santo Domingo", "Santo Niño Norte", "Santo Niño Sur", "Santo Rosario-Duran", "Seminario", "Simon Ledesma", "Sinikway", "So-oc", "South Baluarte", "South Fundidor", "South San Jose", "Taal", "Tabuc Suba (Jaro)", "Tabuc Suba (La Paz)", "Tabucan", "Tacas", "Tagbac", "Tanza-Esperanza", "Tap-oc", "Taytay Zone II", "Ticud", "Timawa Tanza I", "Timawa Tanza II", "Ungka", "Veterans Village", "Villa Anita", "West Habog-habog", "West Timawa", "Yulo Drive", "Yulo-Arroyo", "Zamora-Melliza"};
-    string PassiBrgys[] = {"Agdahon", "Agdayao", "Aglalana", "Agtabo", "Agtambo", "Alimono", "Arac", "Ayuyan", "Bacuranan", "Bagacay", "Batu", "Bayan", "Bitaogan", "Buenavista", "Buyo", "Cabunga", "Cadilang", "Cairohan", "Dalicanan", "Gegachac", "Gemat-y", "Gemumua-agahon", "Gines Viejo", "Imbang Grande", "Jaguimitan", "Libo-o", "Maasin", "Magdungao", "Malag-it Grande", "Malag-it Pequeño", "Mambiranan Grande", "Mambiranan Pequeño", "Man-it", "Mantulang", "Mulapula", "Nueva Union", "Pagaypay", "Pangi", "Poblacion Ilawod", "Poblacion Ilaya", "Punong", "Quinagaringan Grande", "Quinagaringan Pequeño", "Sablogon", "Salngan", "Santo Tomas", "Sarapan", "Tagubong", "Talongonan", "Tubod", "Tuburan"};
-    string IloiloProvMuni[] = {"Ajuy", "Alimodian", "Anilao", "Badiangan", "Balasan", "Banate", "Barotac Nuevo", "Barotac Viejo", "Batad", "Bingawan", "Cabatuan", "Calinog", "Carles", "Concepcion", "Dingle", "Dueñas", "Dumangas", "Estancia", "Guimbal", "Igbaras", "Janiuay", "Lambunao", "Leganes", "Lemery", "Leon", "Maasin", "Miagao", "Mina", "New Lucena", "Oton", "Pavia", "Pototan", "San Dionisio", "San Enrique", "San Joaquin", "San Miguel", "San Rafael", "Santa Barbara", "Sara", "Tigbauan", "Tubungan", "Zarraga"};
+    string IloiloCityBrgys[] = {"Abeto Mirasol Taft South", "Aguinaldo", "Airport", "Alalasan Lapuz", "Arguelles", "Arsenal Aduana", "Bakhaw", "Balabago", "Balantang", "Baldoza", "Bantud", "Banuyao", "Baybay Tanza", "Benedicto", "Bito-on", "Bolilao", "Bonifacio", "Bonifacio Tanza", "Buhang", "Buhang Taft North", "Buntatala", "Burgos-Mabini-Plaza", "Caingin", "Calahunan", "Calaparan", "Calubihan", "Calumpang", "Camalig", "Cochero", "Compania", "Concepcion-Montes", "Cuartero", "Cubay", "Danao", "Delgado-Jalandoni-Bagumbayan", "Democracia", "Desamparados", "Divinagracia", "Don Esteban-Lapuz", "Dulonan", "Dungon", "Dungon A", "Dungon B", "East Baluarte", "East Timawa", "Edganzon", "El 98 Castilla", "Fajardo", "Flores", "General Hughes-Montes", "Gloria", "Gustilo", "Guzman-Jesena", "Habog-habog Salvacion", "Hibao-an Norte", "Hibao-an Sur", "Hinactacan", "Hipodromo", "Inday", "Infante", "Ingore", "Jalandoni Estate-Lapuz", "Jalandoni-Wilson", "Javellana", "Jereos", "Kahirupan", "Kasingkasing", "Katilingban", "Kauswagan", "Laguda", "Lanit", "Lapuz Norte", "Lapuz Sur", "Legaspi dela Rama", "Liberation", "Libertad, Santa Isabel", "Libertad-Lapuz", "Loboc-Lapuz", "Lopez Jaena", "Lopez Jaena Norte", "Lopez Jaena Sur", "Luna (Jaro)", "Luna (La Paz)", "M. V. Hechanova", "Mabolo-Delgado", "Macarthur", "Magdalo", "Magsaysay", "Magsaysay Village", "Malipayon-Delgado", "Mansaya-Lapuz", "Marcelo H. del Pilar", "Maria Clara", "Maria Cristina", "Mohon", "Molo Boulevard", "Monica Blumentritt", "Montinola", "Muelle Loney-Montes", "Nabitasan", "Navais", "Nonoy", "North Avancena", "North Baluarte", "North Fundidor", "North San Jose", "Obrero-Lapuz", "Onate de Leon", "Ortiz", "Osmena", "Our Lady of Fatima", "Our Lady of Lourdes", "Pale Benedicto Rizal", "PHHC Block 17", "PHHC Block 22 NHA", "Poblacion Molo", "President Roxas", "Progreso-Lapuz", "Punong-Lapuz", "Quezon", "Quintin Salas", "Railway", "Rima-Rizal", "Rizal", "Rizal Estanzuela", "Rizal Ibarra", "Rizal Palapala I", "Rizal Palapala II", "Roxas Village", "Sambag", "Sampaguita", "San Agustin", "San Antonio", "San Felix", "San Isidro (Jaro)", "San Isidro (La Paz)", "San Jose (Jaro)", "San Jose (Arevalo)", "San Jose (City Proper)", "San Juan", "San Nicolas", "San Pedro (Molo)", "San Pedro (Jaro)", "San Rafael", "San Roque", "San Vicente", "Santa Cruz", "Santa Filomena", "Santa Rosa", "Santo Domingo", "Santo Nino Norte", "Santo Nino Sur", "Santo Rosario-Duran", "Seminario", "Simon Ledesma", "Sinikway", "So-oc", "South Baluarte", "South Fundidor", "South San Jose", "Taal", "Tabuc Suba (Jaro)", "Tabuc Suba (La Paz)", "Tabucan", "Tacas", "Tagbac", "Tanza-Esperanza", "Tap-oc", "Taytay Zone II", "Ticud", "Timawa Tanza I", "Timawa Tanza II", "Ungka", "Veterans Village", "Villa Anita", "West Habog-habog", "West Timawa", "Yulo Drive", "Yulo-Arroyo", "Zamora-Melliza"};
+    string PassiBrgys[] = {"Agdahon", "Agdayao", "Aglalana", "Agtabo", "Agtambo", "Alimono", "Arac", "Ayuyan", "Bacuranan", "Bagacay", "Batu", "Bayan", "Bitaogan", "Buenavista", "Buyo", "Cabunga", "Cadilang", "Cairohan", "Dalicanan", "Gegachac", "Gemat-y", "Gemumua-agahon", "Gines Viejo", "Imbang Grande", "Jaguimitan", "Libo-o", "Maasin", "Magdungao", "Malag-it Grande", "Malag-it Pequeno", "Mambiranan Grande", "Mambiranan Pequeno", "Man-it", "Mantulang", "Mulapula", "Nueva Union", "Pagaypay", "Pangi", "Poblacion Ilawod", "Poblacion Ilaya", "Punong", "Quinagaringan Grande", "Quinagaringan Pequeno", "Sablogon", "Salngan", "Santo Tomas", "Sarapan", "Tagubong", "Talongonan", "Tubod", "Tuburan"};
+    string IloiloProvMuni[] = {"Ajuy", "Alimodian", "Anilao", "Badiangan", "Balasan", "Banate", "Barotac Nuevo", "Barotac Viejo", "Batad", "Bingawan", "Cabatuan", "Calinog", "Carles", "Concepcion", "Dingle", "Duenas", "Dumangas", "Estancia", "Guimbal", "Igbaras", "Janiuay", "Lambunao", "Leganes", "Lemery", "Leon", "Maasin", "Miagao", "Mina", "New Lucena", "Oton", "Pavia", "Pototan", "San Dionisio", "San Enrique", "San Joaquin", "San Miguel", "San Rafael", "Santa Barbara", "Sara", "Tigbauan", "Tubungan", "Zarraga"};
     string BagoBrgys[] = {"Abuanan", "Alianza", "Atipuluan", "Bacong-Montilla", "Bagroy", "Balingasag", "Binubuhan", "Busay", "Calumangan", "Caridad", "Dulao", "Ilijan", "Jorge L. Araneta", "Lag-asan", "Ma-ao Barrio", "Mailum", "Malingin", "Napoles", "Pacol", "Poblacion", "Sagasa", "Sampinit", "Tabunan", "Taloc"};
     string CadizBrgys[] = {"Andres Bonifacio", "Banquerohan", "Barangay 1 Poblacion", "Barangay 2 Poblacion", "Barangay 3 Poblacion", "Barangay 4 Poblacion", "Barangay 5 Poblacion", "Barangay 6 Poblacion", "Burgos", "Cabahug", "Cadiz Viejo", "Caduha-an", "Celestino Villacin", "Daga", "Jerusalem", "Luna", "Mabini", "Magsaysay", "Sicaba", "Tiglawigan", "Tinampa-an", "V. F. Gustilo"};
     string EscalanteBrgys[] = {"Alimango", "Balintawak", "Binaguiohan", "Buenavista", "Cervantes", "Dian-ay", "Hacienda Fe", "Japitan", "Jonobjonob", "Langub", "Libertad", "Mabini", "Magsaysay", "Malasibog", "Old Poblacion", "Paitan", "Pinapugasan", "Rizal", "Tamlang", "Udtongan", "Washington"};
@@ -86,55 +86,70 @@ int main () {
     string VictoriasBrgys[] = {"Barangay I", "Barangay II", "Barangay III", "Barangay IV", "Barangay IX", "Barangay V", "Barangay VI", "Barangay VI-A", "Barangay VII", "Barangay VIII", "Barangay X", "Barangay XI", "Barangay XII", "Barangay XIII", "Barangay XIV", "Barangay XIX", "Barangay XIX-A", "Barangay XV", "Barangay XV-A", "Barangay XVI", "Barangay XVI-A", "Barangay XVII", "Barangay XVIII", "Barangay XVIII-A", "Barangay XX", "Barangay XXI"};
     string BoholMuni[] = {"Alburquerque", "Alicia", "Anda", "Antequera", "Baclayon", "Balilihan", "Batuan", "Bien Unido", "Bilar", "Buenavista", "Calape", "Candijay", "Carmen", "Catigbian", "Clarin", "Corella", "Cortes", "Dagohoy", "Danao", "Dauis", "Dimiao", "Duero", "Garcia Hernandez", "Getafe", "Guindulman", "Inabanga", "Jagna", "Lila", "Loay", "Loboc", "Loon", "Mabini", "Maribojoc", "Panglao", "Pilar", "President Carlos P. Garcia", "Sagbayan", "San Isidro", "San Miguel", "Sevilla", "Sierra Bullones", "Sikatuna", "Talibon", "Trinidad", "Tubigon", "Ubay", "Valencia"};
     string TagbilaranBrgys[] = {"Bool", "Booy", "Cabawan", "Cogon", "Dampas", "Dao", "Manga", "Mansasa", "Poblacion I", "Poblacion II", "Poblacion III", "San Isidro", "Taloto", "Tiptip", "Ubujan"};
-    string BogoBrgys[] = {"Anonang Norte", "Anonang Sur", "Banban", "Binabag", "Bungtod", "Carbon", "Cayang", "Cogon", "Dakit", "Don Pedro Rodriguez", "Gairan", "Guadalupe", "La Paz", "La Purisima Concepcion", "Libertad", "Lourdes", "Malingin", "Marangog", "Nailon", "Odlot", "Pandan", "Polambato", "Sambag", "San Vicente", "Santo Niño", "Santo Rosario", "Siocon", "Sudlonon", "Taytayan"};
+    string BogoBrgys[] = {"Anonang Norte", "Anonang Sur", "Banban", "Binabag", "Bungtod", "Carbon", "Cayang", "Cogon", "Dakit", "Don Pedro Rodriguez", "Gairan", "Guadalupe", "La Paz", "La Purisima Concepcion", "Libertad", "Lourdes", "Malingin", "Marangog", "Nailon", "Odlot", "Pandan", "Polambato", "Sambag", "San Vicente", "Santo Nino", "Santo Rosario", "Siocon", "Sudlonon", "Taytayan"};
     string CarcarBrgys[] = {"Bolinawan", "Buenavista", "Calidngan", "Can-asujan", "Guadalupe", "Liburon", "Napo", "Ocana", "Perrelos", "Poblacion I", "Poblacion II", "Poblacion III", "Tuyom", "Valencia", "Valladolid"};
     string CebuCityBrgys[] = {"Adlaon", "Agsungot", "Apas", "Babag", "Bacayan", "Banilad", "Basak Pardo", "Basak San Nicolas", "Binaliw", "Bonbon", "Budla-an", "Buhisan", "Bulacao", "Buot-Taup Pardo", "Busay", "Calamba", "Cambinocot", "Camputhaw", "Capitol Site", "Carreta", "Central", "Cogon Pardo", "Cogon Ramos", "Day-as", "Duljo", "Ermita", "Guadalupe", "Guba", "Hippodromo", "Inayawan", "Kalubihan", "Kalunasan", "Kamagayan", "Kasambagan", "Kinasang-an Pardo", "Labangon", "Lahug", "Lorega", "Lusaran", "Luz", "Mabini", "Mabolo", "Malubog", "Mambaling", "Pahina Central", "Pahina San Nicolas", "Pamutan", "Pardo", "Pari-an", "Paril", "Pasil", "Pit-os", "Pulangbato", "Pung-ol-Sibugay", "Punta Princesa", "Quiot Pardo", "Sambag I", "Sambag II", "San Antonio", "San Jose", "San Nicolas Central", "San Roque", "Santa Cruz", "Sapangdaku", "Sawang Calero", "Sinsin", "Sirao", "Suba Poblacion", "Sudlon I", "Sudlon II", "T. Padilla", "Tabunan", "Tagbao", "Talamban", "Taptap", "Tejero", "Tinago", "Tisa", "To-ong Pardo", "Zapatera"};
     string DanaoBrgys[] = {"Baliang", "Bayabas", "Binaliw", "Cabungahan", "Cagat-Lamac", "Cahumayan", "Cambanay", "Cambubho", "Cogon-Cruz", "Danasan", "Dungga", "Dunggoan", "Guinacot", "Guinsay", "Ibo", "Langosig", "Lawaan", "Licos", "Looc", "Magtagobtob", "Malapoc", "Manlayag", "Mantija", "Masaba", "Maslog", "Nangka", "Oguis", "Pili", "Poblacion", "Quisol", "Sabang", "Sacsac", "Sandayong Norte", "Sandayong Sur", "Santa Rosa", "Santican", "Sibacan", "Suba", "Taboc", "Taytay", "Togonon", "Tuburan Sur"};
-    string LapuLapuBrgys[] = {"Agus", "Babag", "Bankal", "Baring", "Basak", "Buaya", "Calawisan", "Canjulao", "Caubian", "Cawhagan", "Caw-oy", "Gun-ob", "Ibo", "Looc", "Mactan", "Maribago", "Marigondon", "Pajac", "Pajo", "Pangan-an", "Poblacion", "Punta Engaño", "Pusok", "Sabang", "San Vicente", "Santa Rosa", "Subabasbas", "Talima", "Tingo", "Tungasan"};
+    string LapuLapuBrgys[] = {"Agus", "Babag", "Bankal", "Baring", "Basak", "Buaya", "Calawisan", "Canjulao", "Caubian", "Cawhagan", "Caw-oy", "Gun-ob", "Ibo", "Looc", "Mactan", "Maribago", "Marigondon", "Pajac", "Pajo", "Pangan-an", "Poblacion", "Punta Engano", "Pusok", "Sabang", "San Vicente", "Santa Rosa", "Subabasbas", "Talima", "Tingo", "Tungasan"};
     string MandaueBrgys[] = {"Alang-alang", "Bakilid", "Banilad", "Basak", "Cabancalan", "Cambaro", "Canduman", "Casili", "Casuntingan", "Centro", "Cubacub", "Guizo", "Ibabao-Estancia", "Jagobiao", "Labogon", "Looc", "Maguikay", "Mantuyong", "Opao", "Pagsabungan", "Pakna-an", "Subangdaku", "Tabok", "Tawason", "Tingub", "Tipolo", "Umapad"};
     string NagaCebuBrgys[] = {"Alfaco", "Bairan", "Balirong", "Cabungahan", "Cantao-an", "Central Poblacion", "Cogon", "Colon", "East Poblacion", "Inayagan", "Inoburan", "Jaguimit", "Lanas", "Langtad", "Lutac", "Mainit", "Mayana", "Naalad", "North Poblacion", "Pangdan", "Patag", "South Poblacion", "Tagjaguimit", "Tangke", "Tinaan", "Tuyan", "Uling", "West Poblacion"};
     string TalisayCebuBrgys[] = {"Biasong", "Bulacao", "Cadulawan", "Camp IV", "Cansojong", "Dumlog", "Jaclupan", "Lagtang", "Lawaan I", "Lawaan II", "Lawaan III", "Linao", "Maghaway", "Manipis", "Mohon", "Poblacion", "Pooc", "San Isidro", "San Roque", "Tabunoc", "Tangke", "Tapul"};
-    string ToledoBrgys[] = {"Awihao", "Bagakay", "Bato", "Biga", "Bulongan", "Bunga", "Cabitoonan", "Calongcalong", "Cambang-ug", "Camp 8", "Canlumampao", "Cantabaco", "Capitan Claudio", "Carmen", "Daanglungsod", "Don Andres Soriano", "Dumlog", "Gen. Climaco", "Ibo", "Ilihan", "Juan Climaco, Sr.", "Landahan", "Loay", "Luray II", "Matab-ang", "Media Once", "Pangamihan", "Poblacion", "Poog", "Putingbato", "Sagay", "Sam-ang", "Sangi", "Santo Niño", "Subayon", "Talavera", "Tubod", "Tungkay"};
+    string ToledoBrgys[] = {"Awihao", "Bagakay", "Bato", "Biga", "Bulongan", "Bunga", "Cabitoonan", "Calongcalong", "Cambang-ug", "Camp 8", "Canlumampao", "Cantabaco", "Capitan Claudio", "Carmen", "Daanglungsod", "Don Andres Soriano", "Dumlog", "Gen. Climaco", "Ibo", "Ilihan", "Juan Climaco, Sr.", "Landahan", "Loay", "Luray II", "Matab-ang", "Media Once", "Pangamihan", "Poblacion", "Poog", "Putingbato", "Sagay", "Sam-ang", "Sangi", "Santo Nino", "Subayon", "Talavera", "Tubod", "Tungkay"};
     string CebuProvMuni[] = {"Alcantara", "Alcoy", "Alegria", "Aloguinsan", "Argao", "Asturias", "Badian", "Balamban", "Bantayan", "Barili", "Boljoon", "Borbon", "Carmen", "Catmon", "Compostela", "Consolacion", "Cordova", "Daanbantayan", "Dalaguete", "Dumanjug", "Ginatilan", "Liloan", "Madridejos", "Malabuyoc", "Medellin", "Minglanilla", "Moalboal", "Oslob", "Pilar", "Pinamungajan", "Poro", "Ronda", "Samboan", "San Fernando", "San Francisco", "San Remigio", "Santa Fe", "Santander", "Sibonga", "Sogod", "Tabogon", "Tabuelan", "Talisay", "Toledo", "Tuburan", "Tudela"};
-    string BaisBrgys[] = {"Barangay I", "Barangay II", "Basak", "Biñohon", "Cabanlutan", "Calasga-an", "Cambagahan", "Cambaguio", "Cambanjao", "Cambuilao", "Canlargo", "Capiñahan", "Consolacion", "Dansulan", "Hangyad", "Katacgahan", "La Paz", "Lonoy", "Lo-oc", "Mabunao", "Manlipac", "Mansangaban", "Okiot", "Olympia", "Panala-an", "Panam-angan", "Rosario", "Sab-ahan", "San Isidro", "Tagpo", "Talungon", "Tamisu", "Tamogong", "Tangculogan", "Valencia"};
+    string BaisBrgys[] = {"Barangay I", "Barangay II", "Basak", "Binohon", "Cabanlutan", "Calasga-an", "Cambagahan", "Cambaguio", "Cambanjao", "Cambuilao", "Canlargo", "Capinahan", "Consolacion", "Dansulan", "Hangyad", "Katacgahan", "La Paz", "Lonoy", "Lo-oc", "Mabunao", "Manlipac", "Mansangaban", "Okiot", "Olympia", "Panala-an", "Panam-angan", "Rosario", "Sab-ahan", "San Isidro", "Tagpo", "Talungon", "Tamisu", "Tamogong", "Tangculogan", "Valencia"};
     string BayawanBrgys[] = {"Ali-is", "Banaybanay", "Banga", "Boyco", "Bugay", "Cansumalig", "Dawis", "Kalamtukan", "Kalumboyan", "Malabugas", "Mandu-ao", "Maninihon", "Minaba", "Nangka", "Narra", "Pagatban", "Poblacion", "San Isidro", "San Jose", "San Miguel", "San Roque", "Suba", "Tabuan", "Tayawan", "Tinago", "Ubos", "Villareal", "Villasol"};
     string CanlaonBrgys[] = {"Bayog", "Binalbagan", "Bucalan", "Budlasan", "Linothangan", "Lumapao", "Mabigo", "Malaiba", "Masulog", "Ninoy Aquino", "Panubigan", "Pula"};
     string DumagueteBrgys[] = {"Bagacay", "Bajumpandan", "Balugo", "Banilad", "Bantayan", "Batinguel", "Bunao", "Cadawinonan", "Calindagan", "Camanjac", "Candau-ay", "Cantil-e", "Daro", "Junob", "Looc", "Mangnao-Canal", "Motong", "Piapi", "Poblacion No. 1", "Poblacion No. 2", "Poblacion No. 3", "Poblacion No. 4", "Poblacion No. 5", "Poblacion No. 6", "Poblacion No. 7", "Poblacion No. 8", "Pulantubig", "Tabuctubig", "Taclobo"};
     string GuihulnganBrgys[] = {"Bakid", "Balogo", "Banwaque", "Basak", "Binobohan", "Buenavista", "Bulado", "Calamba", "Calupa-an", "Hibaiyo", "Hilaitan", "Hinakpan", "Humayhumay", "Imelda", "Kagawasan", "Linantuyan", "Luz", "Mabunga", "Magsaysay", "Malusay", "Maniak", "Mckinley", "Nagsaha", "Padre Zamora", "Plagatasanon", "Planas", "Poblacion", "Sandayao", "Tacpao", "Tinayunan Beach", "Tinayunan Hill", "Trinidad", "Villegas"};
-    string TanjayBrgys[] = {"Azagra", "Bahi-an", "Luca", "Manipis", "Novallas", "Obogon", "Pal-ew", "Poblacion I", "Poblacion II", "Poblacion III", "Poblacion IV", "Poblacion IX", "Poblacion V", "Poblacion VI", "Poblacion VII", "Poblacion VIII", "Polo", "San Isidro", "San Jose", "San Miguel", "Santa Cruz Nuevo", "Santa Cruz Viejo", "Santo Niño", "Tugas"};
+    string TanjayBrgys[] = {"Azagra", "Bahi-an", "Luca", "Manipis", "Novallas", "Obogon", "Pal-ew", "Poblacion I", "Poblacion II", "Poblacion III", "Poblacion IV", "Poblacion IX", "Poblacion V", "Poblacion VI", "Poblacion VII", "Poblacion VIII", "Polo", "San Isidro", "San Jose", "San Miguel", "Santa Cruz Nuevo", "Santa Cruz Viejo", "Santo Nino", "Tugas"};
     string BoronganBrgys[] = {"Alang-alang", "Amantacop", "Ando", "Balacdas", "Balud", "Banuyo", "Baras", "Bato", "Bayobay", "Benowangan", "Bugas", "Cabalagnan", "Cabong", "Cagbonga", "Calico-an", "Calingatngan", "Camada", "Campesao", "Can-abong", "Can-aga", "Canjaway", "Canlaray", "Canyopay", "Divinubo", "Hebacong", "Hindang", "Lalawigan", "Libuton", "Locso-on", "Maybacong", "Maypangdan", "Pepelitan", "Pinanag-an", "Punta Maria", "Purok A", "Purok B", "Purok C", "Purok D1", "Purok D2", "Purok E", "Purok F", "Purok G", "Purok H", "Sabang North", "Sabang South", "San Andres", "San Gabriel", "San Gregorio", "San Jose", "San Mateo", "San Pablo", "San Saturnino", "Santa Fe", "Siha", "Sohutan", "Songco", "Suribao", "Surok", "Taboc", "Tabunan", "Tamoso"};
     string EasternSamarMuni[] = {"Arteche", "Balangiga", "Balangkayan", "Can-avid", "Dolores", "General MacArthur", "Giporlos", "Guiuan", "Hernani", "Jipapad", "Lawaan", "Llorente", "Maslog", "Maydolong", "Mercedes", "Oras", "Quinapondan", "Salcedo", "San Julian", "San Policarpo", "Sulat", "Taft"};
     string BaybayBrgys[] = {"Altavista", "Ambacan", "Amguhan", "Ampihanon", "Balao", "Banahao", "Biasong", "Bidlinan", "Bitanhuan", "Bubon", "Buenavista", "Bunga", "Butigan", "Candadam", "Caridad", "Ciabo", "Cogon", "Ga-as", "Gabas", "Gakat", "Guadalupe", "Gubang", "Hibunawan", "Higuloan", "Hilapnitan", "Hipusngo", "Igang", "Imelda", "Jaena", "Kabalasan", "Kabatuan", "Kabungaan", "Kagumay", "Kambonggan", "Kan-ipa", "Kansungka", "Kantagnos", "Kilim", "Lintaon", "Maganhan", "Mahayahay", "Mailhi", "Maitum", "Makinhas", "Mapgap", "Marcos", "Maslug", "Matam-is", "Maybog", "Maypatag", "Monte Verde", "Monterico", "Palhi", "Pangasungan", "Pansagan", "Patag", "Plaridel", "Poblacion Zone 1", "Poblacion Zone 10", "Poblacion Zone 11", "Poblacion Zone 12", "Poblacion Zone 13", "Poblacion Zone 14", "Poblacion Zone 15", "Poblacion Zone 16", "Poblacion Zone 17", "Poblacion Zone 18", "Poblacion Zone 19", "Poblacion Zone 2", "Poblacion Zone 20", "Poblacion Zone 21", "Poblacion Zone 22", "Poblacion Zone 23", "Poblacion Zone 3", "Poblacion Zone 4", "Poblacion Zone 5", "Poblacion Zone 6", "Poblacion Zone 7", "Poblacion Zone 8", "Poblacion Zone 9", "Pomponan", "Punta", "Sabang", "San Agustin", "San Isidro", "San Juan", "Santa Cruz", "Santo Rosario", "Sapa", "Villa Mag-aso", "Villa Solidaridad", "Zacarito"};
-    string OrmocBrgys[] = {"Airport", "Alegria", "Alta Vista", "Bagong", "Bagong Buhay", "Bantigue", "Barangay 1", "Barangay 10", "Barangay 11", "Barangay 12", "Barangay 13", "Barangay 14", "Barangay 15", "Barangay 16", "Barangay 17", "Barangay 18", "Barangay 19", "Barangay 2", "Barangay 20", "Barangay 21", "Barangay 22", "Barangay 23", "Barangay 24", "Barangay 25", "Barangay 26", "Barangay 27", "Barangay 28", "Barangay 29", "Barangay 3", "Barangay 4", "Barangay 5", "Barangay 6", "Barangay 7", "Barangay 8", "Barangay 9", "Batuan", "Bayog", "Biliboy", "Borok", "Cabaon-an", "Cabintan", "Cabulihan", "Cagbuhangin", "Camp Downes", "Can-adieng", "Can-untog", "Catmon", "Cogon Combado", "Concepcion", "Curva", "Danao", "Danhug", "Dayhagan", "Dolores", "Domonar", "Don Felipe Larrazabal", "Don Potenciano Larrazabal", "Doña Feliza Z. Mejia", "Donghol", "Esperanza", "Gaas", "Green Valley", "Guintigui-an", "Hibunawon", "Hugpa", "Ipil", "Juaton", "Kadaohan", "Labrador", "Lao", "Leondoni", "Libertad", "Liberty", "Licuma", "Liloan", "Linao", "Luna", "Mabato", "Mabini", "Macabug", "Magaswi", "Mahayag", "Mahayahay", "Manlilinao", "Margen", "Mas-in", "Matica-a", "Milagro", "Monterico", "Nasunogan", "Naungan", "Nueva Sociedad", "Nueva Vista", "Patag", "Punta", "Quezon, Jr.", "Rufina M. Tan", "Sabang Bao", "Salvacion", "San Antonio", "San Isidro", "San Jose", "San Juan", "San Pablo", "San Vicente", "Santo Niño", "Sumangga", "Tambulilid", "Tongonan", "Valencia"};
+    string OrmocBrgys[] = {"Airport", "Alegria", "Alta Vista", "Bagong", "Bagong Buhay", "Bantigue", "Barangay 1", "Barangay 10", "Barangay 11", "Barangay 12", "Barangay 13", "Barangay 14", "Barangay 15", "Barangay 16", "Barangay 17", "Barangay 18", "Barangay 19", "Barangay 2", "Barangay 20", "Barangay 21", "Barangay 22", "Barangay 23", "Barangay 24", "Barangay 25", "Barangay 26", "Barangay 27", "Barangay 28", "Barangay 29", "Barangay 3", "Barangay 4", "Barangay 5", "Barangay 6", "Barangay 7", "Barangay 8", "Barangay 9", "Batuan", "Bayog", "Biliboy", "Borok", "Cabaon-an", "Cabintan", "Cabulihan", "Cagbuhangin", "Camp Downes", "Can-adieng", "Can-untog", "Catmon", "Cogon Combado", "Concepcion", "Curva", "Danao", "Danhug", "Dayhagan", "Dolores", "Domonar", "Don Felipe Larrazabal", "Don Potenciano Larrazabal", "Dona Feliza Z. Mejia", "Donghol", "Esperanza", "Gaas", "Green Valley", "Guintigui-an", "Hibunawon", "Hugpa", "Ipil", "Juaton", "Kadaohan", "Labrador", "Lao", "Leondoni", "Libertad", "Liberty", "Licuma", "Liloan", "Linao", "Luna", "Mabato", "Mabini", "Macabug", "Magaswi", "Mahayag", "Mahayahay", "Manlilinao", "Margen", "Mas-in", "Matica-a", "Milagro", "Monterico", "Nasunogan", "Naungan", "Nueva Sociedad", "Nueva Vista", "Patag", "Punta", "Quezon, Jr.", "Rufina M. Tan", "Sabang Bao", "Salvacion", "San Antonio", "San Isidro", "San Jose", "San Juan", "San Pablo", "San Vicente", "Santo Nino", "Sumangga", "Tambulilid", "Tongonan", "Valencia"};
     string LeyteProvMuni[] = {"Abuyog", "Alangalang", "Albuera", "Babatngon", "Barugo", "Bato", "Burauen", "Calubian", "Capoocan", "Carigara", "Dagami", "Dulag", "Hilongos", "Hindang", "Inopacan", "Isabel", "Jaro", "Javier", "Julita", "Kananga", "La Paz", "Leyte", "MacArthur", "Mahaplag", "Matag-ob", "Matalom", "Mayorga", "Merida", "Palo", "Palompon", "Pastrana", "San Isidro", "San Miguel", "Santa Fe", "Tabango", "Tabontabon", "Tanauan", "Tolosa", "Tungasan", "Villaba"};
     string NorthernSamarMuni[] = {"Allen", "Biri", "Bobon", "Capul", "Catarman - Capital of Northern Samar", "Catubig", "Gamay", "Laoang", "Lapinig", "Las Navas", "Lavezares", "Lope de Vega", "Mapanas", "Mondragon", "Palapag", "Pambujan", "Rosario", "San Antonio", "San Isidro", "San Jose", "San Roque", "San Vicente", "Silvino Lobos", "Victoria"};
-    string SamarMuni[] = {"Almagro", "Basey", "Calbiga", "Daram", "Gandara", "Hinabangan", "Jiabong", "Marabut", "Matuguinao", "Motiong", "Pagsanghan", "Paranas", "Pinabacdao", "San Jorge", "San Jose de Buan", "San Sebastian", "Santa Margarita", "Santa Rita", "Santo Niño", "Tagapul-an", "Talalora", "Tarangnan", "Villareal", "Zumarraga"};
-    string CalbayogBrgys[] = {"Acedillo", "Aguit-itan", "Alibaba", "Amampacang", "Anislag", "Awang East", "Awang West", "Ba-ay", "Bagacay", "Bagong Lipunan", "Baja", "Balud", "Bante", "Bantian", "Basud", "Bayo", "Begaho", "Binaliw", "Bontay", "Buenavista", "Bugtong", "Cabacungan", "Cabatuan", "Cabicahan", "Cabugawan", "Cacaransan", "Cag-anahaw", "Cag-anibong", "Cagbanayacao", "Cagbayang", "Cagbilwang", "Cagboborac", "Caglanipao Sur", "Cagmanipes Norte", "Cagmanipes Sur", "Cagnipa", "Cag-olango", "Cagsalaosao", "Cahumpan", "Calocnayan", "Cangomaod", "Canhumadac", "Capacuhan", "Capoocan", "Carayman", "Carmen", "Catabunan", "Caybago", "Central", "Cogon", "Dagum", "Danao I", "Danao II", "Dawo", "De Victoria", "Dinabongan", "Dinagan", "Dinawacan", "Esperanza", "Gabay", "Gadgaran", "Gasdo", "Geraga-an", "Guimbaoyan Norte", "Guimbaoyan Sur", "Guin-on", "Hamorawon", "Helino", "Hibabngan", "Hibatang", "Higasaan", "Himalandrog", "Hugon Rosales", "Jacinto", "Jimautan", "Jose A. Roño", "Kalilihan", "Kilikili", "La Paz", "Langoyon", "Lapaan", "Libertad", "Limarayon", "Longsob", "Lonoy", "Looc", "Mabini I", "Mabini II", "Macatingog", "Mag-ubay", "Maguino-o", "Malaga", "Malajog", "Malayog", "Malopalo", "Mancol", "Mantaong", "Manuel Barral, Sr.", "Marcatubig", "Matobato", "Mawacat", "Maybog", "Maysalong", "Migara", "Nabang", "Naga", "Naguma", "Navarro", "Nijaga", "Oboob", "Obrero", "Olera", "Oquendo", "Osmeña", "Pagbalican", "Palanas", "Palanogan", "Panlayahan", "Panonongan", "Panoypoy", "Patong", "Payahan", "Peña", "Pilar", "Pinamorotan", "Quezon", "Rawis", "Rizal I", "Rizal II", "Roxas I", "Roxas II", "Saljag", "Salvacion", "San Antonio", "San Isidro", "San Joaquin", "San Jose", "San Policarpio", "San Rufino", "Saputan", "Sigo", "Sinantan", "Sinidman Occidental", "Sinidman Oriental", "Tabawan", "Talahiban", "Tanval", "Tapa-e", "Tarabucan", "Tigbe", "Tinambacan Norte", "Tinambacan Sur", "Tinaplacan", "Tomaliguez", "Trinidad", "Victory", "Villahermosa"};
-    string CatbaloganBrgys[] = {"Albalate", "Bagongon", "Bangon", "Basiao", "Buluan", "Bunuanan", "Cabugawan", "Cagudalo", "Cagusipan", "Cagutian", "Cagutsan", "Canhawan Gote", "Canlapwas", "Cawayan", "Cinco", "Darahuway Daco", "Darahuway Gote", "Estaka", "Guindaponan", "Guinsorongan", "Ibol", "Iguid", "Lagundi", "Libas", "Lobo", "Manguehay", "Maulong", "Mercedes", "Mombon", "Muñoz", "New Mahayag", "Old Mahayag", "Palanyogon", "Pangdan", "Payao", "Poblacion 1", "Poblacion 10", "Poblacion 11", "Poblacion 12", "Poblacion 13", "Poblacion 2", "Poblacion 3", "Poblacion 4", "Poblacion 5", "Poblacion 6", "Poblacion 7", "Poblacion 8", "Poblacion 9", "Pupua", "Rama", "San Andres", "San Pablo", "San Roque", "San Vicente", "Silanga", "Socorro", "Totoringon"};
-    string MaasinBrgys[] = {"Abgao", "Acasia", "Asuncion", "Bactul I", "Bactul II", "Badiang", "Bagtican", "Basak", "Bato I", "Bato II", "Batuan", "Baugo", "Bilibol", "Bogo", "Cabadiangan", "Cabulihan", "Cagnituan", "Cambooc", "Cansirong", "Canturing", "Canyuom", "Combado", "Dongon", "Gawisan", "Guadalupe", "Hanginan", "Hantag", "Hinapu Daku", "Hinapu Gamay", "Ibarra", "Isagani", "Laboon", "Lanao", "Libertad", "Libhu", "Lib-og", "Lonoy", "Lunas", "Mahayahay", "Malapoc Norte", "Malapoc Sur", "Mambajao", "Manhilo", "Mantahan", "Maria Clara", "Matin-ao", "Nasaug", "Nati", "Nonok Norte", "Nonok Sur", "Panan-awan", "Pansaan", "Pasay", "Pinascohan", "Rizal", "San Agustin", "San Isidro", "San Jose", "San Rafael", "Santa Cruz", "Santa Rosa", "Santo Niño", "Santo Rosario", "Soro-soro", "Tagnipa", "Tam-is", "Tawid", "Tigbawan", "Tomoy-tomoy", "Tunga-tunga"};
+    string SamarMuni[] = {"Almagro", "Basey", "Calbiga", "Daram", "Gandara", "Hinabangan", "Jiabong", "Marabut", "Matuguinao", "Motiong", "Pagsanghan", "Paranas", "Pinabacdao", "San Jorge", "San Jose de Buan", "San Sebastian", "Santa Margarita", "Santa Rita", "Santo Nino", "Tagapul-an", "Talalora", "Tarangnan", "Villareal", "Zumarraga"};
+    string CalbayogBrgys[] = {"Acedillo", "Aguit-itan", "Alibaba", "Amampacang", "Anislag", "Awang East", "Awang West", "Ba-ay", "Bagacay", "Bagong Lipunan", "Baja", "Balud", "Bante", "Bantian", "Basud", "Bayo", "Begaho", "Binaliw", "Bontay", "Buenavista", "Bugtong", "Cabacungan", "Cabatuan", "Cabicahan", "Cabugawan", "Cacaransan", "Cag-anahaw", "Cag-anibong", "Cagbanayacao", "Cagbayang", "Cagbilwang", "Cagboborac", "Caglanipao Sur", "Cagmanipes Norte", "Cagmanipes Sur", "Cagnipa", "Cag-olango", "Cagsalaosao", "Cahumpan", "Calocnayan", "Cangomaod", "Canhumadac", "Capacuhan", "Capoocan", "Carayman", "Carmen", "Catabunan", "Caybago", "Central", "Cogon", "Dagum", "Danao I", "Danao II", "Dawo", "De Victoria", "Dinabongan", "Dinagan", "Dinawacan", "Esperanza", "Gabay", "Gadgaran", "Gasdo", "Geraga-an", "Guimbaoyan Norte", "Guimbaoyan Sur", "Guin-on", "Hamorawon", "Helino", "Hibabngan", "Hibatang", "Higasaan", "Himalandrog", "Hugon Rosales", "Jacinto", "Jimautan", "Jose A. Rono", "Kalilihan", "Kilikili", "La Paz", "Langoyon", "Lapaan", "Libertad", "Limarayon", "Longsob", "Lonoy", "Looc", "Mabini I", "Mabini II", "Macatingog", "Mag-ubay", "Maguino-o", "Malaga", "Malajog", "Malayog", "Malopalo", "Mancol", "Mantaong", "Manuel Barral, Sr.", "Marcatubig", "Matobato", "Mawacat", "Maybog", "Maysalong", "Migara", "Nabang", "Naga", "Naguma", "Navarro", "Nijaga", "Oboob", "Obrero", "Olera", "Oquendo", "Osmena", "Pagbalican", "Palanas", "Palanogan", "Panlayahan", "Panonongan", "Panoypoy", "Patong", "Payahan", "Pena", "Pilar", "Pinamorotan", "Quezon", "Rawis", "Rizal I", "Rizal II", "Roxas I", "Roxas II", "Saljag", "Salvacion", "San Antonio", "San Isidro", "San Joaquin", "San Jose", "San Policarpio", "San Rufino", "Saputan", "Sigo", "Sinantan", "Sinidman Occidental", "Sinidman Oriental", "Tabawan", "Talahiban", "Tanval", "Tapa-e", "Tarabucan", "Tigbe", "Tinambacan Norte", "Tinambacan Sur", "Tinaplacan", "Tomaliguez", "Trinidad", "Victory", "Villahermosa"};
+    string CatbaloganBrgys[] = {"Albalate", "Bagongon", "Bangon", "Basiao", "Buluan", "Bunuanan", "Cabugawan", "Cagudalo", "Cagusipan", "Cagutian", "Cagutsan", "Canhawan Gote", "Canlapwas", "Cawayan", "Cinco", "Darahuway Daco", "Darahuway Gote", "Estaka", "Guindaponan", "Guinsorongan", "Ibol", "Iguid", "Lagundi", "Libas", "Lobo", "Manguehay", "Maulong", "Mercedes", "Mombon", "Munoz", "New Mahayag", "Old Mahayag", "Palanyogon", "Pangdan", "Payao", "Poblacion 1", "Poblacion 10", "Poblacion 11", "Poblacion 12", "Poblacion 13", "Poblacion 2", "Poblacion 3", "Poblacion 4", "Poblacion 5", "Poblacion 6", "Poblacion 7", "Poblacion 8", "Poblacion 9", "Pupua", "Rama", "San Andres", "San Pablo", "San Roque", "San Vicente", "Silanga", "Socorro", "Totoringon"};
+    string MaasinBrgys[] = {"Abgao", "Acasia", "Asuncion", "Bactul I", "Bactul II", "Badiang", "Bagtican", "Basak", "Bato I", "Bato II", "Batuan", "Baugo", "Bilibol", "Bogo", "Cabadiangan", "Cabulihan", "Cagnituan", "Cambooc", "Cansirong", "Canturing", "Canyuom", "Combado", "Dongon", "Gawisan", "Guadalupe", "Hanginan", "Hantag", "Hinapu Daku", "Hinapu Gamay", "Ibarra", "Isagani", "Laboon", "Lanao", "Libertad", "Libhu", "Lib-og", "Lonoy", "Lunas", "Mahayahay", "Malapoc Norte", "Malapoc Sur", "Mambajao", "Manhilo", "Mantahan", "Maria Clara", "Matin-ao", "Nasaug", "Nati", "Nonok Norte", "Nonok Sur", "Panan-awan", "Pansaan", "Pasay", "Pinascohan", "Rizal", "San Agustin", "San Isidro", "San Jose", "San Rafael", "Santa Cruz", "Santa Rosa", "Santo Nino", "Santo Rosario", "Soro-soro", "Tagnipa", "Tam-is", "Tawid", "Tigbawan", "Tomoy-tomoy", "Tunga-tunga"};
     string SouthernLeyteMuni[] = {"Anahawan", "Bontoc", "Hinunangan", "Hinundayan", "Libagon", "Liloan", "Limasawa", "Macrohon", "Malitbog", "Padre Burgos", "Pintuyan", "Saint Bernard", "San Francisco", "San Juan", "San Ricardo", "Silago", "Sogod", "Tomas Oppus"};
     string TaclobanBrgys[] = {"Barangay 100", "Barangay 101", "Barangay 102", "Barangay 103", "Barangay 103-A", "Barangay 104", "Barangay 105", "Barangay 106", "Barangay 107", "Barangay 108", "Barangay 109", "Barangay 109-A", "Barangay 110", "Barangay 12", "Barangay 13", "Barangay 14", "Barangay 15", "Barangay 16", "Barangay 17", "Barangay 18", "Barangay 19", "Barangay 2", "Barangay 20", "Barangay 21", "Barangay 21-A", "Barangay 22", "Barangay 23", "Barangay 23-A", "Barangay 24", "Barangay 25", "Barangay 26", "Barangay 27", "Barangay 28", "Barangay 29", "Barangay 30", "Barangay 31", "Barangay 32", "Barangay 33", "Barangay 34", "Barangay 35", "Barangay 35-A", "Barangay 36", "Barangay 36-A", "Barangay 37", "Barangay 37-A", "Barangay 38", "Barangay 39", "Barangay 40", "Barangay 41", "Barangay 42", "Barangay 42-A", "Barangay 43", "Barangay 43-A", "Barangay 43-B", "Barangay 44", "Barangay 44-A", "Barangay 45", "Barangay 46", "Barangay 47", "Barangay 48", "Barangay 48-A", "Barangay 48-B", "Barangay 49", "Barangay 5", "Barangay 50", "Barangay 50-A", "Barangay 50-B", "Barangay 51", "Barangay 51-A", "Barangay 52", "Barangay 53", "Barangay 54", "Barangay 54-A", "Barangay 56", "Barangay 56-A", "Barangay 57", "Barangay 58", "Barangay 59", "Barangay 59-A", "Barangay 59-B", "Barangay 5-A", "Barangay 6", "Barangay 60", "Barangay 60-A", "Barangay 61", "Barangay 62", "Barangay 62-A", "Barangay 62-B", "Barangay 63", "Barangay 64", "Barangay 65", "Barangay 66", "Barangay 66-A", "Barangay 67", "Barangay 68", "Barangay 69", "Barangay 6-A", "Barangay 7", "Barangay 70", "Barangay 71", "Barangay 72", "Barangay 73", "Barangay 74", "Barangay 75", "Barangay 76", "Barangay 77", "Barangay 78", "Barangay 79", "Barangay 8", "Barangay 80", "Barangay 81", "Barangay 82", "Barangay 83", "Barangay 83-A", "Barangay 83-B", "Barangay 83-C", "Barangay 84", "Barangay 85", "Barangay 86", "Barangay 87", "Barangay 88", "Barangay 89", "Barangay 8-A", "Barangay 90", "Barangay 91", "Barangay 92", "Barangay 93", "Barangay 94", "Barangay 94-A", "Barangay 95", "Barangay 95-A", "Barangay 96", "Barangay 97", "Barangay 98", "Barangay 99", "El Reposo", "Libertad", "Nula-tula"};
-    string DapitanBrgys[] = {"Aliguay", "Antipolo", "Aseniero", "Ba-ao", "Bagting", "Banbanan", "Banonong", "Barcelona", "Baylimango", "Burgos", "Canlucani", "Carang", "Cawa-cawa", "Dampalan", "Daro", "Dawo", "Diwa-an", "Guimputlan", "Hilltop", "Ilaya", "Kauswagan", "Larayan", "Linabo", "Liyang", "Maria Cristina", "Maria Uray", "Masidlakon", "Matagobtob Poblacion", "Napo", "Opao", "Oro", "Owaon", "Oyan", "Polo", "Potol", "Potungan", "San Francisco", "San Nicolas", "San Pedro", "San Vicente", "Santa Cruz", "Santo Niño", "Sicayab-Bucana", "Sigayan", "Selinog", "Sinonoc", "Sulangon", "Tag-ulo", "Taguilon", "Tamion"};
+    string DapitanBrgys[] = {"Aliguay", "Antipolo", "Aseniero", "Ba-ao", "Bagting", "Banbanan", "Banonong", "Barcelona", "Baylimango", "Burgos", "Canlucani", "Carang", "Cawa-cawa", "Dampalan", "Daro", "Dawo", "Diwa-an", "Guimputlan", "Hilltop", "Ilaya", "Kauswagan", "Larayan", "Linabo", "Liyang", "Maria Cristina", "Maria Uray", "Masidlakon", "Matagobtob Poblacion", "Napo", "Opao", "Oro", "Owaon", "Oyan", "Polo", "Potol", "Potungan", "San Francisco", "San Nicolas", "San Pedro", "San Vicente", "Santa Cruz", "Santo Nino", "Sicayab-Bucana", "Sigayan", "Selinog", "Sinonoc", "Sulangon", "Tag-ulo", "Taguilon", "Tamion"};
     string DipologBrgys[] = {"Barra", "Biasong", "Central", "Cogon", "Dicayas", "Diwan", "Estaca", "Galas", "Gulayon", "Lugdungan", "Minaog", "Miputak", "Olingan", "Punta", "San Jose", "Sangkol", "Santa Filomena", "Santa Isabel", "Sicayab", "Sinaman", "Turno"};
-    string PagadianBrgys[] = {"Alegria", "Balangasan", "Balintawak", "Baloyboan", "Banale", "Bogo", "Bomba", "Buenavista", "Bulatok", "Bulawan", "Dampalan", "Danlugan", "Dao", "Datagan", "Deborok", "Ditoray", "Dumagoc", "Gatas", "Gubac", "Gubang", "Kagawasan", "Kahayagan", "Kalasan", "Kawit", "La Suerte", "Lala", "Lapidian", "Lenienza", "Lizon Valley", "Lourdes", "Lower Sibatang", "Lumad", "Lumbia", "Macasing", "Manga", "Muricay", "Napolan", "Palpalan", "Pedulonan", "Poloyagan", "San Francisco", "San Jose", "San Pedro", "Santa Lucia", "Santa Maria", "Santiago", "Santo Niño", "Tawagan Sur", "Tiguma", "Tuburan", "Tulangan", "Tulawas", "Upper Sibatang", "White Beach"};
-    string ZamboangaCityBrgys[] = {"Arena Blanco", "Ayala", "Baliwasan", "Baluno", "Barangay Zone I", "Barangay Zone II", "Barangay Zone III", "Barangay Zone IV", "Boalan", "Bolong", "Buenavista", "Bunguiao", "Busay", "Cabaluay", "Cabatangan", "Cacao", "Calabasa", "Calarian", "Camino Nuevo", "Campo Islam", "Canelar", "Capisan", "Cawit", "Culianan", "Curuan", "Dita", "Divisoria", "Dulian (Upper Bunguiao)", "Dulian (Upper Pasonanca)", "Guisao", "Guiwan", "Kasanyangan", "La Paz", "Labuan", "Lamisahan", "Landang Gua", "Landang Laum", "Lanzones", "Lapakan", "Latuan", "Licomo", "Limaong", "Limpapa", "Lubigan", "Lumayang", "Lumbangan", "Lunzuran", "Maasin", "Malagutay", "Mampang", "Manalipa", "Mangusu", "Manicahan", "Mariki", "Mercedes", "Muti", "Pamucutan", "Pangapuyan", "Panubigan", "Pasilmanta", "Pasobolong", "Pasonanca", "Patalon", "Putik", "Quiniput", "Recodo", "Rio Hondo", "Salaan", "San Jose Cawa-cawa", "San Jose Gusu", "San Roque", "Sangali", "Santa Barbara", "Santa Catalina", "Santa Maria", "Santo Niño", "Sibulao", "Sinubung", "Sinunoc", "Tagasilay", "Taguiti", "Talabaan", "Talisayan", "Talon-talon", "Taluksangay", "Tetuan", "Tictapul", "Tigbalabag", "Tigtabon", "Tolosa", "Tugbungan", "Tulungatung", "Tumaga", "Tumalutab", "Tumitus", "Victoria", "Vitali", "Zambowood"};
-    string ZamboangaNorteMuni[] = {"Baliguian", "Godod", "Gutalac", "Jose Dalman", "Kalawit", "Katipunan", "La Libertad", "Labason", "Leon B. Postigo", "Liloy", "Manukan", "Mutia", "Piñan", "Polanco", "President Manuel A. Roxas", "Rizal", "Salug", "Sergio Osmeña SR.", "Siayan", "Sibuco", "Sibutad", "Sindangan", "Siocon", "Sirawai", "Tampilisan"};
+    string PagadianBrgys[] = {"Alegria", "Balangasan", "Balintawak", "Baloyboan", "Banale", "Bogo", "Bomba", "Buenavista", "Bulatok", "Bulawan", "Dampalan", "Danlugan", "Dao", "Datagan", "Deborok", "Ditoray", "Dumagoc", "Gatas", "Gubac", "Gubang", "Kagawasan", "Kahayagan", "Kalasan", "Kawit", "La Suerte", "Lala", "Lapidian", "Lenienza", "Lizon Valley", "Lourdes", "Lower Sibatang", "Lumad", "Lumbia", "Macasing", "Manga", "Muricay", "Napolan", "Palpalan", "Pedulonan", "Poloyagan", "San Francisco", "San Jose", "San Pedro", "Santa Lucia", "Santa Maria", "Santiago", "Santo Nino", "Tawagan Sur", "Tiguma", "Tuburan", "Tulangan", "Tulawas", "Upper Sibatang", "White Beach"};
+    string ZamboangaCityBrgys[] = {"Arena Blanco", "Ayala", "Baliwasan", "Baluno", "Barangay Zone I", "Barangay Zone II", "Barangay Zone III", "Barangay Zone IV", "Boalan", "Bolong", "Buenavista", "Bunguiao", "Busay", "Cabaluay", "Cabatangan", "Cacao", "Calabasa", "Calarian", "Camino Nuevo", "Campo Islam", "Canelar", "Capisan", "Cawit", "Culianan", "Curuan", "Dita", "Divisoria", "Dulian (Upper Bunguiao)", "Dulian (Upper Pasonanca)", "Guisao", "Guiwan", "Kasanyangan", "La Paz", "Labuan", "Lamisahan", "Landang Gua", "Landang Laum", "Lanzones", "Lapakan", "Latuan", "Licomo", "Limaong", "Limpapa", "Lubigan", "Lumayang", "Lumbangan", "Lunzuran", "Maasin", "Malagutay", "Mampang", "Manalipa", "Mangusu", "Manicahan", "Mariki", "Mercedes", "Muti", "Pamucutan", "Pangapuyan", "Panubigan", "Pasilmanta", "Pasobolong", "Pasonanca", "Patalon", "Putik", "Quiniput", "Recodo", "Rio Hondo", "Salaan", "San Jose Cawa-cawa", "San Jose Gusu", "San Roque", "Sangali", "Santa Barbara", "Santa Catalina", "Santa Maria", "Santo Nino", "Sibulao", "Sinubung", "Sinunoc", "Tagasilay", "Taguiti", "Talabaan", "Talisayan", "Talon-talon", "Taluksangay", "Tetuan", "Tictapul", "Tigbalabag", "Tigtabon", "Tolosa", "Tugbungan", "Tulungatung", "Tumaga", "Tumalutab", "Tumitus", "Victoria", "Vitali", "Zambowood"};
+    string ZamboangaNorteMuni[] = {"Baliguian", "Godod", "Gutalac", "Jose Dalman", "Kalawit", "Katipunan", "La Libertad", "Labason", "Leon B. Postigo", "Liloy", "Manukan", "Mutia", "Pinan", "Polanco", "President Manuel A. Roxas", "Rizal", "Salug", "Sergio Osmena SR.", "Siayan", "Sibuco", "Sibutad", "Sindangan", "Siocon", "Sirawai", "Tampilisan"};
     string ZamboangaSurMuni[] = {"Aurora", "Bayog", "Dimataling", "Dinas", "Dumalinao", "Dumingag", "Guipos", "Josefina", "Kumalarang", "Labangan", "Lakewood", "Lapuyan", "Mahayag", "Margosatubig", "Midsalip", "Molave", "Pitogo", "Ramon Magsaysay", "San Miguel", "San Pablo", "Sominot", "Tabina", "Tambulig", "Tigbao", "Tukuran", "Vincenzo A. Sagun"};
-    string PanaboBrgys[] = {"A. O. Floirendo", "Buenavista", "Cacao", "Cagangohan", "Consolacion", "Dapco", "Datu Abdul Dadia", "Gredu", "J. P. Laurel", "Kasilak", "Katipunan", "Katualan", "Kauswagan", "Kiotoy", "Little Panay", "Lower Panaga", "Mabunao", "Maduao", "Malativas", "Manay", "Nanyo", "New Malaga", "New Malitbog", "New Pandan", "New Visayas", "Quezon", "Salvacion", "San Francisco", "San Nicolas", "San Pedro", "San Roque", "San Vicente", "Santa Cruz", "Santo Niño", "Sindaton", "Southern Davao", "Tagpore", "Tibungol", "Upper Licanan", "Waterfall"};
-    string SamalBrgys[] = {"Adecor", "Anonang", "Aumbay", "Aundanao", "Balet", "Bandera", "Caliclic", "Camudmud", "Catagman", "Cawag", "Cogon", "Cogon (Talicod)", "Dadatan", "Del Monte", "Guilon", "Kanaan", "Kinawitnon", "Libertad", "Libuak", "Licup", "Limao", "Linosutan", "Mambago-A", "Mambago-B", "Miranda", "Moncado", "Pangubatan", "Peñaplata", "Poblacion", "San Agustin", "San Antonio", "San Isidro (Babak)", "San Isidro (Kaputian)", "San Jose", "San Miguel", "San Remigio", "Santa Cruz", "Santo Niño", "Sion", "Tagbaobo", "Tagbay", "Tagbitan-ag", "Tagdaliao", "Tagpopongan", "Tambo", "Toril"};
+    string PanaboBrgys[] = {"A. O. Floirendo", "Buenavista", "Cacao", "Cagangohan", "Consolacion", "Dapco", "Datu Abdul Dadia", "Gredu", "J. P. Laurel", "Kasilak", "Katipunan", "Katualan", "Kauswagan", "Kiotoy", "Little Panay", "Lower Panaga", "Mabunao", "Maduao", "Malativas", "Manay", "Nanyo", "New Malaga", "New Malitbog", "New Pandan", "New Visayas", "Quezon", "Salvacion", "San Francisco", "San Nicolas", "San Pedro", "San Roque", "San Vicente", "Santa Cruz", "Santo Nino", "Sindaton", "Southern Davao", "Tagpore", "Tibungol", "Upper Licanan", "Waterfall"};
+    string SamalBrgys[] = {"Adecor", "Anonang", "Aumbay", "Aundanao", "Balet", "Bandera", "Caliclic", "Camudmud", "Catagman", "Cawag", "Cogon", "Cogon (Talicod)", "Dadatan", "Del Monte", "Guilon", "Kanaan", "Kinawitnon", "Libertad", "Libuak", "Licup", "Limao", "Linosutan", "Mambago-A", "Mambago-B", "Miranda", "Moncado", "Pangubatan", "Penaplata", "Poblacion", "San Agustin", "San Antonio", "San Isidro (Babak)", "San Isidro (Kaputian)", "San Jose", "San Miguel", "San Remigio", "Santa Cruz", "Santo Nino", "Sion", "Tagbaobo", "Tagbay", "Tagbitan-ag", "Tagdaliao", "Tagpopongan", "Tambo", "Toril"};
     string TagumBrgys[] = {"Apokon", "Bincungan", "Busaon", "Canocotan", "Cuambogan", "La Filipina", "Liboganon", "Madaum", "Magdum", "Magugpo East", "Magugpo North", "Magugpo Poblacion", "Magugpo South", "Magugpo West", "Mankilam", "New Balamban", "Nueva Fuerza", "Pagsabangan", "Pandapan", "San Agustin", "San Isidro", "San Miguel", "Visayan Village"};
     string SurigaoNorteMuni[] = {"Alegria", "Bacuag", "Burgos", "Claver", "Dapa", "Del Carmen", "General Luna", "Gigaquit", "Mainit", "Malimono", "Pilar", "Placer", "San Benito", "San Francisco", "San Isidro", "Santa Monica", "Sison", "Socorro", "Tagana-an", "Tubod", "Barobo"};
     string SurigaoSurMuni[] = {"Barobo", "Bayabas", "Cagwait", "Cantilan", "Carmen", "Carrascal", "Cortes", "Hinatuan", "Lanuza", "Lianga", "Lingig", "Madrid", "Marihatag", "San Agustin", "San Miguel", "Tagbina", "Tago"};
     string LanaoSurMuni[] = {"Amai Manabilang", "Bacolod-Kalawi", "Balabagan", "Balindong", "Bayang", "Binidayan", "Buadiposo-Buntong", "Bubong", "Butig", "Calanogas", "Ditsaan-Ramain", "Ganassi", "Kapai", "Kapatagan", "Lumba-Bayabao", "Lumbaca-Unayan", "Lumbatan", "Lumbayanague", "Madalum", "Madamba", "Maguing", "Malabang", "Marantao", "Marogong", "Masiu", "Mulondo", "Pagayawan", "Piagapo", "Picong", "Poona Bayabao", "Pualas", "Saguiaran", "Sultan Dumalondong", "Tagoloan II", "Tamparan", "Taraka", "Tubaran", "Tugaya", "Wao"};
     string MaguindanaoMuni[] = {"Ampatuan", "Barira", "Buldon", "Buluan", "Datu Abdullah Sangki", "Datu Anggal Midtimbang", "Datu Blah T. Sinsuat", "Datu Hoffer Ampatuan", "Datu Montawal", "Datu Odin Sinsuat", "Datu Paglas", "Datu Piang", "Datu Salibo", "Datu Saudi-Ampatuan", "Datu Unsay", "General Salipada K. Pendatun", "Guindulungan", "Kabuntalan", "Mamasapano", "Mangudadatu", "Matanog", "Northern Kabuntalan", "Pagalungan", "Paglat", "Pandag", "Parang", "Rajah Buayan", "Shariff Aguak - Capital of Maguindanao", "Shariff Saydona Mustapaha", "South Upi", "Sultan Kudarat", "Sultan Mastura", "Sultan sa Barongis", "Sultan Sumagka", "Talayan", "Upi"};
     string SuluMuni[] = {"Banguingui", "Hadji Panglima Tahil", "Indanan", "Jolo - Capital of Sulu", "Kalingalan Caluang", "Lugus", "Luuk", "Maimbung", "Old Panamao", "Omar", "Pandami", "Panglima Estino", "Pangutaran", "Parang", "Pata", "Patikul", "Siasi", "Talipao", "Tapul"};
-    string AbraMuni[] = {"Bangued - Capital of Abra", "Boliney", "Bucay", "Bucloc", "Daguioman", "Danglas", "Dolores", "La Paz", "Lacub", "Langailang", "Lagayan", "Langiden", "Licuan-Baay", "Luba", "Malibcong", "Manabo", "Peñarrubia", "Pidigan", "Pilar", "Sallapadan", "San Isidro", "San Juan", "San Quintin", "Tayum", "Tineg", "Tubo", "Villaciviosa"};
+    string AbraMuni[] = {"Bangued - Capital of Abra", "Boliney", "Bucay", "Bucloc", "Daguioman", "Danglas", "Dolores", "La Paz", "Lacub", "Langailang", "Lagayan", "Langiden", "Licuan-Baay", "Luba", "Malibcong", "Manabo", "Penarrubia", "Pidigan", "Pilar", "Sallapadan", "San Isidro", "San Juan", "San Quintin", "Tayum", "Tineg", "Tubo", "Villaciviosa"};
     string BukidnonMuni[] = { "Baungon", "Cabanglasan", "Damulog", "Dangcagan", "Don Carlos", "Impasugong", "Kadingilan", "Kalilangan", "Kibawe", "Kitaotao", "Lantapan", "Libona", "Malitbog", "Manolo Fortich", "Maramag", "Pangantucan", "Quezon", "San Fernando", "Sumilao", "Talakag" };
     string CamiguinMuni[] = { "Catarman", "Guinsiliban", "Mahinog", "Mambajao", "Sagay" };
     string LanaoDelNorteMuni[] = { "Bacolod", "Baloi", "Baroy", "Kapatagan", "Kauswagan", "Kolambugan", "Lala", "Linamon", "Magsaysay", "Maigo", "Matungao", "Munai", "Nunungan", "Pantao Ragat", "Pantar", "Poona Piagapo", "Salvador", "Sapad", "Sultan Naga Dimaporo", "Tagoloan", "Tangcal", "Tubod" };
     string MisamisOccidentalMuni[] = { "Aloran", "Baliangao", "Bonifacio", "Calamba", "Clarin", "Concepcion", "Don Victoriano Chiongbian", "Jimenez", "Lopes Jaena", "Panaon", "Plaridel", "Sapang Dalaga", "Sinacaban", "Tudela" };
     string MisamisOrientalMuni[] = { "Alubijid", "Balingasag", "Balingoan", "Binuangan", "Claveria", "Gitagum", "Initao", "Jasaan", "Kinoguitan", "Lagonglong", "Laguindingan", "Libertad", "Lugait", "Magsaysay", "Manticao", "Medina", "Naawan", "Opol", "Salay", "Sugbongcogon", "Tagoloan", "Talisayan", "Villanueva" };
-
+    string GeneralSantosBrgys[] = {"Apopong", "Baluan", "Batomelong", "Buayan", "Bula", "Calumpang", "City Heights", "Conel", "Dadiangas East", "Dadiangas North", "Dadiangas South", "Dadiangas West", "Fatima", "Katangawan", "Labangal", "Lagao", "Ligaya", "Mabuhay", "Olympog", "San Isidro", "San Jose", "Siguel", "Sinawal", "Tambler", "Tinagacan", "Upper Labay"};
+    string KoronadalBrgys[] = {"Assumption", "Avancena", "Cacub", "Caloocan", "Carpenter Hill", "Concepcion", "Esperanza", "General Paulino Santos", "Mabini", "Magsaysay", "Mambucal", "Morales", "Namnama", "New Pangasinan", "Paraiso", "Rotonda", "San Isidro", "San Jose", "San Roque", "Santa Cruz", "Santo Nino", "Sarabia", "Zone I", "Zone II", "Zone III", "Zone IV", "Zulueta"};
+    string TangubBrgys[] = {"Aquino", "Balatacan", "Baluk", "Banglay", "Barangay I-City Hall", "Barangay III-Market Kalubian", "Barangay II-Marilou Annex", "Barangay IV-Saint Michael", "Barangay VII-Upper Polao", "Barangay VI-Lower Polao", "Barangay V-Malubog", "Bintana", "Bocator", "Bongabong", "Caniangan", "Capalaran", "Catagan", "Garang", "Guinabot", "Guinalaban", "Huyohoy", "Isidro D. Tan", "Kauswagan", "Kimat", "Labuyo", "Lorenzo Tan", "Lumban", "Maloro", "Manga", "Mantic", "Maquilao", "Matugnaw", "Migcanaway", "Minsubong", "Owayan", "Paiton", "Panalsalan", "Pangabuan", "Prenza", "Salimpuno", "San Antonio", "San Apolinario", "San Vicente", "Santa Cruz", "Santa Maria", "Santo Nino", "Sicot", "Silanga", "Silangit", "Simasay", "Sumirap", "Taguite", "Tituron", "Tugas", "Villaba"};
+    string OzamizBrgys[] = {"50th District", "Aguada", "Bacolod", "Bagakay", "Balintawak", "Banadero", "Baybay San Roque", "Baybay Santa Cruz", "Baybay Triunfo", "Bongbong", "Calabayan", "Capucao C.", "Capucao P.", "Carangan", "Carmen", "Catadman-Manabay", "Cavinte", "Cogon", "Dalapang", "Diguan", "Dimaluna", "Dona Consuelo", "Embargo", "Gala", "Gango", "Gotokan Daku", "Gotokan Diot", "Guimad", "Guingona", "Kinuman Norte", "Kinuman Sur", "Labinay", "Labo", "Lam-an", "Liposong", "Litapan", "Malaubang", "Manaka", "Maningcol", "Mentering", "Molicay", "Pantaon", "Pulot", "San Antonio", "Sangay Daku", "Sangay Diot", "Sinuza", "Stimson Abordo", "Tabid", "Tinago", "Trigos"};
+    string OroquietaBrgys[] = {"Apil", "Binuangan", "Bolibol", "Buenavista", "Bunga", "Buntawan", "Burgos", "Canubay", "Ciriaco C. Pastrano", "Clarin Settlement", "Dolipos Alto", "Dolipos Bajo", "Dulapo", "Dullan Norte", "Dullan Sur", "Lamac Lower", "Lamac Upper", "Langcangan Lower", "Langcangan Proper", "Langcangan Upper", "Layawan", "Loboc Lower", "Loboc Upper", "Malindang", "Mialen", "Mobod", "Paypayan", "Pines", "Poblacion I", "Poblacion II", "Rizal Lower", "Rizal Upper", "San Vicente Alto", "San Vicente Bajo", "Sebucal", "Senote", "Taboc Norte", "Taboc Sur", "Talairon", "Talic", "Tipan", "Toliyok", "Tuyabang Alto", "Tuyabang Bajo", "Tuyabang Proper", "Victoria", "Villaflor"};
+    string DavaoCityBrgys[] = {"Acacia", "Agdao", "Alambre", "Alejandra Navarro", "Alfonso Angliongto Sr.", "Angalan", "Atan-awe", "Baganihan", "Bago Aplaya", "Bago Gallera", "Bago Oshiro", "Baguio", "Balengaeng", "Baliok", "Bangkas Heights", "Bantol", "Baracatan", "Barangay 10-A", "Barangay 11-B", "Barangay 12-B", "Barangay 13-B", "Barangay 14-B", "Barangay 15-B", "Barangay 16-B", "Barangay 17-B", "Barangay 18-B", "Barangay 19-B", "Barangay 1-A", "Barangay 20-B", "Barangay 21-C", "Barangay 22-C", "Barangay 23-C", "Barangay 24-C", "Barangay 25-C", "Barangay 26-C", "Barangay 27-C", "Barangay 28-C", "Barangay 29-C", "Barangay 2-A", "Barangay 30-C", "Barangay 31-D", "Barangay 32-D", "Barangay 33-D", "Barangay 34-D", "Barangay 35-D", "Barangay 36-D", "Barangay 37-D", "Barangay 38-D", "Barangay 39-D", "Barangay 3-A", "Barangay 40-D", "Barangay 4-A", "Barangay 5-A", "Barangay 6-A", "Barangay 7-A", "Barangay 8-A", "Barangay 9-A", "Bato", "Bayabas", "Biao Escuela", "Biao Guianga", "Biao Joaquin", "Binugao", "Bucana", "Buda", "Buhangin", "Bunawan", "Cabantian", "Cadalian", "Calinan", "Callawa", "Camansi", "Carmen", "Catalunan Grande", "Catalunan Pequeno", "Catigan", "Cawayan", "Centro", "Colosas", "Communal", "Crossing Bayabas", "Dacudao", "Dalag", "Dalagdag", "Daliao", "Daliaon Plantation", "Datu Salumay", "Dominga", "Dumoy", "Eden", "Fatima", "Gatungan", "Gov. Paciano Bangoy", "Gov. Vicente Duterte", "Gumalang", "Gumitan", "Ilang", "Inayangan", "Indangan", "Kap. Tomas Monteverde, Sr.", "Kilate", "Lacson", "Lamanan", "Lampianao", "Langub", "Lapu-lapu", "Leon Garcia, Sr.", "Lizada", "Los Amigos", "Lubogan", "Lumiad", "Ma-a", "Mabuhay", "Magsaysay", "Magtuod", "Mahayag", "Malabog", "Malagos", "Malamba", "Manambulan", "Mandug", "Manuel Guianga", "Mapula", "Marapangi", "Marilog", "Matina Aplaya", "Matina Biao", "Matina Crossing", "Matina Pangi", "Megkawayan", "Mintal", "Mudiang", "Mulig", "New Carmen", "New Valencia", "Pampanga", "Panacan", "Panalum", "Pandaitan", "Pangyan", "Paquibato", "Paradise Embak", "Rafael Castillo", "Riverside", "Salapawan", "Salaysay", "Saloy", "San Antonio", "San Isidro", "Santo Nino", "Sasa", "Sibulan", "Sirawan", "Sirib", "Suawan", "Subasta", "Sumimao", "Tacunan", "Tagakpan", "Tagluno", "Tagurano", "Talandang", "Talomo", "Talomo River", "Tamayong", "Tambobong", "Tamugan", "Tapak", "Tawan-tawan", "Tibuloy", "Tibungco", "Tigatto", "Toril", "Tugbok", "Tungakalan", "Ubalde", "Ula", "Vicente Hizon Sr.", "Waan", "Wangan", "Wilfredo Aquino", "Wines"}; 
+    string DigosCityBrgys[] = {"Aplaya", "Balabag", "Binaton", "Cogon", "Colorado", "Dawis", "Dulangan", "Goma", "Igpit", "Kapatagan", "Kiagot", "Lungag", "Mahayahay", "Matti", "Ruparan", "San Agustin", "San Jose", "San Miguel", "San Roque", "Sinawilan", "Soong", "Tiguman", "Tres de Mayo", "Zone 1", "Zone 2"};
+    string MarawiBrgys[] = {"Ambolong", "Amito Marantao", "Bacolod Chico Proper", "Banga", "Bangco", "Banggolo Poblacion", "Bangon", "Basak Malutlut", "Beyaba-Damag", "Bito Buadi Itowa", "Bito Buadi Parba", "Boganga", "Boto Ambolong", "Buadi Sacayo", "Bubong Lumbac", "Bubonga Cadayonan", "Bubonga Lilod Madaya", "Bubonga Marawi", "Bubonga Pagalamatan", "Bubonga Punod", "Cabasaran", "Cabingan", "Cadayonan", "Cadayonan I", "Calocan East", "Calocan West", "Daguduban", "Dansalan", "Datu Naga", "Datu sa Dansalan", "Dayawan", "Dimaluna", "Dulay", "Dulay West", "East Basak", "Emie Punud", "Fort", "Gadongan", "Gadongan Mapantao", "Guimba", "Kapantaran", "Kilala", "Kormatan Matampay", "Lilod Madaya", "Lilod Saduc", "Lomidong", "Lumbac Marinaut", "Lumbaca Madaya", "Lumbaca Toros", "Malimono", "Marawi Poblacion", "Marinaut East", "Marinaut West", "Matampay", "Mipaga Proper", "Moncado Colony", "Moncado Kadingilan", "Moriatao Loksadato", "Navarro", "Norhaya Village", "Olawa Ambolong", "Pagalamatan Gambai", "Pagayawan", "Panggao Saduc", "Pantaon", "Papandayan", "Papandayan Caniogan", "Paridi", "Patani", "Pindolonan", "Poona Marantao", "Pugaan", "Rapasun MSU", "Raya Madaya I", "Raya Madaya II", "Raya Saduc", "Rorogagus East", "Rorogagus Proper", "Sabala Manao", "Sabala Manao Proper", "Saduc Proper", "Sagonsongan", "Sangcay Dansalan", "Somiorang", "South Madaya Proper", "Sugod Proper", "Tampilong", "Timbangalan", "Tolali", "Tongantongan-Tuca Timbangalan", "Toros", "Tuca", "Tuca Ambolong", "Tuca Marinaut", "Wawalayan Calocan", "Wawalayan Marinaut"};
+    string TabukBrgys[] = {"Agbannawag", "Amlao", "Appas", "Bado Dangwa", "Bagumbayan", "Balawag", "Balong", "Bantay", "Bulanao", "Bulanao Norte", "Bulo", "Cabaritan", "Cabaruan", "Calaccad", "Calanan", "Casigayan", "Cudal", "Dagupan Centro", "Dagupan Weste", "Dilag", "Dupag", "Gobgob", "Guilayon", "Ipil", "Lacnog", "Lacnog West", "Lanna", "Laya East", "Laya West", "Lucog", "Magnao", "Magsaysay", "Malalao", "Malin-awa", "Masablang", "Nambaran", "Nambucayan", "Naneng", "New Tanglag", "San Juan", "San Julian", "Suyang", "Tuga"};
+    string BaguioBrgys[] = {"A. Bonifacio-Caguioa-Rimando", "Abanao-Zandueta-Kayong-Chugum-Otek", "Alfonso Tabora", "Ambiong", "Andres Bonifacio", "Apugan-Loakan", "Asin Road", "Atok Trail", "Aurora Hill Proper", "Aurora Hill, North Central", "Aurora Hill, South Central", "Bagong Lipunan", "Bakakeng Central", "Bakakeng North", "Bal-Marcoville", "Balsigan", "Bayan Park East", "Bayan Park Village", "Bayan Park West", "BGH Compound", "Brookside", "Brookspoint", "Cabinet Hill-Teacher's Camp", "Camdas Subdivision", "Camp 7", "Camp 8", "Camp Allen", "Campo Filipino", "City Camp Central", "City Camp Proper", "Country Club Village", "Cresencia Village", "Dagsian, Lower", "Dagsian, Upper", "Dizon Subdivision", "Dominican Hill-Mirador", "Dontogan", "DPS Area", "Engineers' Hill", "Fairview Village", "Ferdinand", "Fort del Pilar", "Gabriela Silang", "General Emilio F. Aguinaldo", "General Luna, Lower", "General Luna, Upper", "Gibraltar", "Greenwater Village", "Guisad Central", "Guisad Sorong", "Happy Hollow", "Happy Homes", "Harrison-Claudio Carantes", "Hillside", "Holy Ghost Extension", "Holy Ghost Proper", "Honeymoon", "Imelda R. Marcos", "Imelda Village", "Irisan", "Kabayanihan", "Kagitingan", "Kayang Extension", "Kayang-Hilltop", "Kias", "Legarda-Burnham-Kisad", "Liwanag-Loakan", "Loakan Proper", "Lopez Jaena", "Lourdes Subdivision Extension", "Lourdes Subdivision, Lower", "Lourdes Subdivision, Proper", "Lualhati", "Lucnab", "Magsaysay Private Road", "Magsaysay, Lower", "Magsaysay, Upper", "Malcolm Square-Perfecto", "Manuel A. Roxas", "Market Subdivision, Upper", "Middle Quezon Hill Subdivision", "Military Cut-off", "Mines View Park", "Modern Site, East", "Modern Site, West", "MRR-Queen of Peace", "New Lucban", "Outlook Drive", "Pacdal", "Padre Burgos", "Padre Zamora", "Palma-Urbano", "Phil-Am", "Pinget", "Pinsao Pilot Project", "Pinsao Proper", "Poliwes", "Pucsusan", "Quezon Hill Proper", "Quezon Hill, Upper", "Quirino Hill, East", "Quirino Hill, Lower", "Quirino Hill, Middle", "Quirino Hill, West", "Quirino-Magsaysay, Upper", "Rizal Monument Area", "Rock Quarry, Lower", "Rock Quarry, Middle", "Rock Quarry, Upper", "Saint Joseph Village", "Salud Mitra", "San Antonio Village", "San Luis Village", "San Roque Village", "San Vicente", "Sanitary Camp, North", "Sanitary Camp, South", "Santa Escolastica", "Santo Rosario", "Santo Tomas Proper", "Santo Tomas School Area", "Scout Barrio", "Session Road Area", "Slaughter House Area", "SLU-SVP Housing Village", "South Drive", "Teodora Alonzo", "Trancoville", "Victoria Village"};
+    string SurigaoCityBrgys[] = {"Alang-alang", "Alegria", "Anomar", "Aurora", "Balibayon", "Baybay", "Bilabid", "Bitaugan", "Bonifacio", "Buenavista", "Cabongbongan", "Cagniog", "Cagutsan", "Canlanipa", "Cantiasay", "Capalayan", "Catadman", "Danao", "Danawan", "Day-asan", "Ipil", "Libuac", "Lipata", "Lisondra", "Luna", "Mabini", "Mabua", "Manyagao", "Mapawa", "Mat-i", "Nabago", "Nonoc", "Orok", "Poctoy", "Punta Bilar", "Quezon", "Rizal", "Sabang", "San Isidro", "San Jose", "San Juan", "San Pedro", "San Roque", "Serna", "Sidlakan", "Silop", "Sugbay", "Sukailang", "Taft", "Talisay", "Togbongon", "Trinidad", "Washington", "Zaragoza"};
+    string BayuganBrgys[] = {"Berseba", "Bucac", "Cagbas", "Calaitan", "Canayugan", "Charito", "Claro Cortez", "Fili", "Gamao", "Getsemane", "Grace Estate", "Hamogaway", "Katipunan", "Mabuhay", "Magkiangkang", "Mahayag", "Marcelina", "Maygatasan", "Montivesta", "Mt. Ararat", "Mt. Carmel", "Mt. Olive", "New Salem", "Noli", "Osmena", "Panaytay", "Pinagalaan", "Poblacion", "Sagmone", "Saguma", "Salvacion", "San Agustin", "San Isidro", "San Juan", "Santa Irene", "Santa Teresita", "Santo Nino", "Taglatawan", "Taglibas", "Tagubay", "Verdu", "Villa Undayon", "Wawa"};
+    string ButuanBrgys[] = {"Agao Poblacion", "Agusan Pequeno", "Ambago", "Amparo", "Ampayon", "Anticala", "Antongalon", "Aupagan", "Baan KM 3", "Baan Riverside Poblacion", "Babag", "Bading Poblacion", "Bancasi", "Banza", "Baobaoan", "Basag", "Bayanihan Poblacion", "Bilay", "Bitan-agan", "Bit-os", "Bobon", "Bonbon", "Bugabus", "Bugsukan", "Buhangin Poblacion", "Cabcabon", "Camayahan", "Dagohoy Poblacion", "Dankias", "De Oro", "Diego Silang Poblacion", "Don Francisco", "Doongan", "Dulag", "Dumalagan", "Florida", "Golden Ribbon Poblacion", "Holy Redeemer Poblacion", "Humabon Poblacion", "Imadejas Poblacion", "Jose Rizal Poblacion", "Kinamlutan", "Lapu-lapu Poblacion", "Lemon", "Leon Kilat Poblacion", "Libertad", "Limaha Poblacion", "Los Angeles", "Lumbocan", "Maguinda", "Mahay", "Mahogany Poblacion", "Maibu", "Mandamo", "Manila de Bugabus", "Maon Poblacion", "Masao", "Maug", "New Society Village Poblacion", "Nong-nong", "Obrero Poblacion", "Ong Yiu Poblacion", "Pagatpatan", "Pangabugan", "Pianing", "Pigdaulan", "Pinamanculan", "Port Poyohon Poblacion", "Rajah Soliman Poblacion", "Salvacion", "San Ignacio Poblacion", "San Mateo", "San Vicente", "Santo Nino", "Sikatuna Poblacion", "Silongan Poblacion", "Sumile", "Sumilihon", "Tagabaca", "Taguibo", "Taligaman", "Tandang Sora Poblacion", "Tiniwisan", "Tungao", "Urduja Poblacion", "Villa Kananga"};
+    string CabadbaranBrgys[] = {"Antonio Luna", "Bayabas", "Bay-ang", "Caasinan", "Cabinet", "Calamba", "Calibunan", "Comagascas", "Concepcion", "Del Pilar", "Katugasan", "Kauswagan", "La Union", "Mabini", "Mahaba", "Poblacion 1", "Poblacion 10", "Poblacion 11", "Poblacion 12", "Poblacion 2", "Poblacion 3", "Poblacion 4", "Poblacion 5", "Poblacion 6", "Poblacion 7", "Poblacion 8", "Poblacion 9", "Puting Bato", "Sanghan", "Soriano", "Tolosa"};
+    string MatiCityBrgys[] = {"Badas", "Bobon", "Buso", "Cabuaya", "Central", "Culian", "Dahican", "Danao", "Dawan", "Don Enrique Lopez", "Don Martin Marundan", "Don Salvador Lopez, Sr.", "Langka", "Lawigan", "Libudon", "Luban", "Macambol", "Mamali", "Matiao", "Mayo", "Sainz", "Sanghay", "Tagabakid", "Tagbinonga", "Taguibo", "Tamisan"};
+    string IliganBrgys[] = {"Abuno", "Acmac", "Bagong Silang", "Bonbonon", "Bunawan", "Buru-un", "Dalipuga", "Del Carmen", "Digkilaan", "Ditucalan", "Dulag", "Hinaplanon", "Hindang", "Kabacsanan", "Kalilangan", "Kiwalan", "Lanipao", "Luinab", "Mahayhay", "Mainit", "Mandulog", "Maria Cristina", "Palao", "Panoroganan", "Poblacion", "Puga-an", "Rogongon", "San Miguel", "San Roque", "Santa Elena", "Santa Filomena", "Santiago", "Santo Rosario", "Saray-Tibanga", "Suarez", "Tambacan", "Tibanga", "Tipanoy", "Tominobo Proper", "Tominobo Upper", "Tubod", "Ubaldo Laya", "Upper Hinaplanon", "Villa Verde"};
     string greeting = "\nWELCOME TO THE GEOGRAPHICAL INFORMATION OF THE PHILIPPINES!";
     char choose;
     char decision1, decision2;
@@ -194,7 +209,7 @@ int main () {
             cout << "It has 4 provinces, 9 cities, 116 municipalities, and 3,267 barangays." << endl;
             cout << "Its area is 129.65 per kilometer squared." << endl;
             cout << "It has a total population of 5,301,139 as of 2020." << endl;
-            cout << "Would you like to find about the different provinces in Ilocos Region? (Y/N): ";
+            cout << "Would you like to find out about the different provinces in Ilocos Region? (Y/N): ";
             cin >> prov;
             
                 if (prov == 'Y' || prov == 'y'){
@@ -1287,7 +1302,7 @@ int main () {
             case 2: { //CASE2
             char prov;
             char cmb;
-            cout << "REGION II - Cagayan Valley";
+            cout << "REGION II - Cagayan Valley" << endl;
             cout << "Cagayan Valley is located in Luzon" << endl;
             cout << "It has a total population of 3,685,744 people as of 2020." << endl;
             cout << "Its area is 298.37 in kilometer squared." << endl;
@@ -1535,7 +1550,7 @@ int main () {
                             }
 
                             case 19:{
-                            cout << "1. You have chosen the municipality of Peñablanca.\n";
+                            cout << "1. You have chosen the municipality of Penablanca.\n";
                             
                             break;
                             }
@@ -1577,7 +1592,7 @@ int main () {
                             }
 
                             case 26:{
-                            cout << "1. You have chosen the municipality of Santo Niño.\n";
+                            cout << "1. You have chosen the municipality of Santo Nino.\n";
                             
                             break;
                             }
@@ -1918,7 +1933,7 @@ int main () {
                         if(cmb == 'M' || cmb == 'm'){
                         char municipal;
                         cout << "Here are all the municipalities in Nueva Viscaya: " << endl;
-                        cout << "1. Alfonso Castañeda\n";
+                        cout << "1. Alfonso Castaneda\n";
                         cout << "2. Ambaguio\n";
                         cout << "3. Aritao\n";
                         cout << "4. Bagabag\n";
@@ -1947,7 +1962,7 @@ int main () {
                             cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}         
                         switch (barangays){
 	                    case 1:{
-	                    cout << "You have chosen the municipality of Alfonso Castañeda.\n";
+	                    cout << "You have chosen the municipality of Alfonso Castaneda.\n";
 	                    
 	                    break;
 	                    }
@@ -2126,8 +2141,10 @@ int main () {
             case 3: {
             char prov;
             char cmb;
-            cout << "REGION III - Central Luzon";
-            cout << "PLACE INFORMATION HERE" << endl;
+            cout << "REGION III - Central Luzon" << endl;
+            cout << "Central Luzon has the largest contiguous flat land area in the Philippines. It is known as the Rice Granary of the Philippines." << endl;
+            cout << "It has a total of 12,422,172 people as of 2020." << endl;
+            cout << "It has 7 provinces, 14 cities, 116 municipalities, and 3,102 barangays." << endl;
             cout << "Would you like to find out about the different provinces in Central Luzon? (Y/N): ";
             cin >> prov;
 
@@ -2453,7 +2470,7 @@ int main () {
                         cout << "5. Bulakan\n";
                         cout << "6. Bustos\n";
                         cout << "7. Calumpit\n";
-                        cout << "8. Doña Remedios Trinidad\n";
+                        cout << "8. Dona Remedios Trinidad\n";
                         cout << "9. Guiginto\n";
                         cout << "10. Hagonoy\n";
                         cout << "11. Marilao\n"; 
@@ -2509,7 +2526,7 @@ int main () {
                             break;
                         }
                         case 8: {
-                            cout << "You have chosen the municipality of Doña Remedios Trinidad.\n";
+                            cout << "You have chosen the municipality of Dona Remedios Trinidad.\n";
                             break;
                         }
                         case 9: {
@@ -2581,7 +2598,7 @@ int main () {
                         cout << "Here are all the cities in Nueva Ecija: " << endl;
                         cout << "1. Cabanatuan\n";
                         cout << "2. Gapan\n";
-                        cout << "3. Muñoz\n";
+                        cout << "3. Munoz\n";
                         cout << "4. Palayan - Capital of Nueva Ecija\n";
                         cout << "5. San Jose\n";
 
@@ -2606,7 +2623,7 @@ int main () {
                             break;
                             }
                             case 3:{
-                            cout << "You have chosen the city of Muñoz.\n";
+                            cout << "You have chosen the city of Munoz.\n";
                             break;
                             }
                             case 4:{
@@ -2727,7 +2744,7 @@ int main () {
                         }
 
                         case 17: {
-                            cout << "You have chosen the municipality of Peñaranda\n";
+                            cout << "You have chosen the municipality of Penaranda\n";
                             break;
                         }
 
@@ -3392,9 +3409,11 @@ int main () {
             case 4: {
             char prov;
             char cmb;
-            cout << "REGION IV-A - CALABARZON";
-            cout << "PLACE INFORMATION HERE" << endl;
-            cout << "Would you like to find out about the different provinces in CALABARZON? (Y/N): " << endl;
+            cout << "REGION IV-A - CALABARZON" << endl;
+            cout << "CALABARZON is an acronym of Cavite, Laguna, Batangas, Rizal, and Quezon. It identifies as the 'nucleus' of industrialization in the Philippines. It is also known as the industrial powerhouse of the Philippines. " << endl;
+            cout << "It has a total of 16,195,042 people as of 2020." << endl;
+            cout << "It has 5 provinces, 20 cities, 122 municipalities, and 4,019 barangays." << endl;
+            cout << "Would you like to find out about the different provinces in CALABARZON? (Y/N): ";
             cin >> prov;
 
                 if (prov == 'Y' || prov == 'y'){
@@ -3755,7 +3774,7 @@ int main () {
                         cout << "Here are all the cities in Cavite: " << endl;
                         cout << "1. Bacoor\n";
                         cout << "2. Cavite City\n";
-                        cout << "3. Dasmariñas\n";
+                        cout << "3. Dasmarinas\n";
                         cout << "4. General Trias\n";
                         cout << "5. Imus - Capital of Cavite\n";
                         cout << "6. Tagaytay\n";
@@ -3804,10 +3823,10 @@ int main () {
 
                         case 3:{
                         int barangayCount = sizeof(DasmaBrgys)/sizeof(DasmaBrgys[0]);
-                        cout << "You have chosen the city of Dasmariñas.\n";
+                        cout << "You have chosen the city of Dasmarinas.\n";
                         cout << "Mayor: Jennifer A. Barzaga\n";
-                        cout << "The City of Dasmariñas is a 1st class component city and it is known as the Industrial Giant of CALABARZON. It is one of Cavite's most rapidly growing local government units. The city has a wide variety of commercial establishments, including retail malls, fast food chains, groceries, convenience stores, restaurants, etc.\n";
-                        cout << "The City of Dasmariñas' ZIP code is 4114, 4115, 4126.\n";
+                        cout << "The City of Dasmarinas is a 1st class component city and it is known as the Industrial Giant of CALABARZON. It is one of Cavite's most rapidly growing local government units. The city has a wide variety of commercial establishments, including retail malls, fast food chains, groceries, convenience stores, restaurants, etc.\n";
+                        cout << "The City of Dasmarinas' ZIP code is 4114, 4115, 4126.\n";
                         cout << "According to the 2020 census, its total population is 703,141.\n";
                         cout << "Here are all the barangays in : \n";
                         for (int i = 0; i < barangayCount; ++i) {
@@ -4043,7 +4062,7 @@ int main () {
                         if (cmb == 'C' || cmb == 'c'){
                         char citybarangays;
                         cout << "Here are all the cities in Laguna: " << endl;
-                        cout << "1. Biñan\n";
+                        cout << "1. Binan\n";
                         cout << "2. Cabuyao\n";
                         cout << "3. Calamba - Regional Center of CALABARZON\n";
                         cout << "4. San Pablo\n";
@@ -4064,15 +4083,15 @@ int main () {
                                 cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch (barangays){
                         case 1:{
-                        int barangayCount = sizeof(BiñanCityBrgys)/sizeof(BiñanCityBrgys[0]);
-                        cout << "You have chosen the city of Biñan.\n";
+                        int barangayCount = sizeof(BinanCityBrgys)/sizeof(BinanCityBrgys[0]);
+                        cout << "You have chosen the city of Binan.\n";
                         cout << "Mayor: Walfredo R. Dimaguila\n";
-                        cout << "The City of Biñan is a 1st class component city and is mostly recognized as a major economic center of Laguna for its industrial parks, as well as a suburb of Metro Manila. The city is also known for a type of pancake made from rice flour, topped with cheese or butter (Puto Biñan).\n";
-                        cout << "The City of Biñan's ZIP code is 4024, 4034 in Laguna Technopark.\n";
+                        cout << "The City of Binan is a 1st class component city and is mostly recognized as a major economic center of Laguna for its industrial parks, as well as a suburb of Metro Manila. The city is also known for a type of pancake made from rice flour, topped with cheese or butter (Puto Binan).\n";
+                        cout << "The City of Binan's ZIP code is 4024, 4034 in Laguna Technopark.\n";
                         cout << "According to the 2020 census, its total population is 407,437.\n";
-                        cout << "Here are all the barangays in Biñan: \n";
+                        cout << "Here are all the barangays in Binan: \n";
                         for (int i = 0; i < barangayCount; ++i) {
-                            cout << i + 1 << ". " << BiñanCityBrgys[i] << "\n";
+                            cout << i + 1 << ". " << BinanCityBrgys[i] << "\n";
                         }
                         break;
                         }
@@ -4226,7 +4245,7 @@ int main () {
                         }
                         
                         case 8:{
-                        cout << "You have chosen the municipality of Los Baños.\n";
+                        cout << "You have chosen the municipality of Los Banos.\n";
                         
                         
                         break;
@@ -4387,7 +4406,7 @@ int main () {
                         cout << "According to the 2020 census, its total population is 278,924.\n";
                         cout << "Here are all the barangays in Lucena: \n";
                         for (int i = 0; i < barangayCount; ++i) {
-                            cout << i + 1 << ". " << BiñanCityBrgys[i] << "\n";
+                            cout << i + 1 << ". " << BinanCityBrgys[i] << "\n";
                         }
                         break;
                         }
@@ -4870,9 +4889,11 @@ int main () {
             case 5: {
             char prov;
             char cmb; 
-            cout << "MIMAROPA REGION";
-            cout << "PLACE INFORMATION HERE" << endl;
-            cout << "Would you like to find out about the different provinces in MIMAROPA? (Y/N): " << endl;
+            cout << "REGION IV-B MIMAROPA REGION" << endl;
+            cout << "MIMAROPA is an acronym of Mindoro, Marinduque, Romblon, and Palawan. It is known as the Treasure Trove of Southern Luzon for their marble products, handicrafts, and fruits. It is also one of the busiest regions in terms of tourism." << endl;
+            cout << "It has a total of 3,228,558 people as of 2020." << endl;
+            cout << "It has 5 provinces, 2 cities, 71 municipalities, and 1,460 barangays." << endl;
+            cout << "Would you like to find out about the different provinces in MIMAROPA? (Y/N): ";
             cin >> prov; 
 
                 if (prov == 'Y' || prov == 'y'){
@@ -5447,7 +5468,7 @@ int main () {
                         }
 
                         case 22:{
-                        cout << "You have chosen the municipality of Sofronio Española.\n";
+                        cout << "You have chosen the municipality of Sofronio Espanola.\n";
                         
                         
                         break;
@@ -5635,10 +5656,11 @@ int main () {
             case 6: {
             char prov;
             char cmb;
-            cout << "REGION V - Bicol Region";
-            cout << "PLACE INFORMATION HERE" << endl;
-
-            cout << "Would you like to find out about the different provinces in the Bicol Region? (Y/N): " << endl;
+            cout << "REGION V - Bicol Region" << endl;
+            cout << "Bicol Region is known for their volcanoes, beaches, caverns, coves, and other natural attractions. Bicol also houses the Mayon Volcano, to which tourists are in awe." << endl;
+            cout << "It has a total of 6,082,165 people as of 2020." << endl;
+            cout << "It has 6 provinces, 7 cities, 107 municipalities, and 3,471 barangays." << endl;
+            cout << "Would you like to find out about the different provinces in the Bicol Region? (Y/N): ";
             cin >> prov;
 
                 if (prov == 'Y' || prov == 'y'){
@@ -6286,7 +6308,7 @@ int main () {
                         }
 
                         case 29:{
-                        cout << "You have chosen the municipality of Sagñay.\n";
+                        cout << "You have chosen the municipality of Sagnay.\n";
                         
                         
                         break;
@@ -6837,10 +6859,11 @@ int main () {
             case 7: {
             char prov;
             char cmb;
-            cout << "REGION VI - Western Visayas";
-            cout << "PLACE INFORMATION HERE" << endl;
-
-            cout << "Would you like to find out about the different provinces in Western Visayas? (Y/N): " << endl;
+            cout << "REGION VI - Western Visayas" << endl;
+            cout << "Western Visayas is known for its cultural heritage, tourist spots, and natural attractions; like the Island of Boracay for its pristine white sand. " << endl;
+            cout << "It has a total of 7,954,723 people as of 2020." << endl;
+            cout << "It has 6 provinces, 16 cities, 117 municipalities, and 4,051 barangays." << endl;
+            cout << "Would you like to find out about the different provinces in Western Visayas? (Y/N): ";
             cin >> prov;
 
                 if (prov == 'Y' || prov == 'y'){
@@ -7514,8 +7537,8 @@ int main () {
                         case 2:{
                         int barangayCount = sizeof(IloiloCityBrgys)/sizeof(IloiloCityBrgys[0]);
                         cout << "You have chosen the city of Iloilo\n";
-                        cout << "Mayor: Jerry Treñas\n";
-                        cout << "The City of Iloilo is a 1st class highly urbanized city and the capital of Iloilo. It is also the regional center of Western Visayas. It is well known for well-preserved historic sites and old churches like the Jaro Cathedral, Camiña Balay nga Bato, and the Dinagyang Festival. Iloilo is also considered as the Philippine's City of love.\n";
+                        cout << "Mayor: Jerry Trenas\n";
+                        cout << "The City of Iloilo is a 1st class highly urbanized city and the capital of Iloilo. It is also the regional center of Western Visayas. It is well known for well-preserved historic sites and old churches like the Jaro Cathedral, Camina Balay nga Bato, and the Dinagyang Festival. Iloilo is also considered as the Philippine's City of love.\n";
                         cout << "The City of Iloilo's ZIP code is 5000.\n";
                         cout << "According to the 2020 census, its total population is 457,626.\n";
                         cout << "Here are all the barangays in Iloilo: \n";
@@ -7660,7 +7683,7 @@ int main () {
                         }
 
                         case 16:{
-                        cout << "You have chosen the municipality of Dueñas.\n";
+                        cout << "You have chosen the municipality of Duenas.\n";
                         
                         
                         break;
@@ -8254,9 +8277,10 @@ int main () {
             case 8: {
             char prov;
             char cmb;
-            cout << "REGION VII - Central Visayas";
-            cout << "PLACE INFORMATION HERE" << endl;
-
+            cout << "REGION VII - Central Visayas" << endl;
+            cout << "Central Visayas is known for its historical landmarks, like the Magellan's Cross, unspoiled natural wonders, and beautiful terrains like the Chocolate Hills. " << endl;
+            cout << "It has a total of 8,081,988 people as of 2020." << endl;
+            cout << "It has 4 provinces, 16 cities, 116 municipalities, and 3,003 barangays." << endl;
             cout << "Would you like to find out about the different provinces in Central Visayas? (Y/N): ";
             cin >> prov;
 
@@ -8979,7 +9003,7 @@ int main () {
                         case 1:{
                         int barangayCount = sizeof(BaisBrgys)/sizeof(BaisBrgys[0]);
                         cout << "You have chosen the city of Bais.\n";
-                        cout << "Mayor: Luigi Marcel T. Goñi\n";
+                        cout << "Mayor: Luigi Marcel T. Goni\n";
                         cout << "The City of Bais is a 3rd class component city. Bais is considered as one of the cleanest and safest cities in the Philippines. It is famous for its Dolphin and Whale watching. \n";
                         cout << "The City of Bais' ZIP code is 6206.\n";
                         cout << "According to the 2020 census, its total population is 84,317.\n";
@@ -9333,9 +9357,10 @@ int main () {
             char prov;
             char cmb;    
             cout << "REGION VIII - Eastern Visayas" << endl;
-            cout << "PLACE INFORMATION HERE" << endl;
-            
-            cout << "Would you like to find out about the different provinces in Eastern Visayas? (Y/N): " << endl;
+            cout << "Eastern Visayas is known for being the third largest coconut-growing region in the Philippines. It is also known as the Geothermal Capital of the Philippines for their geothermal power reserves." << endl;
+            cout << "It has a total of 4,547,150 people as of 2020." << endl;
+            cout << "It has 6 provinces, 7 cities, 136 municipalities, and 4,390 barangays." << endl;
+            cout << "Would you like to find out about the different provinces in Eastern Visayas? (Y/N): ";
             cin >> prov;
 
                 if (prov == 'Y' || prov == 'y'){
@@ -10238,7 +10263,7 @@ int main () {
                         }
 
                         case 19: {
-                            cout << "You have chosen the municipality of Santo Niño.\n";
+                            cout << "You have chosen the municipality of Santo Nino.\n";
                             break;
                         }
 
@@ -10431,11 +10456,9 @@ int main () {
             char prov;
             char cmb;
             cout << "REGION IX - Zamboanga Peninsula" << endl;
-            cout << "Has a total population of 3,875,576 people as of 2020." << endl;
-            cout << "Total Area of 169.04 per km^2." << endl;
-            cout << "Has a total of 4 cities" << endl;
-            cout << "Has 67 municipalities" << endl;
-            cout << "Has 1904 Barangays." << endl;
+            cout << "Zamboanga Peninsula is filled with gold, silver, copper, chromite, iron, lead, and manganese. It is also known for their vast logs, lumber, veneer, and plywood export products.\n";
+            cout << "It has a total of 3,875,576 people as of 2020." << endl;
+            cout << "It has 3 provinces, 5 cities, 67 municipalities, and 1,904 barangays." << endl;
             cout << "\nWould you like to find out about the different provinces in the Zamboanga Peninsula? (Y/N): ";
             cin >> prov;
 
@@ -10596,7 +10619,7 @@ int main () {
                         }
 
                         case 13: {
-                            cout << "You have chosen the municipality of Piñan.\n";
+                            cout << "You have chosen the municipality of Pinan.\n";
                             break;
                         }
 
@@ -10621,7 +10644,7 @@ int main () {
                         }
 
                         case 18: {
-                            cout << "You have chosen the municipality of Sergio Osmeña SR.\n";
+                            cout << "You have chosen the municipality of Sergio Osmena SR.\n";
                             break;
                         }
 
@@ -11023,9 +11046,10 @@ int main () {
             case 11: {
             char prov;
             char cmb;
-            cout << "REGION X - Northern Mindanao";
-            cout << "PLACE INFORMATION HERE" << endl;
-            
+            cout << "REGION X - Northern Mindanao" << endl;
+            cout << "Northern Mindanao is renowned for its serene environment and progress, thanks to its vast agricultural and industrial land. Its strategic location for trade like presence of power generation service and huge potential for industrial development is further complemented by its abundance of natural wonders.\n";
+            cout << "It has a total of 5,022,767 people as of 2020.\n";
+            cout << "Has 5 provinces, 9 cities, 84 municipalities, and 2,022 barangays.\n";
             cout << "Would you like to find out about the different provinces in Northern Mindanao? (Y/N): ";
             cin >> prov;
 
@@ -11267,11 +11291,15 @@ int main () {
                         cin >> citybarangays;
 
                         if (citybarangays == 'Y' || citybarangays == 'y'){
-
-                        cout << "The city of blah blah \n";
-                        cout << "Information about city\n";
+                        int barangayCount = sizeof(IliganBrgys)/sizeof(IliganBrgys[0]);
+                        cout << "Mayor: Frederick W. Siao\n";
+                        cout << "The City of Iligan is a 1st class highly urbanized city situated in Lanao del Norte. Iligan City is located in the northern coast of Mindanao facing Iligan Bay, bounded in the north by the province of Misamis Oriental. It is best known for the large number of waterfalls concentrated in the area, and is aptly called the City of Majestic Waterfalls.\n";
+                        cout << "The city of Iligan's ZIP code is 9200.\n";
+                        cout << "According to the 2020 census, its total population is 363,115.\n";
                         cout << "Here are all the barangays in :\n";
-
+                        for (int i = 0; i < barangayCount; ++i) {
+                            cout << i + 1 << ". " << IliganBrgys[i] << "\n";
+                        }
                         }
                         }
 
@@ -11419,26 +11447,41 @@ int main () {
                                 cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch (barangays){
                         case 1:{
-                        cout << "You have chosen the city of \n";
-                        cout << "Information about city\n";
-                        cout << "Here are all the barangays in : \n";
-                        cout << "1. ";
+                        int barangayCount = sizeof(OroquietaBrgys)/sizeof(OroquietaBrgys[0]);
+                        cout << "You have chosen the city of Oroquieta.\n";
+                        cout << "Mayor: Lemuel Meyrick M. Acosta\n";
+                        cout << "The City of Oroquieta is a 4th class component city and the capital of Misamis Occidental. The city fronts on Iligan Bay (east) and the Bohol (Mindanao) Sea (northeast). It was a municipality until designated a city in 1969. Oroquieta is an important coconut-growing area and a major agricultural trading centre, and it also has a small port.\n";
+                        cout << "The city of Oroquieta;s ZIP code is 7200.\n";
+                        cout << "According to the 2020 census, its total population is 72,301.\n";
+                        cout << "Here are all the barangays in Oroquieta: \n";
+                        for (int i = 0; i < barangayCount; ++i) {
+                            cout << i + 1 << ". " << OroquietaBrgys[i] << "\n";
+                        }
                         break;
                         }
-
                         case 2:{
-                        cout << "You have chosen the city of \n";
-                        cout << "Information about city\n";
-                        cout << "Here are all the barangays in : \n";
-                        cout << "1. ";
+                        int barangayCount = sizeof(OzamizBrgys)/sizeof(OzamizBrgys[0]);
+                        cout << "You have chosen the city of Ozamiz.\n";
+                        cout << "Mayor: Henry F. Oaminal Jr. \n";
+                        cout << "The City of Ozamiz is a 3rd class component city. The city lies on Panguil Bay, an extension of Iligan Bay of the Bohol (Mindanao) Sea. It was the site of Spanish fortifications dating from 1574, with one extant fort surviving from 1707. Incorporated in 1948, it is the largest population centre in the area.\n";
+                        cout << "The city of Ozamiz's ZIP code is 7200.\n";
+                        cout << "Here are all the barangays in Ozamiz: \n";
+                        for (int i = 0; i < barangayCount; ++i) {
+                            cout << i + 1 << ". " << OzamizBrgys[i] << "\n";
+                        }
                         break;
                         }
-
                         case 3:{
-                        cout << "You have chosen the city of \n";
-                        cout << "Information about city\n";
-                        cout << "Here are all the barangays in : \n";
-                        cout << "1. ";
+                        int barangayCount = sizeof(TangubBrgys)/sizeof(TangubBrgys[0]);
+                        cout << "You have chosen the city of Tangub.\n";
+                        cout << "Mayor: Sabiniano Ben S. Canama\n";
+                        cout << "The City of Tangub is a 4th class component city. Tangub is a coastal component city in the province of Misamis Occidental. The city has a land area of 162.78 square kilometers or 62.85 square miles which constitutes 8.11% of Misamis Occidental's total area. Dubbed as the Christmas Symbols Capital of the Philippines. Every year, the city will celebrate Christmas through the Tangub City Christmas Symbols Festival.\n";
+                        cout << "The city of Tangub's ZIP code is 7214.\n";
+                        cout << "According to the 2020 census, its total population is 68,389.\n";
+                        cout << "Here are all the barangays in Ozamiz: \n";
+                        for (int i = 0; i < barangayCount; ++i) {
+                            cout << i + 1 << ". " << TangubBrgys[i] << "\n";
+                        }
                         break;
                         }
 
@@ -11722,10 +11765,11 @@ int main () {
             case 12: {
             char prov;
             char cmb;
-            cout << "REGION XI - Davao Region";
-            cout << "PLACE INFORMATION HERE" << endl;
-
-            cout << "Would you like to find out about the different provinces in the Davao Region? (Y/N): " << endl;
+            cout << "REGION XI - Davao Region" << endl;
+            cout << "Davao Region is known as Mindanao's center for trade and investments. It is also famous for its rich mineral resources such as gold, copper, manganese, and nickel." << endl;
+            cout << "It has a total of 5,243,536 people as of 2020.\n";
+            cout << "Has 5 provinces, 6 cities, 43 municipalities, and 1,162 barangays.\n";
+            cout << "Would you like to find out about the different provinces in the Davao Region? (Y/N): ";
             cin >> prov;
 
                 if (prov == 'Y' || prov == 'y'){
@@ -12032,15 +12076,29 @@ int main () {
                                 cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch (barangays){
                         case 1:{
-                        cout << "The city of blah blah \n";
-                        cout << "Information about city\n";
-                        cout << "Here are all the barangays in :\n";
+                        int barangayCount = sizeof(DavaoCityBrgys)/sizeof(DavaoCityBrgys[0]);
+                        cout << "You have chosen the city of Davao.\n";
+                        cout << "Mayor: Sebastian Z. Duterte\n";
+                        cout << "The City of Davao is a 1st class highly urbanized city situated in Davao del Sur. It is known for many things like the King City of the South, Crown Jewel of Mindanao, Durian Capital of the Philippines, and the Chocolate Capital of the Philippines.\n";
+                        cout << "The City of Davao's ZIP code is 8000.\n";
+                        cout << "According to the 2020 census, its total population is 1.7 million.\n";
+                        cout << "Here are all the barangays in Davao City:\n";
+                        for (int i = 0; i < barangayCount; ++i) {
+                            cout << i + 1 << ". " << DavaoCityBrgys[i] << "\n";
+                        }
                         break;
                         }
                         case 2:{
-                        cout << "The city of blah blah \n";
-                        cout << "Information about city\n";
-                        cout << "Here are all the barangays in :\n";
+                        int barangayCount = sizeof(DigosCityBrgys)/sizeof(DigosCityBrgys[0]);
+                        cout << "You have chosen the city of Digos.\n";
+                        cout << "Mayor: Josef F. Cagas\n";
+                        cout << "The City of Digos is a 1st class component city. Digos is a coastal component city in the province of Davao del Sur. It serves as the provincial capital. The city has a land area of 287.10 square kilometers or 110.85 square miles which constitutes 13.27% of Davao del Sur's total area.\n";
+                        cout << "The city of Digos ZIP code is 8002.\n";
+                        cout << "According to the 2020 census, its total population is 188,376.\n";
+                        cout << "Here are all the barangays in Digos:\n";
+                        for (int i = 0; i < barangayCount; ++i) {
+                            cout << i + 1 << ". " << DigosCityBrgys[i] << "\n";
+                        }
                         break;
                         }
                         default:{
@@ -12203,17 +12261,21 @@ int main () {
                         if (cmb == 'C' || cmb == 'c'){
                         char citybarangays;
                         cout << "Here are all the cities in Davao Oriental: " << endl;
-                        cout << "Mati is the only city in Davao Oriental.\n";
+                        cout << "Mati - Capital of Davao Oriental\n";
 
                         cout << "Would you like to find out more about Mati and the barangays within it? (Y/N): ";
                         cin >> citybarangays;
 
                         if (citybarangays == 'Y' || citybarangays == 'y'){
-
-                        cout << "The city of blah blah \n";
-                        cout << "Information about Mati\n";
-                        cout << "Here are all the barangays in :\n";
-
+                        int barangayCount = sizeof(MatiCityBrgys)/sizeof(MatiCityBrgys[0]);
+                        cout << "Mayor: Michelle Nakpil Rabat \n";
+                        cout << "The City of Mati is a 5th class component city. Mati is surrounded by several beautiful, clear-blue beaches. Dahikan, which is known as Mati's surfing capital because of its huge, crystal-clear waves, attracts both domestic and foreign tourists on a daily basis. It also serves as a haven for the endangered pawikans (sea turtles).\n";
+                        cout << "The city of Mati's ZIP code is 8200.\n";
+                        cout << "According to the 2020 census, its total population is 147, 547.\n";
+                        cout << "Here are all the barangays in Mati:\n";
+                        for (int i = 0; i < barangayCount; ++i) {
+                            cout << i + 1 << ". " << MatiCityBrgys[i] << "\n";
+                        }
                         }
                         }
 
@@ -12313,10 +12375,11 @@ int main () {
             case 13: {
             char prov;
             char cmb;
-            cout << "REGION XII - SOCCSKSARGEN";
-            cout << "PLACE INFORMATION HERE" << endl;
-
-            cout << "Would you like to find out about the different provinces in SOCCSKSARGEN? (Y/N): " << endl;
+            cout << "REGION XII - SOCCSKSARGEN" << endl;
+            cout << "SOCCSKSARGEN stands for South Cotabato, Cotabato, Sultan Kudarat, Sarangani, and General Santos City. SOCCSKSARGEN is famous for their exports of fish, fruits, and vegetables exports. They are also known for their gifts and houseware products." << endl;
+            cout << "It has a population of 4,901,486 people as of 2020.\n";
+            cout << "Has 4 provinces, 5 cities, 45 municipalities, and 1,195 barangays.\n";
+            cout << "Would you like to find out about the different provinces in SOCCSKSARGEN? (Y/N): ";
             cin >> prov;
 
                 if (prov == 'Y' || prov == 'y'){
@@ -12608,17 +12671,52 @@ int main () {
                         if (cmb == 'C' || cmb == 'c'){
                         char citybarangays;
                         cout << "Here are all the cities in South Cotabato: " << endl;
-                        cout << "Koronadal - Capital of South Cotabato and Regional Center of SOCCSKSARGEN\n";
+                        cout << "1. General Santos - Highly Urbanized City.\n";
+                        cout << "2. Koronadal - Capital of South Cotabato and Regional Center of SOCCSKSARGEN\n";
 
-                        cout << "Would you like to find out more about Koronadal and the barangays within it? (Y/N): ";
+                        cout << "Would you like to find out more about the cities and the barangays within them? (Y/N): ";
                         cin >> citybarangays;
 
                         if (citybarangays == 'Y' || citybarangays == 'y'){
-
-                        cout << "The city of blah blah \n";
-                        cout << "Information about city\n";
-                        cout << "Here are all the barangays in :\n";
-
+                        int barangays;
+                        cout << "Enter a number corresponding to a city to get information about it and its barangays; ";
+                        cin >> barangays;
+                        if (cin.fail()) {
+                                cin.clear(); 
+                                cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
+                                cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
+                        switch (barangays){
+                        case 1:{
+                        int barangayCount = sizeof(GeneralSantosBrgys)/sizeof(GeneralSantosBrgys[0]);
+                        cout << "You have chosen the city of General Santos.\n";
+                        cout << "Mayor: Pedro Busgano Acharon Jr.\n";
+                        cout << "The City of General Santos is a 1st class highly urbanized city situated in South Cotabato. It is known as the Home of the Champions because boxing superstars Manny Pacquiao, Nonito Donaire, and Rolando Navarette resides here. It is also called as the Tuna Capital of the Philippines. \n";
+                        cout << "The City of General Santos' ZIP code is 9500.\n";
+                        cout << "According to the 2020 census, its total population is 687,315.\n";
+                        cout << "Here are all the barangays in General Santos:\n";
+                        for (int i = 0; i < barangayCount; ++i) {
+                            cout << i + 1 << ". " << GeneralSantosBrgys[i] << "\n";
+                        }
+                        break;
+                        }
+                        case 2:{
+                        int barangayCount = sizeof(KoronadalBrgys)/sizeof(KoronadalBrgys[0]);
+                        cout << "You have chosen the city of Koronadal.\n";
+                        cout << "Mayor: Eliordo U. Ogena\n";
+                        cout << "The city of Koronadal or Marbel, is a 1st class component city and the capital of South Cotabato and the Regional Center of SOCCSKSARGEN. It is a rapidly growing city that is known for its modern shopping malls, natural beauty, and their cultural attractions like the Paraiso Verde Resort & Water Park. \n";
+                        cout << "The City of Koronadal's ZIP code is 9506.\n";
+                        cout << "According to the 2020 census, its total population is 195,398.\n";
+                        cout << "Here are all the barangays in Koronadal:\n";
+                        for (int i = 0; i < barangayCount; ++i) {
+                            cout << i + 1 << ". " << KoronadalBrgys[i] << "\n";
+                        }
+                        break;
+                        }
+                        default:{
+                        cout << "CORRESPONDING NUMBER NOT FOUND.\n";
+                        break;
+                        }
+                        }
                         }
                         }
 
@@ -12629,7 +12727,7 @@ int main () {
                         cout << "2. Lake Sebu\n";
                         cout << "3. Norala\n";
                         cout << "4. Polomolok\n";
-                        cout << "5. Santo Niño\n";
+                        cout << "5. Santo Nino\n";
                         cout << "6. Surallah\n";
                         cout << "7. Tampakan\n";
                         cout << "8. Tantangan\n";
@@ -12670,7 +12768,7 @@ int main () {
                         }
 
                         case 5: {
-                            cout << "You have chosen the municipality of Santo Niño.\n";
+                            cout << "You have chosen the municipality of Santo Nino.\n";
                             break;
                         }
 
@@ -12821,9 +12919,11 @@ int main () {
             case 14: {
             char prov;
             char cmb; 
-            cout << "REGION XIII - CARAGA";
-            cout << "PLACE INFORMATION HERE" << endl;
-            cout << "Would you like to find out about the different provinces in CARAGA? (Y/N): " << endl;
+            cout << "REGION XIII - CARAGA" << endl;
+            cout << "Caraga means 'land of the brave and fierce people'. The region is known for its wood-based economy and mineral deposits of iron, gold, silver, nickel, chromite, manganese, and copper." << endl;
+            cout << "It has a population of 2,804,788 people as of 2020.\n";
+            cout << "Has 5 provinces, 6 cities, 67 municipalities, and 1,311 barangays.\n";
+            cout << "Would you like to find out about the different provinces in CARAGA? (Y/N): ";
             cin >> prov;
 
                 if (prov == 'Y' || prov == 'y'){
@@ -12867,16 +12967,29 @@ int main () {
                                 cout << "INVALID INPUT. NUMERICAL VALUES ONLY.\n ";}
                         switch (barangays){
                         case 1:{
-                        cout << "The city of blah blah \n";
-                        cout << "Information about city\n";
-                        cout << "Here are all the barangays in :\n";
+                        int barangayCount = sizeof(ButuanBrgys)/sizeof(ButuanBrgys[0]);
+                        cout << "You have chosen the city of Butuan.\n";
+                        cout << "Mayor: Ronnice Vicente Lagnada\n";
+                        cout << "The City of Butuan is a 1st class highly urbanized city situated in Agusan del Norte. Butuan city is known for their ancient boats named balangays. Butuan is also Ferdinand Magellan's landing site.\n";
+                        cout << "The city of Butuan's ZIP code is 8600.\n";
+                        cout << "According to the 2020 census, its total population is 372,910.\n";
+                        cout << "Here are all the barangays in Butuan:\n";
+                        for (int i = 0; i < barangayCount; ++i) {
+                            cout << i + 1 << ". " << ButuanBrgys[i] << "\n";
+                        }
                         break;
                         }
                         case 2:{
-                        cout << "The city of blah blah \n";
-                        cout << "Information about city\n";
-                        cout << "Here are all the barangays in :\n";
-                        break;
+                        int barangayCount = sizeof(CabadbaranBrgys)/sizeof(CabadbaranBrgys[0]);
+                        cout << "You have chosen the city of Cabadbaran.\n";
+                        cout << "Mayor: Judy C. Amante\n";
+                        cout << "The City of Cabadbaran is a 6th class component city and the capital of Agusan del Norte. It is mainly known for its preserved colonial period houses and its archaeological collections.\n";
+                        cout << "The city of Cabadbaran's ZIP code is 8605.\n";
+                        cout << "According to the 2020 census, its total population is 80,354.\n";
+                        cout << "Here are all the barangays in Cabadbaran:\n";
+                        for (int i = 0; i < barangayCount; ++i) {
+                            cout << i + 1 << ". " << CabadbaranBrgys[i] << "\n";
+                        }
                         }
                         default:{
                         cout << "CORRESPONDING NUMBER NOT FOUND.\n";
@@ -12988,11 +13101,15 @@ int main () {
                         cin >> citybarangays;
 
                         if (citybarangays == 'Y' || citybarangays == 'y'){
-
-                        cout << "The city of blah blah \n";
-                        cout << "Information about city\n";
-                        cout << "Here are all the barangays in :\n";
-
+                        int barangayCount = sizeof(BayuganBrgys)/sizeof(BayuganBrgys[0]);
+                        cout << "Mayor: Kirk A. Asis\n";
+                        cout << "The City of Bayugan is a 1st class component city. Bayugan is renowned as the “cut-flower capital” of the province, owing to its thriving cut-flower industry.\n";
+                        cout << "The city of Bayugan's ZIP code is 8502.\n";
+                        cout << "According to the 2020 census, its total population is 109,499.\n";
+                        cout << "Here are all the barangays in Bayugan:\n";
+                        for (int i = 0; i < barangayCount; ++i) {
+                            cout << i + 1 << ". " << BayuganBrgys[i] << "\n";
+                        }
                         }
                         }
 
@@ -13190,11 +13307,15 @@ int main () {
                         cin >> citybarangays;
 
                         if (citybarangays == 'Y' || citybarangays == 'y'){
-
-                        cout << "The city of blah blah \n";
-                        cout << "Information about city\n";
-                        cout << "Here are all the barangays in :\n";
-
+                        int barangayCount = sizeof(SurigaoCityBrgys)/sizeof(SurigaoCityBrgys[0]);
+                        cout << "Mayor: Pablo Yves L. Dumiao II\n";
+                        cout << "The City of Surigao is a 1st class component city and the capital of Surigao del Norte. Surigao City is known as the City of Island Adventures because of the 17 panoramic islands. It is also one of the oldest port towns in Mindanao.\n";
+                        cout << "The city of Surigao's ZIP code is 8400.\n";
+                        cout << "According to the 2020 census, its total population is 171,107.\n";
+                        cout << "Here are all the barangays in Surigao City:\n";
+                        for (int i = 0; i < barangayCount; ++i) {
+                            cout << i + 1 << ". " << SurigaoCityBrgys[i] << "\n";
+                        }
                         }
                         }
 
@@ -13500,9 +13621,10 @@ int main () {
             case 15: {
             char prov;
             char cmb;
-            cout << "NCR - NATIONAL CAPITAL REGION";
+            cout << "NCR - NATIONAL CAPITAL REGION" << endl;
             cout << "The National Capital Region (NCR), also known as Metropolitan Manila, is the capital region of the Philippines. It is located in the southwestern portion of Luzon, directly below Central Luzon." << endl;
-            
+            cout << "It has a population of 13,484,462 people as of 2020.\n";
+            cout << "Has 16 cities, 1 municipalities, 1,710 barangays.\n";
             cout << "Would you like to find out about the cities or municipalities? Choose from C or M or N to find out about other regions: ";
             cin >> cmb;
 
@@ -13510,7 +13632,7 @@ int main () {
                         char citybarangays;
                         cout << "Here are all the cities in NCR: " << endl;
                         cout << "1. Caloocan\n";
-                        cout << "2. Las Piñas\n";
+                        cout << "2. Las Pinas\n";
                         cout << "3. Makati\n";
                         cout << "4. Malabon\n";
                         cout << "5. Mandaluyong\n";
@@ -13518,7 +13640,7 @@ int main () {
                         cout << "7. Marikina\n";
                         cout << "8. Muntinlupa\n";
                         cout << "9. Navotas\n";
-                        cout << "10. Parañaque\n";
+                        cout << "10. Paranaque\n";
                         cout << "11. Pasay\n";
                         cout << "12. Pasig\n";
                         cout << "13. Quezon City\n";
@@ -13640,7 +13762,7 @@ int main () {
                         case 10:{
                         cout << "You have chosen the city of Paranaque\n";
                         cout << "Mayor: Eric Olvarez \n";
-                        cout << "Paranaque in 1975 becoming a part of the National Capital region, Parañaque is now classified as a first class highly urbanized city in Metro Manila. Parañaque has long been noted for intricate hand embroidery, which has continued as a household industry.\n";
+                        cout << "Paranaque in 1975 becoming a part of the National Capital region, Paranaque is now classified as a first class highly urbanized city in Metro Manila. Paranaque has long been noted for intricate hand embroidery, which has continued as a household industry.\n";
                         cout << "The city of Paranaque's zip code is 1710 \n";
                         cout << "According to 2020 census, its total population is 689,992 \n";
                         cout << "Here are all the barangays in : \n";
@@ -13744,10 +13866,11 @@ int main () {
             case 16: {
             char prov;
             char cmb;
-            cout << "CAR - Cordillera Administrative Region";
-            cout << "PLACE INFORMATION HERE" << endl;
-
-            cout << "Would you like to find out about the different provinces in CAR? (Y/N): " << endl;
+            cout << "CAR - Cordillera Administrative Region" << endl;
+            cout << "CAR or Cordillera Administrative Region is famous for its large forests and different kinds of minerals. It is also known as the Watershed Cradle of North Luzon because of the 9 rivers that provide a water source and energy of Northern Luzon." << endl;
+            cout << "It has a population of 1,797,660 people as of 2020.\n";
+            cout << "It has 6 provinces, 2 cities, 75 municipalities, and 1,178 barangays.\n";
+            cout << "Would you like to find out about the different provinces in CAR? (Y/N): ";
             cin >> prov;
 
                 if (prov == 'Y' || prov == 'y'){
@@ -13857,7 +13980,7 @@ int main () {
                             break;
                         }
                         case 17: {
-                            cout << "You have chosen the municipality of Peñarrubia.\n";
+                            cout << "You have chosen the municipality of Penarrubia.\n";
                             break;
                         }
                         case 18: {
@@ -13995,11 +14118,15 @@ int main () {
                         cin >> citybarangays;
 
                         if (citybarangays == 'Y' || citybarangays == 'y'){
-
-                        cout << "The city of blah blah \n";
-                        cout << "Information about city\n";
-                        cout << "Here are all the barangays in :\n";
-
+                        int barangayCount = sizeof(BaguioBrgys)/sizeof(BaguioBrgys[0]);
+                        cout << "Mayor: Benjamin Magalong\n";
+                        cout << "The City of Baguio is a 1st class highly urbanized city situated in Benguet. It is known for many things, like the Summer Capital of the Philippines because of its cool climate, and the City of Pines because of its many pine trees.\n";
+                        cout << "The City of Baguio's ZIP code is 2600.\n";
+                        cout << "According to the 2020 census, its total population is 366,358.\n";
+                        cout << "Here are all the barangays in Baguio:\n";
+                        for (int i = 0; i < barangayCount; ++i) {
+                            cout << i + 1 << ". " << BaguioBrgys[i] << "\n";
+                        }
                         }
                         }
 
@@ -14195,11 +14322,15 @@ int main () {
                         cin >> citybarangays;
 
                         if (citybarangays == 'Y' || citybarangays == 'y'){
-
-                        cout << "The city of blah blah \n";
-                        cout << "Information about city\n";
-                        cout << "Here are all the barangays in :\n";
-
+                        int barangayCount = sizeof(TabukBrgys)/sizeof(TabukBrgys[0]);
+                        cout << "Mayor: Darwin C. Estranero\n";
+                        cout << "The City of Tabuk is a 5th class component city and the capital of Kalinga. It is famous for its White Carabao Statute which symbolizes Tabuk's Farming glory. Tabuk is also known as Cordillera's Rice Granary.\n";
+                        cout << "The City of Tabuk's ZIP code is 3800.\n";
+                        cout << "According to the 2020 census, its total population is 121,033.\n";
+                        cout << "Here are all the barangays in Tabuk:\n";
+                        for (int i = 0; i < barangayCount; ++i) {
+                            cout << i + 1 << ". " << TabukBrgys[i] << "\n";
+                        }
                         }
                         }
 
@@ -14355,8 +14486,10 @@ int main () {
             case 17: {//COMPLETE
             char prov;
             char cmb;
-            cout << "BARMM - Bangsamoro Autonomous in Muslim Mindanao";
-            cout << "PLACE INFORMATION HERE" << endl;
+            cout << "BARMM - BANGSAMORO AUTONOMOUS REGION IN MUSLIM MINDANAO" << endl;
+            cout << "BARMM or Bangsamoro Autonomous Region in Muslim Mindanao is the only region in the country that has its own government. They are known to be the People of the Current. Fisheries is the most important industry in BARMM." << endl;
+            cout << "It has a population of 4,404,288 as of 2020.\n";
+            cout << "It has 5 provinces, 3 cities, 116 municipalities, and 2,490 barangays.\n";
             cout << "Would you like to find out about the different provinces in BARMM? (Y/N): ";
             cin >> prov;
             
@@ -14522,11 +14655,15 @@ int main () {
                         cin >> citybarangays;
 
                         if (citybarangays == 'Y' || citybarangays == 'y'){
-
-                        cout << "The city of blah blah \n";
-                        cout << "Information about city\n";
-                        cout << "Here are all the barangays in :\n";
-
+                        int barangayCount = sizeof(MarawiBrgys)/sizeof(MarawiBrgys[0]);
+                        cout << "Mayor: Majul Usman Gadamra\n";
+                        cout << "The City of Marawi is a 4th class component city and the capital of Lanao del Sur. It is best known for the Battle of Marawi that span in the course of 5 months and is the longest urban warfare in the Philippines.\n";
+                        cout << "The city of Marawi's ZIP code is 9700.\n";
+                        cout << "According to the 2020 census, its total population is 207, 010.\n";
+                        cout << "Here are all the barangays in Marawi:\n";
+                        for (int i = 0; i < barangayCount; ++i) {
+                            cout << i + 1 << ". " << MarawiBrgys[i] << "\n";
+                        }
                         }
                         }
 
@@ -14768,9 +14905,11 @@ int main () {
 
                         if (citybarangays == 'Y' || citybarangays == 'y'){
 
-                        cout << "The city of blah blah \n";
-                        cout << "Information about city\n";
-                        cout << "Here are all the barangays in :\n";
+                        cout << "Mayor: Frances Cynthia Guiani-Sayadi\n";
+                        cout << "Cotabato City is a 1st class independent component city situated in BARMM. Cotabato City is the primary trade and commercial centre for southwestern Mindanao.\n";
+                        cout << "The city of Cotabato’s ZIP code is 9600.\n";
+                        cout << "According to the 2020 census, its total population is 325,079.\n";
+                        cout << "Here are all the barangays in Cotabato City:\n";
 
                         }
                         }
